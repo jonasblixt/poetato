@@ -1,0 +1,18 @@
+manifest:
+  remotes:
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
+  projects:
+    - name: zephyr
+      remote: zephyrproject-rtos
+      revision: v4.4.2
+      clone-depth: 1
+      import:
+        # Import default modules, BUT filter them:
+        name-allowlist:
+          - cmsis           # Standard ARM CMSIS headers (usually required for ARM targets)
+          - hal_stm32      # Only download Nordic HAL
+          - mbedtls
+          - tf-psa-crypto
+  self:
+    path: app

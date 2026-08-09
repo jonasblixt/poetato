@@ -1,3 +1,36 @@
-&rng {
-    status = "okay";
+/ {
+    chosen {
+        /* Direct SRAM and system memory allocations to internal DTCM / OCRAM */
+        zephyr,sram = &ocram;
+    };
+};
+
+/* Explicitly disable the SEMC controller to turn off external SDRAM entirely */
+&semc {
+    status = "disabled";
+};
+
+/* Reconfigure FlexRAM bank mapping for 32KB ITCM, 96KB DTCM, 384KB OCRAM */
+&itcm {
+    reg = <0x00000000 DT_SIZE_K(32)>;
+};
+
+&dtcm {
+    reg = <0x20000000 DT_SIZE_K(96)>;
+};
+
+&ocram {
+    reg = <0x20280000 DT_SIZE_K(384)>;
+};
+
+&flexram {
+    /*
+     * Bank values: 1 = OCRAM, 2 = DTCM, 3 = ITCM
+     * 16 total banks (32KB each)
+     */
+    flexram,bank-spec = <
+        3                             /* Bank 0:  ITCM  (32 KB)  */
+        2 2 2                         /* Banks 1-3: DTCM  (96 KB)  */
+        1 1 1 1 1 1 1 1 1 1 1 1       /* Banks 4-15: OCRAM (384 KB) */
+    >;
 };

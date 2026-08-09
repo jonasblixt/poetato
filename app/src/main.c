@@ -8,6 +8,7 @@
 LOG_MODULE_REGISTER(app_main, LOG_LEVEL_DBG);
 
 #include <zephyr/kernel.h>
+#include <zephyr/drivers/gpio.h>
 #include <zephyr/net/mqtt.h>
 #include <zephyr/net/net_if.h>
 #include <zephyr/net/net_mgmt.h>
@@ -28,6 +29,11 @@ static struct net_mgmt_event_callback net_l4_mgmt_cb;
 
 /* Network connection semaphore */
 K_SEM_DEFINE(net_conn_sem, 0, 1);
+
+#define LED0_NODE DT_ALIAS(led0)
+
+/* Retrieve the GPIO specification (controller device, pin number, flags) */
+static const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED0_NODE, gpios);
 
 static void net_l4_evt_handler(struct net_mgmt_event_callback *cb,
 				uint64_t mgmt_event, struct net_if *iface)
@@ -84,6 +90,21 @@ int main(void)
 	struct net_if *iface;
 
 	devices_ready();
+
+/* Verify that the GPIO device driver is ready */
+    if (!gpio_is_ready_dt(&led)) {
+        LOG_ERR("Error: GPIO device %s is not ready", led.port->name);
+        return 0;
+    }
+
+    /* Configure the pin as an output, initializing it to active (LED ON) */
+    rc = gpio_pin_configure_dt(&led, GPIO_OUTPUT_ACTIVE);
+    if (rc < 0) {
+        LOG_ERR("Error %d: Failed to configure GPIO pin", rc);
+        return 0;
+    }
+
+    gpio_pin_set_dt(&led, 1);
 
 	iface = net_if_get_default();
 	if (iface == NULL) {

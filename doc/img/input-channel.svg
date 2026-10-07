@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" role="img" aria-label="PoEtato - Isolated Input Channel">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6E6862"/></marker></defs>
+<rect width="1200" height="560" fill="#FAF9F7"/>
+<text x="30" y="36" font-size="20" font-weight="600" fill="#22201D">PoEtato - Isolated Input Channel</text>
+<text x="30" y="58" font-size="13" fill="#6E6862">ISO1211, sinking, IEC 61131-2 Type 3 - one isolated channel per input, 3 channels</text>
+<rect x="34" y="96" width="560" height="286" rx="10" fill="#FBF3E7" stroke="#B5751A" stroke-width="1.2" stroke-opacity="0.45"/>
+<text x="48" y="118" font-size="11" font-weight="700" letter-spacing="1.1" fill="#B5751A">FIELD SIDE  24 V</text>
+<rect x="990" y="96" width="176" height="286" rx="10" fill="#EAF1F8" stroke="#2C6BAA" stroke-width="1.2" stroke-opacity="0.45"/>
+<text x="1004" y="118" font-size="11" font-weight="700" letter-spacing="1.1" fill="#2C6BAA">LOGIC SIDE</text>
+<rect x="54" y="140" width="136" height="52" rx="6" fill="#FFFFFF" stroke="#B5751A" stroke-width="1.4"/>
+<text x="122.0" y="162.0" font-size="12" font-weight="600" fill="#22201D" text-anchor="middle">+24V FLD</text>
+<text x="122.0" y="178.0" font-size="10" font-weight="400" fill="#6E6862" text-anchor="middle">terminal</text>
+<rect x="54" y="300" width="136" height="52" rx="6" fill="#FFFFFF" stroke="#B5751A" stroke-width="1.4"/>
+<text x="122.0" y="322.0" font-size="12" font-weight="600" fill="#22201D" text-anchor="middle">DIn-  terminal</text>
+<text x="122.0" y="338.0" font-size="10" font-weight="400" fill="#6E6862" text-anchor="middle">wire to 0V FLD</text>
+<line x1="190" y1="166" x2="246" y2="166" stroke="#22201D" stroke-width="1.6"/>
+<circle cx="250" cy="166" r="4" fill="#FFFFFF" stroke="#22201D" stroke-width="1.6"/>
+<line x1="253" y1="163" x2="292" y2="150" stroke="#22201D" stroke-width="1.6"/>
+<circle cx="296" cy="166" r="4" fill="#FFFFFF" stroke="#22201D" stroke-width="1.6"/>
+<line x1="300" y1="166" x2="334" y2="166" stroke="#22201D" stroke-width="1.6"/>
+<text x="196" y="208" font-size="11.5" fill="#6E6862" text-anchor="start">reed switch, wall button</text>
+<text x="196" y="224" font-size="11.5" fill="#6E6862" text-anchor="start">or 3-wire PNP sensor</text>
+<rect x="336" y="140" width="104" height="52" rx="6" fill="#FFFFFF" stroke="#B5751A" stroke-width="1.4"/>
+<text x="388.0" y="162.0" font-size="12" font-weight="600" fill="#22201D" text-anchor="middle">R_THR</text>
+<text x="388.0" y="178.0" font-size="10" font-weight="400" fill="#6E6862" text-anchor="middle">1 k MELF</text>
+<rect x="456" y="140" width="124" height="52" rx="6" fill="#FFFFFF" stroke="#B5751A" stroke-width="1.4"/>
+<text x="518.0" y="162.0" font-size="12" font-weight="600" fill="#22201D" text-anchor="middle">TVS SMF36A</text>
+<text x="518.0" y="178.0" font-size="10" font-weight="400" fill="#6E6862" text-anchor="middle">+ C_IN 10 nF</text>
+<text x="792" y="134" font-size="13.5" font-weight="600" fill="#22201D" text-anchor="middle">ISO1211  -  single-channel isolated input</text>
+<rect x="614" y="146" width="356" height="144" rx="6" fill="#FFFFFF" stroke="#22201D" stroke-width="1.4"/>
+<line x1="792" y1="152" x2="792" y2="284" stroke="#B33A3A" stroke-width="1.6" stroke-dasharray="7 5" stroke-opacity="0.75"/>
+<text x="787" y="280" font-size="10.5" font-weight="600" fill="#B33A3A" text-anchor="start" transform="rotate(-90 787 280)">internal barrier</text>
+<text x="700" y="176" font-size="10.5" font-weight="700" letter-spacing="1" fill="#B5751A" text-anchor="middle">FIELD</text>
+<text x="884" y="176" font-size="10.5" font-weight="700" letter-spacing="1" fill="#2C6BAA" text-anchor="middle">LOGIC</text>
+<text x="700" y="202" font-size="11.5" fill="#6E6862" text-anchor="middle">R_SENSE 562 R</text>
+<text x="700" y="218" font-size="11.5" fill="#6E6862" text-anchor="middle">current limit 2.25 mA</text>
+<text x="700" y="234" font-size="11.5" fill="#6E6862" text-anchor="middle">self-powered from input</text>
+<text x="884" y="202" font-size="11.5" fill="#6E6862" text-anchor="middle">push-pull OUT</text>
+<text x="884" y="218" font-size="11.5" fill="#6E6862" text-anchor="middle">EN = DI_EN (shared)</text>
+<text x="884" y="234" font-size="11.5" fill="#6E6862" text-anchor="middle">VCC1 = 3V3</text>
+<rect x="1006" y="186" width="144" height="64" rx="6" fill="#FFFFFF" stroke="#2C6BAA" stroke-width="1.4"/>
+<text x="1078.0" y="214.0" font-size="11" font-weight="600" fill="#22201D" text-anchor="middle">GPIO + 2.2 k pull-down</text>
+<text x="1078.0" y="230.0" font-size="9" font-weight="400" fill="#6E6862" text-anchor="middle">to MCX N247</text>
+<path d="M440,166 L454,166" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<path d="M580,166 L612,166" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="596" y="158" font-size="11" fill="#6E6862" text-anchor="middle">SENSE</text>
+<path d="M190,326 L660,326 L660,292" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="400" y="318" font-size="11" fill="#6E6862" text-anchor="middle">FGND = DIn-</text>
+<path d="M970,218 L1004,218" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="40" y="424" font-size="11.5" fill="#22201D" text-anchor="start">2.25 mA of wetting current with 24 V open-circuit sits well above any fritting threshold, while the</text>
+<text x="40" y="440" font-size="11.5" fill="#22201D" text-anchor="start">chip's current limiter keeps input power flat with supply voltage instead of rising linearly.</text>
+<text x="40" y="470" font-size="11.5" fill="#6E6862" text-anchor="start">Each input is its own floating pair DIn+/DIn-. No wire-break or field-supply detection: firmware</text>
+<text x="40" y="486" font-size="11.5" fill="#6E6862" text-anchor="start">debounces and treats inputs as valid only with the field supply on. Silkscreen +24V FLD / 0V FLD - never COM.</text>
+</svg>

@@ -4,4 +4,4 @@ build/
 modules/
 tools/
 zephyr/
-
+hw/poetato/.review/

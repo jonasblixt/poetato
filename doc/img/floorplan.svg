@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="830" viewBox="0 0 900 830" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+<rect width="900" height="830" fill="#FAF9F7"/>
+<text x="30" y="34" font-size="19" font-weight="600" fill="#22201D">PoEtato - Board Floorplan</text>
+<text x="30" y="55" font-size="12.5" fill="#6E6862">Italtronic 35.0807000.BL, 8M XTS - PCB 139 x 87 mm, all connectors on the Y=0 edge</text>
+<rect x="62.0" y="90.2" width="750.6" height="469.8" fill="#EAF1F8" fill-opacity="1.0" stroke="#2C6BAA" stroke-width="0"/>
+<rect x="78.2" y="376.4" width="199.8" height="183.6" fill="#F3EFF8" fill-opacity="1.0" stroke="#6B4E9E" stroke-width="0"/>
+<rect x="310.4" y="371.0" width="270.0" height="189.0" fill="#FBF3E7" fill-opacity="1.0" stroke="#B5751A" stroke-width="0"/>
+<rect x="612.8" y="414.2" width="87.5" height="145.8" fill="#EDF4EE" fill-opacity="1.0" stroke="#3E7C4F" stroke-width="0"/>
+<rect x="708.9" y="414.2" width="87.5" height="145.8" fill="#EDF4EE" fill-opacity="1.0" stroke="#3E7C4F" stroke-width="0"/>
+<rect x="62.0" y="160.4" width="750.6" height="334.8" fill="none" stroke="#6E6862" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="801.8" y="146.9" font-size="8.5" fill="#6E6862" text-anchor="end" font-weight="400">visible through the 62.4 mm front panel</text>
+<path d="M 75.5,560.0 L 799.1,560.0 L 812.6,546.5 L 812.6,103.7 L 799.1,90.2 L 75.5,90.2 L 62.0,103.7 L 62.0,546.5 Z" fill="none" stroke="#22201D" stroke-width="1.8"/>
+<rect x="69.6" y="372.1" width="8.6" height="187.9" fill="#B33A3A" fill-opacity="0.75" stroke="#B33A3A" stroke-width="0.8"/>
+<rect x="278.0" y="372.1" width="8.6" height="187.9" fill="#B33A3A" fill-opacity="0.75" stroke="#B33A3A" stroke-width="0.8"/>
+<rect x="69.6" y="372.1" width="122.0" height="8.6" fill="#B33A3A" fill-opacity="0.75" stroke="#B33A3A" stroke-width="0.8"/>
+<rect x="267.2" y="372.1" width="19.4" height="8.6" fill="#B33A3A" fill-opacity="0.75" stroke="#B33A3A" stroke-width="0.8"/>
+<rect x="301.8" y="366.7" width="8.6" height="193.3" fill="#B33A3A" fill-opacity="0.75" stroke="#B33A3A" stroke-width="0.8"/>
+<rect x="580.4" y="366.7" width="8.6" height="193.3" fill="#B33A3A" fill-opacity="0.75" stroke="#B33A3A" stroke-width="0.8"/>
+<rect x="301.8" y="366.7" width="51.8" height="8.6" fill="#B33A3A" fill-opacity="0.75" stroke="#B33A3A" stroke-width="0.8"/>
+<rect x="461.6" y="366.7" width="21.6" height="8.6" fill="#B33A3A" fill-opacity="0.75" stroke="#B33A3A" stroke-width="0.8"/>
+<rect x="558.8" y="366.7" width="30.2" height="8.6" fill="#B33A3A" fill-opacity="0.75" stroke="#B33A3A" stroke-width="0.8"/>
+<rect x="604.2" y="409.9" width="8.6" height="150.1" fill="#B33A3A" fill-opacity="0.75" stroke="#B33A3A" stroke-width="0.8"/>
+<rect x="796.4" y="409.9" width="8.6" height="150.1" fill="#B33A3A" fill-opacity="0.75" stroke="#B33A3A" stroke-width="0.8"/>
+<rect x="700.3" y="409.9" width="8.6" height="150.1" fill="#B33A3A" fill-opacity="0.75" stroke="#B33A3A" stroke-width="0.8"/>
+<rect x="604.2" y="409.9" width="200.9" height="8.6" fill="#B33A3A" fill-opacity="0.75" stroke="#B33A3A" stroke-width="0.8"/>
+<text x="407.6" y="360.2" font-size="7.5" fill="#B33A3A" text-anchor="middle" font-weight="400">ISO1228</text>
+<text x="521.0" y="360.2" font-size="7.5" fill="#B33A3A" text-anchor="middle" font-weight="400">ISO3082</text>
+<text x="229.4" y="365.6" font-size="7.5" fill="#B33A3A" text-anchor="middle" font-weight="400">PD flyback</text>
+<rect x="94.4" y="446.6" width="86.4" height="113.4" fill="#FFFFFF" fill-opacity="1.0" stroke="#6B4E9E" stroke-width="1.2"/>
+<text x="137.6" y="492.5" font-size="9" fill="#6B4E9E" text-anchor="middle" font-weight="600">RJ45</text>
+<text x="137.6" y="524.9" font-size="7.5" fill="#6B4E9E" text-anchor="middle" font-weight="400">magjack</text>
+<rect x="332.0" y="511.4" width="75.6" height="48.6" fill="#FFFFFF" fill-opacity="1.0" stroke="#B5751A" stroke-width="1.2"/>
+<text x="369.8" y="541.1" font-size="7" fill="#B5751A" text-anchor="middle" font-weight="600">DI1 - DI4</text>
+<rect x="407.6" y="511.4" width="37.8" height="48.6" fill="#FFFFFF" fill-opacity="1.0" stroke="#B5751A" stroke-width="1.2"/>
+<text x="426.5" y="541.1" font-size="7" fill="#B5751A" text-anchor="middle" font-weight="600">+24/0V</text>
+<rect x="445.4" y="511.4" width="75.6" height="48.6" fill="#FFFFFF" fill-opacity="1.0" stroke="#B5751A" stroke-width="1.2"/>
+<text x="483.2" y="541.1" font-size="7" fill="#B5751A" text-anchor="middle" font-weight="600">RS-485</text>
+<rect x="521.0" y="511.4" width="37.8" height="48.6" fill="#FFFFFF" fill-opacity="1.0" stroke="#B5751A" stroke-width="1.2"/>
+<text x="539.9" y="541.1" font-size="7" fill="#B5751A" text-anchor="middle" font-weight="600">SENSOR</text>
+<rect x="637.6" y="511.4" width="37.8" height="48.6" fill="#FFFFFF" fill-opacity="1.0" stroke="#3E7C4F" stroke-width="1.2"/>
+<text x="656.5" y="541.1" font-size="8" fill="#3E7C4F" text-anchor="middle" font-weight="600">DO1</text>
+<text x="656.5" y="452.0" font-size="7.5" fill="#3E7C4F" text-anchor="middle" font-weight="400">AQY212GS</text>
+<rect x="733.8" y="511.4" width="37.8" height="48.6" fill="#FFFFFF" fill-opacity="1.0" stroke="#3E7C4F" stroke-width="1.2"/>
+<text x="752.7" y="541.1" font-size="8" fill="#3E7C4F" text-anchor="middle" font-weight="600">DO2</text>
+<text x="752.7" y="452.0" font-size="7.5" fill="#3E7C4F" text-anchor="middle" font-weight="400">AQY212GS</text>
+<text x="437.3" y="600.5" font-size="9.5" fill="#22201D" text-anchor="middle" font-weight="400">one edge: RJ45 + 12 field positions (42 mm) + 4 output positions</text>
+<circle cx="341.5" cy="344.0" r="2.1" fill="#2C6BAA"/>
+<circle cx="360.4" cy="344.0" r="2.1" fill="#2C6BAA"/>
+<circle cx="379.2" cy="344.0" r="2.1" fill="#2C6BAA"/>
+<circle cx="398.2" cy="344.0" r="2.1" fill="#2C6BAA"/>
+<text x="369.8" y="322.4" font-size="8" fill="#2C6BAA" text-anchor="middle" font-weight="400">4 x DI LED</text>
+<circle cx="656.5" cy="344.0" r="2.1" fill="#2C6BAA"/>
+<circle cx="752.7" cy="344.0" r="2.1" fill="#2C6BAA"/>
+<text x="704.6" y="322.4" font-size="8" fill="#2C6BAA" text-anchor="middle" font-weight="400">2 x DO LED</text>
+<circle cx="105.2" cy="344.0" r="2.1" fill="#2C6BAA"/>
+<circle cx="132.2" cy="344.0" r="2.1" fill="#2C6BAA"/>
+<circle cx="159.2" cy="344.0" r="2.1" fill="#2C6BAA"/>
+<circle cx="186.2" cy="344.0" r="2.1" fill="#2C6BAA"/>
+<text x="148.4" y="322.4" font-size="8" fill="#2C6BAA" text-anchor="middle" font-weight="400">system</text>
+<rect x="342.8" y="187.4" width="91.8" height="91.8" fill="#FFFFFF" fill-opacity="1.0" stroke="#2C6BAA" stroke-width="1.0" stroke-dasharray="3 2"/>
+<text x="388.7" y="239.8" font-size="7.5" fill="#2C6BAA" text-anchor="middle" font-weight="400">RT1021</text>
+<rect x="467.0" y="214.4" width="64.8" height="54.0" fill="#FFFFFF" fill-opacity="1.0" stroke="#2C6BAA" stroke-width="1.0" stroke-dasharray="3 2"/>
+<text x="499.4" y="247.9" font-size="7.5" fill="#2C6BAA" text-anchor="middle" font-weight="400">PHY</text>
+<rect x="558.8" y="225.2" width="54.0" height="43.2" fill="#FFFFFF" fill-opacity="1.0" stroke="#2C6BAA" stroke-width="1.0" stroke-dasharray="3 2"/>
+<text x="585.8" y="253.3" font-size="7.5" fill="#2C6BAA" text-anchor="middle" font-weight="400">flash</text>
+<rect x="558.8" y="160.4" width="59.4" height="43.2" fill="#FFFFFF" fill-opacity="1.0" stroke="#2C6BAA" stroke-width="1.0" stroke-dasharray="3 2"/>
+<text x="588.5" y="188.5" font-size="7.5" fill="#2C6BAA" text-anchor="middle" font-weight="400">SE050</text>
+<rect x="105.2" y="192.8" width="81.0" height="64.8" fill="#FFFFFF" fill-opacity="1.0" stroke="#2C6BAA" stroke-width="1.0" stroke-dasharray="3 2"/>
+<text x="145.7" y="231.7" font-size="7.5" fill="#2C6BAA" text-anchor="middle" font-weight="400">12V rail</text>
+<rect x="213.2" y="203.6" width="75.6" height="54.0" fill="#FFFFFF" fill-opacity="1.0" stroke="#2C6BAA" stroke-width="1.0" stroke-dasharray="3 2"/>
+<text x="251.0" y="237.1" font-size="7.5" fill="#2C6BAA" text-anchor="middle" font-weight="400">bucks</text>
+<rect x="656.0" y="230.6" width="75.6" height="48.6" fill="#FFFFFF" fill-opacity="1.0" stroke="#B33A3A" stroke-width="1.0" stroke-dasharray="3 2"/>
+<text x="693.8" y="261.4" font-size="7.5" fill="#B33A3A" text-anchor="middle" font-weight="400">DO_EN</text>
+<rect x="197.0" y="468.2" width="70.2" height="64.8" fill="#FFFFFF" fill-opacity="1.0" stroke="#6B4E9E" stroke-width="1.0" stroke-dasharray="3 2"/>
+<text x="232.1" y="507.1" font-size="7.5" fill="#6B4E9E" text-anchor="middle" font-weight="400">Si3402</text>
+<rect x="197.0" y="392.6" width="70.2" height="64.8" fill="#FFFFFF" fill-opacity="1.0" stroke="#6B4E9E" stroke-width="1.0" stroke-dasharray="3 2"/>
+<text x="232.1" y="431.5" font-size="7.5" fill="#6B4E9E" text-anchor="middle" font-weight="400">flyback</text>
+<rect x="342.8" y="441.2" width="108.0" height="48.6" fill="#FFFFFF" fill-opacity="1.0" stroke="#B5751A" stroke-width="1.0" stroke-dasharray="3 2"/>
+<text x="396.8" y="472.0" font-size="7.5" fill="#B5751A" text-anchor="middle" font-weight="400">ISO1228</text>
+<rect x="472.4" y="441.2" width="86.4" height="48.6" fill="#FFFFFF" fill-opacity="1.0" stroke="#B5751A" stroke-width="1.0" stroke-dasharray="3 2"/>
+<text x="515.6" y="472.0" font-size="7.5" fill="#B5751A" text-anchor="middle" font-weight="400">ISO3082</text>
+<rect x="483.2" y="381.8" width="75.6" height="48.6" fill="#FFFFFF" fill-opacity="1.0" stroke="#B5751A" stroke-width="1.0" stroke-dasharray="3 2"/>
+<text x="521.0" y="412.6" font-size="7.5" fill="#B5751A" text-anchor="middle" font-weight="400">xfmr</text>
+<line x1="62.0" y1="635.6" x2="812.6" y2="635.6" stroke="#6E6862" stroke-width="1"/>
+<text x="437.3" y="630.6" font-size="9.5" fill="#6E6862" text-anchor="middle">139.0 +/-0.1 mm</text>
+<line x1="18.799999999999997" y1="560.0" x2="18.799999999999997" y2="90.19999999999999" stroke="#6E6862" stroke-width="1"/>
+<text x="12.8" y="325.1" font-size="9.5" fill="#6E6862" text-anchor="middle" transform="rotate(-90 12.8 325.1)">87.0 +/-0.1 mm</text>
+<rect x="30" y="667" width="11" height="11" rx="2" fill="#6B4E9E"/>
+<text x="48" y="676" font-size="10.5" fill="#6E6862">cable / PSE domain</text>
+<rect x="30" y="684" width="11" height="11" rx="2" fill="#2C6BAA"/>
+<text x="48" y="693" font-size="10.5" fill="#6E6862">logic domain</text>
+<rect x="30" y="701" width="11" height="11" rx="2" fill="#B5751A"/>
+<text x="48" y="710" font-size="10.5" fill="#6E6862">field 24 V domain</text>
+<rect x="30" y="718" width="11" height="11" rx="2" fill="#3E7C4F"/>
+<text x="48" y="727" font-size="10.5" fill="#6E6862">output islands, each floating</text>
+<rect x="30" y="735" width="11" height="11" rx="2" fill="#B33A3A"/>
+<text x="48" y="744" font-size="10.5" fill="#6E6862">isolation slot, 1.6 mm</text>
+<text x="330" y="672" font-size="10.5" font-weight="700" fill="#22201D">Single-edge layout: what it costs</text>
+<text x="330" y="690" font-size="10" fill="#6E6862">Every domain must reach the connector edge, so they are columns, not strips.</text>
+<text x="330" y="705" font-size="10" fill="#6E6862">Barriers 1, 2 and 3 become U-shaped and total slot length roughly doubles.</text>
+<text x="330" y="720" font-size="10" fill="#6E6862">The logic domain is the background; the other three are peninsulas rising from Y=0.</text>
+<text x="330" y="735" font-size="10" fill="#6E6862">Only 72 mm of the 139 mm edge is used, so spacing between columns is generous.</text>
+<text x="330" y="750" font-size="10" fill="#6E6862">LEDs must stay inside the dashed band - the outer 13.8 mm strips sit under the shelves.</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="640" viewBox="0 0 1160 640" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" role="img" aria-label="PoEtato - Boot Chain and Flash Map">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6E6862"/></marker></defs>
+<rect width="1160" height="640" fill="#FAF9F7"/>
+<text x="30" y="36" font-size="20" font-weight="600" fill="#22201D">PoEtato - Boot Chain and Flash Map</text>
+<text x="30" y="58" font-size="13" fill="#6E6862">MCX N ROM authenticates punchboot, punchboot authenticates the application</text>
+<rect x="40" y="108" width="232" height="92" rx="6" fill="#FFFFFF" stroke="#6B4E9E" stroke-width="1.4"/>
+<text x="156.0" y="134.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">BootROM</text>
+<text x="156.0" y="150.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">MCX N secure boot</text>
+<text x="156.0" y="166.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">RoT key hash in CMPA/OTP</text>
+<text x="156.0" y="182.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">immutable</text>
+<rect x="316" y="108" width="232" height="92" rx="6" fill="#FFFFFF" stroke="#B33A3A" stroke-width="1.4"/>
+<text x="432.0" y="134.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">punchboot (ported)</text>
+<text x="432.0" y="150.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">bpak, signed</text>
+<text x="432.0" y="166.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">A/B + rollback</text>
+<text x="432.0" y="182.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">updatable</text>
+<rect x="592" y="108" width="232" height="92" rx="6" fill="#FFFFFF" stroke="#2C6BAA" stroke-width="1.4"/>
+<text x="708.0" y="134.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">Zephyr application</text>
+<text x="708.0" y="150.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">slot A or slot B</text>
+<text x="708.0" y="166.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">internal flash</text>
+<text x="708.0" y="182.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">updatable</text>
+<rect x="868" y="108" width="232" height="92" rx="6" fill="#FFFFFF" stroke="#3E7C4F" stroke-width="1.4"/>
+<text x="984.0" y="134.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">SE050</text>
+<text x="984.0" y="150.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">private-key custody</text>
+<text x="984.0" y="166.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">key never leaves</text>
+<text x="984.0" y="182.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">TLS provisioning</text>
+<path d="M272,154 L314,154" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="293" y="146" font-size="11" fill="#6E6862" text-anchor="middle">authenticates</text>
+<path d="M548,154 L590,154" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="569" y="146" font-size="11" fill="#6E6862" text-anchor="middle">authenticates</text>
+<path d="M824,154 L866,154" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="845" y="146" font-size="11" fill="#6E6862" text-anchor="middle">uses</text>
+<text x="40" y="228" font-size="11.5" fill="#22201D" text-anchor="start">Root of trust is the key hash in CMPA/OTP - programming it and advancing the lifecycle is effectively one-way.</text>
+<text x="40" y="244" font-size="11.5" fill="#22201D" text-anchor="start">Signatures are ECDSA P-256, verified on the PKC hardware accelerator; hashing on ELS. Keep the format open to PQC later.</text>
+<text x="40" y="286" font-size="13.5" font-weight="600" fill="#22201D">Internal flash - 2 MB, two 1 MB banks (not to scale)</text>
+<rect x="60" y="300" width="140" height="64" rx="4" fill="#FAEDED" stroke="#B33A3A" stroke-width="1.4"/>
+<text x="130.0" y="327" font-size="12.5" font-weight="600" fill="#22201D" text-anchor="middle">punchboot</text>
+<text x="130.0" y="346" font-size="11.5" fill="#6E6862" text-anchor="middle">bank 0 - 128 KB</text>
+<rect x="200" y="300" width="95" height="64" rx="4" fill="#FAEDED" stroke="#B33A3A" stroke-width="1.4"/>
+<text x="247.5" y="327" font-size="12.5" font-weight="600" fill="#22201D" text-anchor="middle">pb state A</text>
+<text x="247.5" y="346" font-size="11.5" fill="#6E6862" text-anchor="middle">1 sector</text>
+<rect x="295" y="300" width="95" height="64" rx="4" fill="#FAEDED" stroke="#B33A3A" stroke-width="1.4"/>
+<text x="342.5" y="327" font-size="12.5" font-weight="600" fill="#22201D" text-anchor="middle">pb state B</text>
+<text x="342.5" y="346" font-size="11.5" fill="#6E6862" text-anchor="middle">1 sector</text>
+<rect x="390" y="300" width="250" height="64" rx="4" fill="#EAF1F8" stroke="#2C6BAA" stroke-width="1.4"/>
+<text x="515.0" y="327" font-size="12.5" font-weight="600" fill="#22201D" text-anchor="middle">app slot A</text>
+<text x="515.0" y="346" font-size="11.5" fill="#6E6862" text-anchor="middle">bank 0 - ~880 KB</text>
+<rect x="640" y="300" width="300" height="64" rx="4" fill="#EAF1F8" stroke="#2C6BAA" stroke-width="1.4"/>
+<text x="790.0" y="327" font-size="12.5" font-weight="600" fill="#22201D" text-anchor="middle">app slot B</text>
+<text x="790.0" y="346" font-size="11.5" fill="#6E6862" text-anchor="middle">bank 1 - ~880 KB</text>
+<rect x="940" y="300" width="120" height="64" rx="4" fill="#EDF4EE" stroke="#3E7C4F" stroke-width="1.4"/>
+<text x="1000.0" y="327" font-size="12.5" font-weight="600" fill="#22201D" text-anchor="middle">config / logs</text>
+<text x="1000.0" y="346" font-size="11.5" fill="#6E6862" text-anchor="middle">~128 KB</text>
+<text x="40" y="400" font-size="11.5" fill="#22201D" text-anchor="start">One application slot per flash bank. The slots live at different addresses, so the application is either linked per</text>
+<text x="40" y="416" font-size="11.5" fill="#22201D" text-anchor="start">slot or the banks are swapped/remapped in hardware. Check the MCX N reference manual for bank swap/remap and decide</text>
+<text x="40" y="432" font-size="11.5" fill="#22201D" text-anchor="start">before the build system. External QSPI is optional and never holds code.</text>
+<rect x="40" y="476" width="1060" height="130" rx="8" fill="#FFFFFF" stroke="#D9D4CC"/>
+<text x="58" y="500" font-size="12.5" font-weight="700" fill="#22201D">Recovery path - a hard board requirement, not a nicety</text>
+<text x="58" y="524" font-size="11.5" fill="#6E6862" text-anchor="start">punchboot-tools talks over USB, so USB is a production and recovery interface here, not only a debug port.</text>
+<text x="58" y="540" font-size="11.5" fill="#6E6862" text-anchor="start">USB1 HS (pins 40-43) with a 24 MHz crystal; the ISP boot pin stays reachable so the ROM ISP can be forced if punchboot is bricked.</text>
+<text x="58" y="556" font-size="11.5" fill="#6E6862" text-anchor="start">Keep at least one board with the lifecycle not advanced for development - budget the extra board up front.</text>
+<text x="58" y="572" font-size="11.5" fill="#6E6862" text-anchor="start">Anti-rollback counter belongs in MCU OTP, not the SE050: a boot-time I2C dependency adds a failure mode for no real gain.</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="560" viewBox="0 0 1180 560" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" role="img" aria-label="PoEtato - Output Channel">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6E6862"/></marker></defs>
+<rect width="1180" height="560" fill="#FAF9F7"/>
+<text x="30" y="36" font-size="20" font-weight="600" fill="#22201D">PoEtato - Output Channel</text>
+<text x="30" y="58" font-size="13" fill="#6E6862">Plain GPIO drives a low-side FET that sinks the LED - one of two channels</text>
+<rect x="34" y="96" width="686" height="286" rx="10" fill="#EAF1F8" stroke="#2C6BAA" stroke-width="1.2" stroke-opacity="0.45"/>
+<text x="48" y="118" font-size="11" font-weight="700" letter-spacing="1.1" fill="#2C6BAA">LOGIC SIDE</text>
+<rect x="768" y="96" width="366" height="286" rx="10" fill="#EDF4EE" stroke="#3E7C4F" stroke-width="1.2" stroke-opacity="0.45"/>
+<text x="782" y="118" font-size="11" font-weight="700" letter-spacing="1.1" fill="#3E7C4F">FIELD SIDE  floating</text>
+<line x1="744" y1="90" x2="744" y2="392" stroke="#B33A3A" stroke-width="1.6" stroke-dasharray="7 5" stroke-opacity="0.75"/>
+<text x="739" y="388" font-size="10.5" font-weight="600" fill="#B33A3A" text-anchor="start" transform="rotate(-90 739 388)">barrier 3  -  per channel</text>
+<rect x="54" y="132" width="152" height="60" rx="6" fill="#FFFFFF" stroke="#2C6BAA" stroke-width="1.4"/>
+<text x="130.0" y="158.0" font-size="12" font-weight="600" fill="#22201D" text-anchor="middle">MCU GPIO</text>
+<text x="130.0" y="174.0" font-size="10" font-weight="400" fill="#6E6862" text-anchor="middle">DOn_ON, hi-Z in reset</text>
+<rect x="54" y="250" width="152" height="60" rx="6" fill="#FFFFFF" stroke="#B33A3A" stroke-width="1.4"/>
+<text x="130.0" y="276.0" font-size="12" font-weight="600" fill="#22201D" text-anchor="middle">2.2 k pull-down</text>
+<text x="130.0" y="292.0" font-size="10" font-weight="400" fill="#6E6862" text-anchor="middle">gate off in reset</text>
+<rect x="266" y="250" width="196" height="60" rx="6" fill="#FFFFFF" stroke="#B33A3A" stroke-width="1.4"/>
+<text x="364.0" y="276.0" font-size="12" font-weight="600" fill="#22201D" text-anchor="middle">NTK3134N</text>
+<text x="364.0" y="292.0" font-size="10" font-weight="400" fill="#6E6862" text-anchor="middle">low-side LED sink</text>
+<rect x="506" y="132" width="200" height="78" rx="6" fill="#FFFFFF" stroke="#2C6BAA" stroke-width="1.4"/>
+<text x="606.0" y="159.0" font-size="12" font-weight="600" fill="#22201D" text-anchor="middle">LED drive</text>
+<text x="606.0" y="175.0" font-size="10" font-weight="400" fill="#6E6862" text-anchor="middle">220R from 3V3</text>
+<text x="606.0" y="191.0" font-size="10" font-weight="400" fill="#6E6862" text-anchor="middle">approx. 10 mA, &gt;= 7.8 mA worst</text>
+<rect x="790" y="132" width="196" height="78" rx="6" fill="#FFFFFF" stroke="#3E7C4F" stroke-width="1.4"/>
+<text x="888.0" y="159.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">AQY212GS</text>
+<text x="888.0" y="175.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">PhotoMOS relay</text>
+<text x="888.0" y="191.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">60 V / 1 A, AC+DC</text>
+<rect x="790" y="250" width="196" height="60" rx="6" fill="#FFFFFF" stroke="#3E7C4F" stroke-width="1.4"/>
+<text x="888.0" y="276.0" font-size="12" font-weight="600" fill="#22201D" text-anchor="middle">10R + PPTC + TVS</text>
+<text x="888.0" y="292.0" font-size="10" font-weight="400" fill="#6E6862" text-anchor="middle">at the terminal</text>
+<rect x="1012" y="132" width="104" height="78" rx="6" fill="#FFFFFF" stroke="#3E7C4F" stroke-width="1.4"/>
+<text x="1064.0" y="159.0" font-size="12" font-weight="600" fill="#22201D" text-anchor="middle">DOn</text>
+<text x="1064.0" y="175.0" font-size="10" font-weight="400" fill="#6E6862" text-anchor="middle">A / B</text>
+<text x="1064.0" y="191.0" font-size="10" font-weight="400" fill="#6E6862" text-anchor="middle">terminals</text>
+<path d="M206,162 L230,162 L230,280 L264,280" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="236" y="222" font-size="11" fill="#6E6862" text-anchor="start">gate</text>
+<path d="M130,192 L130,248" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<path d="M364,250 L364,200 L504,200" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="372" y="226" font-size="11" fill="#6E6862" text-anchor="start">LED cathode</text>
+<path d="M706,171 L788,171" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="747" y="163" font-size="11" fill="#6E6862" text-anchor="middle">optical</text>
+<path d="M888,210 L888,248" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<path d="M986,280 L1064,280 L1064,212" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="40" y="424" font-size="11.5" fill="#22201D" text-anchor="start">The LED is fed from 3V3 through 220R and sunk by an NTK3134N whose gate a plain GPIO drives. The 2.2 k pull-down holds the</text>
+<text x="40" y="440" font-size="11.5" fill="#22201D" text-anchor="start">gate low whenever the pin is hi-Z, so any reset opens the contact. No interlock: a stuck GPIO or shorted FET = stuck button.</text>
+<text x="40" y="478" font-size="11.5" fill="#6E6862" text-anchor="start">A refresh-driven charge pump was considered and dropped: with hardware-timer PWM a hung core keeps the timer</text>
+<text x="40" y="494" font-size="11.5" fill="#6E6862" text-anchor="start">running, so it would not have caught the case it existed for - and it adds an ageing circuit that fails toward</text>
+<text x="40" y="510" font-size="11.5" fill="#6E6862" text-anchor="start">intermittent rather than toward off. Maximum on-time is enforced in software instead, and reported.</text>
+</svg>

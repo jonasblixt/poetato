@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="790" viewBox="0 0 1080 790" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" role="img" aria-label="PoEtato - Power Tree">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6E6862"/></marker></defs>
+<rect width="1080" height="790" fill="#FAF9F7"/>
+<text x="30" y="36" font-size="20" font-weight="600" fill="#22201D">PoEtato - Power Tree</text>
+<text x="30" y="58" font-size="13" fill="#6E6862">PoE only - 4.14 W of the 12.95 W 802.3af Type 1 budget, so Class 2</text>
+<line x1="300" y1="100" x2="300" y2="462" stroke="#B33A3A" stroke-width="1.6" stroke-dasharray="7 5" stroke-opacity="0.75"/>
+<text x="295" y="458" font-size="10.5" font-weight="600" fill="#B33A3A" text-anchor="start" transform="rotate(-90 295 458)">barrier 1  -  flyback</text>
+<line x1="636" y1="100" x2="636" y2="462" stroke="#B33A3A" stroke-width="1.6" stroke-dasharray="7 5" stroke-opacity="0.75"/>
+<text x="631" y="458" font-size="10.5" font-weight="600" fill="#B33A3A" text-anchor="start" transform="rotate(-90 631 458)">barrier 2  -  push-pull</text>
+<rect x="40" y="120" width="220" height="56" rx="6" fill="#FFFFFF" stroke="#6B4E9E" stroke-width="1.4"/>
+<text x="150.0" y="144.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">PSE  48 V</text>
+<text x="150.0" y="160.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">UPS-backed, main building</text>
+<rect x="40" y="208" width="220" height="56" rx="6" fill="#FFFFFF" stroke="#6B4E9E" stroke-width="1.4"/>
+<text x="150.0" y="232.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">PD bridge + class.</text>
+<text x="150.0" y="248.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">802.3af Type 1</text>
+<rect x="40" y="296" width="220" height="62" rx="6" fill="#FFFFFF" stroke="#6B4E9E" stroke-width="1.4"/>
+<text x="150.0" y="315.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">Si3402-B flyback</text>
+<text x="150.0" y="331.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">48 V -&gt; 12 V isolated</text>
+<text x="150.0" y="347.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">approx. 85% eff.</text>
+<rect x="336" y="120" width="262" height="54" rx="6" fill="#FFFFFF" stroke="#2C6BAA" stroke-width="1.4"/>
+<text x="467.0" y="143.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">12 V logic rail</text>
+<text x="467.0" y="159.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">approx. 1.2 A available</text>
+<rect x="336" y="206" width="124" height="56" rx="6" fill="#FFFFFF" stroke="#2C6BAA" stroke-width="1.4"/>
+<text x="398.0" y="222.0" font-size="12" font-weight="600" fill="#22201D" text-anchor="middle">Buck 3V3</text>
+<text x="398.0" y="238.0" font-size="10" font-weight="400" fill="#6E6862" text-anchor="middle">MCU + PHY</text>
+<text x="398.0" y="254.0" font-size="10" font-weight="400" fill="#6E6862" text-anchor="middle">~1.0 W</text>
+<rect x="474" y="206" width="124" height="56" rx="6" fill="#FFFFFF" stroke="#B33A3A" stroke-width="1.4"/>
+<text x="536.0" y="222.0" font-size="12" font-weight="600" fill="#22201D" text-anchor="middle">OptoMOS LEDs</text>
+<text x="536.0" y="238.0" font-size="10" font-weight="400" fill="#6E6862" text-anchor="middle">3V3, NTK3134N</text>
+<text x="536.0" y="254.0" font-size="10" font-weight="400" fill="#6E6862" text-anchor="middle">~0.05 W</text>
+<rect x="336" y="294" width="262" height="58" rx="6" fill="#FFFFFF" stroke="#B5751A" stroke-width="1.4"/>
+<text x="467.0" y="311.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">SN6507 push-pull</text>
+<text x="467.0" y="327.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">12 V -&gt; 24 V, ~1:2 ratio</text>
+<text x="467.0" y="343.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">3 W isolated</text>
+<rect x="672" y="120" width="250" height="58" rx="6" fill="#FFFFFF" stroke="#B5751A" stroke-width="1.4"/>
+<text x="797.0" y="137.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">Digital inputs, via contacts</text>
+<text x="797.0" y="153.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">3 ch x 2.47 mA @ 24 V</text>
+<text x="797.0" y="169.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">0.18 W worst case</text>
+<rect x="672" y="202" width="250" height="58" rx="6" fill="#FFFFFF" stroke="#B5751A" stroke-width="1.4"/>
+<text x="797.0" y="219.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">Buck 24V -&gt; 5V</text>
+<text x="797.0" y="235.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">ISO3082 field side</text>
+<text x="797.0" y="251.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">0.15 W</text>
+<rect x="672" y="284" width="250" height="62" rx="6" fill="#FFFFFF" stroke="#B5751A" stroke-width="1.4"/>
+<text x="797.0" y="303.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">Field sensor supply</text>
+<text x="797.0" y="319.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">24 V out, PTC 150 mA</text>
+<text x="797.0" y="335.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">1.5 W allocated</text>
+<rect x="672" y="388" width="250" height="70" rx="6" fill="#FFFFFF" stroke="#3E7C4F" stroke-width="1.4"/>
+<text x="797.0" y="403.0" font-size="12" font-weight="600" fill="#22201D" text-anchor="middle">OptoMOS LED drive</text>
+<text x="797.0" y="419.0" font-size="10" font-weight="400" fill="#6E6862" text-anchor="middle">2 ch, GPIO -&gt; NTK3134N</text>
+<text x="797.0" y="435.0" font-size="10" font-weight="400" fill="#6E6862" text-anchor="middle">220R from 3V3</text>
+<text x="797.0" y="451.0" font-size="10" font-weight="400" fill="#6E6862" text-anchor="middle">0.05 W</text>
+<text x="672" y="476" font-size="11" fill="#22201D" text-anchor="start">The field 24 V always comes from the</text>
+<text x="672" y="492" font-size="11" fill="#22201D" text-anchor="start">push-pull - never straight from the</text>
+<text x="672" y="508" font-size="11" fill="#22201D" text-anchor="start">external 24 V input, which would short</text>
+<text x="672" y="524" font-size="11" fill="#22201D" text-anchor="start">out barrier 2.</text>
+<path d="M150,176 L150,206" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<path d="M150,264 L150,294" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<path d="M260,326 L312,326 L312,147 L334,147" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<path d="M398,174 L398,204" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<path d="M460,234 L472,234" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<path d="M467,174 L467,292" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<path d="M598,322 L636,322 L636,149 L670,149" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<path d="M598,322 L636,322 L636,231 L670,231" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<path d="M598,322 L636,322 L636,315 L670,315" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<path d="M536,262 L610,262 L610,417 L670,417" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="40" y="538" width="882" height="224" rx="8" fill="#FFFFFF" stroke="#D9D4CC"/>
+<text x="58" y="558" font-size="12.5" font-weight="700" fill="#22201D">Power budget at the PD input</text>
+<text x="58" y="582" font-size="11.5" fill="#6E6862">Logic: MCX N247 + KSZ8081 + SE050</text>
+<text x="880" y="582" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" fill="#22201D" text-anchor="end">1.05 W</text>
+<text x="58" y="602" font-size="11.5" fill="#6E6862">Digital inputs, 3 channels closed</text>
+<text x="880" y="602" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" fill="#22201D" text-anchor="end">0.18 W</text>
+<text x="58" y="622" font-size="11.5" fill="#6E6862">Field rail preload (10 kOhm)</text>
+<text x="880" y="622" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" fill="#22201D" text-anchor="end">0.07 W</text>
+<text x="58" y="642" font-size="11.5" fill="#6E6862">RS-485 field side via buck</text>
+<text x="880" y="642" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" fill="#22201D" text-anchor="end">0.15 W</text>
+<text x="58" y="662" font-size="11.5" fill="#6E6862">Field sensor supply allocation</text>
+<text x="880" y="662" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" fill="#22201D" text-anchor="end">1.50 W</text>
+<text x="58" y="682" font-size="11.5" fill="#6E6862">OptoMOS drive, 2 channels (from 3V3)</text>
+<text x="880" y="682" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" fill="#22201D" text-anchor="end">0.05 W</text>
+<text x="58" y="702" font-size="11.5" fill="#6E6862">Isolated converter losses (approx. 20%)</text>
+<text x="880" y="702" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" fill="#22201D" text-anchor="end">0.50 W</text>
+<text x="58" y="722" font-size="11.5" fill="#6E6862">PD flyback losses (approx. 15%)</text>
+<text x="880" y="722" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" fill="#22201D" text-anchor="end">0.64 W</text>
+<line x1="58" y1="728" x2="880" y2="728" stroke="#D9D4CC"/>
+<text x="58" y="744" font-size="11.5" font-weight="700" fill="#22201D">Total drawn / available</text>
+<text x="880" y="744" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-weight="700" fill="#22201D" text-anchor="end">4.14 W / 12.95 W</text>
+</svg>

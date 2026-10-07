@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="616" viewBox="0 0 1160 616" font-family="ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" role="img" aria-label="PoEtato - Fault Architecture">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6E6862"/></marker></defs>
+<rect width="1160" height="616" fill="#FAF9F7"/>
+<text x="30" y="36" font-size="20" font-weight="600" fill="#22201D">PoEtato - Fault Architecture</text>
+<text x="30" y="58" font-size="13" fill="#6E6862">One watchdog, and output FETs that every reset turns off</text>
+<rect x="40" y="110" width="200" height="80" rx="6" fill="#FFFFFF" stroke="#2C6BAA" stroke-width="1.4"/>
+<text x="140.0" y="138.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">Application tasks</text>
+<text x="140.0" y="154.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">each sets a flag</text>
+<text x="140.0" y="170.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">flags cleared on feed</text>
+<rect x="40" y="230" width="200" height="66" rx="6" fill="#FFFFFF" stroke="#2C6BAA" stroke-width="1.4"/>
+<text x="140.0" y="259.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">Supervisor thread</text>
+<text x="140.0" y="275.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">all flags present?</text>
+<rect x="296" y="84" width="220" height="66" rx="6" fill="#FFFFFF" stroke="#2C6BAA" stroke-width="1.4"/>
+<text x="406.0" y="113.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">LP3470 supervisor</text>
+<text x="406.0" y="129.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">power-up, brown-out</text>
+<rect x="296" y="190" width="220" height="90" rx="6" fill="#FFFFFF" stroke="#B33A3A" stroke-width="1.4"/>
+<text x="406.0" y="223.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">MCX N WWDT</text>
+<text x="406.0" y="239.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">windowed, ~1 s timeout</text>
+<text x="406.0" y="255.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">MOD[LOCK], warning IRQ</text>
+<rect x="572" y="150" width="220" height="90" rx="6" fill="#FFFFFF" stroke="#B33A3A" stroke-width="1.4"/>
+<text x="682.0" y="183.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">RESET_b</text>
+<text x="682.0" y="199.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">pin reset state:</text>
+<text x="682.0" y="215.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">DO1_ON / DO2_ON hi-Z</text>
+<rect x="858" y="150" width="262" height="90" rx="6" fill="#FAEDED" stroke="#B33A3A" stroke-width="1.4"/>
+<text x="989.0" y="183.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">2x NTK3134N LED sink</text>
+<text x="989.0" y="199.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">2.2 k gate pull-downs</text>
+<text x="989.0" y="215.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">no hardware interlock</text>
+<rect x="572" y="336" width="220" height="90" rx="6" fill="#FFFFFF" stroke="#2C6BAA" stroke-width="1.4"/>
+<text x="682.0" y="369.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">Re-arm policy</text>
+<text x="682.0" y="385.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">reset counter, retained RAM</text>
+<text x="682.0" y="401.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">&gt;= 3 in a row: stay disarmed</text>
+<rect x="960" y="336" width="160" height="70" rx="6" fill="#FFFFFF" stroke="#3E7C4F" stroke-width="1.4"/>
+<text x="1040.0" y="367.0" font-size="12" font-weight="600" fill="#22201D" text-anchor="middle">OptoMOS CH1/CH2</text>
+<text x="1040.0" y="383.0" font-size="10" font-weight="400" fill="#6E6862" text-anchor="middle">open on any reset</text>
+<path d="M140,190 L140,228" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<path d="M240,263 L268,263 L268,235 L294,235" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="272" y="228" font-size="11" fill="#6E6862" text-anchor="start">feed</text>
+<path d="M516,117 L544,117 L544,168 L570,168" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="548" y="140" font-size="11" fill="#6E6862" text-anchor="start">reset</text>
+<path d="M516,215 L570,215" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="543" y="207" font-size="11" fill="#6E6862" text-anchor="middle">reset</text>
+<path d="M792,195 L856,195" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="824" y="187" font-size="11" fill="#6E6862" text-anchor="middle">hi-Z = off</text>
+<path d="M792,371 L900,371 L900,242" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<text x="846" y="363" font-size="11" fill="#6E6862" text-anchor="middle">arm</text>
+<path d="M1040,240 L1040,334" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="40" y="448" width="1080" height="124" rx="8" fill="#FFFFFF" stroke="#D9D4CC"/>
+<text x="58" y="474" font-size="11.5" fill="#22201D" text-anchor="start">Every reset opens the outputs: the DOn_ON pins go hi-Z and the gate pull-downs - not firmware - hold both LED FETs off.</text>
+<text x="58" y="490" font-size="11.5" fill="#22201D" text-anchor="start">The WWDT turns a hung core into a reset within ~1 s. On the opener's toggle input that is a long button press.</text>
+<text x="58" y="506" font-size="11.5" fill="#22201D" text-anchor="start">A watchdog proves liveness, not correctness. Live-but-wrong software is bounded by a software maximum on-time and the opener's own safety.</text>
+<text x="58" y="522" font-size="11.5" fill="#22201D" text-anchor="start">No output is pulsed during boot. Three abnormal resets in a row leave the outputs disarmed until a command or a power cycle.</text>
+<text x="58" y="538" font-size="11.5" fill="#22201D" text-anchor="start">Residual: core hung with an output on AND the WWDT failing = stuck button until a PoE power cycle. The door does not move.</text>
+</svg>

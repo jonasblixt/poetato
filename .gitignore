@@ -1,10 +1,35 @@
-.west/
-bootloader/
-build/
-modules/
-tools/
-zephyr/
-hw/poetato/.review/
+# West / Zephyr workspace
+/.west/
+/bootloader/
+/build/
+/modules/
+/tools/
+/zephyr/
+
+# KiCad
 *.lck
-__pycache__
+*.kicad_prl
+*-backups/
+_autosave-*
+fp-info-cache
+*.bak
+*-bak
+*.step
 hw/poetato/.history/
+hw/poetato/.review/
+hw/**/production/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets / local config
+.env
+.claude/settings.local.json
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+*~

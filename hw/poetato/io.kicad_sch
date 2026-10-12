@@ -7471,7 +7471,7 @@
 		)
 		(uuid "1f015652-3b59-43c8-8a32-f8aa0f5dda05")
 	)
-	(text "Output 1 - 2: ≤ 30 V DC, ≤ 17 V AC rms (≤ 48 V peak-to-peak), 100mA, dry contact OptoMOS outputs"
+	(text "Output 1 - 2: ≤ 30 V DC, 100mA, dry contact OptoMOS outputs"
 		(exclude_from_sim no)
 		(at 352.552 140.462 0)
 		(effects

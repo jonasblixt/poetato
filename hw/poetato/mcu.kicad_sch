@@ -6551,7 +6551,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at 1.27 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6561,7 +6561,7 @@
 				)
 			)
 			(property "Value" "BAS70-04-G3-08"
-				(at 0 -2.54 0)
+				(at 9.906 -3.302 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6650,6 +6650,30 @@
 			(symbol "BAS70-04-G3-08_0_1"
 				(polyline
 					(pts
+						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
@@ -6662,7 +6686,30 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -6672,11 +6719,33 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "BAS70-04-G3-08_1_1"
+				(polyline
+					(pts
+						(xy 3.175 0.635) (xy 3.175 1.27) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 4.445 -1.27) (xy 4.445 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
+					(at -7.62 0 0)
+					(length 3.81)
 					(name "A"
 						(effects
 							(font
@@ -6693,9 +6762,27 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
+					(at 7.62 0 180)
+					(length 3.81)
 					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "common"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9073,6 +9160,210 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "res_chip_vishay_crcw:CRCW/R0402_127k0_1_63mW"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "127kΩ"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "127kΩ, 1%, 63mW, TCR ±100ppm/K, EIA 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Resistance" "127kΩ"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power" "63mW"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "T.C.R" "±100ppm/K"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "CRCW0402127KFKED"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CRCW/R0402_127k0_1_63mW_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CRCW/R0402_127k0_1_63mW_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "res_chip_vishay_crcw:CRCW/R0402_133k0_1_63mW"
 			(pin_numbers
 				(hide yes)
@@ -10462,210 +10753,6 @@
 				)
 			)
 			(symbol "CRCW/R0402_464R0_1_63mW_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "res_chip_vishay_crcw:CRCW/R0402_47k0_1_63mW"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "47kΩ"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "47kΩ, 1%, 63mW, TCR ±100ppm/K, EIA 0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Resistance" "47kΩ"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Power" "63mW"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "T.C.R" "±100ppm/K"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part Number" "CRCW040247K0FKED"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Resistor_SMD:R_0402_1005Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CRCW/R0402_47k0_1_63mW_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CRCW/R0402_47k0_1_63mW_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -12369,7 +12456,7 @@
 	)
 	(text "RTC & SRAM Backup power (>= 8h)"
 		(exclude_from_sim no)
-		(at 273.812 227.838 0)
+		(at 255.524 227.076 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12842,6 +12929,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83db2b79-a894-44be-a042-ff6155c06044")
+	)
+	(junction
+		(at 259.08 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "872b6877-bf48-43e3-9209-bac8c9475e02")
 	)
 	(junction
 		(at 223.52 66.04)
@@ -13521,6 +13614,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 232.41) (xy 266.7 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ba724d-0c48-4dbe-b95d-c64a0b83188c")
+	)
+	(wire
+		(pts
 			(xy 360.68 129.54) (xy 360.68 134.62)
 		)
 		(stroke
@@ -13648,6 +13751,16 @@
 			(type default)
 		)
 		(uuid "12ac0850-d4b3-4d10-b502-58b3e7b4bd3a")
+	)
+	(wire
+		(pts
+			(xy 259.08 232.41) (xy 266.7 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d7123a-bfce-480a-8b0b-6486730c0234")
 	)
 	(wire
 		(pts
@@ -13871,7 +13984,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 241.3) (xy 251.46 238.76)
+			(xy 251.46 238.76) (xy 251.46 241.3)
 		)
 		(stroke
 			(width 0)
@@ -15168,6 +15281,16 @@
 			(type default)
 		)
 		(uuid "737e2898-dd78-4d9f-b130-3db4ddb4b603")
+	)
+	(wire
+		(pts
+			(xy 259.08 232.41) (xy 259.08 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f828fe-52bc-4c10-9f4c-1e9b9e4daecc")
 	)
 	(wire
 		(pts
@@ -17118,6 +17241,16 @@
 			(type default)
 		)
 		(uuid "f23be60a-ed0f-40d9-a6a1-39ee98ef6a6a")
+	)
+	(wire
+		(pts
+			(xy 259.08 233.68) (xy 259.08 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2559ab0-4045-40e5-87e8-0cd4f288d95b")
 	)
 	(wire
 		(pts
@@ -24367,110 +24500,6 @@
 		)
 	)
 	(symbol
-		(lib_id "diode_misc:BAS70-04-G3-08")
-		(at 251.46 234.95 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ab47b6f-de50-451a-bc66-d8494a99abf4")
-		(property "Reference" "D17"
-			(at 254 233.9974 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BAS70-04-G3-08"
-			(at 254 236.5374 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 239.268 236.728 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Small Signal Schottky Diode, 200mA, Ir ~50nA"
-			(at 234.442 240.284 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 259.842 249.682 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "BAS70-04-G3-08"
-			(at 262.382 243.078 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "02f2c744-02e6-41dd-9a12-572e14ea2da7")
-		)
-		(pin "1"
-			(uuid "7dd03d5c-a1b1-4a45-909c-6384d94882b5")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 264.16 139.7 180)
 		(unit 1)
@@ -25550,7 +25579,7 @@
 	)
 	(symbol
 		(lib_id "power:PxVx")
-		(at 251.46 231.14 0)
+		(at 259.08 231.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25561,7 +25590,7 @@
 		(fields_autoplaced yes)
 		(uuid "58fd01a7-2691-4506-b66b-fb45f0dec18a")
 		(property "Reference" "#PWR077"
-			(at 251.46 227.584 0)
+			(at 259.08 227.584 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25572,7 +25601,7 @@
 			)
 		)
 		(property "Value" "P3V3"
-			(at 252.73 229.87 0)
+			(at 260.35 229.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25583,7 +25612,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 231.14 0)
+			(at 259.08 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25593,7 +25622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 231.14 0)
+			(at 259.08 231.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25603,7 +25632,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 231.14 0)
+			(at 259.08 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27916,6 +27945,110 @@
 		)
 	)
 	(symbol
+		(lib_id "diode_misc:BAS70-04-G3-08")
+		(at 259.08 238.76 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "77525ea8-3bf1-4f5e-9302-e74fc018cf82")
+		(property "Reference" "D17"
+			(at 271.272 233.172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAS70-04-G3-08"
+			(at 278.384 235.712 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 260.858 250.952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Small Signal Schottky Diode, 200mA, Ir ~50nA"
+			(at 264.414 255.778 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 273.812 230.378 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "BAS70-04-G3-08"
+			(at 267.208 227.838 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76b8f308-da4e-447b-bcc1-8a079b2ff1aa")
+		)
+		(pin "2"
+			(uuid "a1661e97-0136-4f4a-8ab5-c92520da2f8d")
+		)
+		(pin "3"
+			(uuid "8ffeefff-0016-40aa-a492-04e36a035d4f")
+		)
+		(instances
+			(project "poetato"
+				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:TP")
 		(at 297.18 57.15 0)
 		(unit 1)
@@ -29328,154 +29461,6 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
 					(reference "TP19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "res_chip_vishay_crcw:CRCW/R0402_47k0_1_63mW")
-		(at 360.68 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87f807c6-8c38-4ff3-8b60-eec465b5ff21")
-		(property "Reference" "R86"
-			(at 363.22 121.9199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47kΩ"
-			(at 363.22 124.4599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 358.902 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "47kΩ, 1%, 63mW, TCR ±100ppm/K, EIA 0402"
-			(at 360.68 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resistance" "47kΩ"
-			(at 360.68 125.73 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "63mW"
-			(at 363.22 126.9999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 363.22 129.5399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "T.C.R" "±100ppm/K"
-			(at 360.68 125.73 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 360.68 125.73 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "CRCW040247K0FKED"
-			(at 360.68 125.73 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "12e98cd4-35c2-4da9-9454-b32197cdc9bb")
-		)
-		(pin "1"
-			(uuid "fdbad039-e2e5-46c9-8cd5-451790a6bedf")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -36763,6 +36748,154 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
 					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "res_chip_vishay_crcw:CRCW/R0402_127k0_1_63mW")
+		(at 360.68 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5e91417-8b97-4d9e-9083-4b30e52b445c")
+		(property "Reference" "R23"
+			(at 363.22 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "127kΩ"
+			(at 363.22 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 358.902 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 360.68 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "127kΩ, 1%, 63mW, TCR ±100ppm/K, EIA 0402"
+			(at 360.68 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "127kΩ"
+			(at 360.68 125.73 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "63mW"
+			(at 363.22 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 363.22 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "T.C.R" "±100ppm/K"
+			(at 360.68 125.73 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 360.68 125.73 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW0402127KFKED"
+			(at 360.68 125.73 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a373ce9-7efa-44ce-9921-bda67a740665")
+		)
+		(pin "2"
+			(uuid "f4e4872f-0547-4d05-8957-2849fe1df7a3")
+		)
+		(instances
+			(project "poetato"
+				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
+					(reference "R23")
 					(unit 1)
 				)
 			)

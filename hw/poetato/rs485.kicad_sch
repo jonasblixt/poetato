@@ -5324,7 +5324,7 @@
 		(at 96.52 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5827de2c-ff2a-4ee7-a088-e45825439621")
+		(uuid "587f4f27-812d-486f-88c5-0d6eac8c38b6")
 	)
 	(junction
 		(at 148.59 137.16)
@@ -5634,16 +5634,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 162.56) (xy 96.52 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38ff7b6c-e8f5-4011-adf5-129674568704")
-	)
-	(wire
-		(pts
 			(xy 232.41 182.88) (xy 236.22 182.88)
 		)
 		(stroke
@@ -5691,16 +5681,6 @@
 			(type default)
 		)
 		(uuid "41aef020-1caf-4ba6-a44d-99415cf85196")
-	)
-	(wire
-		(pts
-			(xy 96.52 179.07) (xy 96.52 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "435b06f5-62be-4107-a020-b5cb112b2602")
 	)
 	(wire
 		(pts
@@ -5944,6 +5924,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 162.56) (xy 96.52 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78ffefe2-eefa-4305-ae77-0e379785804b")
+	)
+	(wire
+		(pts
 			(xy 327.66 173.99) (xy 327.66 176.53)
 		)
 		(stroke
@@ -6131,6 +6121,16 @@
 			(type default)
 		)
 		(uuid "94e4a7d8-bf45-4405-8971-4d4a3f58ef55")
+	)
+	(wire
+		(pts
+			(xy 82.55 160.02) (xy 82.55 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e2e339-1870-411b-ad9c-b98e75128c66")
 	)
 	(wire
 		(pts
@@ -6511,6 +6511,16 @@
 			(type default)
 		)
 		(uuid "f518c9d8-2e29-465a-9655-a09b803367d2")
+	)
+	(wire
+		(pts
+			(xy 82.55 148.59) (xy 82.55 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ae6479-43c5-43a6-9df2-d9db769b49ae")
 	)
 	(wire
 		(pts
@@ -7289,82 +7299,6 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
 					(reference "R77")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 96.52 179.07 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d170b88-fab4-4cc9-8b01-b78cb272e58c")
-		(property "Reference" "#PWR0176"
-			(at 96.52 182.626 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 179.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 179.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c24d6576-47ee-4abc-a69b-d2b91f6a2739")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "#PWR0176")
 					(unit 1)
 				)
 			)
@@ -8518,7 +8452,7 @@
 	)
 	(symbol
 		(lib_id "res_chip_vishay_crcw:CRCW/R0402_100k0_1_63mW")
-		(at 96.52 173.99 0)
+		(at 82.55 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8529,7 +8463,7 @@
 		(fields_autoplaced yes)
 		(uuid "3419be29-d21f-4c74-89fd-1037cec9adb8")
 		(property "Reference" "R8"
-			(at 99.06 170.1799 0)
+			(at 85.09 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8540,7 +8474,7 @@
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 99.06 172.7199 0)
+			(at 85.09 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8551,7 +8485,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 94.742 173.99 90)
+			(at 80.772 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8562,7 +8496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 173.99 0)
+			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8573,7 +8507,7 @@
 			)
 		)
 		(property "Description" "100kΩ, 1%, 63mW, TCR ±100ppm/K, EIA 0402"
-			(at 96.52 173.99 0)
+			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8584,7 +8518,7 @@
 			)
 		)
 		(property "Resistance" "100kΩ"
-			(at 96.52 173.99 0)
+			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8595,7 +8529,7 @@
 			)
 		)
 		(property "Power" "63mW"
-			(at 99.06 175.2599 0)
+			(at 85.09 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8606,7 +8540,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 99.06 177.7999 0)
+			(at 85.09 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8617,7 +8551,7 @@
 			)
 		)
 		(property "T.C.R" "±100ppm/K"
-			(at 96.52 173.99 0)
+			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8628,7 +8562,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 96.52 173.99 0)
+			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8639,7 +8573,7 @@
 			)
 		)
 		(property "Part Number" "CRCW0402100KFKED"
-			(at 96.52 173.99 0)
+			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8883,6 +8817,83 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
 					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PxVx")
+		(at 82.55 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "552c47c7-a1a9-40c3-bf8e-a0ee8ab8b849")
+		(property "Reference" "#PWR0176"
+			(at 82.55 145.034 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Value" "P3V3"
+			(at 83.82 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a51aa2c9-feb3-4018-a9b9-1045d48e09fd")
+		)
+		(instances
+			(project "poetato"
+				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
+					(reference "#PWR0176")
 					(unit 1)
 				)
 			)

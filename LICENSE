@@ -1,0 +1,35 @@
+PoEtato - licensing overview
+
+Copyright (c) 2026 Jonas Blixt <jonas@blxt.se>
+
+This repository contains material under more than one licence. A file's own
+SPDX-License-Identifier header, where present, takes precedence over this
+overview. Full licence texts are in the LICENSES/ directory.
+
+Hardware: CERN-OHL-S-2.0
+    hw/      schematics, PCB, symbols, footprints and project files
+    doc/     hardware documentation, diagrams and mechanical drawings
+    Text:    LICENSES/CERN-OHL-S-2.0.txt
+    Source location: https://github.com/jonasblixt/poetato
+
+    This source describes Open Hardware and is licensed under the
+    CERN-OHL-S v2. You may redistribute and modify this source and make
+    products using it under the terms of the CERN-OHL-S v2
+    (https://ohwr.org/cern_ohl_s_v2.txt). This source is distributed
+    WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY,
+    SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see
+    the CERN-OHL-S v2 for applicable conditions.
+
+Firmware: Apache-2.0
+    app/     firmware, built on Zephyr (also Apache-2.0)
+    Text:    app/LICENSE (same as LICENSES/Apache-2.0.txt)
+
+    Files written for PoEtato carry "Copyright (c) 2026 Jonas Blixt" and
+    "SPDX-License-Identifier: Apache-2.0". Files that came from the Analog
+    Devices / Zephyr sample keep their Analog Devices copyright notice;
+    they are under the same licence.
+
+Third-party material: not covered
+    datasheets/  manufacturer datasheets, application notes and drawings.
+                 Copyright of their respective owners. Included for
+                 reference only; none of the licences above apply to them.

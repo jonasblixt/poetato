@@ -5194,6 +5194,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TP30/TP32 For switch node measurement"
+		(exclude_from_sim no)
+		(at 271.018 164.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "752a2237-e368-4404-96bd-7ae6bbdaae91")
+	)
 	(text "These share the same light pipe"
 		(exclude_from_sim no)
 		(at 123.19 151.892 0)
@@ -5297,13 +5307,7 @@
 		(uuid "4540f161-21eb-4939-a56b-6e12c4225d63")
 	)
 	(junction
-		(at 209.55 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4de95ad8-a5fb-4965-8174-e46a647d08ba")
-	)
-	(junction
-		(at 219.71 182.88)
+		(at 212.09 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5201270e-fbd4-4679-bc6f-01eb77034149")
@@ -5387,6 +5391,12 @@
 		(uuid "ad2d9a91-d56e-41eb-8124-7585cf7b5bec")
 	)
 	(junction
+		(at 203.2 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b918d206-18f4-4863-9e29-f0532bd8cdf3")
+	)
+	(junction
 		(at 196.85 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5399,7 +5409,7 @@
 		(uuid "c749b6e0-8cbd-4916-a5e3-116802cd62b8")
 	)
 	(junction
-		(at 232.41 182.88)
+		(at 224.79 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7dc74d1-9daa-45e0-9e0c-e9e16f646fcb")
@@ -5584,7 +5594,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 182.88) (xy 219.71 189.23)
+			(xy 212.09 182.88) (xy 212.09 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5634,16 +5644,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 182.88) (xy 236.22 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c498214-0629-4107-ad44-95c6c6603b33")
-	)
-	(wire
-		(pts
 			(xy 196.85 209.55) (xy 209.55 209.55)
 		)
 		(stroke
@@ -5674,7 +5674,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 182.88) (xy 232.41 189.23)
+			(xy 224.79 182.88) (xy 224.79 189.23)
 		)
 		(stroke
 			(width 0)
@@ -6054,16 +6054,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 182.88) (xy 232.41 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8da04c0b-183a-4a50-80e0-71bf23a51d60")
-	)
-	(wire
-		(pts
 			(xy 148.59 134.62) (xy 148.59 137.16)
 		)
 		(stroke
@@ -6074,7 +6064,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 182.88) (xy 246.38 182.88)
+			(xy 237.49 182.88) (xy 246.38 182.88)
 		)
 		(stroke
 			(width 0)
@@ -6334,13 +6324,23 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 182.88) (xy 219.71 182.88)
+			(xy 196.85 182.88) (xy 203.2 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cf1b24e4-89e5-4f80-979f-65be6cd39f0f")
+	)
+	(wire
+		(pts
+			(xy 203.2 182.88) (xy 229.87 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf67bc15-73cb-45a9-8000-b4df8d4a1b53")
 	)
 	(wire
 		(pts
@@ -6431,16 +6431,6 @@
 			(type default)
 		)
 		(uuid "e4b40c76-9aca-4256-90c4-1ee8ccb1ed4f")
-	)
-	(wire
-		(pts
-			(xy 209.55 182.88) (xy 209.55 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4f869dd-fe41-4345-b6fe-96ad7b4db593")
 	)
 	(wire
 		(pts
@@ -6562,6 +6552,26 @@
 		)
 		(uuid "1dd439f2-79b4-4e5f-847a-91c597fdb1fb")
 	)
+	(label "P5V_RS485_FB"
+		(at 228.6 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e114e6a-c44c-42e5-9d7d-8a0053800a7c")
+	)
+	(label "P5V_RS485_LX"
+		(at 241.3 182.88 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bfa54eb-0592-434f-a5e6-2f3adcc41a41")
+	)
 	(label "P5V_RS485"
 		(at 185.42 129.54 0)
 		(effects
@@ -6571,6 +6581,16 @@
 			(justify left bottom)
 		)
 		(uuid "43d7fe5a-8df2-49a5-86cf-94d681858f3c")
+	)
+	(label "P5V_RS485_FB_1"
+		(at 198.12 209.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b9b020f-2360-42a2-b30d-1f71de7aa273")
 	)
 	(hierarchical_label "RS485_B"
 		(shape bidirectional)
@@ -6747,7 +6767,7 @@
 	)
 	(symbol
 		(lib_id "cap_mlcc_murata_GRM:GRM/C0805_22u_16V_X5R_20%")
-		(at 232.41 193.04 0)
+		(at 224.79 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6758,7 +6778,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d5b4155-7e91-44bf-8910-9d2d9c8500ed")
 		(property "Reference" "C76"
-			(at 236.22 189.2299 0)
+			(at 228.6 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6769,7 +6789,7 @@
 			)
 		)
 		(property "Value" "${Capacitance}"
-			(at 236.22 191.7699 0)
+			(at 228.6 191.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6780,7 +6800,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 233.3752 196.85 0)
+			(at 225.7552 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6791,7 +6811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 193.04 0)
+			(at 224.79 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6802,7 +6822,7 @@
 			)
 		)
 		(property "Description" "22.0uF, 16V, X5R, Tol: 20%"
-			(at 232.41 193.04 0)
+			(at 224.79 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6813,7 +6833,7 @@
 			)
 		)
 		(property "Capacitance" "22.0uF"
-			(at 232.41 193.04 0)
+			(at 224.79 193.04 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -6824,7 +6844,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 236.22 194.3099 0)
+			(at 228.6 194.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6835,7 +6855,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 236.22 196.8499 0)
+			(at 228.6 196.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6846,7 +6866,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 232.41 193.04 0)
+			(at 224.79 193.04 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -6857,7 +6877,7 @@
 			)
 		)
 		(property "Part Number" "GRM21BR61C226ME44"
-			(at 232.41 193.04 0)
+			(at 224.79 193.04 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10028,7 +10048,7 @@
 	)
 	(symbol
 		(lib_id "ind_power_vishay_ihlp:IHLP/L2020_10u_20_2A5")
-		(at 240.03 182.88 90)
+		(at 233.68 182.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10039,7 +10059,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e0d09bc-b8c0-48b0-8570-4463ac0b9913")
 		(property "Reference" "L3"
-			(at 240.03 175.26 90)
+			(at 233.68 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10049,7 +10069,7 @@
 			)
 		)
 		(property "Value" "10µH"
-			(at 240.03 177.8 90)
+			(at 233.68 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10059,7 +10079,7 @@
 			)
 		)
 		(property "Footprint" "Jonas:IHLP2020CZ"
-			(at 240.03 182.88 0)
+			(at 233.68 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10070,7 +10090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 182.88 0)
+			(at 233.68 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10081,7 +10101,7 @@
 			)
 		)
 		(property "Description" "10µH, ±20%, I=2.5A, Isat=4A, DCR=158mOhm Max, SRF=N/A, -55C to 125C, series CZ, EIA 2020"
-			(at 240.03 182.88 0)
+			(at 233.68 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10092,7 +10112,7 @@
 			)
 		)
 		(property "Inductance" "10µH"
-			(at 240.03 182.88 0)
+			(at 233.68 182.88 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10103,7 +10123,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 240.03 180.34 90)
+			(at 233.68 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10113,7 +10133,7 @@
 			)
 		)
 		(property "Rated Current" "2.5A"
-			(at 240.03 182.88 0)
+			(at 233.68 182.88 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10124,7 +10144,7 @@
 			)
 		)
 		(property "Saturation Current" "4A"
-			(at 240.03 182.88 0)
+			(at 233.68 182.88 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10135,7 +10155,7 @@
 			)
 		)
 		(property "DCR" "158mOhm Max"
-			(at 240.03 182.88 0)
+			(at 233.68 182.88 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10146,7 +10166,7 @@
 			)
 		)
 		(property "SRF" "N/A"
-			(at 240.03 182.88 0)
+			(at 233.68 182.88 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10157,7 +10177,7 @@
 			)
 		)
 		(property "Temp Range" "-55C to 125C"
-			(at 240.03 182.88 0)
+			(at 233.68 182.88 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10168,7 +10188,7 @@
 			)
 		)
 		(property "Series" "CZ"
-			(at 240.03 182.88 0)
+			(at 233.68 182.88 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10179,7 +10199,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 240.03 182.88 0)
+			(at 233.68 182.88 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10190,7 +10210,7 @@
 			)
 		)
 		(property "Part Number" "IHLP2020CZER100M01"
-			(at 240.03 182.88 0)
+			(at 233.68 182.88 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10506,7 +10526,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 196.85 180)
+		(at 224.79 196.85 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10517,7 +10537,7 @@
 		(fields_autoplaced yes)
 		(uuid "87167512-6f24-4fa7-91ae-ce59bd64ba2c")
 		(property "Reference" "#PWR0126"
-			(at 232.41 200.406 0)
+			(at 224.79 200.406 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10528,7 +10548,7 @@
 			)
 		)
 		(property "Value" "GND_FIELD"
-			(at 232.41 199.39 0)
+			(at 224.79 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10538,7 +10558,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 196.85 0)
+			(at 224.79 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10548,7 +10568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 196.85 0)
+			(at 224.79 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10558,7 +10578,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 232.41 196.85 0)
+			(at 224.79 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11227,7 +11247,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 196.85 180)
+		(at 212.09 196.85 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11238,7 +11258,7 @@
 		(fields_autoplaced yes)
 		(uuid "99749a24-a86e-4788-bcbd-5aa73b75c162")
 		(property "Reference" "#PWR0125"
-			(at 219.71 200.406 0)
+			(at 212.09 200.406 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11249,7 +11269,7 @@
 			)
 		)
 		(property "Value" "GND_FIELD"
-			(at 219.71 199.39 0)
+			(at 212.09 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11259,7 +11279,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 196.85 0)
+			(at 212.09 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11269,7 +11289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 196.85 0)
+			(at 212.09 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11279,7 +11299,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 219.71 196.85 0)
+			(at 212.09 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11681,7 +11701,7 @@
 	)
 	(symbol
 		(lib_id "power:TP")
-		(at 209.55 185.42 180)
+		(at 203.2 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11691,7 +11711,7 @@
 		(dnp no)
 		(uuid "a72fb7da-bc9f-4672-846d-7dde077856c3")
 		(property "Reference" "TP29"
-			(at 209.55 189.23 0)
+			(at 203.2 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11701,7 +11721,7 @@
 			)
 		)
 		(property "Value" "TP"
-			(at 212.09 184.15 0)
+			(at 200.66 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11712,7 +11732,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 211.582 179.832 0)
+			(at 201.168 188.468 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11723,7 +11743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 186.69 0)
+			(at 205.74 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11733,7 +11753,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 209.55 185.42 0)
+			(at 203.2 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11744,7 +11764,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 209.55 185.42 0)
+			(at 203.2 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11755,7 +11775,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 209.55 185.42 0)
+			(at 203.2 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12257,7 +12277,7 @@
 	)
 	(symbol
 		(lib_id "cap_mlcc_murata_GRM:GRM/C0805_22u_16V_X5R_20%")
-		(at 219.71 193.04 0)
+		(at 212.09 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12268,7 +12288,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce69c0da-1350-4033-8d79-76832fd0f6f1")
 		(property "Reference" "C77"
-			(at 223.52 189.2299 0)
+			(at 215.9 189.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12279,7 +12299,7 @@
 			)
 		)
 		(property "Value" "${Capacitance}"
-			(at 223.52 191.7699 0)
+			(at 215.9 191.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12290,7 +12310,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 220.6752 196.85 0)
+			(at 213.0552 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12301,7 +12321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 193.04 0)
+			(at 212.09 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12312,7 +12332,7 @@
 			)
 		)
 		(property "Description" "22.0uF, 16V, X5R, Tol: 20%"
-			(at 219.71 193.04 0)
+			(at 212.09 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12323,7 +12343,7 @@
 			)
 		)
 		(property "Capacitance" "22.0uF"
-			(at 219.71 193.04 0)
+			(at 212.09 193.04 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -12334,7 +12354,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 223.52 194.3099 0)
+			(at 215.9 194.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12345,7 +12365,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 223.52 196.8499 0)
+			(at 215.9 196.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12356,7 +12376,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 219.71 193.04 0)
+			(at 212.09 193.04 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -12367,7 +12387,7 @@
 			)
 		)
 		(property "Part Number" "GRM21BR61C226ME44"
-			(at 219.71 193.04 0)
+			(at 212.09 193.04 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)

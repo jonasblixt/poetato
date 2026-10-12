@@ -17316,6 +17316,16 @@
 		)
 		(uuid "651d038a-323b-4d3b-b6e2-e4ac7c0ca58f")
 	)
+	(label "P12V0_FILTER"
+		(at 46.99 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "765e5d35-233e-407f-a515-d91fcf1f0020")
+	)
 	(label "ETH_LED0_LINK_N"
 		(at 293.37 85.09 180)
 		(effects
@@ -17496,6 +17506,16 @@
 		)
 		(uuid "d2d2dd0b-516b-4275-9a97-3b3835370296")
 	)
+	(label "POE_VDD"
+		(at 227.33 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3c1fa3c-8141-4d24-b51f-40fe183fcdfa")
+	)
 	(label "POE_VPOS"
 		(at 207.01 186.69 0)
 		(effects
@@ -17505,6 +17525,16 @@
 			(justify left bottom)
 		)
 		(uuid "d4f1461d-c4af-4d08-b8d6-d29d4e457520")
+	)
+	(label "P12V0_FB_1"
+		(at 55.88 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e07ae55a-33ef-4acf-a83f-f7b381579298")
 	)
 	(label "ETH_TX_P"
 		(at 226.06 50.8 0)
@@ -17545,6 +17575,16 @@
 			(justify right bottom)
 		)
 		(uuid "eaf1f1fa-635c-4830-af0c-2450298771f9")
+	)
+	(label "POE_EROUT"
+		(at 161.29 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2fcc075-2560-49dd-8797-157057badeb4")
 	)
 	(label "ETH_RST_N"
 		(at 92.71 54.61 0)

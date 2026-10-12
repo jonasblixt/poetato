@@ -3308,7 +3308,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "< 20ms TtT @ 2.4A"
+	(text "< 20ms TtT @ 2A"
 		(exclude_from_sim no)
 		(at 164.846 93.472 0)
 		(effects
@@ -3328,7 +3328,7 @@
 		)
 		(uuid "454312ce-6868-4a2e-8c7d-8cce6c0e8ea9")
 	)
-	(text "2.4A peak @ 24V short"
+	(text "1.5-2.1 A peak @ 24V short"
 		(exclude_from_sim no)
 		(at 147.32 90.678 0)
 		(effects

@@ -19,7 +19,7 @@
 <text x="708.0" y="166.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">internal flash</text>
 <text x="708.0" y="182.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">updatable</text>
 <rect x="868" y="108" width="232" height="92" rx="6" fill="#FFFFFF" stroke="#3E7C4F" stroke-width="1.4"/>
-<text x="984.0" y="134.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">SE050</text>
+<text x="984.0" y="134.0" font-size="13" font-weight="600" fill="#22201D" text-anchor="middle">SE051</text>
 <text x="984.0" y="150.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">private-key custody</text>
 <text x="984.0" y="166.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">key never leaves</text>
 <text x="984.0" y="182.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">TLS provisioning</text>
@@ -58,5 +58,5 @@
 <text x="58" y="524" font-size="11.5" fill="#6E6862" text-anchor="start">punchboot-tools talks over USB, so USB is a production and recovery interface here, not only a debug port.</text>
 <text x="58" y="540" font-size="11.5" fill="#6E6862" text-anchor="start">USB1 HS (pins 40-43) with a 24 MHz crystal; the ISP boot pin stays reachable so the ROM ISP can be forced if punchboot is bricked.</text>
 <text x="58" y="556" font-size="11.5" fill="#6E6862" text-anchor="start">Keep at least one board with the lifecycle not advanced for development - budget the extra board up front.</text>
-<text x="58" y="572" font-size="11.5" fill="#6E6862" text-anchor="start">Anti-rollback counter belongs in MCU OTP, not the SE050: a boot-time I2C dependency adds a failure mode for no real gain.</text>
+<text x="58" y="572" font-size="11.5" fill="#6E6862" text-anchor="start">Anti-rollback counter belongs in MCU OTP, not the SE051: a boot-time I2C dependency adds a failure mode for no real gain.</text>
 </svg>

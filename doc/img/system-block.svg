@@ -2,7 +2,7 @@
 <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6E6862"/></marker></defs>
 <rect width="1240" height="650" fill="#FAF9F7"/>
 <text x="30" y="36" font-size="20" font-weight="600" fill="#22201D">PoEtato - System Block Diagram</text>
-<text x="30" y="58" font-size="13" fill="#6E6862">PoE only - MCX N247, 3 isolated inputs, 2 OptoMOS outputs, RS-485, SE050 key store</text>
+<text x="30" y="58" font-size="13" fill="#6E6862">PoE only - MCX N247, 3 isolated inputs, 2 OptoMOS outputs, RS-485, SE051 key store</text>
 <rect x="28" y="78" width="222" height="410" rx="10" fill="#F3EFF8" stroke="#6B4E9E" stroke-width="1.2" stroke-opacity="0.45"/>
 <text x="42" y="100" font-size="11" font-weight="700" letter-spacing="1.1" fill="#6B4E9E">ETHERNET / PSE SIDE</text>
 <rect x="286" y="78" width="414" height="410" rx="10" fill="#EAF1F8" stroke="#2C6BAA" stroke-width="1.2" stroke-opacity="0.45"/>
@@ -49,7 +49,7 @@
 <text x="591.0" y="190.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">HLQFP100, -40..+125 C</text>
 <text x="591.0" y="206.0" font-size="11" font-weight="400" fill="#6E6862" text-anchor="middle">2 MB flash / 512 KB SRAM</text>
 <rect x="498" y="258" width="186" height="48" rx="6" fill="#FFFFFF" stroke="#2C6BAA" stroke-width="1.4"/>
-<text x="591.0" y="278.0" font-size="12" font-weight="600" fill="#22201D" text-anchor="middle">SE050C2 secure element</text>
+<text x="591.0" y="278.0" font-size="12" font-weight="600" fill="#22201D" text-anchor="middle">SE051C2 secure element</text>
 <text x="591.0" y="294.0" font-size="10" font-weight="400" fill="#6E6862" text-anchor="middle">I2C 0x48, own bus</text>
 <rect x="498" y="320" width="186" height="44" rx="6" fill="#FFFFFF" stroke="#2C6BAA" stroke-width="1.4"/>
 <text x="591.0" y="346.0" font-size="12" font-weight="600" fill="#22201D" text-anchor="middle">QSPI (optional, data only)</text>

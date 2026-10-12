@@ -23,7 +23,7 @@
 <rect x="796.4" y="409.9" width="8.6" height="150.1" fill="#B33A3A" fill-opacity="0.75" stroke="#B33A3A" stroke-width="0.8"/>
 <rect x="700.3" y="409.9" width="8.6" height="150.1" fill="#B33A3A" fill-opacity="0.75" stroke="#B33A3A" stroke-width="0.8"/>
 <rect x="604.2" y="409.9" width="200.9" height="8.6" fill="#B33A3A" fill-opacity="0.75" stroke="#B33A3A" stroke-width="0.8"/>
-<text x="407.6" y="360.2" font-size="7.5" fill="#B33A3A" text-anchor="middle" font-weight="400">ISO1228</text>
+<text x="407.6" y="360.2" font-size="7.5" fill="#B33A3A" text-anchor="middle" font-weight="400">ISO1211 x3</text>
 <text x="521.0" y="360.2" font-size="7.5" fill="#B33A3A" text-anchor="middle" font-weight="400">ISO3082</text>
 <text x="229.4" y="365.6" font-size="7.5" fill="#B33A3A" text-anchor="middle" font-weight="400">PD flyback</text>
 <rect x="94.4" y="446.6" width="86.4" height="113.4" fill="#FFFFFF" fill-opacity="1.0" stroke="#6B4E9E" stroke-width="1.2"/>
@@ -58,25 +58,23 @@
 <circle cx="186.2" cy="344.0" r="2.1" fill="#2C6BAA"/>
 <text x="148.4" y="322.4" font-size="8" fill="#2C6BAA" text-anchor="middle" font-weight="400">system</text>
 <rect x="342.8" y="187.4" width="91.8" height="91.8" fill="#FFFFFF" fill-opacity="1.0" stroke="#2C6BAA" stroke-width="1.0" stroke-dasharray="3 2"/>
-<text x="388.7" y="239.8" font-size="7.5" fill="#2C6BAA" text-anchor="middle" font-weight="400">RT1021</text>
+<text x="388.7" y="239.8" font-size="7.5" fill="#2C6BAA" text-anchor="middle" font-weight="400">MCX N247</text>
 <rect x="467.0" y="214.4" width="64.8" height="54.0" fill="#FFFFFF" fill-opacity="1.0" stroke="#2C6BAA" stroke-width="1.0" stroke-dasharray="3 2"/>
 <text x="499.4" y="247.9" font-size="7.5" fill="#2C6BAA" text-anchor="middle" font-weight="400">PHY</text>
 <rect x="558.8" y="225.2" width="54.0" height="43.2" fill="#FFFFFF" fill-opacity="1.0" stroke="#2C6BAA" stroke-width="1.0" stroke-dasharray="3 2"/>
 <text x="585.8" y="253.3" font-size="7.5" fill="#2C6BAA" text-anchor="middle" font-weight="400">flash</text>
 <rect x="558.8" y="160.4" width="59.4" height="43.2" fill="#FFFFFF" fill-opacity="1.0" stroke="#2C6BAA" stroke-width="1.0" stroke-dasharray="3 2"/>
-<text x="588.5" y="188.5" font-size="7.5" fill="#2C6BAA" text-anchor="middle" font-weight="400">SE050</text>
+<text x="588.5" y="188.5" font-size="7.5" fill="#2C6BAA" text-anchor="middle" font-weight="400">SE051</text>
 <rect x="105.2" y="192.8" width="81.0" height="64.8" fill="#FFFFFF" fill-opacity="1.0" stroke="#2C6BAA" stroke-width="1.0" stroke-dasharray="3 2"/>
 <text x="145.7" y="231.7" font-size="7.5" fill="#2C6BAA" text-anchor="middle" font-weight="400">12V rail</text>
 <rect x="213.2" y="203.6" width="75.6" height="54.0" fill="#FFFFFF" fill-opacity="1.0" stroke="#2C6BAA" stroke-width="1.0" stroke-dasharray="3 2"/>
 <text x="251.0" y="237.1" font-size="7.5" fill="#2C6BAA" text-anchor="middle" font-weight="400">bucks</text>
-<rect x="656.0" y="230.6" width="75.6" height="48.6" fill="#FFFFFF" fill-opacity="1.0" stroke="#B33A3A" stroke-width="1.0" stroke-dasharray="3 2"/>
-<text x="693.8" y="261.4" font-size="7.5" fill="#B33A3A" text-anchor="middle" font-weight="400">DO_EN</text>
 <rect x="197.0" y="468.2" width="70.2" height="64.8" fill="#FFFFFF" fill-opacity="1.0" stroke="#6B4E9E" stroke-width="1.0" stroke-dasharray="3 2"/>
 <text x="232.1" y="507.1" font-size="7.5" fill="#6B4E9E" text-anchor="middle" font-weight="400">Si3402</text>
 <rect x="197.0" y="392.6" width="70.2" height="64.8" fill="#FFFFFF" fill-opacity="1.0" stroke="#6B4E9E" stroke-width="1.0" stroke-dasharray="3 2"/>
 <text x="232.1" y="431.5" font-size="7.5" fill="#6B4E9E" text-anchor="middle" font-weight="400">flyback</text>
 <rect x="342.8" y="441.2" width="108.0" height="48.6" fill="#FFFFFF" fill-opacity="1.0" stroke="#B5751A" stroke-width="1.0" stroke-dasharray="3 2"/>
-<text x="396.8" y="472.0" font-size="7.5" fill="#B5751A" text-anchor="middle" font-weight="400">ISO1228</text>
+<text x="396.8" y="472.0" font-size="7.5" fill="#B5751A" text-anchor="middle" font-weight="400">ISO1211 x3</text>
 <rect x="472.4" y="441.2" width="86.4" height="48.6" fill="#FFFFFF" fill-opacity="1.0" stroke="#B5751A" stroke-width="1.0" stroke-dasharray="3 2"/>
 <text x="515.6" y="472.0" font-size="7.5" fill="#B5751A" text-anchor="middle" font-weight="400">ISO3082</text>
 <rect x="483.2" y="381.8" width="75.6" height="48.6" fill="#FFFFFF" fill-opacity="1.0" stroke="#B5751A" stroke-width="1.0" stroke-dasharray="3 2"/>

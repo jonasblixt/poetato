@@ -24,7 +24,7 @@ Implementing Regulation (EU) 2025/2392 describes Annex III Class I item 17, *sma
 - **Marketed as a generic DIN-rail PoE I/O controller / Modbus–MQTT gateway → default category.** Self-assessment (Module A).
 - As of mid-2026, **no CRA harmonised standard is cited in the OJEU**; the first citations are expected in 2027. A Class I product launching before then effectively needs a notified body.
 - Intended purpose, datasheet and marketing wording decide the class. Write the intended-use statement early and keep it consistent.
-- Integrating an important/critical component (SE050, MCU with security functions) does not change our class. We still owe due diligence on components (Art. 13(5)), including Zephyr, mbedTLS and Plug & Trust.
+- Integrating an important/critical component (SE051, MCU with security functions) does not change our class. We still owe due diligence on components (Art. 13(5)), including Zephyr, mbedTLS and Plug & Trust.
 
 ---
 
@@ -51,7 +51,7 @@ None of these gives presumption of conformity under the CRA today. They count as
 | SEC-02 | Anti-rollback: fuse/OTP-backed security version counter checked by the bootloader. | (2)(f) | |
 | SEC-03 | Signed A/B OTA with automatic fallback on a failed boot. Power loss at any point never bricks the device. | (2)(c) | Signing key offline, ideally in an HSM (Nitrokey HSM, YubiHSM). |
 | SEC-04 | Security updates **automatic by default with user opt-out**. Install window configurable, with notification. Security fixes can ship separately from feature updates. | (2)(c), Part II(8) | For a control device, allow "notify only" mode, documented as the opt-out. |
-| SEC-05 | Unique per-device identity: key generated inside the SE and never exported; IDevID-style cert (IEEE 802.1AR) from the product CA. **No fleet-wide secrets anywhere.** | (2)(d),(e) | Existing SE050 provisioning flow. |
+| SEC-05 | Unique per-device identity: key generated inside the SE and never exported; IDevID-style cert (IEEE 802.1AR) from the product CA. **No fleet-wide secrets anywhere.** | (2)(d),(e) | Existing SE051 provisioning flow. |
 | SEC-06 | No default passwords. First-use claim via unique per-device credential on the label, or a physical button press within a time window. | (2)(b),(d) | |
 | SEC-07 | TLS 1.3 preferred, 1.2 minimum, ECDHE + AEAD only. Full chain validation against the configured trust anchor. mTLS to the broker. Trust store updatable OTA. | (2)(e) | |
 | SEC-08 | Local HTTPS: the factory cert (product CA) is not browser-trusted, so the operator can install their own cert/CA (LDevID). HTTP only redirects to HTTPS. | (2)(e) | |
@@ -70,7 +70,7 @@ None of these gives presumption of conformity under the CRA today. They count as
 
 - **Risk assessment / threat model** (STRIDE on the data-flow diagram). Kept in the technical file and updated each release.
 - **SBOM** per release (SPDX via `west spdx`, at least the top-level dependencies). Archived with the build.
-- **Vulnerability monitoring**: Zephyr, mbedTLS, SE050 Plug & Trust, NXP ROM/SoC security bulletins. Automated SBOM → OSV/NVD scan weekly.
+- **Vulnerability monitoring**: Zephyr, mbedTLS, SE05x Plug & Trust, NXP ROM/SoC security bulletins. Automated SBOM → OSV/NVD scan weekly.
 - **Coordinated vulnerability disclosure**: published CVD policy, `security.txt`, security contact, advisories.
 - **Support period** declared on the product (CRA minimum 5 years; expected PLC-like lifetime is 10+). Security updates free of charge.
 - **Reporting via the ENISA Single Reporting Platform**:
@@ -152,7 +152,7 @@ The only parts found that meet Ethernet + 100-pin QFP + PSA Certified Level 3 ar
 | Root of trust | ROM secure boot, debug authentication, OTP anti-rollback | STiRoT (immutable) or OEMiRoT, debug authentication, product states | Immutable boot + RSIP, key injection (DLM) |
 | **Certification** | **PSA Certified Level 3** (v2.0 beta, Riscure, Oct 2024), covers N94x/N54x | **PSA Certified Level 3** (SGS Brightsight, Mar 2026) + **SESIP 3** | **PSA Certified Level 3 RoT Component** (Applus+, Feb 2025): RoT only, not full-chip PSA L3 |
 | Zephyr | `frdm_mcxn947` upstream, ENET QoS, USB HS/FS, TRNG, `…/cpu0/ns` TF-M target | `stm32h573i_dk`, `nucleo_h563zi`; Ethernet, USB, AES; TF-M platform exists | `ek_ra8m1`; Ethernet, USB, RSIP TRNG. Security/crypto integration less mature. |
-| Fit with current design | Same vendor as SE050 / MCUXpresso. EdgeLock 2GO provisioning (AN14544). | Vendor change, strong docs. | Vendor change. |
+| Fit with current design | Same vendor as SE051 / MCUXpresso. EdgeLock 2GO provisioning (AN14544). | Vendor change, strong docs. | Vendor change. |
 
 **Excluded:**
 
@@ -208,7 +208,7 @@ Rationale: early in the design; single core is right-sized; HS USB recovery/ISP 
 - N947 only: second core, NPU, PowerQuad, SAI, MICFIL, TSI, USB FS controller, 10 vs 8 Flexcomm, 78 vs 74 GPIO.
 - N247 only (in HLQFP100): USB1 HS with PHY. On the N947 these pins are GPIO.
 - For PoEtato, the N247 loses nothing needed:
-  - Flexcomm: I²C for the SE050, UART with RTS for RS-485 (digital inputs are plain GPIOs)
+  - Flexcomm: I²C for the SE051, UART with RTS for RS-485 (digital inputs are plain GPIOs)
   - it gains HS USB
 - The N947's remaining advantages are the certificate, Zephyr support and production status.
 
@@ -223,14 +223,14 @@ Rationale: early in the design; single core is right-sized; HS USB recovery/ISP 
 - USB0 (FS) pins 44–46 are bonded on both, but the N247 has no FS controller behind them.
 - VKLT vs VNLT (PCN 202502004F01, effective 2025-06-07) is only an enlarged exposed ground pad. It is not a die change. **Use the VKLT package outline for the footprint/stencil.**
 
-**N947VKLT ↔ N247VKLT footprint-compatibility rules** (start on N947, move to N247 later):
+**N947VKLT ↔ N247VKLT footprint compatibility: not adopted.** The board is laid out for MCXN247VKLT only (USB1 HS on pins 40–43, no 0 Ω option links, no UART ISP header; USB1 HS is the only ROM ISP interface, decided 2026-10-04). Firmware development starts on the FRDM-MCXN947 board instead. The rules below are kept as reference in case an N947 build is ever wanted:
 
 - **Pin 42** is USB1_VBUS on N247 (5 V tolerant, route VBUS directly) but **P4_21/ANA_22 on N947, which is not 5 V tolerant**. Put a 0 Ω link between VBUS and pin 42: DNP on N947 builds, fitted on N247 builds.
 - **Pin 43** is VSS_USB on N247 and P4_23 GPIO on N947. Grounding it is OK on N947 as long as firmware leaves P4_23 at MUX=0 and never drives it.
 - **Pins 40/41** (USB1 D+/D−) and **45/46** (USB0 FS D+/D−): select the connector path with 0 Ω pairs (N247 → 40/41 HS, N947 → 45/46 FS). Avoid stubs. FS VBUS detect on N947 needs a divider (not 5 V tolerant).
 - VDD_USB (3.3 V) is powered on both.
 - An HF crystal from the USB-legal list is needed; **24 MHz** is required for HS USB ISP with factory fuses.
-- Keep a UART ISP header. Verify which ROM ISP interfaces N947 in HLQFP100 supports without USB1.
+- An N947 build would have no ROM ISP path on this board (no UART ISP header, USB1 not bonded), only SWD.
 - Firmware: a different SoC target and USB pinctrl, otherwise identical (same die, ROM, flash map, secure boot/fuse provisioning flow). Record the part and certificate status per build in the technical file.
 
 **Hedge:** lay out for MCXN247VKLT. **MCXN547VKLT** has the same package and the same relevant pins (Ethernet RMII + USB1 HS, no USB FS), and it is **PSA L3 certified**. If N24 certification or availability slips, populate N547 with firmware unchanged except the SoC target; its second core and NPU simply stay off.
@@ -239,7 +239,7 @@ Other consequences and to-dos (apply to either part):
 
 - HAB → MCX N ROM secure boot → **punchboot** (ported to MCX N; MCUboot only as an initial exploration). Dual bank A/B, OTP anti-rollback.
 - The QSPI stays, fitted as standard, but only for the filesystem (configuration, logs, data): never code, nothing secret (decided 2026-10-06).
-- Keep the SE050 for v1.
+- Keep the SE051 for v1.
 - The HLQFP100 exposed pad must be stitched to GND. Choose the LDO or DCDC core-supply configuration (UG10092 §3.2).
 
 **Runner-up: STM32H573VIT6.** It has the strongest evidence package (PSA L3 + SESIP 3, recent 2026 certificate) and more CPU. Its only drawback here is FS-only USB and a vendor switch. Watch the VIT6 vs VIT3Q trap.

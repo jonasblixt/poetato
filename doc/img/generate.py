@@ -96,7 +96,7 @@ def write(name, s):
 def system_block():
     W, H = 1240, 650
     s = head(W, H, "PoEtato - System Block Diagram",
-             "PoE only - MCX N247, 3 isolated inputs, 2 OptoMOS outputs, RS-485, SE050 key store")
+             "PoE only - MCX N247, 3 isolated inputs, 2 OptoMOS outputs, RS-485, SE051 key store")
 
     domain(s, 28, 78, 222, 410, "ETHERNET / PSE SIDE", VIOLET, VIOLET_T)
     domain(s, 286, 78, 414, 410, "LOGIC DOMAIN", BLUE, BLUE_T)
@@ -124,7 +124,7 @@ def system_block():
     # Logic column B - compute
     box(s, 498, 118, 186, 120,
         ["MCX N247 (MCXN247VKLT)", "Cortex-M33 @ 150 MHz, TrustZone", "HLQFP100, -40..+125 C", "2 MB flash / 512 KB SRAM"], BLUE)
-    box(s, 498, 258, 186, 48, ["SE050C2 secure element", "I2C 0x48, own bus"], BLUE, fs=12)
+    box(s, 498, 258, 186, 48, ["SE051C2 secure element", "I2C 0x48, own bus"], BLUE, fs=12)
     box(s, 498, 320, 186, 44, ["QSPI (optional, data only)"], BLUE, fs=12)
     box(s, 498, 378, 186, 44, ["USB HS recovery / SWD"], BLUE, fs=12)
 
@@ -169,7 +169,7 @@ def system_block():
 def power_tree():
     W, H = 1080, 790
     s = head(W, H, "PoEtato - Power Tree",
-             "PoE only - 4.14 W of the 12.95 W 802.3af Type 1 budget, so Class 2")
+             "PoE only - 4.07 W of the 12.95 W 802.3af Type 1 budget, so Class 2")
 
     barrier(s, 300, 100, 462, "barrier 1  -  flyback")
     barrier(s, 636, 100, 462, "barrier 2  -  push-pull")
@@ -205,9 +205,8 @@ def power_tree():
     path(s, "M536,262 L610,262 L610,417 L670,417")
 
     tbl = [
-        ("Logic: MCX N247 + KSZ8081 + SE050", "1.05 W"),
+        ("Logic: MCX N247 + KSZ8081 + SE051", "1.05 W"),
         ("Digital inputs, 3 channels closed", "0.18 W"),
-        ("Field rail preload (10 kOhm)", "0.07 W"),
         ("RS-485 field side via buck", "0.15 W"),
         ("Field sensor supply allocation", "1.50 W"),
         ("OptoMOS drive, 2 channels (from 3V3)", "0.05 W"),
@@ -229,7 +228,7 @@ def power_tree():
     s.append(f'<text x="58" y="{yy+2}" font-size="11.5" font-weight="700" fill="{INK}">'
              f'Total drawn / available</text>')
     s.append(f'<text x="880" y="{yy+2}" font-size="11.5" font-family="{MONO}" '
-             f'font-weight="700" fill="{INK}" text-anchor="end">4.14 W / 12.95 W</text>')
+             f'font-weight="700" fill="{INK}" text-anchor="end">4.07 W / 12.95 W</text>')
 
     write("power-tree.svg", s)
 
@@ -383,7 +382,7 @@ def boot_chain():
     box(s, 592, y, 232, 92,
         ["Zephyr application", "slot A or slot B", "internal flash", "updatable"], BLUE)
     box(s, 868, y, 232, 92,
-        ["SE050", "private-key custody", "key never leaves", "TLS provisioning"], GREEN)
+        ["SE051", "private-key custody", "key never leaves", "TLS provisioning"], GREEN)
 
     path(s, "M272,154 L314,154", "authenticates", 293, 146)
     path(s, "M548,154 L590,154", "authenticates", 569, 146)
@@ -432,7 +431,7 @@ def boot_chain():
         "punchboot-tools talks over USB, so USB is a production and recovery interface here, not only a debug port.",
         "USB1 HS (pins 40-43) with a 24 MHz crystal; the ISP boot pin stays reachable so the ROM ISP can be forced if punchboot is bricked.",
         "Keep at least one board with the lifecycle not advanced for development - budget the extra board up front.",
-        "Anti-rollback counter belongs in MCU OTP, not the SE050: a boot-time I2C dependency adds a failure mode for no real gain.",
+        "Anti-rollback counter belongs in MCU OTP, not the SE051: a boot-time I2C dependency adds a failure mode for no real gain.",
     ], 11.5, MUTED)
 
     write("boot-chain.svg", s)

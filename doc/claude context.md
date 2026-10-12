@@ -4,7 +4,7 @@ PoE-powered PLC-like controller for garage: controls Crawford/Normstahl Magic 60
 
 ## Documentation
 - All design docs (decisions, requirements, research write-ups) live in the git repo under `doc/` as Markdown, not in the Claude project. New or updated docs go there.
-- Docs: `doc/hardware-architecture.md`, `doc/poe-verification.md`, `doc/security-requirements.md`, `doc/mqtt-broker.md`, this file.
+- Docs: `doc/hardware-architecture.md`, `doc/verification-plan.md` (board verification plan, includes the PoE flyback tests), `doc/security-requirements.md`, `doc/mqtt-broker.md`, this file.
 
 ## Summary
 - MCU (decided 2026-09-29): **MCXN247VKLT** (MCX N24, 1× Cortex-M33 150 MHz, HLQFP100 exposed pad, 2 MB dual-bank flash, 512 KB SRAM, EdgeLock Secure Enclave Core Profile, TrustZone, RMII Ethernet, HS USB w/ PHY, −40…+125 °C). In mass production (orderable from Mouser, 2026-09). Not yet PSA certified (accepted risk, hobby project). Pin-compatible certified fallback: **MCXN547VKLT**. Replaces i.MX RT1021. Details: `doc/security-requirements.md` §6.
@@ -12,7 +12,7 @@ PoE-powered PLC-like controller for garage: controls Crawford/Normstahl Magic 60
 - Power: PoE only, 802.3af Type 1, Class 2 (~4.1 W of 12.95 W). No mains in box.
 - I/O: 3 isolated DI (ISO1211 ×3, each channel isolated separately), 2 PhotoMOS DO (AQY212GS), 1 isolated RS-485 (ISO3082 class).
 - Field supply: 24 V isolated, 3 W.
-- Security: MCX N ROM secure boot → **punchboot** (to be ported to MCX N; MCUboot used only initially to explore) → Zephyr; NXP SE050C2/SE051C2 on I²C (kept for v1). CRA: default category (generic DIN-rail PoE I/O controller).
+- Security: MCX N ROM secure boot → **punchboot** (to be ported to MCX N; MCUboot used only initially to explore) → Zephyr; NXP SE051C2 on I²C (kept for v1). CRA: default category (generic DIN-rail PoE I/O controller).
 - FW: Zephyr — Modbus RTU master, RTU↔TCP gateway, MQTT w/ HA discovery. Existing code in `app/`.
 - Enclosure: Italtronic 35.0807000.BL, 8M DIN, 142×90×32.2 mm. (Layout/mechanical placement is out of scope for these docs.)
 
@@ -25,20 +25,20 @@ PoE-powered PLC-like controller for garage: controls Crawford/Normstahl Magic 60
 
 ## Isolation domains
 1. Cable/PSE: RJ45, magjack CTs, PD bridge, Si3402-B primary.
-2. Logic: MCXN247, PHY, QSPI flash, SE050, supervisor, output LED drive.
+2. Logic: MCXN247, PHY, QSPI flash, SE051, supervisor, output LED drive.
 3. Field 24 V: RS-485 field side, 5 V buck, field/sensor supply +24V FLD (ref field 0 V).
 4. Inputs: each ISO1211 field side floating, referenced to its own DIn−.
 5. Outputs: each AQY212GS pair floating (dry contacts).
 
 ## Power
 PSE 48 V (UPS-backed) → PD bridge/class (Class 2 resistor) → Si3402-B isolated flyback → 12 V logic rail:
-- buck 3V3: MCU, PHY, flash, SE050 (MCU ~20 mA @150 MHz), OptoMOS LEDs (low-side NTK3134N per channel).
-- SN6507 (not SN6505B: 2.25–5.5 V only, can't run from 12 V; changed 2026-10-03) + push-pull transformer ≈1:2 (candidate Würth 750319693, 1:2.29) → 24 V field 3 W: digital inputs (via contacts), buck 5V→ISO3082, +24V FLD terminal via TPS26625 eFuse
+- buck 3V3: MCU, PHY, flash, SE051 (MCU ~20 mA @150 MHz), OptoMOS LEDs (low-side NTK3134N per channel).
+- SN6507 (not SN6505B: 2.25–5.5 V only, can't run from 12 V; changed 2026-10-03) + push-pull transformer ≈1:2 (candidate Würth 750319693, 1:2.29) → 24 V field 3 W: digital inputs (via contacts), buck 5V→ISO3082 (LMR51420XDDCR, 36 V, 500 kHz PFM, replaced TPS54202H 2026-10-07: 28 V rating too close to the ≈ 27.5 V light-load rail; UVLO 13.5 V via 1 MΩ/100 kΩ), +24V FLD terminal via TPS26625 eFuse
 - Field supply switched by FW (decided 2026-10-06): P24V_FIELD_EN (P3_16) → SN6507 EN, 2.2 kΩ pull-down → field rail (+24V FLD, inputs, RS-485 5 V) off in reset/boot; FW enables when the app runs; inputs/RS-485 valid only once enabled and settled.
-- Field output protection (decided 2026-10-07): TPS26625 eFuse (auto-retry, output reverse-polarity) between P24V0_FIELD and the +24V FLD terminal; RS-485 buck and preload stay on the unprotected rail. R_ILIM 66.5 kΩ → 100 mA (terminal rated 80 mA incl. inputs); UVLO 200 kΩ / 14.0 kΩ (0603 thick film, low impedance for humidity) → 18.3 V rising / 16.8 V falling; OVP tied to RTN (disabled; option 6.19 kΩ + 7.87 kΩ → 32.6 V); C_dVdT 1 µF → 0.49 s ramp, handles 1000 µF load; C_IN/C_OUT 1 µF 100 V; output clamp D24 SMAJ28CA; SHDN open; FLT not connected (no fault indication); RTN island not tied to GND. FW waits ≥ 1 s after P24V_FIELD_EN before inputs are valid. Dead short: 2.4 W, timer ≈ 2.2 s, likely thermal cycling. Full 100 mA load → ≈ 5.5 W total (Class 2 OK). Details: `doc/hardware-architecture.md` §3.
+- Field output protection (decided 2026-10-07): TPS26625 eFuse (auto-retry, output reverse-polarity) between P24V0_FIELD and the +24V FLD terminal; RS-485 buck stays on the unprotected rail. R_ILIM 100 kΩ → 66 mA, ≈ 60–73 mA (terminal rated 50 mA incl. inputs; stays below the SN6507 limit ≈ 92–106 mA min on the 24 V side, so RS-485 stays up in a short); UVLO 200 kΩ / 14.0 kΩ (0603 thick film, low impedance for humidity) → 18.3 V rising / 16.8 V falling; OVP tied to RTN (disabled; option 6.19 kΩ + 7.87 kΩ → 32.6 V); C_dVdT 1 µF → 0.49 s ramp, handles 1000 µF load; C_IN/C_OUT 1 µF 100 V; output clamp D24 SMAJ28CA (D18/D19 on the outputs are SMAJ33CA); SHDN open; FLT not connected (no fault indication); RTN island not tied to GND. FW waits ≥ 1 s after P24V_FIELD_EN before inputs are valid. Dead short: ≈ 1.6 W, Tj ≈ 127 °C at 55 °C ambient, cycles on the ≈ 2.2 s timer. Full load fits the 1.5 W sensor allocation in the 4.07 W budget. Details: `doc/hardware-architecture.md` §3.
 - 12 V secondary chosen so field converter is 1:2 not 1:5.
-- Field rail unregulated (open-loop push-pull): est. 25–26 V light load, 22.5–23.5 V at 3 W; base load is a 10 kΩ preload (R8, ~2.6 mA), the inputs load only when closed; inside IEC 61131-2 19.2–30 V, no post-regulator. Open: duty-cycle control (needs output inductor) vs fixed, ILIM resistor, snubber, bench check at min load (preload/zener if near 30 V).
-- Budget: logic 1.05 W, digital inputs 0.18 (3 closed), field preload 0.07, RS-485 0.15, sensor supply 1.5, OptoMOS 0.05, iso conv loss 0.5, flyback loss 0.64 → 4.14 W (Class 2 limit 6.49 W).
+- Field rail unregulated (open-loop push-pull): ≈ 27–28 V unloaded (no preload, removed 2026-10-08; rail sits at the rectified peak), 22.5–23.5 V at 3 W; the inputs load only when closed; inside IEC 61131-2 19.2–30 V, no post-regulator. Settled: fixed duty (DC open), 1 MHz, R_ILIM 75 kΩ, C_SS 4.7 µF, RC snubbers, L5 choke input. Bench: open-circuit terminal voltage ≤ 30 V (Zener or small preload if not).
+- Budget: logic 1.05 W, digital inputs 0.18 (3 closed), RS-485 0.15, sensor supply 1.5, OptoMOS 0.05, iso conv loss 0.5, flyback loss 0.64 → 4.07 W (Class 2 limit 6.49 W).
 - Heavy 24 V loads need own supply (documented limit).
 
 ## Boot / flash (MCX N247)
@@ -47,16 +47,16 @@ PSE 48 V (UPS-backed) → PD bridge/class (Class 2 resistor) → Si3402-B isolat
 - Internal 2 MB dual-bank flash: punchboot + A/B slots (one app slot per bank; bank swap/remap to be checked in RM). The i.MX FlexSPI remap problem is gone. External QSPI S25FL064L (8 MB) fitted as standard (decided 2026-10-06): filesystem for config, logs and data; never code, nothing secret (keys/credentials stay in SE051).
 - HW crypto: ELS (AES/SHA/keystore), PKC (ECC/RSA), PUF, TRNG.
 - USB1 HS is the recovery/ISP interface: pins 40/41 D+/D−; pin 42 USB1_VBUS directly to 5 V VBUS (only 5 V tolerant pin); pin 43 VSS_USB. N247 has no USB FS controller (USB0 pins 45/46 unused; VDD_USB still powered 3.3 V).
-- HF crystal **24 MHz** (needed for HS USB ISP with factory fuses; also HS USB PLL). ISP boot pin reachable. Keep a UART ISP header too.
+- HF crystal **24 MHz** (needed for HS USB ISP with factory fuses; also HS USB PLL): Epson TSX-3225 `X1E0000210048` (−40…+105 °C, ±10 + ±10 ppm, C_L 9 pF, ESR 40 Ω; C1/C2 10 pF). Its ±20 ppm leaves ≈ ±30 ppm of the KSZ8081 ±50 ppm RMII budget for pulling and aging; measure the frequency on the first board. RTC crystal Epson FC-135R `X1A0001410006` (6 pF, ≤ 50 kΩ, ±20 ppm; meets OSC32K low-power-mode limits, gain 01). Decided 2026-10-08. ISP boot pin reachable. USB1 HS is the only ROM ISP interface; no UART ISP header (decided 2026-10-04).
 - Keep one board with lifecycle not advanced (open) for development.
 - Zephyr: no MCXN247 SoC upstream yet (2026-09-29). Port = new SoC variant modeled on MCXN547 (single core, no NPU/PowerQuad/USB FS), HLQFP100 pinctrl. Early FW dev on FRDM-MCXN947.
 - Order VKLT (VNLT replaced, PCN 202502004F01). Choose LDO vs DCDC core supply (UG10092 §3.2).
 
-## Secure element (SE050C2 / SE051C2)
-- 3.3 V, I²C addr 0x48, up to 1 MHz, HX2QFN20 3×3 mm 0.4 pitch, ENA + RST_N under MCU control, −40…+105 °C (suffix 2).
+## Secure element (SE051C2HQ1/Z01XDZ)
+- 3.3 V, I²C addr 0x48, up to 1 MHz, HX2QFN20 3×3 mm 0.4 pitch, ENA tied to 3V3 (always on), no reset pin in I²C mode (RST_N is ISO 7816, tied to GND), recovery by soft reset or board power cycle, −40…+105 °C (suffix 2).
 - Dedicated I²C bus, 2.2 kΩ pull-ups.
-- Purpose: private-key custody (generated on-die, never leaves) + trustworthy CSR/cert provisioning for mTLS. Replaces key in `app/src/tls_config/cert.h`. Identity = public cert; SE050 holds proving key.
-- Does not protect firmware; that's ROM secure boot/punchboot. Without secure boot, SE050 is moot.
+- Purpose: private-key custody (generated on-die, never leaves) + trustworthy CSR/cert provisioning for mTLS. Replaces key in `app/src/tls_config/cert.h`. Identity = public cert; SE051 holds proving key.
+- Does not protect firmware; that's ROM secure boot/punchboot. Without secure boot, SE051 is moot.
 - Provisioning: keygen in SE → CSR → sign with offline local CA (subject derived from MCX N unique ID) → store cert in SE → mTLS to broker.
 - SW: NXP Plug & Trust; nano-package `feature/zephyr-integration` branch; mbedTLS ALT hooks; AN13013.
 - Secondary: broker/Modbus credentials, update signature verification.
@@ -105,6 +105,8 @@ PSE 48 V (UPS-backed) → PD bridge/class (Class 2 resistor) → Si3402-B isolat
 ## Magic 600 interface
 - External impulse input: potential-free momentary contact, terminals 18/19 (Magic 1000 uses 14/15). Toggles open→stop→close→stop.
 - No status output → door state only from reeds.
+- RTC backup (decided 2026-10-01): Eaton KW-5R5C334H-R 0.33 F supercap on VDD_BAT via BAS70 + 220 Ω, no coin cell; ≥ 8 h worst case. Port 5 runs at VDD_BAT (~3.1 V).
+- Bench power (decided 2026-10-06): J6 2-pin 2.54 mm header directly on P12V0, no series diode (D4 blocks backfeed), no reverse-polarity protection.
 - Opener motor on garage mains: control dies in power cut; monitoring survives (UPS PoE).
 
 ## Protection / surge
@@ -117,4 +119,4 @@ PSE 48 V (UPS-backed) → PD bridge/class (Class 2 resistor) → Si3402-B isolat
 - Shields (decided 2026-10-05): one SHIELD net = magjack shield + RS-485 shield (J2-4, bonded at box end only). SHIELD → GND via 1 nF / 3 kV (C89) ∥ 12 MΩ. No shield to GND_FIELD. UTP: SHIELD held by Y-cap + magjack Bob Smith, CM leaves via pairs; works, less margin. Optional functional-earth terminal / DIN-rail earth clip on SHIELD (recommended, not required).
 
 ## Key parts
-MCXN247VKLT (fallback MCXN547VKLT) · 24 MHz crystal · KSZ8081RNB · QSPI S25FL064L 8 MB (filesystem) · Si3402-B (or Silvertel module) · ISO1211 ×3 · AQY212GS ×2 · DO 10 Ω anti-surge + 0ZCJ0016FF2E PPTC · SN6507 + push-pull xfmr (Würth 750319693 candidate) · TPS26625 eFuse (field output) · ISO3082 · LP3470A293 (supervisor) · NTK3134N low-side LED drive · SE050C2/SE051C2 · XY-MD02/SHT45 · Italtronic 35.0807000.BL
+MCXN247VKLT (fallback MCXN547VKLT) · Epson TSX-3225 24 MHz · Epson FC-135R 32.768 kHz · KSZ8081RNB · QSPI S25FL064L 8 MB (filesystem) · Si3402-B (or Silvertel module) · ISO1211 ×3 · AQY212GS ×2 · DO 10 Ω anti-surge + 0ZCJ0016FF2E PPTC · SN6507 + push-pull xfmr (Würth 750319693 candidate) · TPS26625 eFuse (field output) · ISO3082 · LP3470A293 (supervisor) · NTK3134N low-side LED drive · SE051C2/SE051C2 · XY-MD02/SHT45 · Italtronic 35.0807000.BL

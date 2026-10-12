@@ -291,7 +291,7 @@ the placed parts; show the working in a table.
   disagree, do not pick a winner silently: quote both (file, section, dated
   decision if any), say which one the schematic follows, and raise it as a
   Question. A newer dated decision is a hint, not proof. Check
-  `doc/poe-verification.md` and `doc/security-requirements.md` the same way
+  `doc/verification-plan.md` and `doc/security-requirements.md` the same way
   where they state hardware facts.
 - **Q2** Schematic against docs: every decision in the two docs is either
   implemented as written or listed as a deviation: part choices, values,

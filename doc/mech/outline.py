@@ -66,7 +66,7 @@ FIELD_N  = sum(n for _, n in FIELD_GROUPS)    # 12 positions = 42 mm
 TERM_D   = 9.0        # how far a terminal block reaches onto the board
 
 # straddle gaps in the top run of each U, (x0, x1, label)
-FIELD_GAPS = [(54.0, 74.0, "ISO1228"), (78.0, 92.0, "ISO3082")]
+FIELD_GAPS = [(54.0, 74.0, "ISO1211 x3"), (78.0, 92.0, "ISO3082")]
 CABLE_GAPS = [(24.0, 38.0, "PD flyback")]
 
 
@@ -236,12 +236,11 @@ def build_svg(path):
     txt(16.0, 44.0, "system", 8, BLUE)
 
     # indicative placement
-    parts = [(52, 52, 17, 17, "RT1021", BLUE), (75, 54, 12, 10, "PHY", BLUE),
-             (92, 54, 10, 8, "flash", BLUE), (92, 66, 11, 8, "SE050", BLUE),
+    parts = [(52, 52, 17, 17, "MCX N247", BLUE), (75, 54, 12, 10, "PHY", BLUE),
+             (92, 54, 10, 8, "flash", BLUE), (92, 66, 11, 8, "SE051", BLUE),
              (8, 56, 15, 12, "12V rail", BLUE), (28, 56, 14, 10, "bucks", BLUE),
-             (110, 52, 14, 9, "DO_EN", RED),
              (25, 5, 13, 12, "Si3402", VIOLET), (25, 19, 13, 12, "flyback", VIOLET),
-             (52, 13, 20, 9, "ISO1228", AMBER), (76, 13, 16, 9, "ISO3082", AMBER),
+             (52, 13, 20, 9, "ISO1211 x3", AMBER), (76, 13, 16, 9, "ISO3082", AMBER),
              (78, 24, 14, 9, "xfmr", AMBER)]
     for x, y, w, h, lab, col in parts:
         rect(x, y, x + w, y + h, PANEL, col, 1.0, dash="3 2")

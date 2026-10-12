@@ -2,7 +2,7 @@
 <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#6E6862"/></marker></defs>
 <rect width="1080" height="790" fill="#FAF9F7"/>
 <text x="30" y="36" font-size="20" font-weight="600" fill="#22201D">PoEtato - Power Tree</text>
-<text x="30" y="58" font-size="13" fill="#6E6862">PoE only - 4.14 W of the 12.95 W 802.3af Type 1 budget, so Class 2</text>
+<text x="30" y="58" font-size="13" fill="#6E6862">PoE only - 4.07 W of the 12.95 W 802.3af Type 1 budget, so Class 2</text>
 <line x1="300" y1="100" x2="300" y2="462" stroke="#B33A3A" stroke-width="1.6" stroke-dasharray="7 5" stroke-opacity="0.75"/>
 <text x="295" y="458" font-size="10.5" font-weight="600" fill="#B33A3A" text-anchor="start" transform="rotate(-90 295 458)">barrier 1  -  flyback</text>
 <line x1="636" y1="100" x2="636" y2="462" stroke="#B33A3A" stroke-width="1.6" stroke-dasharray="7 5" stroke-opacity="0.75"/>
@@ -63,25 +63,23 @@
 <path d="M598,322 L636,322 L636,231 L670,231" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
 <path d="M598,322 L636,322 L636,315 L670,315" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
 <path d="M536,262 L610,262 L610,417 L670,417" fill="none" stroke="#6E6862" stroke-width="1.5" marker-end="url(#ar)"/>
-<rect x="40" y="538" width="882" height="224" rx="8" fill="#FFFFFF" stroke="#D9D4CC"/>
+<rect x="40" y="538" width="882" height="204" rx="8" fill="#FFFFFF" stroke="#D9D4CC"/>
 <text x="58" y="558" font-size="12.5" font-weight="700" fill="#22201D">Power budget at the PD input</text>
-<text x="58" y="582" font-size="11.5" fill="#6E6862">Logic: MCX N247 + KSZ8081 + SE050</text>
+<text x="58" y="582" font-size="11.5" fill="#6E6862">Logic: MCX N247 + KSZ8081 + SE051</text>
 <text x="880" y="582" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" fill="#22201D" text-anchor="end">1.05 W</text>
 <text x="58" y="602" font-size="11.5" fill="#6E6862">Digital inputs, 3 channels closed</text>
 <text x="880" y="602" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" fill="#22201D" text-anchor="end">0.18 W</text>
-<text x="58" y="622" font-size="11.5" fill="#6E6862">Field rail preload (10 kOhm)</text>
-<text x="880" y="622" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" fill="#22201D" text-anchor="end">0.07 W</text>
-<text x="58" y="642" font-size="11.5" fill="#6E6862">RS-485 field side via buck</text>
-<text x="880" y="642" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" fill="#22201D" text-anchor="end">0.15 W</text>
-<text x="58" y="662" font-size="11.5" fill="#6E6862">Field sensor supply allocation</text>
-<text x="880" y="662" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" fill="#22201D" text-anchor="end">1.50 W</text>
-<text x="58" y="682" font-size="11.5" fill="#6E6862">OptoMOS drive, 2 channels (from 3V3)</text>
-<text x="880" y="682" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" fill="#22201D" text-anchor="end">0.05 W</text>
-<text x="58" y="702" font-size="11.5" fill="#6E6862">Isolated converter losses (approx. 20%)</text>
-<text x="880" y="702" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" fill="#22201D" text-anchor="end">0.50 W</text>
-<text x="58" y="722" font-size="11.5" fill="#6E6862">PD flyback losses (approx. 15%)</text>
-<text x="880" y="722" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" fill="#22201D" text-anchor="end">0.64 W</text>
-<line x1="58" y1="728" x2="880" y2="728" stroke="#D9D4CC"/>
-<text x="58" y="744" font-size="11.5" font-weight="700" fill="#22201D">Total drawn / available</text>
-<text x="880" y="744" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-weight="700" fill="#22201D" text-anchor="end">4.14 W / 12.95 W</text>
+<text x="58" y="622" font-size="11.5" fill="#6E6862">RS-485 field side via buck</text>
+<text x="880" y="622" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" fill="#22201D" text-anchor="end">0.15 W</text>
+<text x="58" y="642" font-size="11.5" fill="#6E6862">Field sensor supply allocation</text>
+<text x="880" y="642" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" fill="#22201D" text-anchor="end">1.50 W</text>
+<text x="58" y="662" font-size="11.5" fill="#6E6862">OptoMOS drive, 2 channels (from 3V3)</text>
+<text x="880" y="662" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" fill="#22201D" text-anchor="end">0.05 W</text>
+<text x="58" y="682" font-size="11.5" fill="#6E6862">Isolated converter losses (approx. 20%)</text>
+<text x="880" y="682" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" fill="#22201D" text-anchor="end">0.50 W</text>
+<text x="58" y="702" font-size="11.5" fill="#6E6862">PD flyback losses (approx. 15%)</text>
+<text x="880" y="702" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" fill="#22201D" text-anchor="end">0.64 W</text>
+<line x1="58" y1="708" x2="880" y2="708" stroke="#D9D4CC"/>
+<text x="58" y="724" font-size="11.5" font-weight="700" fill="#22201D">Total drawn / available</text>
+<text x="880" y="724" font-size="11.5" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-weight="700" fill="#22201D" text-anchor="end">4.07 W / 12.95 W</text>
 </svg>

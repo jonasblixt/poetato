@@ -14,7 +14,7 @@ I/O device, not the cheapest thing that opens a garage door.
 | **Power** | PoE only, 802.3af Type 1, Class 2 |
 | **I/O** | 3 isolated digital inputs, 2 OptoMOS outputs, 1 isolated RS-485 port |
 | **Field supply** | 24 V isolated, 3 W |
-| **Security** | MCX N ROM secure boot → punchboot + NXP EdgeLock SE050, I²C |
+| **Security** | MCX N ROM secure boot → punchboot + NXP EdgeLock SE051, I²C |
 | **Firmware** | Zephyr — Modbus TCP server, Modbus RTU master, MQTT |
 | **Enclosure** | Italtronic 35.0807000.BL, 8M DIN |
 
@@ -59,7 +59,7 @@ Isolation domains:
 | Domain | Contents | Referenced to |
 |---|---|---|
 | **Cable / PSE side** | RJ45, magjack centre taps, PD bridge, Si3402-B primary | the Ethernet cable |
-| **Logic** | MCX N247, PHY, SE050, supervisor, output LED drive, QSPI flash | board logic ground |
+| **Logic** | MCX N247, PHY, SE051, supervisor, output LED drive, QSPI flash | board logic ground |
 | **Field 24 V** | RS-485 transceiver field side, 5 V buck, field supply `+24V FLD` | field 0 V |
 | **Input channels** | 3 × ISO1211 field side, each pair floating independently | its own `DIn−` |
 | **Output channels** | 2 × AQY212GS, each pair floating independently | nothing — true dry contacts |
@@ -82,13 +82,13 @@ floating pair behind its own PhotoMOS.
 PSE 48 V (UPS-backed)
   └─ PD bridge + classification (802.3af Type 1, Class 2)
       └─ Si3402-B isolated flyback ──╫── 12 V logic rail
-                                          ├─ buck 3V3 ...... MCU, PHY, flash, SE050,
+                                          ├─ buck 3V3 ...... MCU, PHY, flash, SE051,
                                           │                  OptoMOS LEDs (low-side FET per channel),
                                           │                  VDD_BAT via supercap backup
                                           └─ SN6507 push-pull ──╫── 24 V field, 3 W
                                                                     ├─ digital inputs (via contacts, 2.25 mA each)
                                                                     ├─ buck 5V → ISO3082
-                                                                    └─ TPS26625 eFuse (100 mA) → `+24V FLD` terminal
+                                                                    └─ TPS26625 eFuse (66 mA) → `+24V FLD` terminal
 ```
 
 **The 12 V secondary is a deliberate choice.** It makes the field converter a
@@ -118,7 +118,7 @@ pull-down.
 - **Consequences for firmware:**
   - Inputs are valid only while the field supply is enabled and has settled
     (§6).
-  - RS-485 traffic starts only after the 5 V buck is up.
+  - RS-485 traffic starts only after the 5 V buck is up. Its EN divider holds it off until the field rail passes ≈ 13.5 V, then the internal 4 ms soft-start runs.
   - Report the enable state with the data.
 - **Why it is switched.** Firmware can drop the field side deliberately: to
   recover from a field-wiring fault, to save power, or to keep field devices
@@ -129,7 +129,7 @@ pull-down.
 
 Decided 2026-10-07. The `+24V FLD` terminal is fed through a TI **TPS26625**
 eFuse (`P24V0_FIELD` → `P24V0_FIELD_PROT`), replacing the PTC that was planned
-here. The RS-485 buck and the preload stay on the unprotected rail, so a short
+here. The RS-485 buck stays on the unprotected rail, so a short
 on the terminal is limited to less than the rail can supply and RS-485 stays up.
 The digital inputs are fed from the terminal (via the contacts) and go down with
 it.
@@ -144,7 +144,7 @@ part number.
 
 | Part (datasheet name) | Value | Result |
 |---|---|---|
-| R_ILIM (ILIM → RTN) | 66.5 kΩ 1 % | 100 mA overload limit (I_OL = 6.636 / R_ILIM[kΩ]) |
+| R_ILIM (ILIM → RTN) | 100 kΩ 1 % | 66 mA overload limit, ≈ 60–73 mA (I_OL = 6.636 / R_ILIM[kΩ]) |
 | R1 (IN → UVLO) | 200 kΩ, 0603 thick film | |
 | R2 (UVLO → RTN) | 14.0 kΩ | UVLO rising 18.3 V, falling 16.8 V; 112 µA divider current |
 | OVP | tied to RTN | Disabled |
@@ -156,12 +156,15 @@ part number.
 | SHDN | open | Internal pull-up keeps the part enabled |
 | RTN | own copper island, not tied to GND | Support parts and PowerPAD go to RTN |
 
-**Current limit.** 100 mA at the terminal plus ≈ 10 mA for RS-485, preload and
-the eFuse itself fits the 3 W (125 mA) rail. Rate the terminal at **80 mA
-continuous**; that includes the 7.4 mA of the three inputs. The datasheet gives
-±5 % at 152 mA and −20/+28 % at 25 mA; roughly ±10 % at 100 mA is interpolated,
-not specified. A full 100 mA load takes the board from 4.14 W to ≈ 5.5 W, still
-inside Class 2.
+**Current limit.** The binding limit is the SN6507's own current limit, not the
+3 W transformer rating: with R72 = 75 kΩ it delivers ≈ 0.14 A typical and
+≈ 92–106 mA minimum on the 24 V side. The eFuse at 66 mA (≈ 60–73 mA) plus
+≈ 10–15 mA for RS-485 and the UVLO dividers stays below that, so a short on
+the terminal never drags the field rail into the converter's limit and RS-485
+stays up. Rate the terminal at **50 mA continuous** (1.2 W, inside the 1.5 W
+sensor allocation of the budget); that includes the 7.4 mA of the three inputs.
+The datasheet gives ±5 % at 152 mA and −20/+28 % at 25 mA; roughly ±10 % at
+66 mA is interpolated, not specified.
 
 **UVLO divider.** 200 kΩ rather than the usual 1 MΩ, for the humid garage:
 surface leakage across R1 sits in parallel with it, and 10 MΩ of leakage moves
@@ -176,9 +179,10 @@ a need: R2 = 6.19 kΩ, R3 = 7.87 kΩ (OVP pin at their junction) gives cut-off a
 
 **Ramp, sized for 1000 µF on the terminal.** Inrush is C × dV/dt: 49 mA typical
 into 1000 µF, ≈ 78 mA worst case (+20 % capacitor, charging current and gain at
-their limits), under the ≈ 90 mA minimum limit. About 40 mA of load fits
-alongside; if the sum touches the limit the eFuse regulates at 100 mA and
-carries on. Dissipation during the ramp ≈ 0.6 W for half a second.
+their limits). The worst case can exceed the ≈ 60 mA minimum limit; the eFuse
+then finishes the charge in current limit (1000 µF to 24 V at 60 mA ≈ 0.4 s,
+well inside the ≈ 2.2 s timer) and carries on. Load drawn during the ramp comes
+out of the same current. Dissipation during the ramp ≈ 0.6 W for half a second.
 
 Consequences of the slow ramp:
 
@@ -186,9 +190,10 @@ Consequences of the slow ramp:
   case, to come up after `P24V_FIELD_EN`. Wait **at least 1 s** before marking
   the inputs valid.
 - **A dead short runs hotter.** The current-limit timer scales with C_dVdT:
-  512 ms + 3.3 × C_dVdT[nF] / 2 ≈ 2.2 s, then a 512 ms retry. At 24 V × 100 mA =
-  2.4 W the part will most likely reach thermal shutdown (155 °C) first and
-  cycle on that. 470 nF would halve the timer and still charge 1000 µF, partly
+  512 ms + 3.3 × C_dVdT[nF] / 2 ≈ 2.2 s, then a 512 ms retry. At 24 V × 66 mA ≈
+  1.6 W and 44.8 K/W (datasheet p.6) the junction rises ≈ 72 K, ≈ 127 °C at
+  55 °C ambient, below thermal shutdown (155 °C), so the part cycles on the
+  timer. 470 nF would halve the timer and still charge 1000 µF, partly
   in current limit.
 - **The dVdT node is humidity-sensitive.** It charges with 2 µA to ≈ 4.3 V:
   10 MΩ of surface leakage slows the ramp ≈ 20 %, ≈ 2 MΩ stalls it. Keep the
@@ -215,20 +220,25 @@ to be confirmed on the bench):
 | Load below ~5–10 % | Output rises sharply (rectifier peak-charges on leakage ringing); 20–30 % above nominal is typical for the topology |
 | Temperature | Slightly more droop hot |
 
-- The digital inputs only load the rail while a contact is closed, so they are
-  no base load. A 10 kΩ preload (R8, ≈ 2.6 mA, ≈ 70 mW at 26 V) is the
-  permanent base load. Whether it keeps the rail out of the light-load peaking
-  region is a bench item.
+- **No preload** (decided 2026-10-08; the 10 kΩ R8 was removed). The digital
+  inputs only load the rail while a contact is closed, and the only permanent
+  load is the two UVLO dividers and the LMR51420 quiescent current (≈ 0.15 mA).
+  With nothing connected the rail therefore sits at the rectified peak,
+  ≈ 27–28 V, more if switching spikes peak-charge it. Every part on the rail is
+  rated well above that (LMR51420 36 V, TPS26625 60 V, capacitors 50 V); the
+  open-circuit terminal voltage has to stay ≤ 30 V, which is a bench item.
 - Expected span: ≈ 25–26 V with the sensor output unloaded, ≈ 22.5–23.5 V at
   the full 3 W. Inside the IEC 61131-2 window (19.2–30 V), so **no
   post-regulator**.
 - Turns ratio: choose for ≈ 23–24 V at full load rather than an exact 1:2.
   Candidate: Würth `750319693` (1:2.29, used by TI for 12 → 24 V with the
   SN6507).
-- Open: decide fixed duty vs duty-cycle control (datasheet §8.3.3); set the
-  current-limit resistor for ≈ 0.3–0.35 A primary; RC snubber per TI SLLA566;
-  bench-measure the rail at minimum field load — if it approaches 30 V add a
-  small preload or a zener clamp.
+- Settled in the schematic: fixed duty (DC pin open, 48 %), CLK to GND
+  (1 MHz default), R_ILIM 75 kΩ (≈ 0.32 A typ. primary), C_SS 4.7 µF (≈ 18 ms),
+  RC snubbers 100 Ω + 68 pF on both rectifier anodes, L5 3.3 µH choke-input
+  filter.
+- Bench: measure the rail with no load (open terminal, RS-485 idle, 57 V PoE).
+  If the terminal exceeds 30 V, add a Zener clamp or bring back a small preload.
 
 ### Budget
 
@@ -236,18 +246,17 @@ to be confirmed on the bench):
 
 | Item | Power |
 |---|---|
-| Logic: MCX N247 + KSZ8081 + SE050 + QSPI flash | 1.05 W — conservative; MCU itself ~20 mA @150 MHz |
+| Logic: MCX N247 + KSZ8081 + SE051 + QSPI flash | 1.05 W — conservative; MCU itself ~20 mA @150 MHz |
 | Digital inputs, 3 channels closed (3 × 2.47 mA max × 24 V) | 0.18 W |
-| Field rail preload (R8 10 kΩ) | 0.07 W |
 | RS-485 field side via buck | 0.15 W |
 | Field sensor supply allocation | 1.50 W |
 | OptoMOS drive, 2 channels (from 3V3) | 0.05 W |
 | Isolated converter losses (~20 %) | 0.50 W |
 | PD flyback losses (~15 %) | 0.64 W |
-| **Total** | **4.14 W of 12.95 W** (2.35 W below the Class 2 limit of 6.49 W) |
+| **Total** | **4.07 W of 12.95 W** (2.42 W below the Class 2 limit of 6.49 W) |
 
 **This drops the PD a classification.** At 7.3 W the board was Class 3
-(6.49–12.95 W); at 4.14 W it is **Class 2** (3.84–6.49 W). Set the
+(6.49–12.95 W); at 4.07 W it is **Class 2** (3.84–6.49 W). Set the
 classification resistor accordingly — it is politer to the switch's power
 budget, and a switch with a constrained budget will thank you for it.
 
@@ -280,6 +289,12 @@ Decided 2026-10-01: **Eaton `KW-5R5C334H-R`** supercap, no coin cell.
 - **Holdup.** Load is ~0.9 µA at 25 °C and ~1.3 µA at 40 °C (DS Table 23, RTC on
   OSC32K + 8 KB SRAM). Worst case ≈ 14 h: 0.185 F at end of life, 2.95 → 1.71 V,
   2× load, an assumed 5 µA leakage (the datasheet gives none). Typical ≈ 43 h.
+  The RTC crystal, Epson FC-135R `X1A0001410006` (C_L 6 pF, ESR ≤ 50 kΩ), meets the
+  low-power-mode limits of the 32 kHz oscillator (DS Table 36: C_L ≤ 7 pF,
+  ESR ≤ 50 kΩ), so it can run in low-power mode (110 vs 220 typ., presumably nA).
+  The holdup figures above already allow for normal mode. Measure the
+  oscillator margin on the board: C_L 6 pF needs ≈ 24 pF summed over both pins,
+  against 22 pF for Coarse_Amp_Gain 01 (DS Table 37).
   Cold garage temperatures reduce both load and leakage. A 1 F part was only
   needed for a 24 h worst-case target.
 - **Circuit.**
@@ -308,7 +323,7 @@ Decided 2026-10-01: **Eaton `KW-5R5C334H-R`** supercap, no coin cell.
     transformer. Through R28 (0 Ω) the bench supply also powers the flyback's
     secondary feedback (TLVH431 and opto LED), which is harmless: with PoE
     absent the primary is off, and with PoE present the loop simply idles the
-    flyback (poe-verification §8).
+    flyback (verification-plan §6.9).
   - **No reverse-polarity protection.** The header is unkeyed. A reversed
     supply forward-biases D4 through the transformer secondary and puts −12 V
     on every 12 V load. Use a current-limited lab supply and a keyed or marked
@@ -361,7 +376,11 @@ Things to get right:
 3. **Order VKLT, not VNLT** (VNLT was replaced, PCN 202502004F01). Choose the
    LDO or DCDC core-supply configuration per UG10092 §3.2.
 4. **24 MHz crystal.** HS USB needs one of a fixed list of frequencies, and the
-   ROM's USB ISP mode needs 24 MHz with factory fuses.
+   ROM's USB ISP mode needs 24 MHz with factory fuses. Part (2026-10-08):
+   Epson TSX-3225 `X1E0000210048`, −40…+105 °C, ±10 ppm + ±10 ppm over temperature,
+   C_L 9 pF, ESR 40 Ω, drive ≤ 200 µW (distributor data; the Epson family
+   sheet does not decode the ordering code). Load caps C1/C2 = 10 pF. Its ppm
+   budget is set by the RMII reference (see the PHY section).
 
 ### Ethernet PHY — KSZ8081RNB
 
@@ -406,7 +425,12 @@ Notes:
   in board init.
 - The 50 MHz reference must be within ±50 ppm (DS Table 7-12 p.57). It is
   derived from the 24 MHz crystal, so the crystal tolerance plus load-cap
-  pulling must fit that budget.
+  pulling must fit that budget. The crystal takes ±20 ppm of it (±10 ppm at
+  25 °C + ±10 ppm over temperature), leaving ≈ ±30 ppm for pulling and aging.
+  C1/C2 = 10 pF put the load at ≈ 8–10 pF against C_L = 9 pF (≈ ±20–40 ppm,
+  depending on the board's stray capacitance), so measure the frequency on the
+  first board and trim C1/C2 if needed. The MCX N oscillator itself targets
+  ±40 ppm over life including aging (MCX N DS §4.2.1).
 - The hardware alternative, if this ever becomes a problem: a 25 MHz crystal
   on XI/XO, PHY REF_CLK (pin 19) into P1_4 as an input. That removes the
   firmware step at the cost of a crystal.
@@ -420,7 +444,7 @@ Notes:
 - The MCX N ROM authenticates punchboot against the root-of-trust key hash
   provisioned in the device's protected configuration (CMPA/OTP).
 - punchboot authenticates the application and manages the A/B slots and rollback.
-- The SE050 then holds the private key the running application authenticates
+- The SE051 then holds the private key the running application authenticates
   with.
 
 **punchboot has to be ported to MCX N.** MCUboot is Zephyr-native and already
@@ -433,7 +457,7 @@ but punchboot is the target. The port covers:
 - **Crypto:** signature verification on the **PKC** (hardware ECDSA) and hashing
   on **ELS**. Boot time no longer argues for a software-friendly algorithm.
 - **Anti-rollback:** OTP/CFPA monotonic counters, kept in the MCU and not in the
-  SE050. The rationale is unchanged; see §5.
+  SE051. The rationale is unchanged; see §5.
 - **USB recovery:** MCX N USB1 is NXP's EHCI high-speed controller, the same IP
   family as on i.MX RT, so punchboot's USB driver is likely largely reusable.
   Verify against the reference manual.
@@ -495,7 +519,7 @@ makes USB a production and recovery interface, not just a debug port:
 
 **Code confidentiality.** Code now lives in internal flash, which a SOIC clip
 cannot read once debug is locked, so the old BEE question disappears. It
-remains a weak requirement; the secret worth protecting is the key in the SE050.
+remains a weak requirement; the secret worth protecting is the key in the SE051.
 
 ### Known bring-up hazards
 
@@ -515,7 +539,7 @@ remains a weak requirement; the secret worth protecting is the key in the SE050.
 
 ## 5. Secure element
 
-**NXP EdgeLock SE050**, I²C, on a bus of its own.
+**NXP EdgeLock SE051** (`SE051C2HQ1/Z01XDZ`), I²C, on a bus of its own.
 
 | Parameter | Value |
 |---|---|
@@ -523,22 +547,22 @@ remains a weak requirement; the secret worth protecting is the key in the SE050.
 | Interface | I²C, T=1 over I²C, default address **0x48** |
 | Speed | up to 1 MHz without clock stretching (3.4 MHz with) |
 | Package | HX2QFN20, 3 × 3 mm, 0.4 mm pitch |
-| Control pins | `ENA` (deep power-down), `RST_N` |
+| Control pins | `ENA` (deep power-down) tied to 3V3; no reset pin in I²C mode (`RST_N` belongs to the ISO 7816 interface, tied to GND; SE051 p.10) |
 | Current | 4.4–7 mA active, up to ~16 mA during crypto, 3–5 µA deep power-down |
 | Temperature | −25…+85 °C (suffix 1) or **−40…+105 °C (suffix 2)** |
 
-**Pick a suffix-2 variant** — `SE050C2` or the newer `SE051C2` — so the secure
-element matches the industrial grading of the rest of the board. The base
-variants (A/B/C/…) differ mainly in key provisioning options; SE050E adds
-AES-CCM/GCM, GMAC and Curve448.
+**Suffix-2 variant fitted** (`SE051C2`, −40…+105 °C), so the secure element
+matches the industrial grading of the rest of the board. The SE051 is the
+pin-compatible successor of the SE050 and uses the same Plug & Trust
+middleware.
 
 ### What it is for
 
 Two things, and it is worth being precise about them:
 
-**1. Private-key custody.** The ECC keypair is generated *inside* the SE050, the
+**1. Private-key custody.** The ECC keypair is generated *inside* the SE051, the
 private half never leaves, and every operation that uses it happens on-die. The
-MCU asks the SE050 to sign or to complete a handshake; it never sees the key.
+MCU asks the SE051 to sign or to complete a handshake; it never sees the key.
 
 **2. Secure provisioning of the TLS certificate.** Because the key is created
 inside the part and cannot be exported, the CSR-to-certificate flow is
@@ -547,7 +571,7 @@ manufacture, at which the private key exists somewhere it could be copied.
 
 **This is not "device identity", and the distinction matters.** The identity is
 the certificate and the name inside it, and that is *public data* — it could sit
-in flash quite happily. What the SE050 protects is the key that lets the device
+in flash quite happily. What the SE051 protects is the key that lets the device
 **prove** the identity. Conflating the two obscures what is actually secret and
 leads to muddled thinking about what the part is doing.
 
@@ -569,45 +593,46 @@ sensor readings if that ever becomes interesting.
 | Bootloader integrity | **MCX N ROM secure boot**, punchboot verified against the root-of-trust key hash in CMPA/OTP |
 | Application integrity | **punchboot**, signed bpak images, A/B with rollback |
 | Code confidentiality | **Internal flash + locked debug**. Weak requirement, see §4 |
-| Private-key custody and TLS provisioning | **SE050** |
+| Private-key custody and TLS provisioning | **SE051** |
 
 These are complementary, not substitutes — and the dependency runs one way.
 Without a verified boot chain, an attacker who can replace the firmware can
-simply *ask* the SE050 to sign whatever they like. The SE050 protects the key
+simply *ask* the SE051 to sign whatever they like. The SE051 protects the key
 from extraction; ROM secure boot and punchboot are what bind the key to legitimate code. A
-board with an SE050 and no secure boot has moved the attack, not removed it.
+board with an SE051 and no secure boot has moved the attack, not removed it.
 
-**Keep the anti-rollback counter in the MCU's OTP, not in the SE050.** The SE050 has
+**Keep the anti-rollback counter in the MCU's OTP, not in the SE051.** The SE051 has
 monotonic counters and it is tempting to use one, but that puts an I²C
 transaction with a second chip on the boot path — a new failure mode, a boot
 delay, and bootloader code that has to handle the secure element not answering.
 Fuses cannot fail to enumerate. The two parts are better kept on separate
-concerns: boot chain in MCU OTP and punchboot, private-key custody in the SE050.
+concerns: boot chain in MCU OTP and punchboot, private-key custody in the SE051.
 
 ### Provisioning flow
 
-1. Generate the keypair inside the SE050
+1. Generate the keypair inside the SE051
 2. Export a CSR
 3. Sign it with a local CA (kept offline)
-4. Store the resulting certificate back in the SE050
+4. Store the resulting certificate back in the SE051
 5. mTLS to the broker, with the private key never leaving the chip
 
 **Where the identity actually comes from.** punchboot derives a UUID3 device
 identity from the SoC's unique data. That is the device's name, and it belongs in
 the certificate subject at step 3. The certificate then binds *that* identity to
-the key the SE050 holds — so the boot-chain identity and the network identity are
+the key the SE051 holds — so the boot-chain identity and the network identity are
 demonstrably the same device, rather than two facts that happen to agree.
 
-This is the clean division: **punchboot says who the device is, the SE050 holds
+This is the clean division: **punchboot says who the device is, the SE051 holds
 the secret that proves it.**
 
 ### Board notes
 
-- **Its own I²C bus.** The field sensors are on RS-485, so the SE050 would
+- **Its own I²C bus.** The field sensors are on RS-485, so the SE051 would
   otherwise be the only I²C device anyway — and a bus wedged by something else
   must never be able to block security operations. 2.2 kΩ pull-ups.
-- Keep `ENA` and `RST_N` under MCU control so firmware can power-cycle it
-  cleanly.
+- `ENA` is tied to 3V3, so the SE051 is always enabled. There is no reset pin in
+  I²C mode. A hung SE051 is recovered by a soft reset over T=1-over-I²C, or by a
+  board power cycle; firmware cannot power-cycle it on its own.
 - The chip is the security boundary; there is
   no meaningful tamper protection to add around it on a board like this, and
   none is needed for this threat model.
@@ -843,9 +868,9 @@ As drawn in `do.kicad_sch`, from the PhotoMOS outward:
 - PhotoMOS pin 3 goes straight to terminal `DOn B`.
 - Pin 4 → 10 Ω 2512 pulse-proof resistor (R52/R53) → PPTC 0ZCJ0016FF2E (F1/F2)
   → terminal `DOn A`. See *Output protection and rating* below.
-- Bidirectional TVS across the terminal pair: SMAJ28CA (D18/D19), 28 V standoff.
-  The final standoff is to be chosen **after** measuring the opener's idle
-  voltage.
+- Bidirectional TVS across the terminal pair: SMAJ33CA (D18/D19), 33 V standoff,
+  53.3 V maximum clamp, under the AQY212GS 60 V rating. Re-check the standoff
+  once the opener's idle voltage is measured.
 - No ferrite or common-mode choke on the field pair.
 - Status LED on the logic side, showing the commanded state (see *LED drive*).
 
@@ -914,7 +939,7 @@ diode: a PPTC tripping into an inductive load can spike above its 48 V rating.
 
 The realistic faults are milder than the table. Closing the contact *is* a short
 across the opener's input, which sets its own few mA. The on-board sensor supply
-is limited to 100 mA by the TPS26625 eFuse (§3). The dead-short case needs an external stiff
+is limited to 66 mA by the TPS26625 eFuse (§3). The dead-short case needs an external stiff
 supply across the terminals.
 
 ### Accepted risk
@@ -1156,7 +1181,7 @@ labelling.
 
 **The sensor supply output is current-limited.** It is an exposed terminal where
 a slipped screwdriver shorts it to its neighbour. A TPS26625 eFuse limits it to
-100 mA (rated 80 mA continuous, up to 1000 µF of load capacitance), so a field
+66 mA (rated 50 mA continuous, up to 1000 µF of load capacitance), so a field
 short doesn't collapse the field rail and take RS-485 down with it. See §3
 *Field output protection*.
 
@@ -1236,7 +1261,8 @@ Measures, in order of value:
    with less margin (see *Shields and the SHIELD net*).
 3. **On-board:** proper magjack Bob Smith termination (75 Ω from each pair's
    centre tap to a common node, then 1000 pF / **2 kV** to chassis — not a 50 V
-   part), SMAJ58A across the 48 V rail after the bridge.
+   part), SMAJ58A across the 48 V rail after the bridge. No GDT and no
+   PTC/fuse in the PD path (dropped 2026-10-05, judged unnecessary).
 4. Inline Ethernet SPDs are probably unnecessary here. If fitted, they do
    **nothing** without a short, low-impedance earth wire.
 
@@ -1331,7 +1357,7 @@ isolation on the cable side, and functional isolation elsewhere.
 
 | Barrier | Requirement | Weakest part (rating) | Verification |
 |---|---|---|---|
-| Cable/PSE (MDI incl. PoE leads) ↔ everything else, including the field terminals | **1500 Vrms, 60 s** (IEEE 802.3 clause 33 PD isolation) | Magjack 7499511440 and FA2672 (1500 Vrms, 1 min); VO618A 5300 Vrms; C90/C91 KEMET 1 nF 3 kV DC | AC hipot 1500 Vrms, 50 Hz, 60 s (poe-verification §0) |
+| Cable/PSE (MDI incl. PoE leads) ↔ everything else, including the field terminals | **1500 Vrms, 60 s** (IEEE 802.3 clause 33 PD isolation) | Magjack 7499511440 and FA2672 (1500 Vrms, 1 min); VO618A 5300 Vrms; C90/C91 KEMET 1 nF 3 kV DC | AC hipot 1500 Vrms, 50 Hz, 60 s (verification-plan §4.3) |
 | Logic ↔ field 24 V domain | Functional; survive field-wiring surge | 750319693 (2500 V AC test), ISO3082 (2500 Vrms), C92 1 nF 3 kV | 500 Vrms, 60 s bench check |
 | Logic ↔ each digital input | Functional | ISO1211 (basic isolation) | 500 Vrms, 60 s bench check |
 | Logic ↔ each output contact | Functional, **provided the opener input is SELV** | AQY212GS (1500 Vrms I/O) | 500 Vrms, 60 s bench check |
@@ -1390,8 +1416,8 @@ capability.
 | Function | Part | Notes |
 |---|---|---|
 | MCU | `MCXN247VKLT` | HLQFP100, M33 150 MHz, 2 MB dual-bank flash, −40…+125 °C. Certified pin-compatible fallback `MCXN547VKLT` |
-| MCU crystal | 24 MHz | required for HS USB and ROM USB ISP |
-| RTC crystal | 32.768 kHz | C_L ≤ 7 pF for low-power operation |
+| MCU crystal | Epson TSX-3225 `X1E0000210048` (TSX-3225) | 24 MHz, −40…+105 °C, ±10 ppm + ±10 ppm, C_L 9 pF, ESR 40 Ω, C1/C2 10 pF. Required for HS USB and ROM USB ISP; also sets the RMII 50 MHz ppm budget (§4) |
+| RTC crystal | Epson FC-135R `X1A0001410006` | 32.768 kHz, C_L 6 pF, ESR ≤ 50 kΩ, ±20 ppm, −40…+85 °C. Internal load caps ≈ 8 pF per pin, Coarse_Amp_Gain 01; meets the low-power-mode limits (C_L ≤ 7 pF, ESR ≤ 50 kΩ) |
 | RTC backup | Eaton `KW-5R5C334H-R` + BAS70 + 220 Ω | 0.33 F / 5.5 V supercap on `VDD_BAT`, ≥ 8 h worst case. See §3 |
 | Ethernet PHY | `KSZ8081RNB` | RMII; MDC/MDIO on P1_2/P1_3 |
 | QSPI flash | `S25FL064L` (8 MB), fitted as standard | filesystem: configuration, logs, data; never code, nothing secret |
@@ -1400,11 +1426,12 @@ capability.
 | Digital outputs | `AQY212GS` ×2 | PhotoMOS, 60 V / 1 A, AC+DC |
 | Output protection | Vishay `CRCW251210R0FKEGHP` (10 Ω, 2512 pulse-proof, 1.5 W) + Bel `0ZCJ0016FF2E` PPTC (per channel) | Short stays at ~2 A and trips in tens of ms, inside the PhotoMOS 3 A / 100 ms rating. Output rated ≤ 30 V / 100 mA. See §7 |
 | Field supply | `SN6507` + push-pull transformer (candidate Würth `750319693`, 1:2.29) | 12 → 24 V, 3 W, unregulated (≈ 22.5–26 V over load). 3–36 V input, 0.5 A switches, spread spectrum. See §3 |
-| Field output protection | TI `TPS26625` eFuse (VSON-10) | 100 mA limit on the `+24V FLD` terminal, auto-retry, output reverse-polarity protection, 0.49 s ramp for up to 1000 µF. See §3 |
+| Field output protection | TI `TPS26625` eFuse (VSON-10) | 66 mA limit (50 mA rated) on the `+24V FLD` terminal, auto-retry, output reverse-polarity protection, 0.49 s ramp for up to 1000 µF. See §3 |
 | RS-485 | `ISO3082` class | isolated, field side from the 24 V rail via buck |
+| RS-485 5 V buck | TI `LMR51420XDDCR` (SOT-23-6, 500 kHz, PFM) | 4.5–36 V input, so the unregulated field rail (≈ 27–28 V at light load) is far from its limit. 10 µH `IHLP2020CZER100M01`, 2 × 22 µF out, 2 × 4.7 µF 50 V in, 0.6 V × (1 + 100k/13.7k) = 4.98 V, EN UVLO 13.5 V rising / 11.9 V falling (1 MΩ / 100 kΩ). Bode injection at R80 (49.9 Ω), feed-forward C78 DNP |
 | Voltage supervisor | `LP3470A293` | open-drain, drives `RESET_N`. Releases at V_IT+ ≤ 3.10 V, below the 3.21 V minimum of the 3V3 rail. Asserts at 2.93 V, below the KSZ8081's 3.135 V minimum, which leaves the PHY a brown-out window (accepted) |
 | Output drive | `NTK3134NT1G` ×2 + 2.2 kΩ gate pull-down + 220 Ω | One low-side FET per PhotoMOS LED, gate driven by `DOn_ON`, off when the pin is high-impedance. See §7, §8 |
-| Secure element | `SE050C2` / `SE051C2` | HX2QFN20, I²C 0x48, suffix 2 for −40…+105 °C |
+| Secure element | `SE051C2` (`SE051C2HQ1/Z01XDZ`) | HX2QFN20, I²C 0x48, suffix 2 for −40…+105 °C |
 | Sensor | XY-MD02 or SHT45 satellite | datasheets in `datasheets/` |
 | Enclosure | Italtronic `35.0807000.BL` | 8M XTS, 142 × 90 × 32.2 mm |
 
@@ -1440,18 +1467,19 @@ part that gets forgotten.
 | Expansion | Modbus remote I/O nodes | Bigger board | The actual PLC pattern; no respin needed to add capability |
 | Logic secondary | 12 V | 5 V | Makes the field converter a 1:2 push-pull instead of 1:5 |
 | Field converter driver | `SN6507` | `SN6505B` | **Reversed an earlier decision** (2026-10-03). The SN6505 is a 2.25–5.5 V part and cannot run from the 12 V rail (switch nodes see ≈ 24 V). The SN6507 takes 3–36 V and adds current limit, soft-start and optional line feed-forward |
-| Field rail regulation | Unregulated, turns ratio chosen for full load | LDO / post-regulator | A 10 kΩ preload keeps a base load on the rail; the expected 22.5–26 V sits inside the IEC 61131-2 19.2–30 V window (light-load voltage to be confirmed on the bench) |
-| Field output protection | `TPS26625` eFuse, 100 mA, auto-retry, FLT unused (2026-10-07) | Resettable PTC (~150 mA hold); latching `TPS26624`; variants without output reverse-polarity protection | A PTC's trip current is above what the 3 W rail can supply, so a short would collapse the rail and take RS-485 with it. The MCU cannot reach SHDN across the barrier to reset a latch. A mis-wired external supply on the terminal is the realistic fault. No fault LED or signal: FLT is left open |
+| RS-485 5 V buck | `LMR51420XDDCR` (2026-10-07) | `TPS54202H` (previous); series Zener in front of it | The TPS54202H is rated 28 V recommended / 30 V abs max, and the unregulated field rail sits at ≈ 27.4–27.8 V at light load. The LMR51420 is pin-compatible and rated 36 V. PFM for light-load efficiency on the field budget |
+| Field rail regulation | Unregulated, turns ratio chosen for full load | LDO / post-regulator | No preload (removed 2026-10-08): the rail sits at the rectified peak (≈ 27–28 V) when unloaded and ≈ 22.5–23.5 V at full load, inside the IEC 61131-2 19.2–30 V window; the open-circuit terminal voltage is a bench item |
+| Field output protection | `TPS26625` eFuse, 66 mA (R_ILIM 100 kΩ), auto-retry, FLT unused (2026-10-07) | Resettable PTC (~150 mA hold); latching `TPS26624`; variants without output reverse-polarity protection | A PTC's trip current is above what the 3 W rail can supply, so a short would collapse the rail and take RS-485 with it. The MCU cannot reach SHDN across the barrier to reset a latch. A mis-wired external supply on the terminal is the realistic fault. No fault LED or signal: FLT is left open |
 | Enclosure | Standard DIN box | Fully 3D-printed shell | Printing would free the design from a fixed envelope, but a standard box is flame-rated, dimensionally stable across −20…+35 °C, and keeps a design task off the critical path |
 | Enclosure | Italtronic 35.0807000.BL, 8M | CamdenBoss CNMB/6 | **Reversed an earlier decision.** 41 % more board area and 28 % more surface area for cooling |
 | Enclosure venting | Sealed | Vented | A 10–17 K rise needs no help, and vents invite moisture and dust in a garage |
 | External 24 V DC input | Dropped | Kept as a second source | **Reversed an earlier decision.** Scope cut to a few DI / 2 DO made it the largest remaining block that served no requirement; bench power moves to a 12 V header |
-| Key storage | SE050 secure element | Key in QSPI flash | A flash-resident private key is readable with a SOIC clip |
+| Key storage | SE051 secure element | Key in QSPI flash | A flash-resident private key is readable with a SOIC clip |
 | Secure element | Suffix-2 variant | Suffix-1 | −40…+105 °C to match the rest of the board |
-| SE050 bus | Dedicated I²C | Shared bus | A bus wedged by another device must not block security operations |
+| SE051 bus | Dedicated I²C | Shared bus | A bus wedged by another device must not block security operations |
 | Bootloader | punchboot, ported to MCX N | MCUboot | Signed bpak images, A/B with rollback and punchboot-tools recovery. MCUboot only to explore the MCX N boot flow first |
-| Image signature | ECDSA P-256 | RSA | Hardware PKC on MCX N; P-256 matches the SE050 and TLS. Keep the format open to a PQC or hybrid scheme later |
-| Anti-rollback counter | MCU OTP / CFPA counters | SE050 monotonic counter | Keeps I²C and a second chip off the boot path |
+| Image signature | ECDSA P-256 | RSA | Hardware PKC on MCX N; P-256 matches the SE051 and TLS. Keep the format open to a PQC or hybrid scheme later |
+| Anti-rollback counter | MCU OTP / CFPA counters | SE051 monotonic counter | Keeps I²C and a second chip off the boot path |
 | Code storage | Internal flash | External QSPI XiP (+ BEE) | Nothing readable off-chip with a clip; A/B maps onto the flash banks |
 | Watchdog roles | Internal WWDT resets the MCU; external watchdog only clears the latch | External watchdog as the main one, resetting the MCU | The proof test must survive the trip it provokes; `WDO` on `RESET_N` would deadlock with `RESET_N` → `MR`; the WWDT's warning interrupt gives diagnostics; debug sessions survive a halt. Only the external one counts toward output safety. *Superseded, see "Output watchdog" below* |
 | Safety watchdog | `TPS3436CFDBEDDFRQ1` | TPS3851, capacitor-timed TPS3436 variants, MAX675x | `WD-EN` pin for the debug jumper, `MR` input, fixed ±10 % timing without capacitors, 10 s startup delay. *Superseded, see "Output watchdog" below* |
@@ -1466,6 +1494,8 @@ part that gets forgotten.
 ---
 
 ## 15. Open items
+
+The bench and chamber tests for the first board, including the ones listed here, are collected in `doc/verification-plan.md`.
 
 **Before the schematic:**
 
@@ -1493,7 +1523,7 @@ part that gets forgotten.
 - [ ] **Verify the garage and house earths are bonded.**
 - [ ] **PoE front end: Si3402-B discrete vs Silvertel module.** Longest lead item
       and the most likely thing to need a second attempt.
-- [ ] **Confirm the SE050 variant is orderable** in suffix-2 grading, and whether
+- [ ] **Confirm the SE051 variant is orderable** in suffix-2 grading, and whether
       SE051 is the better long-term choice.
 - [ ] **Check the MCX N flash bank swap/remap.** It decides whether A/B needs
       two link addresses, and that shapes the build system and the punchboot port.
@@ -1517,7 +1547,7 @@ part that gets forgotten.
       ROM secure boot, CMPA and lifecycle flow.
 - [ ] Breadboard parts: XY-MD02, a USB-RS485 dongle for sniffing, a couple of
       AQY212GS to verify the output stage against the actual opener.
-- [ ] **Bring up the SE050 on the FRDM-MCXN947** with the nano-package Zephyr branch, and
+- [ ] **Bring up the SE051 on the FRDM-MCXN947** with the nano-package Zephyr branch, and
       get mTLS to the broker working with an SE-held key before the board exists.
       This is firmware-only work and gates nothing else.
 - [ ] Set up the offline local CA and write down the provisioning procedure.

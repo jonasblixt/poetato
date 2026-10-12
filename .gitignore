@@ -6,3 +6,5 @@ tools/
 zephyr/
 hw/poetato/.review/
 *.lck
+__pycache__
+hw/poetato/.history/

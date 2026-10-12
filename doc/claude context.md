@@ -71,7 +71,7 @@ PSE 48 V (UPS-backed) → PD bridge/class (Class 2 resistor) → Si3402-B isolat
 - Usage: door open reed, door closed reed, wall-button sense (no spare). Sensors are sealed reeds (low wetting need).
 
 ## Digital outputs — AQY212GS ×2
-- PhotoMOS 60 V / 1 A AC/DC, true bidirectional dry contact (opener input polarity unknown); can drive small relay coil. **Output rating: ≤ 30 V AC/DC, ≤ 100 mA** (signal contact, not power output).
+- PhotoMOS 60 V / 1 A AC/DC, true bidirectional dry contact (opener input polarity unknown); can drive small DC relay coil. **Output rating: ≤ 30 V DC only, ≤ 100 mA** (no AC: SMAJ33CA and PPTC limits; decided 2026-10-12) (signal contact, not power output).
 - Drive (as in schematic, 2026-10-04): 3V3 → 220 Ω (R62/R96) → AQY LED → NTK3134NT1G low-side (Q1/Q12) → GND (logic-level FET for 3.3 V gate drive). Gate = DO1_ON (P2_6) / DO2_ON (P2_7) with 2.2 kΩ pull-down. Plain GPIO, no PWM. Logic-side status LED (464 Ω) on the same FET shows the commanded state.
 - LED current (3V3, not 5 V): ≈9.9 mA nominal, ≥7.8 mA worst case (3V3 3.21 V, V_F 1.5 V max), ≈10.5 mA high. AQY212GS IFon 1.1 typ / 3 max, recommended 5–30 mA. ≥2× typical for aging.
 - Per channel (decided 2026-10-02): 10 Ω Vishay CRCW251210R0FKEGHP (2512 pulse-proof, 1.5 W at 70 °C; 2 W Bourns CRS2512 is fallback) + Bel 0ZCJ0016FF2E PPTC (1206, 0.16 A hold / 0.45 A trip, 48 V, 1.1–5 Ω) in series, PPTC next to resistor on shared copper, bidirectional TVS (standoff after measuring opener idle voltage), ferrite/CM choke, field-side status LED if possible.
@@ -91,7 +91,7 @@ PSE 48 V (UPS-backed) → PD bridge/class (Class 2 resistor) → Si3402-B isolat
 
 ## RS-485
 - ISO3082 class, field side 5 V via buck from 24 V (not LDO; not ADM2587E — avoids second iso domain).
-- 120 Ω termination jumper, fail-safe bias, TVS on A/B. LPUART hardware RTS for DE.
+- 120 Ω termination jumper, no bias resistors (relies on fail-safe receivers, ISO3082 and slaves; decided 2026-10-12), TVS on A/B. LPUART hardware RTS for DE.
 - Devices: XY-MD02 (SHT20) or own SHT45 satellite (datasheets in `datasheets/`). Mount on interior wall, away from door/motor.
 - Derived: dew point. γ = ln(RH/100) + 17.62T/(243.12+T); Td = 243.12γ/(17.62−γ).
 - Expansion (analog, 0–10 V): separate Modbus RTU slave nodes, not a bigger board.

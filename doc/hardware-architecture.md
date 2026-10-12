@@ -266,7 +266,7 @@ their own supply. That is a documented limit of this design, not an oversight.
 ### RTC and retained-RAM backup — `VDD_BAT`
 
 ```
-3V3 ──BAS70──┬── VDD_BAT (100 nF at pin)
+3V3 ──BAS70──┬── VDD_BAT (1 µF at pin)
              └── 220 Ω ── KW-5R5C334H-R, 0.33 F ── GND
 ```
 
@@ -302,8 +302,13 @@ Decided 2026-10-01: **Eaton `KW-5R5C334H-R`** supercap, no coin cell.
     is ≈ 1.4 V (3.15 → 1.71 V).
   - BAS70-class Schottky for low reverse leakage, which only matters in an
     outage, at ambient temperature.
-  - The diode also makes `VDD_BAT` ramp with `VDD_SYS` on a cold start with an
-    empty cap (UG10092 sequencing rule).
+  - On a cold start with an empty cap, `VDD_BAT` ramps together with 3V3, one
+    BAS70 drop lower (≈ 0.7 V at the ≈ 6–12 mA charging current). The rule
+    "VDD_BAT must ramp before or with VDD_SYS" (DS p.14, UG10092 §3) sets an
+    order, not a voltage match, so this is accepted (review W2-1, 2026-10-12).
+    `VDD_BAT` is below its 1.71 V minimum only while 3V3 is ≈ 1.9–2.4 V, with
+    `RESET_b` held. Measured at bring-up (verification-plan §5.2); if boot
+    problems appear, raise the 220 Ω to 2.2 kΩ (≈ 1.2 mA, ≈ 0.4 V drop).
   - 220 Ω limits inrush to ~11 mA (22 Ω would draw ~100 mA for tens of seconds).
 - **Port 5 runs at `VDD_BAT` (~3.1 V).** No 3V3 logic may drive P5 pins.
 - **Firmware.** Magic word + CRC on retained data. On a CRC failure treat RAM and
@@ -876,8 +881,10 @@ As drawn in `do.kicad_sch`, from the PhotoMOS outward:
 
 ### Output protection and rating
 
-**Rating: ≤ 30 V AC/DC, ≤ 100 mA continuous. A signal contact that can also
-drive a small relay coil, not a power output.**
+**Rating: ≤ 30 V DC, ≤ 100 mA continuous. DC only (decided 2026-10-12): the
+SMAJ33CA TVS (V_BR ≥ 36.7 V) and the PPTC on AC (peak-to-peak ≤ 48 V, ≈ 17 V
+rms) do not allow a 30 V AC rating. A signal contact that can also drive a
+small DC relay coil, not a power output.**
 
 Per channel, from the PhotoMOS outward: **10 Ω Vishay `CRCW251210R0FKEGHP`** (2512 pulse-proof, 1.5 W) →
 **Bel `0ZCJ0016FF2E` PPTC** (1206, 0.16 A hold / 0.45 A trip, 48 V, 1.1–5 Ω) →
@@ -1125,7 +1132,9 @@ LDO wasted ~150 mW and could be shrugged off; at 24 V it is (24−5) × 20 mA �
 Also:
 
 - 120 Ω termination on a jumper
-- Fail-safe biasing resistors
+- No fail-safe bias resistors (decided 2026-10-12). The ISO3082 receiver is
+  fail-safe for open, shorted and idle buses (ISO3082 p.1, §8.1); slaves must
+  be fail-safe too
 - TVS on A/B
 - Use the LPUART's **hardware RTS direction control** rather than bit-banging DE
   — it removes a whole category of timing bug

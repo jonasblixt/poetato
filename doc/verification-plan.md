@@ -54,7 +54,11 @@ Power the board in stages, so a fault in one block cannot take out the next:
 5. PoE through a lab supply on VPOS/VNEG, then through the pairs, then through a real PSE (§6).
 6. Everything else (§8, §10–§13).
 
-If the flyback needs to be tested alone, lift R28 to separate it from `P12V0` (review Q-3).
+If the flyback needs to be tested alone, lift R28 to separate it from `P12V0` and put a load on TP8 (review Q-3).
+
+The 3V3 buck starts at ≈ 8.6 V and stops at ≈ 7.2 V on `P12V0` (R23/R87), so a bench supply on J6 must be ≥ 9 V.
+
+**If the MCU fails to boot or behaves oddly after a cold start**, suspect the VDD_BAT ramp first (§5.2, review W2-1): with an empty supercap VDD_BAT trails 3V3 by one diode drop. Raise R50 220 Ω → 2.2 kΩ and retry.
 
 ---
 
@@ -114,7 +118,7 @@ These are the requirements in arch §11 *Isolation requirements*.
 | DCDC switch node | TP18, a deliberate measurement point (review T3-1) | Clean switching at 3–8 MHz, no gross ringing |
 | VDD_SYS | TP13 | 1.71–1.98 V |
 | Supervisor | Ramp P3V3 slowly by ramping J6 near the buck threshold; watch `RESET_N` on J3 pin 10 | Asserts at 2.89–2.97 V, releases ≤ 3.10 V, after ≈ 62 ms (C8 100 nF) |
-| **VDD_BAT sequencing (review W2-1)** | Discharge C9 fully (short TP36 to GND through 10 Ω). Power up from J6 with a fast edge, then with a slow 50 ms ramp. Capture VDD_BAT (TP16), VDD_SYS (TP13) and P3V3 together | Record how far VDD_BAT lags VDD_SYS, and for how long. It is a pass if NXP accepts the lag (W2-1 option b) or after R50 has been raised. The MCU must start normally and the RTC domain must report a clean POR. |
+| **VDD_BAT sequencing (review W2-1)** | Discharge C9 fully (short TP36 to GND through 10 Ω). Power up from J6 with a fast edge, then with a slow 50 ms ramp. Capture VDD_BAT (TP16), VDD_SYS (TP13) and P3V3 together | Record how far VDD_BAT lags P3V3 and VDD_SYS, and how long VDD_BAT stays below 1.71 V while VDD_SYS is up. Expected: one BAS70 drop (≈ 0.7 V) during the ramp, VDD_BAT ≈ 2.2 V when `RESET_N` releases. Accepted by design (W2-1, 2026-10-12), so this is a record, not a gate. The MCU must start normally and the RTC domain must report a clean POR. **If boot problems show up anywhere (hangs after cold start, bad RTC/VBAT state, ROM not starting), try this first:** raise R50 220 Ω → 2.2 kΩ (≈ 1.2 mA charge current, ≈ 0.4 V lag) and repeat. |
 | PHY brown-out window (arch §13, LP3470 row) | Hold P3V3 at 3.0–3.1 V (between the PHY's 3.135 V minimum and the supervisor's release threshold), then return it to 3.3 V | Firmware detects the PHY fault and resets it; the link comes back without a power cycle |
 
 ---

@@ -4,6 +4,16 @@
 	(generator_version "10.0")
 	(uuid "84d41a61-0fb3-4984-b251-a6cb19f151e3")
 	(paper "A3")
+	(title_block
+		(title "PoEtato - Isolated RS-485 and 5 V supply")
+		(date "2026-10-08")
+		(rev "A (draft)")
+		(company "Jonas Blixt <jonas@blxt.se>")
+		(comment 1 "Copyright (c) 2026 Jonas Blixt. SPDX-License-Identifier: CERN-OHL-S-2.0")
+		(comment 2 "Licensed under CERN-OHL-S v2: https://ohwr.org/cern_ohl_s_v2.txt")
+		(comment 3 "Source location: https://github.com/jonasblixt/poetato")
+		(comment 4 "Status: draft, not released for manufacture")
+	)
 	(lib_symbols
 		(symbol "LEDs:LED0402_150040AS73240"
 			(pin_numbers
@@ -637,214 +647,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "cap_mlcc_murata_GRM:GRM/C0402_22u_10V_X5R_20%"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "${Capacitance}"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "22.0uF, 10V, X5R, Tol: 20%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Capacitance" "22.0uF"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Voltage" "10V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dielectric" "X5R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Murata"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part Number" "GRM158R61A226ME15"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Capacitor_SMD:C_0402_1005Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GRM/C0402_22u_10V_X5R_20%_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GRM/C0402_22u_10V_X5R_20%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "cap_mlcc_murata_GRM:GRM/C0402_68p_100V_C0G_5%"
 			(pin_numbers
 				(hide yes)
@@ -1261,7 +1063,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "cap_mlcc_murata_GRM:GRM/C0805_10u_50V_X5R_20%"
+		(symbol "cap_mlcc_murata_GRM:GRM/C0805_22u_16V_X5R_20%"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1317,7 +1119,7 @@
 					)
 				)
 			)
-			(property "Description" "10.0uF, 50V, X5R, Tol: 20%"
+			(property "Description" "22.0uF, 16V, X5R, Tol: 20%"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1328,7 +1130,7 @@
 					)
 				)
 			)
-			(property "Capacitance" "10.0uF"
+			(property "Capacitance" "22.0uF"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -1339,7 +1141,7 @@
 					)
 				)
 			)
-			(property "Voltage" "50V"
+			(property "Voltage" "16V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1370,7 +1172,7 @@
 					)
 				)
 			)
-			(property "Part Number" "GRM21BR61H106ME43"
+			(property "Part Number" "GRM21BR61C226ME44"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -1403,7 +1205,7 @@
 					)
 				)
 			)
-			(symbol "GRM/C0805_10u_50V_X5R_20%_0_1"
+			(symbol "GRM/C0805_22u_16V_X5R_20%_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -1429,7 +1231,215 @@
 					)
 				)
 			)
-			(symbol "GRM/C0805_10u_50V_X5R_20%_1_1"
+			(symbol "GRM/C0805_22u_16V_X5R_20%_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cap_mlcc_murata_GRM:GRM/C1206_4u7_50V_X7R_10%"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "${Capacitance}"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "4.7uF, 50V, X7R, Tol: 10%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Capacitance" "4.7uF"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dielectric" "X7R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Murata"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "GRM31CR71H475KA12"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Capacitor_SMD:C_1206_3216Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GRM/C1206_4u7_50V_X7R_10%_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GRM/C1206_4u7_50V_X7R_10%_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -1606,59 +1616,56 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "dcdc:TPS54202HDDCR"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "dcdc:LMR51420XDDCR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0.762 17.78 0)
+				(at 0 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TPS54202HDDCR"
-				(at 7.62 -1.27 0)
+			(property "Value" "LMR51420XDDCR"
+				(at 6.858 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-				(at -48.768 8.382 0)
+				(at 10.16 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps54202h.pdf"
-				(at -58.928 3.556 0)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51420.pdf"
+				(at 10.16 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "4.5-V to 36-V, 2-A synchronous buck converter, 500 kHz, PFM, internal compensation, SOT-23-6 (DDC)"
+				(at 10.16 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1669,29 +1676,7 @@
 				)
 			)
 			(property "Manufacturer" "TI"
-				(at -58.674 -0.254 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Part Number" "TPS54202HDDCR"
-				(at -59.182 -4.064 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TSOT?23* SOT?23*"
-				(at 0 0 0)
+				(at 10.16 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1701,22 +1686,33 @@
 					)
 				)
 			)
-			(symbol "TPS54202HDDCR_1_1"
-				(rectangle
-					(start 0 16.51)
-					(end 15.24 0)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
+			(property "Part Number" "LMR51420XDDCR"
+				(at 10.16 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
+			)
+			(symbol "LMR51420XDDCR_1_1"
 				(polyline
 					(pts
-						(xy 15.24 12.7) (xy 0 12.7)
+						(xy 20.32 12.7) (xy 0 12.7)
 					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 20.32 0)
+					(end 0 15.875)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1725,8 +1721,8 @@
 						(type none)
 					)
 				)
-				(text "DC/DC"
-					(at 7.62 14.732 0)
+				(text "36V 2A Buck"
+					(at 10.16 14.224 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1734,8 +1730,8 @@
 					)
 				)
 				(pin power_in line
-					(at -5.08 2.54 0)
-					(length 5.08)
+					(at -2.54 2.54 0)
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -1752,8 +1748,8 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 7.62 180)
-					(length 5.08)
+					(at 22.86 7.62 180)
+					(length 2.54)
 					(name "SW"
 						(effects
 							(font
@@ -1770,8 +1766,8 @@
 					)
 				)
 				(pin power_in line
-					(at -5.08 10.16 0)
-					(length 5.08)
+					(at -2.54 10.16 0)
+					(length 2.54)
 					(name "VIN"
 						(effects
 							(font
@@ -1788,8 +1784,8 @@
 					)
 				)
 				(pin input line
-					(at 20.32 2.54 180)
-					(length 5.08)
+					(at 22.86 2.54 180)
+					(length 2.54)
 					(name "FB"
 						(effects
 							(font
@@ -1806,8 +1802,8 @@
 					)
 				)
 				(pin input line
-					(at -5.08 5.08 0)
-					(length 5.08)
+					(at -2.54 5.08 0)
+					(length 2.54)
 					(name "EN"
 						(effects
 							(font
@@ -1824,9 +1820,9 @@
 					)
 				)
 				(pin passive line
-					(at 20.32 10.16 180)
-					(length 5.08)
-					(name "BOOT"
+					(at 22.86 10.16 180)
+					(length 2.54)
+					(name "CB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2251,7 +2247,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ind_power_vishay_ihlp:IHLP/L2020_22u_20_1A9"
+		(symbol "ind_power_vishay_ihlp:IHLP/L2020_10u_20_2A5"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2274,7 +2270,7 @@
 					)
 				)
 			)
-			(property "Value" "22µH"
+			(property "Value" "10µH"
 				(at 1.905 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2306,7 +2302,7 @@
 					)
 				)
 			)
-			(property "Description" "22µH, ±20%, I=1.9A, Isat=1.7A, DCR=270mOhm Max, SRF=10MHz, -55C to 125C, series CZ, EIA 2020"
+			(property "Description" "10µH, ±20%, I=2.5A, Isat=4A, DCR=158mOhm Max, SRF=N/A, -55C to 125C, series CZ, EIA 2020"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2317,7 +2313,7 @@
 					)
 				)
 			)
-			(property "Inductance" "22µH"
+			(property "Inductance" "10µH"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -2338,7 +2334,7 @@
 					)
 				)
 			)
-			(property "Rated Current" "1.9A"
+			(property "Rated Current" "2.5A"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -2349,7 +2345,7 @@
 					)
 				)
 			)
-			(property "Saturation Current" "1.7A"
+			(property "Saturation Current" "4A"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -2360,7 +2356,7 @@
 					)
 				)
 			)
-			(property "DCR" "270mOhm Max"
+			(property "DCR" "158mOhm Max"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -2371,7 +2367,7 @@
 					)
 				)
 			)
-			(property "SRF" "10MHz"
+			(property "SRF" "N/A"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -2415,7 +2411,7 @@
 					)
 				)
 			)
-			(property "Part Number" "IHLP2020CZER220M11"
+			(property "Part Number" "IHLP2020CZER100M01"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -2448,7 +2444,7 @@
 					)
 				)
 			)
-			(symbol "IHLP/L2020_22u_20_1A9_0_1"
+			(symbol "IHLP/L2020_10u_20_2A5_0_1"
 				(arc
 					(start 0 2.54)
 					(mid 0.6323 1.905)
@@ -2498,7 +2494,7 @@
 					)
 				)
 			)
-			(symbol "IHLP/L2020_22u_20_1A9_1_1"
+			(symbol "IHLP/L2020_10u_20_2A5_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -3664,7 +3660,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "res_chip_vishay_crcw:CRCW/R0402_13k3_1_63mW"
+		(symbol "res_chip_vishay_crcw:CRCW/R0402_13k7_1_63mW"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3686,7 +3682,7 @@
 					)
 				)
 			)
-			(property "Value" "13.3kΩ"
+			(property "Value" "13.7kΩ"
 				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3718,7 +3714,7 @@
 					)
 				)
 			)
-			(property "Description" "13.3kΩ, 1%, 63mW, TCR ±100ppm/K, EIA 0402"
+			(property "Description" "13.7kΩ, 1%, 63mW, TCR ±100ppm/K, EIA 0402"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3729,7 +3725,7 @@
 					)
 				)
 			)
-			(property "Resistance" "13.3kΩ"
+			(property "Resistance" "13.7kΩ"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -3782,7 +3778,7 @@
 					)
 				)
 			)
-			(property "Part Number" "CRCW040213K3FKED"
+			(property "Part Number" "CRCW040213K7FKED"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -3815,7 +3811,7 @@
 					)
 				)
 			)
-			(symbol "CRCW/R0402_13k3_1_63mW_0_1"
+			(symbol "CRCW/R0402_13k7_1_63mW_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -3828,7 +3824,211 @@
 					)
 				)
 			)
-			(symbol "CRCW/R0402_13k3_1_63mW_1_1"
+			(symbol "CRCW/R0402_13k7_1_63mW_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "res_chip_vishay_crcw:CRCW/R0402_1M0_1_63mW"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1MΩ"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1MΩ, 1%, 63mW, TCR ±100ppm/K, EIA 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Resistance" "1MΩ"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power" "63mW"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "T.C.R" "±100ppm/K"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Number" "CRCW04021M00FKED"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Resistor_SMD:R_0402_1005Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CRCW/R0402_1M0_1_63mW_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CRCW/R0402_1M0_1_63mW_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -4237,210 +4437,6 @@
 				)
 			)
 			(symbol "CRCW/R0402_49R9_1_63mW_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "res_chip_vishay_crcw:CRCW/R0402_510k0_1_63mW"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "510kΩ"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "510kΩ, 1%, 63mW, TCR ±100ppm/K, EIA 0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Resistance" "510kΩ"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Power" "63mW"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "T.C.R" "±100ppm/K"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part Number" "CRCW0402510KFKED"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Resistor_SMD:R_0402_1005Metric"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CRCW/R0402_510k0_1_63mW_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CRCW/R0402_510k0_1_63mW_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -5208,6 +5204,16 @@
 		)
 		(uuid "964f3b7c-4d77-4bc9-9b22-17cb67486d7d")
 	)
+	(text "Short to enable 120Ohm termination"
+		(exclude_from_sim no)
+		(at 308.61 103.378 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d66c09b4-1eb0-4ac8-8f25-c2e571c5d27d")
+	)
 	(text "RS485 5V Supply"
 		(exclude_from_sim no)
 		(at 298.45 199.898 0)
@@ -5231,18 +5237,6 @@
 		(uuid "17a79624-a33d-4dd8-b17e-2456d4d345bf")
 	)
 	(junction
-		(at 261.62 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "182d1c19-c6d0-4520-a4a8-3d8dd313cae9")
-	)
-	(junction
-		(at 280.67 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ea433d2-df4c-488d-b317-a712a777eb9b")
-	)
-	(junction
 		(at 209.55 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5253,6 +5247,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27c12557-a67f-4dbc-8d2f-967e1c49a844")
+	)
+	(junction
+		(at 340.36 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33670eca-02c3-466f-a6ab-facde6d0d119")
 	)
 	(junction
 		(at 209.55 209.55)
@@ -5277,6 +5277,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a580fc5-d4b0-4555-988a-738d8e5d49d6")
+	)
+	(junction
+		(at 298.45 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e7709e3-23e1-4add-825b-d0a4381fad0e")
 	)
 	(junction
 		(at 118.11 123.19)
@@ -5315,6 +5321,12 @@
 		(uuid "5548b58c-4157-4ba5-9ab5-5f79313a0744")
 	)
 	(junction
+		(at 96.52 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5827de2c-ff2a-4ee7-a088-e45825439621")
+	)
+	(junction
 		(at 148.59 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5339,6 +5351,18 @@
 		(uuid "6994520c-60f9-4fb2-b457-5417dcac6e65")
 	)
 	(junction
+		(at 311.15 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d20524d-6254-4be2-a07b-5f7c25b70d0f")
+	)
+	(junction
+		(at 340.36 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e8a7697-437f-4692-8296-162a09f4f64e")
+	)
+	(junction
 		(at 298.45 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5351,28 +5375,22 @@
 		(uuid "9906e6fa-21a9-4a06-bd9c-951e1ae18015")
 	)
 	(junction
+		(at 327.66 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7e5ebb2-2728-4ea0-abd7-bf56558111d7")
+	)
+	(junction
 		(at 196.85 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad2d9a91-d56e-41eb-8124-7585cf7b5bec")
 	)
 	(junction
-		(at 311.15 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8d99f65-3cd5-487f-9a9e-6300b3799555")
-	)
-	(junction
 		(at 196.85 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd6ea816-e1f5-4002-8c0b-9b891f476fa6")
-	)
-	(junction
-		(at 327.66 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4300dc5-c3f4-48b8-a675-f507a1c98990")
 	)
 	(junction
 		(at 104.14 118.11)
@@ -5387,7 +5405,13 @@
 		(uuid "c7dc74d1-9daa-45e0-9e0c-e9e16f646fcb")
 	)
 	(junction
-		(at 101.6 115.57)
+		(at 298.45 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdf8e098-a913-4f6b-9f43-b893b077c692")
+	)
+	(junction
+		(at 96.52 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd4d99d5-277d-439f-a75d-ea7482991164")
@@ -5423,20 +5447,10 @@
 		(uuid "fc122a07-bb74-45b7-899e-e45df48bf1f7")
 	)
 	(junction
-		(at 95.25 115.57)
+		(at 92.71 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdde2fc2-0f29-4da7-82b6-97e60e00fb43")
-	)
-	(wire
-		(pts
-			(xy 327.66 187.96) (xy 327.66 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01d90d10-bfba-4aa2-8b31-7c71f1caf3a5")
 	)
 	(wire
 		(pts
@@ -5520,6 +5534,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 184.15) (xy 340.36 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b6640ff-dc5b-44bc-b967-c31708f22b7d")
+	)
+	(wire
+		(pts
 			(xy 292.1 173.99) (xy 292.1 180.34)
 		)
 		(stroke
@@ -5537,16 +5561,6 @@
 			(type default)
 		)
 		(uuid "1f9bd66c-a6f5-411b-be3f-dfbe773b5f7b")
-	)
-	(wire
-		(pts
-			(xy 95.25 115.57) (xy 101.6 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "213059c4-078f-48b7-96c9-6686c7375195")
 	)
 	(wire
 		(pts
@@ -5620,6 +5634,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 162.56) (xy 96.52 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ff7b6c-e8f5-4011-adf5-129674568704")
+	)
+	(wire
+		(pts
 			(xy 232.41 182.88) (xy 236.22 182.88)
 		)
 		(stroke
@@ -5670,6 +5694,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 179.07) (xy 96.52 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435b06f5-62be-4107-a020-b5cb112b2602")
+	)
+	(wire
+		(pts
 			(xy 196.85 234.95) (xy 196.85 236.22)
 		)
 		(stroke
@@ -5700,6 +5734,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 173.99) (xy 340.36 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c787c89-beda-4c30-975c-85f40d502af7")
+	)
+	(wire
+		(pts
 			(xy 176.53 134.62) (xy 176.53 137.16)
 		)
 		(stroke
@@ -5710,13 +5754,13 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 129.54) (xy 267.97 133.35)
+			(xy 327.66 184.15) (xy 327.66 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52601239-35de-4238-a355-b41c94694393")
+		(uuid "4eadfa2d-a80e-470f-91d0-0b83a5733d88")
 	)
 	(wire
 		(pts
@@ -5780,6 +5824,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 195.58) (xy 327.66 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58fa90bb-8c76-4974-9bdf-e2c6d34a6f00")
+	)
+	(wire
+		(pts
 			(xy 252.73 102.87) (xy 252.73 96.52)
 		)
 		(stroke
@@ -5790,7 +5844,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 115.57) (xy 95.25 115.57)
+			(xy 87.63 115.57) (xy 149.86 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5820,33 +5874,13 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 127) (xy 261.62 137.16)
+			(xy 289.56 195.58) (xy 298.45 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6156714a-b617-4033-99e1-7ea0322d67a5")
-	)
-	(wire
-		(pts
-			(xy 289.56 187.96) (xy 327.66 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a3d02be-98c1-496d-9ba5-2099c761c6d2")
-	)
-	(wire
-		(pts
-			(xy 261.62 127) (xy 292.1 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6af03ce7-9d77-4a19-ac1e-6a0f9abbb788")
+		(uuid "66335a2d-7362-4320-a208-cbafc7c4f54a")
 	)
 	(wire
 		(pts
@@ -5870,16 +5904,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 137.16) (xy 261.62 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "706e7f0f-9b52-491f-a5a5-953b225d1c44")
-	)
-	(wire
-		(pts
 			(xy 252.73 110.49) (xy 252.73 115.57)
 		)
 		(stroke
@@ -5890,16 +5914,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 184.15) (xy 311.15 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "757c08a4-fabf-4231-9204-e36a06f0a184")
-	)
-	(wire
-		(pts
 			(xy 148.59 134.62) (xy 149.86 134.62)
 		)
 		(stroke
@@ -5907,6 +5921,16 @@
 			(type default)
 		)
 		(uuid "764d4c89-9695-400c-af90-8e26d398ddc6")
+	)
+	(wire
+		(pts
+			(xy 327.66 173.99) (xy 340.36 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e2cbcd-9d8e-487b-9093-237bf0d37d70")
 	)
 	(wire
 		(pts
@@ -5957,6 +5981,16 @@
 			(type default)
 		)
 		(uuid "8092b2f7-a946-4a0a-b840-ede7d2eb50ce")
+	)
+	(wire
+		(pts
+			(xy 327.66 195.58) (xy 340.36 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b089f7-cbcf-461e-9a74-916914f962c8")
 	)
 	(wire
 		(pts
@@ -6160,23 +6194,33 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 129.54) (xy 292.1 129.54)
+			(xy 298.45 195.58) (xy 311.15 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aab7be70-613f-45ec-81bb-fad6fe2ad3dc")
+		(uuid "a7d02fad-955a-4c04-992e-2a4291615f15")
 	)
 	(wire
 		(pts
-			(xy 95.25 107.95) (xy 95.25 115.57)
+			(xy 92.71 107.95) (xy 92.71 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "acf1362b-9d40-4144-9fee-2922a1267594")
+	)
+	(wire
+		(pts
+			(xy 298.45 193.04) (xy 298.45 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae35b7de-ab36-45f6-bd48-e220f8b45842")
 	)
 	(wire
 		(pts
@@ -6200,7 +6244,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 171.45) (xy 327.66 173.99)
+			(xy 340.36 171.45) (xy 340.36 173.99)
 		)
 		(stroke
 			(width 0)
@@ -6240,7 +6284,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 162.56) (xy 101.6 162.56)
+			(xy 104.14 162.56) (xy 96.52 162.56)
 		)
 		(stroke
 			(width 0)
@@ -6307,16 +6351,6 @@
 			(type default)
 		)
 		(uuid "cf6ab604-479e-4384-9bf4-aaeebf2597dc")
-	)
-	(wire
-		(pts
-			(xy 101.6 115.57) (xy 149.86 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d084ee8f-1c14-4ca5-a69b-8a3379d31d73")
 	)
 	(wire
 		(pts
@@ -6390,13 +6424,13 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 129.54) (xy 280.67 129.54)
+			(xy 311.15 184.15) (xy 311.15 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e36a9b67-0379-46b8-9bbc-f4397074761d")
+		(uuid "e4b40c76-9aca-4256-90c4-1ee8ccb1ed4f")
 	)
 	(wire
 		(pts
@@ -6410,7 +6444,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 115.57) (xy 101.6 162.56)
+			(xy 96.52 115.57) (xy 96.52 162.56)
 		)
 		(stroke
 			(width 0)
@@ -6470,13 +6504,13 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 187.96) (xy 327.66 190.5)
+			(xy 289.56 187.96) (xy 289.56 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb9ef684-3365-4e5d-b7af-f4d1715aed53")
+		(uuid "f518c9d8-2e29-465a-9655-a09b803367d2")
 	)
 	(wire
 		(pts
@@ -6539,17 +6573,6 @@
 		)
 		(uuid "0655387c-ae86-4dda-98ae-b7de1088d922")
 	)
-	(hierarchical_label "RS485_SHIELD"
-		(shape bidirectional)
-		(at 292.1 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "23de87c0-bd26-49a0-a11c-04d167bf6aff")
-	)
 	(hierarchical_label "RS485_A"
 		(shape bidirectional)
 		(at 292.1 115.57 0)
@@ -6560,17 +6583,6 @@
 			(justify left)
 		)
 		(uuid "39d2e42b-7371-4a76-b9f4-f3063f27fb52")
-	)
-	(hierarchical_label "RS485_SIGNAL_GND"
-		(shape bidirectional)
-		(at 292.1 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "494c2865-9090-4f07-a9bc-d665d42fb871")
 	)
 	(hierarchical_label "RS485_D"
 		(shape input)
@@ -6724,7 +6736,7 @@
 		)
 	)
 	(symbol
-		(lib_id "cap_mlcc_murata_GRM:GRM/C0402_22u_10V_X5R_20%")
+		(lib_id "cap_mlcc_murata_GRM:GRM/C0805_22u_16V_X5R_20%")
 		(at 232.41 193.04 0)
 		(unit 1)
 		(body_style 1)
@@ -6757,7 +6769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 233.3752 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -6779,7 +6791,7 @@
 				)
 			)
 		)
-		(property "Description" "22.0uF, 10V, X5R, Tol: 20%"
+		(property "Description" "22.0uF, 16V, X5R, Tol: 20%"
 			(at 232.41 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -6801,7 +6813,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "16V"
 			(at 236.22 194.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6834,7 +6846,7 @@
 				)
 			)
 		)
-		(property "Part Number" "GRM158R61A226ME15"
+		(property "Part Number" "GRM21BR61C226ME44"
 			(at 232.41 193.04 0)
 			(hide yes)
 			(show_name yes)
@@ -7283,7 +7295,83 @@
 		)
 	)
 	(symbol
-		(lib_id "res_chip_vishay_crcw:CRCW/R0402_13k3_1_63mW")
+		(lib_id "power:GND")
+		(at 96.52 179.07 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d170b88-fab4-4cc9-8b01-b78cb272e58c")
+		(property "Reference" "#PWR0176"
+			(at 96.52 182.626 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c24d6576-47ee-4abc-a69b-d2b91f6a2739")
+		)
+		(instances
+			(project "poetato"
+				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
+					(reference "#PWR0176")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "res_chip_vishay_crcw:CRCW/R0402_13k7_1_63mW")
 		(at 196.85 231.14 0)
 		(unit 1)
 		(body_style 1)
@@ -7305,7 +7393,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "13.3kΩ"
+		(property "Value" "13.7kΩ"
 			(at 199.39 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7338,7 +7426,7 @@
 				)
 			)
 		)
-		(property "Description" "13.3kΩ, 1%, 63mW, TCR ±100ppm/K, EIA 0402"
+		(property "Description" "13.7kΩ, 1%, 63mW, TCR ±100ppm/K, EIA 0402"
 			(at 196.85 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -7349,7 +7437,7 @@
 				)
 			)
 		)
-		(property "Resistance" "13.3kΩ"
+		(property "Resistance" "13.7kΩ"
 			(at 196.85 231.14 0)
 			(hide yes)
 			(show_name yes)
@@ -7404,7 +7492,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CRCW040213K3FKED"
+		(property "Part Number" "CRCW040213K7FKED"
 			(at 196.85 231.14 0)
 			(hide yes)
 			(show_name yes)
@@ -7613,7 +7701,7 @@
 		)
 	)
 	(symbol
-		(lib_id "cap_mlcc_murata_GRM:GRM/C0805_10u_50V_X5R_20%")
+		(lib_id "cap_mlcc_murata_GRM:GRM/C1206_4u7_50V_X7R_10%")
 		(at 327.66 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -7646,7 +7734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 328.6252 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -7668,7 +7756,7 @@
 				)
 			)
 		)
-		(property "Description" "10.0uF, 50V, X5R, Tol: 20%"
+		(property "Description" "4.7uF, 50V, X7R, Tol: 10%"
 			(at 327.66 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -7679,7 +7767,7 @@
 				)
 			)
 		)
-		(property "Capacitance" "10.0uF"
+		(property "Capacitance" "4.7uF"
 			(at 327.66 180.34 0)
 			(hide yes)
 			(show_name yes)
@@ -7701,7 +7789,7 @@
 				(justify left)
 			)
 		)
-		(property "Dielectric" "X5R"
+		(property "Dielectric" "X7R"
 			(at 331.47 184.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7723,7 +7811,7 @@
 				)
 			)
 		)
-		(property "Part Number" "GRM21BR61H106ME43"
+		(property "Part Number" "GRM31CR71H475KA12"
 			(at 327.66 180.34 0)
 			(hide yes)
 			(show_name yes)
@@ -7820,6 +7908,142 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cap_mlcc_murata_GRM:GRM/C1206_4u7_50V_X7R_10%")
+		(at 340.36 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "20863ff8-ad4e-46b2-9c77-d22f31e17af1")
+		(property "Reference" "C93"
+			(at 344.17 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "${Capacitance}"
+			(at 344.17 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 341.3252 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4.7uF, 50V, X7R, Tol: 10%"
+			(at 340.36 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "4.7uF"
+			(at 340.36 180.34 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 344.17 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 344.17 184.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 340.36 180.34 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "GRM31CR71H475KA12"
+			(at 340.36 180.34 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2eb4fc18-61b0-4fe1-ba9b-bce71ce73b39")
+		)
+		(pin "1"
+			(uuid "0646ac9b-3e36-47fb-b9c3-99ba7a2e3762")
+		)
+		(instances
+			(project "poetato"
+				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
+					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -8111,106 +8335,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 259.08 137.16 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2b9df77f-3410-4c82-889e-bba7b3b3fcce")
-		(property "Reference" "#FLG9"
-			(at 255.27 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.4892 2.4892)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 263.652 141.732 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 259.08 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.4892 2.4892)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.4892 2.4892)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "N/A"
-			(at 259.08 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "N/A"
-			(at 259.08 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e0ce037-8896-429f-9c83-3517316dbcd9")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "#FLG9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 176.53 138.43 180)
 		(unit 1)
@@ -8387,6 +8511,154 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
 					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "res_chip_vishay_crcw:CRCW/R0402_100k0_1_63mW")
+		(at 96.52 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3419be29-d21f-4c74-89fd-1037cec9adb8")
+		(property "Reference" "R8"
+			(at 99.06 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kΩ"
+			(at 99.06 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 94.742 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100kΩ, 1%, 63mW, TCR ±100ppm/K, EIA 0402"
+			(at 96.52 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "100kΩ"
+			(at 96.52 173.99 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "63mW"
+			(at 99.06 175.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 99.06 177.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "T.C.R" "±100ppm/K"
+			(at 96.52 173.99 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 96.52 173.99 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW0402100KFKED"
+			(at 96.52 173.99 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c7d93dc3-2b94-4cda-be8b-3acd94794abf")
+		)
+		(pin "1"
+			(uuid "7ffedd3f-1e5e-4c74-b93d-b53fc414303f")
+		)
+		(instances
+			(project "poetato"
+				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8617,85 +8889,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 267.97 133.35 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4cc6ffac-f31f-4835-9a1b-f6669aa8dc1c")
-		(property "Reference" "#PWR01"
-			(at 267.97 136.906 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Value" "SHIELD"
-			(at 270.51 134.0612 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 267.97 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "217d9f32-fd7a-458a-ac69-cfb51e186e13")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PxVx")
-		(at 327.66 171.45 0)
+		(at 340.36 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8706,7 +8901,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e39df12-a457-4ed2-bb77-be64c4d2fc3c")
 		(property "Reference" "#PWR0156"
-			(at 327.66 167.894 0)
+			(at 340.36 167.894 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8717,7 +8912,7 @@
 			)
 		)
 		(property "Value" "P24V0_FIELD"
-			(at 327.66 167.64 0)
+			(at 340.36 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8727,7 +8922,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 327.66 171.45 0)
+			(at 340.36 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8737,7 +8932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.66 171.45 0)
+			(at 340.36 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8747,7 +8942,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.66 171.45 0)
+			(at 340.36 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9276,7 +9471,7 @@
 	)
 	(symbol
 		(lib_id "power:TP")
-		(at 95.25 107.95 0)
+		(at 92.71 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9286,7 +9481,7 @@
 		(dnp no)
 		(uuid "6e788c35-f605-4228-96c6-80efce4e260e")
 		(property "Reference" "TP46"
-			(at 95.25 104.14 0)
+			(at 92.71 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9296,7 +9491,7 @@
 			)
 		)
 		(property "Value" "TP"
-			(at 92.71 109.22 0)
+			(at 90.17 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9307,7 +9502,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 93.218 113.538 0)
+			(at 90.678 113.538 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9318,7 +9513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 106.68 0)
+			(at 95.25 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9328,7 +9523,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 107.95 0)
+			(at 92.71 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9339,7 +9534,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 95.25 107.95 0)
+			(at 92.71 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9350,7 +9545,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 95.25 107.95 0)
+			(at 92.71 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9373,7 +9568,7 @@
 		)
 	)
 	(symbol
-		(lib_id "res_chip_vishay_crcw:CRCW/R0402_510k0_1_63mW")
+		(lib_id "res_chip_vishay_crcw:CRCW/R0402_1M0_1_63mW")
 		(at 298.45 179.07 0)
 		(unit 1)
 		(body_style 1)
@@ -9395,7 +9590,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "510kΩ"
+		(property "Value" "1MΩ"
 			(at 300.99 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9428,7 +9623,7 @@
 				)
 			)
 		)
-		(property "Description" "510kΩ, 1%, 63mW, TCR ±100ppm/K, EIA 0402"
+		(property "Description" "1MΩ, 1%, 63mW, TCR ±100ppm/K, EIA 0402"
 			(at 298.45 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -9439,7 +9634,7 @@
 				)
 			)
 		)
-		(property "Resistance" "510kΩ"
+		(property "Resistance" "1MΩ"
 			(at 298.45 179.07 0)
 			(hide yes)
 			(show_name yes)
@@ -9494,7 +9689,7 @@
 				)
 			)
 		)
-		(property "Part Number" "CRCW0402510KFKED"
+		(property "Part Number" "CRCW04021M00FKED"
 			(at 298.45 179.07 0)
 			(hide yes)
 			(show_name yes)
@@ -9821,7 +10016,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ind_power_vishay_ihlp:IHLP/L2020_22u_20_1A9")
+		(lib_id "ind_power_vishay_ihlp:IHLP/L2020_10u_20_2A5")
 		(at 240.03 182.88 90)
 		(unit 1)
 		(body_style 1)
@@ -9842,7 +10037,7 @@
 				)
 			)
 		)
-		(property "Value" "22µH"
+		(property "Value" "10µH"
 			(at 240.03 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9874,7 +10069,7 @@
 				)
 			)
 		)
-		(property "Description" "22µH, ±20%, I=1.9A, Isat=1.7A, DCR=270mOhm Max, SRF=10MHz, -55C to 125C, series CZ, EIA 2020"
+		(property "Description" "10µH, ±20%, I=2.5A, Isat=4A, DCR=158mOhm Max, SRF=N/A, -55C to 125C, series CZ, EIA 2020"
 			(at 240.03 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9885,7 +10080,7 @@
 				)
 			)
 		)
-		(property "Inductance" "22µH"
+		(property "Inductance" "10µH"
 			(at 240.03 182.88 0)
 			(hide yes)
 			(show_name yes)
@@ -9906,7 +10101,7 @@
 				)
 			)
 		)
-		(property "Rated Current" "1.9A"
+		(property "Rated Current" "2.5A"
 			(at 240.03 182.88 0)
 			(hide yes)
 			(show_name yes)
@@ -9917,7 +10112,7 @@
 				)
 			)
 		)
-		(property "Saturation Current" "1.7A"
+		(property "Saturation Current" "4A"
 			(at 240.03 182.88 0)
 			(hide yes)
 			(show_name yes)
@@ -9928,7 +10123,7 @@
 				)
 			)
 		)
-		(property "DCR" "270mOhm Max"
+		(property "DCR" "158mOhm Max"
 			(at 240.03 182.88 0)
 			(hide yes)
 			(show_name yes)
@@ -9939,7 +10134,7 @@
 				)
 			)
 		)
-		(property "SRF" "10MHz"
+		(property "SRF" "N/A"
 			(at 240.03 182.88 0)
 			(hide yes)
 			(show_name yes)
@@ -9983,7 +10178,7 @@
 				)
 			)
 		)
-		(property "Part Number" "IHLP2020CZER220M11"
+		(property "Part Number" "IHLP2020CZER100M01"
 			(at 240.03 182.88 0)
 			(hide yes)
 			(show_name yes)
@@ -10004,106 +10199,6 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
 					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 280.67 132.08 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f662084-9a32-4453-9c61-ff81a6d0e444")
-		(property "Reference" "#FLG10"
-			(at 280.67 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.4892 2.4892)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 280.67 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 280.67 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.4892 2.4892)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 280.67 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.4892 2.4892)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 280.67 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "N/A"
-			(at 280.67 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "N/A"
-			(at 280.67 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "72cb3a76-2b6b-470c-869d-9e5f6386aeec")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "#FLG10")
 					(unit 1)
 				)
 			)
@@ -10210,7 +10305,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 327.66 190.5 180)
+		(at 340.36 195.58 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10220,7 +10315,7 @@
 		(dnp no)
 		(uuid "83b97e43-d175-44b8-9c05-23ee6f3a8c51")
 		(property "Reference" "#PWR0128"
-			(at 327.66 194.056 0)
+			(at 340.36 199.136 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10231,7 +10326,7 @@
 			)
 		)
 		(property "Value" "GND_FIELD"
-			(at 327.914 193.294 0)
+			(at 340.614 198.374 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10241,7 +10336,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 327.66 190.5 0)
+			(at 340.36 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10251,7 +10346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.66 190.5 0)
+			(at 340.36 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10261,7 +10356,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.66 190.5 0)
+			(at 340.36 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10284,8 +10379,8 @@
 		)
 	)
 	(symbol
-		(lib_id "dcdc:TPS54202HDDCR")
-		(at 284.48 190.5 0)
+		(lib_id "dcdc:LMR51420XDDCR")
+		(at 287.02 190.5 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10306,7 +10401,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS54202HDDCR"
+		(property "Value" "LMR51420XDDCR"
 			(at 276.86 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10327,7 +10422,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps54202h.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51420.pdf"
 			(at 343.408 186.944 0)
 			(hide yes)
 			(show_name no)
@@ -10338,7 +10433,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.5-V to 36-V, 2-A synchronous buck converter, 500 kHz, PFM, internal compensation, SOT-23-6 (DDC)"
 			(at 284.48 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -10360,7 +10455,7 @@
 				)
 			)
 		)
-		(property "Part Number" "TPS54202HDDCR"
+		(property "Part Number" "LMR51420XDDCR"
 			(at 343.662 194.564 0)
 			(hide yes)
 			(show_name no)
@@ -10706,7 +10801,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "913d0374-9755-474c-b520-fd585bddf93b")
 		(property "Reference" "C78"
 			(at 213.36 213.3599 0)
@@ -11190,82 +11285,6 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
 					(reference "#PWR0125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 261.62 147.32 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e921bdf-804c-471f-9e44-c1a62560bafe")
-		(property "Reference" "#PWR0115"
-			(at 261.62 150.876 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Value" "GND_FIELD"
-			(at 261.62 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e86f9f99-6035-425b-8a27-52f1ba02696a")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -12002,6 +12021,153 @@
 		)
 	)
 	(symbol
+		(lib_id "res_chip_vishay_crcw:CRCW/R0402_100k0_1_63mW")
+		(at 298.45 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c67f5d22-8da0-4392-988c-6167db704a0e")
+		(property "Reference" "R97"
+			(at 300.99 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kΩ"
+			(at 300.99 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 303.022 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100kΩ, 1%, 63mW, TCR ±100ppm/K, EIA 0402"
+			(at 304.8 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Resistance" "100kΩ"
+			(at 304.8 185.42 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "63mW"
+			(at 300.99 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 300.99 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "T.C.R" "±100ppm/K"
+			(at 304.8 185.42 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 304.8 185.42 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "CRCW0402100KFKED"
+			(at 304.8 185.42 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4b542f6e-4526-4dcf-aba1-3b39dfe0c4c0")
+		)
+		(pin "1"
+			(uuid "79214298-617b-4c90-bc8e-9df0f84c70fa")
+		)
+		(instances
+			(project "poetato"
+				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
+					(reference "R97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PxVx")
 		(at 109.22 156.21 0)
 		(unit 1)
@@ -12079,7 +12245,7 @@
 		)
 	)
 	(symbol
-		(lib_id "cap_mlcc_murata_GRM:GRM/C0402_22u_10V_X5R_20%")
+		(lib_id "cap_mlcc_murata_GRM:GRM/C0805_22u_16V_X5R_20%")
 		(at 219.71 193.04 0)
 		(unit 1)
 		(body_style 1)
@@ -12112,7 +12278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 220.6752 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -12134,7 +12300,7 @@
 				)
 			)
 		)
-		(property "Description" "22.0uF, 10V, X5R, Tol: 20%"
+		(property "Description" "22.0uF, 16V, X5R, Tol: 20%"
 			(at 219.71 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -12156,7 +12322,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "16V"
 			(at 223.52 194.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12189,7 +12355,7 @@
 				)
 			)
 		)
-		(property "Part Number" "GRM158R61A226ME15"
+		(property "Part Number" "GRM21BR61C226ME44"
 			(at 219.71 193.04 0)
 			(hide yes)
 			(show_name yes)

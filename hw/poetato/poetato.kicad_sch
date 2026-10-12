@@ -4,6 +4,16 @@
 	(generator_version "10.0")
 	(uuid "f0f504bb-124c-46e5-ad39-032d3dfa78b3")
 	(paper "A3")
+	(title_block
+		(title "PoEtato - Top level")
+		(date "2026-10-08")
+		(rev "A (draft)")
+		(company "Jonas Blixt <jonas@blxt.se>")
+		(comment 1 "Copyright (c) 2026 Jonas Blixt. SPDX-License-Identifier: CERN-OHL-S-2.0")
+		(comment 2 "Licensed under CERN-OHL-S v2: https://ohwr.org/cern_ohl_s_v2.txt")
+		(comment 3 "Source location: https://github.com/jonasblixt/poetato")
+		(comment 4 "Status: draft, not released for manufacture")
+	)
 	(lib_symbols
 		(symbol "power:BOM_Entry"
 			(exclude_from_sim yes)
@@ -5081,7 +5091,7 @@
 				(justify left)
 			)
 		)
-		(pin "DO1_EN" input
+		(pin "DO1_ON" input
 			(at 203.2 54.61 180)
 			(uuid "3663b39f-da03-4fdd-9c97-8c269a0e3861")
 			(effects
@@ -5091,7 +5101,7 @@
 				(justify left)
 			)
 		)
-		(pin "DO2_EN" input
+		(pin "DO2_ON" input
 			(at 203.2 57.15 180)
 			(uuid "e38a1a13-bbed-4a6b-93e4-0b74168832cd")
 			(effects
@@ -5347,12 +5357,11 @@
 	)
 	(sheet
 		(at 114.3 50.8)
-		(size 38.1 53.34)
+		(size 38.1 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -5373,7 +5382,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 114.3 102.1846 0)
+			(at 114.3 102.362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

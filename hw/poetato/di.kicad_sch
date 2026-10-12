@@ -4,6 +4,16 @@
 	(generator_version "10.0")
 	(uuid "940603cb-2809-453b-b8be-e69ff8e10af8")
 	(paper "A4")
+	(title_block
+		(title "PoEtato - Digital input (ISO1211), one channel")
+		(date "2026-10-08")
+		(rev "A (draft)")
+		(company "Jonas Blixt <jonas@blxt.se>")
+		(comment 1 "Copyright (c) 2026 Jonas Blixt. SPDX-License-Identifier: CERN-OHL-S-2.0")
+		(comment 2 "Licensed under CERN-OHL-S v2: https://ohwr.org/cern_ohl_s_v2.txt")
+		(comment 3 "Source location: https://github.com/jonasblixt/poetato")
+		(comment 4 "Status: draft, not released for manufacture")
+	)
 	(lib_symbols
 		(symbol "LEDs:LED0402_150040VS73240"
 			(pin_numbers
@@ -891,7 +901,7 @@
 					)
 				)
 			)
-			(property "Part Number" "ISO1211"
+			(property "Part Number" "ISO1211DR"
 				(at -88.9 4.826 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3221,7 +3231,7 @@
 				)
 			)
 		)
-		(property "Part Number" "ISO1211"
+		(property "Part Number" "ISO1211DR"
 			(at 26.67 99.314 0)
 			(hide yes)
 			(show_name no)

@@ -4,6 +4,16 @@
 	(generator_version "10.0")
 	(uuid "6528eb79-59f2-4fef-8fa0-f2a4c390fda7")
 	(paper "A4")
+	(title_block
+		(title "PoEtato - Digital output (PhotoMOS), one channel")
+		(date "2026-10-08")
+		(rev "A (draft)")
+		(company "Jonas Blixt <jonas@blxt.se>")
+		(comment 1 "Copyright (c) 2026 Jonas Blixt. SPDX-License-Identifier: CERN-OHL-S-2.0")
+		(comment 2 "Licensed under CERN-OHL-S v2: https://ohwr.org/cern_ohl_s_v2.txt")
+		(comment 3 "Source location: https://github.com/jonasblixt/poetato")
+		(comment 4 "Status: draft, not released for manufacture")
+	)
 	(lib_symbols
 		(symbol "LEDs:LED0402_150040VS73240"
 			(pin_numbers
@@ -3610,7 +3620,7 @@
 		)
 		(uuid "b9381859-e3de-4c4b-a174-3ff8f657ca0c")
 	)
-	(hierarchical_label "EN"
+	(hierarchical_label "ON"
 		(shape input)
 		(at 63.5 110.49 180)
 		(effects

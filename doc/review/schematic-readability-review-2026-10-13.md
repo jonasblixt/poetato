@@ -8,7 +8,7 @@ This review covers **readability only**: signal flow direction, density and shee
 | Revision checked | git `a62dd31` (schematic files unmodified in the working copy; only `poetato.kicad_pcb` had local changes). |
 | Tools | `kicad-cli` 10.0.6 PDF export of all 10 sheets, rendered to PNG at 110 and 200 dpi and inspected visually. Font sizes and bold flags were read directly from the `.kicad_sch` files, not estimated from the renders. |
 | Sheets | root `poetato`, `ethernet_poe`, `mcu`, `io` with sub-sheets `rs485`, `di` ×3, `do` ×2. |
-| Preference applied | Inputs on the left, outputs on the right. Logic on the left and field on the right, where a sheet has both. |
+| Preference applied | Inputs on the left, outputs on the right. Logic on the left and field on the right, where a sheet has both. Field connectors stay on the right even where that makes a channel read right to left (the DI channel stays as drawn). |
 | Not checked | Electrical content, ERC and netlist. Anything about layout. |
 
 **Status:**
@@ -19,12 +19,12 @@ This review covers **readability only**: signal flow direction, density and shee
 
 ## Summary
 
-The top level, the Ethernet PHY section, the isolated 24 V supply, the DO channel and the RS-485 transceiver already read left to right. Four power blocks and the DI channel read right to left. The MCU and Ethernet & PoE sheets each hold about 80 parts on A3 and are the hardest to read. Meanwhile RS485 is sparse and the top level is about 70 % empty. The smallest text on every sheet is the power symbol text (0.762 mm), and the LED fields are almost as small (0.99 mm).
+The top level, the Ethernet PHY section, the isolated 24 V supply, the DO channel and the RS-485 transceiver already read left to right. Four power blocks read right to left. The MCU and Ethernet & PoE sheets each hold about 80 parts on A3 and are the hardest to read. Meanwhile RS485 is sparse and the top level is about 70 % empty. The smallest text on every sheet is the power symbol text (0.762 mm), and the LED fields are almost as small (0.99 mm).
 
 Suggested order of work:
 1. Fonts and value formatting (FONT-*, VAL-1). These are mechanical.
 2. Rename and reorder the DO/DI sheets (NAME-1, NAME-2).
-3. Mirror the RS-485 5 V buck and the DI channel (FLOW-3, FLOW-4).
+3. Mirror the RS-485 5 V buck (FLOW-3).
 4. Split the sheets (DENS-1 to DENS-3). This also fixes FLOW-1 and FLOW-2.
 
 ## Findings
@@ -36,7 +36,6 @@ Suggested order of work:
 | FLOW-1 | Open | MCU | U18, L4, C82, C83, C85 | **3.3 V buck reads right to left.** P12V0 enters on the right and P3V3 leaves on the left, because the symbol has SW on the left and VIN on the right. | Mirror the block, or redraw the TPS563252 library symbol with VIN on the left. Better still, move it to a power sheet (DENS-1). |
 | FLOW-2 | Open | Ethernet & PoE | T3, FB1–FB4, U4, T2, U5, P12V0 | **PoE PD reads right to left across the whole lower half.** Power enters at T3 (far right), passes U4 and then T2, and leaves as P12V0 at the far left edge. | Move it to its own sheet, with POE_CT1/CT2/SP1/SP2 entering from the left as hierarchical labels and P12V0 leaving on the right (DENS-1). |
 | FLOW-3 | Open | RS485 | U17, L3, C76, C77, C79, C80, C93 | **5 V isolated buck reads right to left.** VIN (P24V0_FIELD) is on the right and P5V_RS485 leaves on the left. | Mirror the block. The page has plenty of room. |
-| FLOW-4 | Open | DI (×3) | U12, R54, R57, D12, C86 | **DI channel reads right to left.** IN_P/IN_N are on the right and OUT is on the left. This conflicts with the logic-left / field-right convention on the IO sheet. | Mirror the leaf sheet so the field input is on the left and OUT/EN are on the right. Keep the IO parent as it is: where pins sit on a sheet symbol is independent of the layout inside the sheet. |
 | FLOW-5 | Open | IO | U19, J1, D24 | The 24 V eFuse output leaves U19 OUT at the right edge. The wire then loops back left around the page to reach J1 in the middle. | Put a `P24V0_FIELD_PROT` net label at U19 OUT and at J1 pin 1, and drop the long wire. Alternatively, move the isolated supply to its own sheet. |
 | FLOW-6 | Open | MCU | U1 | The DO1_ON/DO2_ON hierarchical labels sit on the left of U1, while DI_EN, DI1–DI3 and P24V_FIELD_EN sit on the right. All of them go to the IO sheet, which is on the right at the top level. This follows from the pin sides of the bank symbol. | Low priority. If U1 is split into units (DENS-2), group the IO bank on the right. |
 

@@ -7,7 +7,7 @@
 
 (rule "50 ohm SE on L3"
 	(layer "In2.Cu")
-	(condition "A.hasNetclass('50Ohm_RMII') || A.hasNetclass('50Ohm_QSPI')")
+	(condition "A.hasNetclass('50Ohm_RMII') || A.hasNetclass('50Ohm_QSPI') || A.hasNetclass('50Ohm_SWD')")
 	(constraint track_width (min 0.12mm) (opt 0.16mm)))
 
 (rule "90 ohm diff on L3"

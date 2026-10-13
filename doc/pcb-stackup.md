@@ -64,6 +64,7 @@ outer prepreg, so it gives the widest traces.
 |---|---|---|---|---|---|
 | 50 Ω single-ended | `50Ohm_RMII` | `ETH_REF_CLK`, `ETH_TXD0/1`, `ETH_TXEN`, `ETH_RXD0/1`, `ETH_RXDV`, and their PHY-side segments after the 33 Ω resistors | 0.18 mm | 0.16 mm | L2 / L5 GND |
 | 50 Ω single-ended | `50Ohm_QSPI` | `FLASH_SCK`, `FLASH_CS_N`, `FLASH_D0`–`D3` | 0.18 mm | 0.16 mm | L2 / L5 GND |
+| 50 Ω single-ended | `50Ohm_SWD` | `SWDCLK`, `SWDIO`, `SWO`, MCU → J3 | 0.18 mm | 0.16 mm | L2 / L5 GND |
 | 90 Ω differential | `90Ohm-diff_USB` | `USB_D_P` / `USB_D_N`, connector → USBLC6 → MCU | 0.16 / 0.15 mm | 0.13 / 0.15 mm | L2 / L5 GND |
 | 100 Ω differential | `100Ohm-diff_MDI` | `ETH_TX_P/N`, `ETH_RX_P/N`, PHY → magjack | 0.14 / 0.20 mm | 0.12 / 0.20 mm | L2 / L5 GND |
 
@@ -77,7 +78,13 @@ pairs nets whose names end in P/N or +/−.
 - **QSPI is optional.** The S25FL064L runs up to about 108 MHz, but on traces
   of a few centimetres the series termination matters more than the impedance.
   Route at the 50 Ω width anyway, because it costs nothing.
-- **Not controlled:** RS-485 A/B (slow, short on-board stubs), SWD, MDC/MDIO,
+- **SWD** runs up to 25 MHz, with SWD_CLK rise and fall times up to 3 ns
+  (MCX N247 datasheet, Table 33 p.46). Added 2026-10-14. There are no series
+  resistors on the board, so the probe's own termination is what damps the
+  cable. If it rings, a 22–33 Ω series resistor on `SWDCLK` near U1 is the fix;
+  that would be a schematic change. `RESET_N` is slow and has an RC, so it
+  stays Default.
+- **Not controlled:** RS-485 A/B (slow, short on-board stubs), MDC/MDIO,
   the crystals, field I/O.
 
 ## 4. How the widths were computed
@@ -215,6 +222,7 @@ assignment is visible on the sheet.
 | Ethernet & PoE | ETH_REF_CLK, R26, ETH_REF_CLK_PHY | `50Ohm_RMII` |
 | Ethernet & PoE | ETH_TX_P/N, ETH_RX_P/N between the PHY pins and the ESD taps | `100Ohm-diff_MDI` |
 | MCU | the QSPI bundle, including R44 and its MCU-side stub | `50Ohm_QSPI` |
+| MCU | SWDIO, SWDCLK, SWO between the pull-ups and the labels | `50Ohm_SWD` |
 | MCU | USB_D_P / USB_D_N | `90Ohm-diff_USB` |
 
 Each box covering a series resistor also covers both of its pins, so the net

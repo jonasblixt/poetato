@@ -121,7 +121,7 @@ TOTAL = sum(r[4] for r in STACK)
 
 # (target, signals, layer, width, gap, reference)
 IMP = [
-    ("50 Ω SE",    "RMII, ETH_REF_CLK, QSPI", "L1 / L6", "0.18", "-",    "L2 / L5 GND"),
+    ("50 Ω SE",    "RMII, QSPI, SWD",         "L1 / L6", "0.18", "-",    "L2 / L5 GND"),
     ("",           "",                        "L3",      "0.16", "-",    "L2 GND"),
     ("90 Ω diff",  "USB_D_P / USB_D_N",       "L1 / L6", "0.16", "0.15", "L2 / L5 GND"),
     ("",             "",                        "L3",      "0.13", "0.15", "L2 GND"),

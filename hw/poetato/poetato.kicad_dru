@@ -1,0 +1,23 @@
+(version 1)
+
+# Controlled impedance on L3 (In2.Cu). The net classes carry the L1/L6
+# widths; L3 sits closer to its reference (0.13 mm to L2), so it needs
+# narrower traces. Values: doc/pcb-stackup.md section 3.
+# Keep the units on every number: without them KiCad drops the whole file.
+
+(rule "50 ohm SE on L3"
+	(layer "In2.Cu")
+	(condition "A.hasNetclass('50Ohm_RMII') || A.hasNetclass('50Ohm_QSPI')")
+	(constraint track_width (min 0.12mm) (opt 0.16mm)))
+
+(rule "90 ohm diff on L3"
+	(layer "In2.Cu")
+	(condition "A.hasNetclass('90Ohm-diff_USB')")
+	(constraint track_width (min 0.12mm) (opt 0.13mm))
+	(constraint diff_pair_gap (opt 0.15mm)))
+
+(rule "100 ohm diff on L3"
+	(layer "In2.Cu")
+	(condition "A.hasNetclass('100Ohm-diff_MDI')")
+	(constraint track_width (min 0.12mm) (opt 0.12mm))
+	(constraint diff_pair_gap (opt 0.2mm)))

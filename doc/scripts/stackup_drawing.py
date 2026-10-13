@@ -123,7 +123,7 @@ TOTAL = sum(r[4] for r in STACK)
 IMP = [
     ("50 Ω SE",    "RMII, ETH_REF_CLK, QSPI", "L1 / L6", "0.18", "-",    "L2 / L5 GND"),
     ("",           "",                        "L3",      "0.16", "-",    "L2 GND"),
-    ("90 Ω diff",  "USB_DP / USB_DM",         "L1 / L6", "0.16", "0.15", "L2 / L5 GND"),
+    ("90 Ω diff",  "USB_D_P / USB_D_N",       "L1 / L6", "0.16", "0.15", "L2 / L5 GND"),
     ("",             "",                        "L3",      "0.13", "0.15", "L2 GND"),
     ("100 Ω diff", "ETH_TX_P/N, ETH_RX_P/N",  "L1 / L6", "0.14", "0.20", "L2 / L5 GND"),
     ("",              "",                        "L3",      "0.12", "0.20", "L2 GND"),
@@ -268,6 +268,8 @@ FAB_NOTES = [
     "   ±0.025 mm (keeping the pair pitch) to meet the targets. TDR test coupons and an impedance test",
     "   report are required (IPC-TM-650 2.5.5.7).",
     "6. Surface finish ENIG. LPI solder mask both sides, Dk about 3.8.",
+    "7. Vias are plain plated through-holes, smallest finished hole 0.25 mm. No via filling or capping",
+    "   required (no IPC-4761 Type VII). Non-functional inner-layer pads are removed in the data.",
 ]
 text("FABRICATION NOTES", FX, FY, size=1.5, th=0.25, bold=True)
 for i, n in enumerate(FAB_NOTES):

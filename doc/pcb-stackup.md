@@ -60,13 +60,16 @@ outer prepreg, so it gives the widest traces.
 
 ## 3. Impedance classes
 
-| Class | Nets | L1 / L6, W / S | L3, W / S | Reference |
-|---|---|---|---|---|
-| 50 Ω single-ended | RMII: `ETH_REF_CLK`, `ETH_TXD0/1`, `ETH_TXEN`, `ETH_RXD0/1`, `ETH_RXDV`. Optional: QSPI | 0.18 mm | 0.16 mm | L2 / L5 GND |
-| 90 Ω differential | `USB_DP` / `USB_DM`, connector → USBLC6 → MCU | 0.16 / 0.15 mm | 0.13 / 0.15 mm | L2 / L5 GND |
-| 100 Ω differential | `ETH_TX_P/N`, `ETH_RX_P/N`, PHY → magjack | 0.14 / 0.20 mm | 0.12 / 0.20 mm | L2 / L5 GND |
+| Class | KiCad net class | Nets | L1 / L6, W / S | L3, W / S | Reference |
+|---|---|---|---|---|---|
+| 50 Ω single-ended | `50Ohm_RMII` | `ETH_REF_CLK`, `ETH_TXD0/1`, `ETH_TXEN`, `ETH_RXD0/1`, `ETH_RXDV`, and their PHY-side segments after the 33 Ω resistors | 0.18 mm | 0.16 mm | L2 / L5 GND |
+| 50 Ω single-ended | `50Ohm_QSPI` | `FLASH_SCK`, `FLASH_CS_N`, `FLASH_D0`–`D3` | 0.18 mm | 0.16 mm | L2 / L5 GND |
+| 90 Ω differential | `90Ohm-diff_USB` | `USB_D_P` / `USB_D_N`, connector → USBLC6 → MCU | 0.16 / 0.15 mm | 0.13 / 0.15 mm | L2 / L5 GND |
+| 100 Ω differential | `100Ohm-diff_MDI` | `ETH_TX_P/N`, `ETH_RX_P/N`, PHY → magjack | 0.14 / 0.20 mm | 0.12 / 0.20 mm | L2 / L5 GND |
 
-W is the trace width, S the gap between the two traces of a pair.
+W is the trace width, S the gap between the two traces of a pair. The USB pair
+was `USB_DP` / `USB_DM` until 2026-10-13. It was renamed because KiCad only
+pairs nets whose names end in P/N or +/−.
 
 - **`ETH_REF_CLK` matters most.** It is the 50 MHz clock from the MCU into the
   PHY's XI pin through a 33 Ω series resistor. Treat the rest of RMII as best
@@ -119,8 +122,14 @@ JLC06161H-2116A, and update §3 and the drawing on the board if they differ.
   Change it here, in Board Setup and in the drawing if OSP is preferred.
 - **Loss tangent.** Board Setup uses KiCad's placeholder 0.02, because JLCPCB
   publishes no Df. Nothing on this board is fast enough for it to matter.
-- **Net classes** for the three impedance classes (and QSPI, if it is routed
-  at 50 Ω) are not created yet. The project has only `Default`.
+- **Update PCB from Schematic (F8)** to bring the net classes and the USB
+  rename into the board, then refill zones. The inner-layer via pads were
+  removed in the file, so the zone fills are stale until then.
+- **Isolation barrier rules** (§8) are on hold. When they are added, they go
+  in `poetato.kicad_dru` as rule areas per domain.
+- **Silkscreen.** The 0.15 mm silk clearance and 0.15 mm text-thickness
+  minimum add about 80 silkscreen DRC findings on the current placement.
+  Tidy them during layout.
 - **Order with impedance control,** stackup JLC06161H-2116A and the Tg 155
   option. The impedance test report is checked in `doc/verification-plan.md`
   §8.
@@ -146,6 +155,9 @@ long as it meets these requirements. The same notes are on the board drawing.
    targets. TDR test coupons and an impedance test report are required
    (IPC-TM-650 2.5.5.7).
 6. **Surface finish** ENIG. LPI solder mask on both sides, Dk about 3.8.
+7. **Vias** are plain plated through-holes, smallest finished hole 0.25 mm. No
+   via filling or capping is required (no IPC-4761 Type VII). Non-functional
+   inner-layer pads are removed in the data.
 
 **Materials at JLCPCB.** Multilayer boards come as Tg 135–140 or Tg 155; order
 Tg 155. The laminates on their certifications page are Nan Ya NP-155F,
@@ -162,3 +174,55 @@ script; it replaces the previous drawing:
 ```sh
 python doc/scripts/stackup_drawing.py hw/poetato/poetato.kicad_pcb
 ```
+
+## 8. Design rules
+
+Decided 2026-10-13. The board-wide rules and net classes are in
+`hw/poetato/poetato.kicad_pro` (Board Setup). The L3 widths are in
+`hw/poetato/poetato.kicad_dru`. JLCPCB's limits are from their capabilities
+page (jlcpcb.com/capabilities/pcb-capabilities, multilayer, 1 oz), read
+2026-10-13.
+
+| Rule | PoEtato | JLCPCB limit | Note |
+|---|---|---|---|
+| Track width, default | 0.18 mm | | The 50 Ω width on L1/L6, so plain signals there are 50 Ω for free. About 46 Ω on L3 |
+| Track width, minimum | 0.12 mm | 0.09 mm, width tolerance ±20 % | The narrowest impedance geometry (L3, 100 Ω differential) |
+| Clearance | 0.15 mm | 0.09 mm trace/space; 0.15 mm SMD pad to pad | Equals the USB pair gap. Leaves 0.2 mm between pads at 0.5 mm pitch |
+| Via, default | 0.3 / 0.6 mm (hole / diameter) | min 0.15 / 0.25 mm; no extra cost from a 0.3 mm hole, or 0.2–0.25 mm with ≥ 0.45 mm diameter | Annular ring 0.15 mm; 5.3:1 aspect ratio in 1.6 mm |
+| Via, small | 0.25 / 0.45 mm | as above | For tight fanout only, used sparingly. The board-wide minimums (hole 0.25, via 0.45) allow it |
+| Via annular ring, minimum | 0.1 mm | via diameter ≥ hole + 0.1 mm | |
+| Unused via pads | Removed on inner layers, kept on F.Cu/B.Cu | | Set on every via (`remove_unused_layers`, `keep_end_layers`). New vias need the same: use KiCad's Remove Unused Pads tool or the via properties |
+| Hole clearance (hole to copper) | 0.3 mm | via 0.2; PTH 0.28 (0.35 recommended); inner via hole to copper 0.2, inner PTH pad to copper 0.3 | Covers the inner-layer limits too |
+| Hole to hole | 0.3 mm | via 0.2; pad holes 0.45 | Keep component holes ≥ 0.45 apart by footprint |
+| Copper to board edge | 0.5 mm | routed 0.2; V-cut 0.4 | Margin for the enclosure and for panelling |
+| Solder mask | 1:1 (expansion 0), min web 0.1 mm | 1:1 since the LDI upgrade; bridge 0.10 mm (green, 1 oz) | |
+| Silkscreen | text ≥ 1.0 mm high, ≥ 0.15 mm stroke; 0.15 mm to pads | the same | |
+
+**Differential pair presets:** 0.16 / 0.15 mm (90 Ω, L1/L6), 0.14 / 0.20 mm
+(100 Ω, L1/L6), 0.13 / 0.15 and 0.12 / 0.20 mm (the same on L3). Diff pair via
+gap 0.25 mm.
+
+**Where the net classes are assigned.** In the schematic, so the board gets
+them through Update PCB from Schematic:
+
+- **Named nets:** a hidden `Netclass` field on one local label of each net
+  (`ethernet_poe` and `mcu` sheets).
+- **The unnamed PHY-side RMII segments** after R17–R20, R24 and R25: two
+  dashed rule areas on the Ethernet sheet, each with a `50Ohm_RMII` net-class
+  flag. A label there would cross the strap wires.
+- **The PHY side of R26** got a label, `ETH_REF_CLK_PHY`, with the field.
+- **Exception: the MCU side of R44** (`FLASH_SCK` series resistor) stays
+  Default. It is a 1.27 mm stub in the schematic and about 1 mm on the board
+  with R44 at the MCU pin, and the Default width is the 50 Ω width anyway.
+
+**Vias in pads.** The design does not rely on filled and capped vias (IPC-4761
+Type VII). JLCPCB makes them the default on 6-layer boards, but another fab
+would charge for them. Avoid vias in pads where possible. Where an exposed
+thermal pad needs vias, keep them small and few, and window the paste
+stencil around them.
+
+**Not covered here:**
+- **Isolation barriers** (on hold, §6): cable/PoE side ↔ everything else at
+  1500 Vrms, logic ↔ field.
+- **Current-carrying widths** for the PoE input, flyback primary and 12 V
+  rail. Size them for their current; inner copper is 0.5 oz.

@@ -123,6 +123,603 @@
 			(embedded_fonts no)
 		)
 	)
+	(polyline
+		(pts
+			(xy 62.23 158.115) (xy 63.5 158.75) (xy 62.23 159.385)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "05638901-8077-4e1e-93df-a4e8ac53dd01")
+	)
+	(polyline
+		(pts
+			(xy 120.65 130.175) (xy 121.92 130.81) (xy 120.65 131.445)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0b17f852-1d86-425e-8012-ab950d06aa89")
+	)
+	(polyline
+		(pts
+			(xy 157.48 203.2) (xy 157.48 166.37) (xy 256.54 166.37)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1ae87ec3-40b9-47ac-bb03-d4b6d30fb8c9")
+	)
+	(polyline
+		(pts
+			(xy 179.07 194.945) (xy 180.34 195.58) (xy 179.07 196.215)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1e46fb3b-10b6-4c5f-8793-6ec0ae554702")
+	)
+	(polyline
+		(pts
+			(xy 227.33 194.945) (xy 228.6 195.58) (xy 227.33 196.215)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2f413591-4111-4571-8421-626b64f03d3b")
+	)
+	(circle
+		(center 175.26 186.69)
+		(radius 0.4)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid "4567d35d-3c16-44aa-8735-2acf0e28a1b5")
+	)
+	(polyline
+		(pts
+			(xy 173.99 153.035) (xy 175.26 153.67) (xy 173.99 154.305)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4cf51287-eac0-42e2-953a-37f5a52261d4")
+	)
+	(polyline
+		(pts
+			(xy 173.99 130.175) (xy 175.26 130.81) (xy 173.99 131.445)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "65671128-7ddf-4398-8874-ac45e9b7d207")
+	)
+	(polyline
+		(pts
+			(xy 179.07 177.165) (xy 180.34 177.8) (xy 179.07 178.435)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9daaa222-dce2-4d88-bc2a-0dafe9fcd0bb")
+	)
+	(rectangle
+		(start 22.86 114.3)
+		(end 259.08 213.36)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "abe4d8aa-8281-47ba-bd03-e2547c3a03c5")
+	)
+	(polyline
+		(pts
+			(xy 120.65 186.055) (xy 121.92 186.69) (xy 120.65 187.325)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ae055ca8-7c21-4830-bf67-14799125aefb")
+	)
+	(circle
+		(center 114.3 158.75)
+		(radius 0.4)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid "b566bf77-38c2-47ad-b763-a2aacdc24b4d")
+	)
+	(polyline
+		(pts
+			(xy 173.99 142.875) (xy 175.26 143.51) (xy 173.99 144.145)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b5bdc20a-9b3d-4fe2-ab3e-860627ce99a4")
+	)
+	(polyline
+		(pts
+			(xy 219.71 177.165) (xy 220.98 177.8) (xy 219.71 178.435)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d2b82f20-df1d-40c7-85d1-382bf2aa2ad6")
+	)
+	(circle
+		(center 167.64 143.51)
+		(radius 0.4)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(uuid "e5a0e8f0-e0b2-4a30-8ba3-2cde81187e28")
+	)
+	(text "Isolation barrier (T2, U5)"
+		(exclude_from_sim no)
+		(at 99.06 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0124c53a-c4a8-4986-b9e6-9ef6cc1dbe2b")
+	)
+	(text "P5V_RS485"
+		(exclude_from_sim no)
+		(at 207.01 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19250fef-25bf-4822-b074-c995d9d7b17d")
+	)
+	(text "Field: GND_FIELD"
+		(exclude_from_sim no)
+		(at 228.6 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ed700c5-06c7-4552-afe8-46ed59092fb4")
+	)
+	(text "802.3af Class 2: 4.07 W allocated of 6.49 W. Details: doc/hardware-architecture.md section 3."
+		(exclude_from_sim no)
+		(at 55.88 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45c11c00-c8c0-472e-9f69-6e5e68076fea")
+	)
+	(text "Logic: GND"
+		(exclude_from_sim no)
+		(at 101.6 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5cc5d256-4f58-4384-b9d0-017e4e05c9d1")
+	)
+	(text "Isolation barrier (T1)"
+		(exclude_from_sim no)
+		(at 157.48 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6d35199f-e625-40ad-b9cb-a6f60e4afa33")
+	)
+	(text "P24V0_FIELD_PROT"
+		(exclude_from_sim no)
+		(at 207.01 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d9720f9-290a-4de8-ba70-f4e20daaea5b")
+	)
+	(text "Power tree"
+		(exclude_from_sim no)
+		(at 25.4 119.38 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "6fa6cb1c-6476-468e-a191-9b40a91f3445")
+	)
+	(text "24 V, 3 W"
+		(exclude_from_sim no)
+		(at 158.75 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8b55acfb-4f77-4603-8c60-9276ebb4d37c")
+	)
+	(text "12 V"
+		(exclude_from_sim no)
+		(at 101.6 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9d19eb54-3750-400d-96d2-bd75db820dbc")
+	)
+	(text "P12V0"
+		(exclude_from_sim no)
+		(at 101.6 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c763a0bf-ac65-4681-8bf2-86cc381f6386")
+	)
+	(text "P3V3"
+		(exclude_from_sim no)
+		(at 153.67 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce5ab61e-7b4d-45bf-843b-14d58e1446dd")
+	)
+	(text "3.3 V"
+		(exclude_from_sim no)
+		(at 153.67 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d790a1a5-cf9c-4246-be3d-b23da3967755")
+	)
+	(text "Cable side: POE_VNEG"
+		(exclude_from_sim no)
+		(at 27.94 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3de9280-c6e0-45e8-a6d5-19fc2f28c8fa")
+	)
+	(text "P24V0_FIELD"
+		(exclude_from_sim no)
+		(at 158.75 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8a3c745-3307-4071-b8a0-0b01b5f8a1ee")
+	)
+	(text_box "U18 TPS563252\nbuck 12 V to 3.3 V"
+		(exclude_from_sim no)
+		(at 121.92 127.635 0)
+		(size 30.48 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "1f038ede-d243-4d5c-ad46-978ca5701819")
+	)
+	(text_box "U4 Si3402-B\nPD + isolated flyback\nT2 FA2672, U5 opto"
+		(exclude_from_sim no)
+		(at 63.5 154.305 0)
+		(size 30.48 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "26276556-e120-46f1-9797-8c1311a415c3")
+	)
+	(text_box "U15 SN6507 + T1\npush-pull, open loop\nEN: P24V_FIELD_EN (Q6)"
+		(exclude_from_sim no)
+		(at 121.92 182.245 0)
+		(size 30.48 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "61540fc4-0113-4b5c-b33e-1e58438f4e6e")
+	)
+	(text_box "U1 MCX N247 (on-chip DCDC makes VDD_CORE)\nU3 KSZ8081, U11 flash, U10 SE051\nlogic side of U12 ISO1211 ×3 and U16 ISO3082\nstatus LEDs, DO PhotoMOS LED drive"
+		(exclude_from_sim no)
+		(at 175.26 125.095 0)
+		(size 81.28 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "63f69cf2-6478-4138-9008-c7ad3b882424")
+	)
+	(text_box "FB5 220 Ω to P3V3_ETH_VDDA\nU3 analog supply"
+		(exclude_from_sim no)
+		(at 175.26 140.335 0)
+		(size 81.28 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "725a2ab4-f26d-4d80-a979-90c86c40d945")
+	)
+	(text_box "U19 TPS26625\neFuse, 66 mA limit"
+		(exclude_from_sim no)
+		(at 180.34 192.405 0)
+		(size 25.4 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "782abc75-af96-4097-a28f-4a25d53ad030")
+	)
+	(text_box "U16 ISO3082\nfield side (VCC2)"
+		(exclude_from_sim no)
+		(at 220.98 174.625 0)
+		(size 35.56 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "788a405e-e138-402b-a8e0-652301930226")
+	)
+	(text_box "D17 BAS70 + R50 220 Ω to VDD_BAT (≈ 3.1 V)\nC9 0.33 F supercap: RTC + retained SRAM, ≥ 8 h"
+		(exclude_from_sim no)
+		(at 175.26 150.495 0)
+		(size 81.28 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8aca7235-7116-4e85-8859-a313f0efa4ca")
+	)
+	(text_box "PoE input (RJ45)\nT3 magjack centre taps\n37-57 V, 802.3af\nClass 2 (R5 75 Ω)"
+		(exclude_from_sim no)
+		(at 27.94 153.035 0)
+		(size 27.94 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "96fd8f64-44af-4f36-8b2e-fefa9ec6d542")
+	)
+	(text_box "J1 field terminal\nsensors, DI contacts"
+		(exclude_from_sim no)
+		(at 228.6 192.405 0)
+		(size 27.94 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "abfbe294-1ac0-48f8-acfb-431749aa0073")
+	)
+	(text_box "U17 LMR51420\nbuck to 5 V"
+		(exclude_from_sim no)
+		(at 180.34 174.625 0)
+		(size 25.4 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b5fef9c1-8373-4fcc-a874-4fe6a674e33f")
+	)
+	(polyline
+		(pts
+			(xy 205.74 177.8) (xy 220.98 177.8)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "024199d0-ee12-45cc-8b9b-f836dbcd234b")
+	)
+	(polyline
+		(pts
+			(xy 114.3 130.81) (xy 121.92 130.81)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "042018e0-b551-4571-b419-5e8294784eaa")
+	)
 	(wire
 		(pts
 			(xy 152.4 64.77) (xy 203.2 64.77)
@@ -153,6 +750,16 @@
 		)
 		(uuid "1a5e4e9e-9999-44be-a0a0-c2060a0d6cd8")
 	)
+	(polyline
+		(pts
+			(xy 175.26 195.58) (xy 180.34 195.58)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "34a7f7d9-2855-4df8-bf6a-f3af6306ec0f")
+	)
 	(wire
 		(pts
 			(xy 152.4 91.44) (xy 203.2 91.44)
@@ -162,6 +769,16 @@
 			(type default)
 		)
 		(uuid "369d109a-549a-43fb-9e5b-9569e680a534")
+	)
+	(polyline
+		(pts
+			(xy 114.3 186.69) (xy 121.92 186.69)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "39f998b9-ce95-4dd7-afec-1f6ed9c3c8da")
 	)
 	(wire
 		(pts
@@ -173,6 +790,16 @@
 		)
 		(uuid "3c5ead5d-30ab-4a72-86b3-7669770ae3b6")
 	)
+	(polyline
+		(pts
+			(xy 152.4 130.81) (xy 167.64 130.81)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "3c65806c-42d3-4df0-a751-e963dc15ed14")
+	)
 	(wire
 		(pts
 			(xy 63.5 80.01) (xy 114.3 80.01)
@@ -182,6 +809,26 @@
 			(type default)
 		)
 		(uuid "400fbc23-26cc-443e-a618-29edf799d9c8")
+	)
+	(polyline
+		(pts
+			(xy 175.26 177.8) (xy 175.26 195.58)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "41eece6e-64c2-48cc-a44f-03580c349e41")
+	)
+	(polyline
+		(pts
+			(xy 167.64 153.67) (xy 175.26 153.67)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "46124bec-2d6a-4e89-89bc-ac5ef7775fab")
 	)
 	(wire
 		(pts
@@ -193,6 +840,16 @@
 		)
 		(uuid "4a2d1b69-e4d8-4c7c-8be1-419e3b88f746")
 	)
+	(polyline
+		(pts
+			(xy 205.74 195.58) (xy 228.6 195.58)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "4d19dd27-5b0c-4a49-a0e1-0df0b11ac2cc")
+	)
 	(wire
 		(pts
 			(xy 63.5 85.09) (xy 114.3 85.09)
@@ -202,6 +859,26 @@
 			(type default)
 		)
 		(uuid "57d1d17f-1e7d-4219-b015-12546e464971")
+	)
+	(polyline
+		(pts
+			(xy 55.88 158.75) (xy 63.5 158.75)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "59b13000-4a2a-467f-afd2-7dd7443f4612")
+	)
+	(polyline
+		(pts
+			(xy 99.06 124.46) (xy 99.06 203.2)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "5c3b8e00-4334-48a9-b07b-1965f22e1ce7")
 	)
 	(wire
 		(pts
@@ -242,6 +919,26 @@
 			(type default)
 		)
 		(uuid "75d1d547-cba1-4e93-991b-5532bd528650")
+	)
+	(polyline
+		(pts
+			(xy 167.64 130.81) (xy 175.26 130.81)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "77701d2e-09d5-420a-8064-fdaf1978c885")
+	)
+	(polyline
+		(pts
+			(xy 175.26 177.8) (xy 180.34 177.8)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "83c4fcdd-beed-45df-91ae-d407c33386fa")
 	)
 	(wire
 		(pts
@@ -323,6 +1020,26 @@
 		)
 		(uuid "af419bb8-50f4-452d-915e-f306d50f1c3b")
 	)
+	(polyline
+		(pts
+			(xy 152.4 186.69) (xy 175.26 186.69)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "baa49cd6-7d38-4a1d-a8d7-94903fc14beb")
+	)
+	(polyline
+		(pts
+			(xy 93.98 158.75) (xy 114.3 158.75)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "c64fda27-3d59-41ba-b102-84504dae1a72")
+	)
 	(wire
 		(pts
 			(xy 152.4 96.52) (xy 203.2 96.52)
@@ -333,6 +1050,26 @@
 		)
 		(uuid "d6bd5b61-6ca6-4b85-8beb-6011ea640c28")
 	)
+	(polyline
+		(pts
+			(xy 114.3 130.81) (xy 114.3 186.69)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "dd774ec6-6966-45dd-aadc-3c33127c9185")
+	)
+	(polyline
+		(pts
+			(xy 167.64 143.51) (xy 175.26 143.51)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e2110f20-5615-402e-8927-b88f675a44e3")
+	)
 	(wire
 		(pts
 			(xy 63.5 57.15) (xy 114.3 57.15)
@@ -342,6 +1079,16 @@
 			(type default)
 		)
 		(uuid "e676088d-e0c6-4fd7-a076-90e787a78e2b")
+	)
+	(polyline
+		(pts
+			(xy 167.64 130.81) (xy 167.64 153.67)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "fd60a5b8-d241-4124-af6f-f4e79b23339d")
 	)
 	(image
 		(at 321.31 114.3)

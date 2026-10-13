@@ -33,7 +33,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 0.9906 0.9906)
+						(size 1.27 1.27)
 					)
 					(justify left)
 				)
@@ -45,7 +45,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.016 1.016)
+						(size 1.27 1.27)
 					)
 					(justify left)
 				)
@@ -122,7 +122,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 0.9906 0.9906)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -245,7 +245,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 0.9906 0.9906)
+						(size 1.27 1.27)
 					)
 					(justify left)
 				)
@@ -257,7 +257,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1.016 1.016)
+						(size 1.27 1.27)
 					)
 					(justify left)
 				)
@@ -334,7 +334,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 0.9906 0.9906)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -3589,7 +3589,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -3599,7 +3599,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -3798,7 +3798,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -3808,7 +3808,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -6306,7 +6306,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -6316,7 +6316,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -6815,7 +6815,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -6825,7 +6825,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -6846,7 +6846,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -7608,7 +7608,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -7618,7 +7618,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -7639,7 +7639,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -8095,7 +8095,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 0.508 0.508)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -8105,7 +8105,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 0.762 0.762)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -8115,7 +8115,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -8125,7 +8125,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -8204,7 +8204,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -8214,7 +8214,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -8235,7 +8235,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -8395,7 +8395,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 2.4892 2.4892)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -8517,7 +8517,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 0.508 0.508)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -8527,7 +8527,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 0.762 0.762)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -8537,7 +8537,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -8547,7 +8547,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -8658,7 +8658,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -11419,7 +11419,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -11429,7 +11429,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -18122,7 +18122,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18132,7 +18132,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18230,14 +18230,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02094d52-f18d-473f-9649-dbcc146d5c37")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR22"
 			(at 80.01 267.716 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18247,7 +18247,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18257,7 +18257,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18267,7 +18267,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18288,7 +18288,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR022")
+					(reference "#PWR22")
 					(unit 1)
 				)
 			)
@@ -18306,14 +18306,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02560bac-d968-4615-9768-f202ddd493e7")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR78"
 			(at 251.46 256.286 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18323,7 +18323,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18333,7 +18333,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18343,7 +18343,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18364,7 +18364,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR078")
+					(reference "#PWR78")
 					(unit 1)
 				)
 			)
@@ -18382,14 +18382,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0343e2aa-87b4-4685-98d7-27de19c1686b")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR8"
 			(at 129.54 263.906 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18399,7 +18399,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18409,7 +18409,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18419,7 +18419,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18440,7 +18440,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR08")
+					(reference "#PWR8")
 					(unit 1)
 				)
 			)
@@ -18456,7 +18456,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "039272ff-95f9-41be-9c17-b02d93d506c8")
 		(property "Reference" "R50"
 			(at 265.43 246.38 90)
@@ -18737,6 +18736,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "05ce760e-649d-4574-aca4-91197a1a7e2d")
 		(property "Reference" "TP23"
 			(at 283.21 123.19 0)
@@ -18755,7 +18755,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18776,7 +18776,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18837,14 +18837,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05d095af-f8f7-4dd6-bc39-40b024a26f9c")
-		(property "Reference" "#PWR0175"
+		(property "Reference" "#PWR175"
 			(at 21.59 209.296 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18854,7 +18854,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18864,7 +18864,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18874,7 +18874,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18895,7 +18895,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0175")
+					(reference "#PWR175")
 					(unit 1)
 				)
 			)
@@ -19335,14 +19335,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a81baeb-c41b-44fa-9d63-1fde18d5a9b2")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR165"
 			(at 167.64 202.184 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -19352,7 +19352,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -19363,7 +19363,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -19373,7 +19373,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -19394,7 +19394,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0165")
+					(reference "#PWR165")
 					(unit 1)
 				)
 			)
@@ -19410,6 +19410,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0ac0e5cb-ef32-46e1-ba88-51f36ee42212")
 		(property "Reference" "U11"
 			(at 295.148 65.024 0)
@@ -19417,7 +19418,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -19427,7 +19428,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -19448,7 +19449,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -19536,7 +19537,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -19546,7 +19547,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -19567,7 +19568,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -19641,6 +19642,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0d39be75-7c9c-4452-bda5-469ed1611105")
 		(property "Reference" "#FLG8"
 			(at 257.81 132.08 0)
@@ -19649,7 +19651,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 2.4892 2.4892)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -19743,14 +19745,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ed47584-773e-4977-acad-11a049ddb1fe")
-		(property "Reference" "#PWR0174"
+		(property "Reference" "#PWR174"
 			(at 35.56 177.546 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -19760,7 +19762,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -19770,7 +19772,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -19780,7 +19782,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -19801,7 +19803,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0174")
+					(reference "#PWR174")
 					(unit 1)
 				)
 			)
@@ -20008,14 +20010,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "120e838c-82f9-45b1-8100-132b9b50b9ea")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR9"
 			(at 388.62 167.894 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20025,7 +20027,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -20036,7 +20038,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20046,7 +20048,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20067,7 +20069,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR09")
+					(reference "#PWR9")
 					(unit 1)
 				)
 			)
@@ -20222,14 +20224,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15a69225-718c-4cec-86ef-57f698fe8848")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR143"
 			(at 334.01 195.834 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20239,7 +20241,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -20250,7 +20252,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20260,7 +20262,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20281,7 +20283,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0143")
+					(reference "#PWR143")
 					(unit 1)
 				)
 			)
@@ -20297,6 +20299,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "186d919f-809f-4a24-8f94-28b9a6f47121")
 		(property "Reference" "TP36"
 			(at 279.4 236.22 0)
@@ -20315,7 +20318,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20336,7 +20339,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20397,14 +20400,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18fb32ce-d131-4ac3-80b7-e7107fd1df7e")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR70"
 			(at 386.08 54.864 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20414,7 +20417,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -20425,7 +20428,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20435,7 +20438,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20456,7 +20459,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR070")
+					(reference "#PWR70")
 					(unit 1)
 				)
 			)
@@ -20474,14 +20477,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "193990ac-2ef8-4437-9524-b8db8239e820")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR167"
 			(at 153.67 202.184 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20491,7 +20494,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -20502,7 +20505,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20512,7 +20515,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20533,7 +20536,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0167")
+					(reference "#PWR167")
 					(unit 1)
 				)
 			)
@@ -20688,14 +20691,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1acefa9d-3171-48c1-9ed5-4f326dd91469")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR161"
 			(at 119.38 252.476 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20705,7 +20708,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20715,7 +20718,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20725,7 +20728,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20746,7 +20749,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0161")
+					(reference "#PWR161")
 					(unit 1)
 				)
 			)
@@ -20764,14 +20767,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b24a39f-0087-4981-975c-3c022c5e8158")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR86"
 			(at 166.37 154.686 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20781,7 +20784,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20791,7 +20794,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20801,7 +20804,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20822,7 +20825,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR086")
+					(reference "#PWR86")
 					(unit 1)
 				)
 			)
@@ -20840,14 +20843,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c2d07bd-7a0e-4c6d-b308-2c2f42536eb6")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR65"
 			(at 118.11 164.846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20857,7 +20860,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20867,7 +20870,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20877,7 +20880,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20898,7 +20901,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR065")
+					(reference "#PWR65")
 					(unit 1)
 				)
 			)
@@ -20914,15 +20917,16 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "23edf21e-9678-47d7-b620-8209e62b1814")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR138"
 			(at 264.16 114.554 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20932,7 +20936,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20942,7 +20946,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20952,7 +20956,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20973,7 +20977,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0138")
+					(reference "#PWR138")
 					(unit 1)
 				)
 			)
@@ -20991,14 +20995,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25092a24-dd2d-4cbf-ab8c-5e8c2107a1c4")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR154"
 			(at 60.96 134.874 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21008,7 +21012,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21018,7 +21022,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21028,7 +21032,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21049,7 +21053,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0154")
+					(reference "#PWR154")
 					(unit 1)
 				)
 			)
@@ -21066,6 +21070,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "253446e8-cf75-4944-9ba2-a761893ecb6a")
 		(property "Reference" "U18"
 			(at 334.01 107.95 0)
@@ -21073,7 +21078,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21083,7 +21088,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21181,14 +21186,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26e1ef79-f7ed-4aa2-8e7e-dee40d169b87")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR151"
 			(at 302.26 26.416 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21198,7 +21203,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21208,7 +21213,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21218,7 +21223,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21239,7 +21244,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0151")
+					(reference "#PWR151")
 					(unit 1)
 				)
 			)
@@ -21542,14 +21547,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a56fa5d-e1af-4199-a8c8-204dacef0fad")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR158"
 			(at 388.62 187.706 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21559,7 +21564,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21569,7 +21574,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21579,7 +21584,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21600,7 +21605,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0158")
+					(reference "#PWR158")
 					(unit 1)
 				)
 			)
@@ -21618,14 +21623,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cbd83ae-7367-44c0-ac70-bd437108fa29")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR19"
 			(at 124.46 215.646 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21635,7 +21640,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21645,7 +21650,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21655,7 +21660,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21676,7 +21681,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR019")
+					(reference "#PWR19")
 					(unit 1)
 				)
 			)
@@ -21694,14 +21699,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ecdaf7e-0439-4894-8855-ec2233743c1a")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR85"
 			(at 269.24 93.726 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21711,7 +21716,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21721,7 +21726,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21731,7 +21736,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21752,7 +21757,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR085")
+					(reference "#PWR85")
 					(unit 1)
 				)
 			)
@@ -21770,14 +21775,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3048f147-660d-4ab3-b872-6efac4249f9f")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR141"
 			(at 381 246.126 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21787,7 +21792,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21797,7 +21802,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21807,7 +21812,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21828,7 +21833,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0141")
+					(reference "#PWR141")
 					(unit 1)
 				)
 			)
@@ -21846,14 +21851,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3680eab3-1de4-4115-b15c-52cbf2615022")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR14"
 			(at 213.36 244.856 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21863,7 +21868,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21873,7 +21878,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21883,7 +21888,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21904,7 +21909,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR014")
+					(reference "#PWR14")
 					(unit 1)
 				)
 			)
@@ -21922,14 +21927,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36dc2e16-157b-409f-8494-0a3c26b869a8")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR16"
 			(at 238.76 223.266 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21939,7 +21944,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21949,7 +21954,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21959,7 +21964,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21980,7 +21985,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR016")
+					(reference "#PWR16")
 					(unit 1)
 				)
 			)
@@ -21998,14 +22003,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "383b4e35-a5ef-4cd7-83c5-6aa3b2d0d6bd")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR133"
 			(at 374.65 133.096 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -22015,7 +22020,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -22025,7 +22030,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -22035,7 +22040,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -22056,7 +22061,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0133")
+					(reference "#PWR133")
 					(unit 1)
 				)
 			)
@@ -22686,14 +22691,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e961c32-3649-4860-95cf-2e7553d47713")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR79"
 			(at 279.4 256.286 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -22703,7 +22708,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -22713,7 +22718,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -22723,7 +22728,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -22744,7 +22749,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR079")
+					(reference "#PWR79")
 					(unit 1)
 				)
 			)
@@ -22762,14 +22767,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f61af1d-bd70-4c7d-9948-031bf60e9d35")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR159"
 			(at 213.36 234.696 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -22779,7 +22784,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -22789,7 +22794,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -22799,7 +22804,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -22820,7 +22825,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0159")
+					(reference "#PWR159")
 					(unit 1)
 				)
 			)
@@ -22844,7 +22849,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -22854,7 +22859,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -22875,7 +22880,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -23239,7 +23244,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -23260,7 +23265,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -23720,14 +23725,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "457ae371-6392-4e34-a01a-5ad15c612768")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR63"
 			(at 31.75 152.146 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -23737,7 +23742,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -23747,7 +23752,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -23757,7 +23762,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -23778,7 +23783,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR063")
+					(reference "#PWR63")
 					(unit 1)
 				)
 			)
@@ -23944,14 +23949,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47db5e56-cda3-4605-abe8-42c5f472772f")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR18"
 			(at 153.67 216.916 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -23961,7 +23966,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -23971,7 +23976,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -23981,7 +23986,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24002,7 +24007,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR018")
+					(reference "#PWR18")
 					(unit 1)
 				)
 			)
@@ -24133,6 +24138,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "48555627-d0f5-4a09-b1c4-9e4429cef0c4")
 		(property "Reference" "TP20"
 			(at 129.54 160.02 0)
@@ -24151,7 +24157,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24172,7 +24178,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24233,14 +24239,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "489866ba-c7e2-4d7c-af27-c4cf6effc6d4")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR68"
 			(at 313.69 89.916 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24250,7 +24256,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24260,7 +24266,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24270,7 +24276,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24291,7 +24297,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR068")
+					(reference "#PWR68")
 					(unit 1)
 				)
 			)
@@ -24309,14 +24315,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a5642e1-227e-44b4-bf78-b3d220c61059")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR147"
 			(at 290.83 115.316 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24326,7 +24332,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24336,7 +24342,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24346,7 +24352,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24367,7 +24373,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0147")
+					(reference "#PWR147")
 					(unit 1)
 				)
 			)
@@ -24385,14 +24391,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a87db95-fc54-41d2-be30-5e0d14e5044e")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR7"
 			(at 109.22 263.906 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24402,7 +24408,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24412,7 +24418,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24422,7 +24428,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24443,7 +24449,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR07")
+					(reference "#PWR7")
 					(unit 1)
 				)
 			)
@@ -24461,14 +24467,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b44d411-04c1-4640-88ef-7c11ce928305")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR137"
 			(at 264.16 143.256 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24478,7 +24484,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24488,7 +24494,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24498,7 +24504,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24519,7 +24525,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0137")
+					(reference "#PWR137")
 					(unit 1)
 				)
 			)
@@ -24674,14 +24680,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5175665c-9df9-42f7-b77a-9c2395cb7a69")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR153"
 			(at 25.4 29.464 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24691,7 +24697,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -24702,7 +24708,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24712,7 +24718,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24733,7 +24739,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0153")
+					(reference "#PWR153")
 					(unit 1)
 				)
 			)
@@ -24894,7 +24900,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -24905,7 +24911,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -24995,14 +25001,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5422e61f-05bb-4f58-b6d4-7925d9fabee6")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR136"
 			(at 289.56 159.766 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -25012,7 +25018,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -25022,7 +25028,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -25032,7 +25038,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -25053,7 +25059,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0136")
+					(reference "#PWR136")
 					(unit 1)
 				)
 			)
@@ -25078,7 +25084,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 2.4892 2.4892)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -25213,7 +25219,7 @@
 				)
 			)
 		)
-		(property "Description" "TSX-3225"
+		(property "Description" "Crystal 24MHz, CL 9pF, ±10ppm @25°C, ±20ppm -40°C ~ 105°C, ESR 40 Ohm, DL 200µW, TSX-3225 3.2x2.5x0.6mm"
 			(at 119.38 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -25539,14 +25545,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58fd01a7-2691-4506-b66b-fb45f0dec18a")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR77"
 			(at 259.08 227.584 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -25556,7 +25562,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -25567,7 +25573,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -25577,7 +25583,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -25598,7 +25604,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR077")
+					(reference "#PWR77")
 					(unit 1)
 				)
 			)
@@ -25614,6 +25620,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5a809a58-36d4-4d22-b719-96f65bd69ae5")
 		(property "Reference" "TP58"
 			(at 270.51 68.58 0)
@@ -25632,7 +25639,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -25653,7 +25660,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -25712,6 +25719,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5e3e94cd-005c-415c-85cb-c4b8abc9473d")
 		(property "Reference" "R44"
 			(at 221.488 72.644 90)
@@ -25857,6 +25865,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5f6137af-729a-4217-bc91-7c5c0ab4bce9")
 		(property "Reference" "TP26"
 			(at 290.83 107.95 0)
@@ -25875,7 +25884,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -25896,7 +25905,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26100,7 +26109,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26110,7 +26119,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26131,7 +26140,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26205,6 +26214,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "62e9f32d-11fa-4ce2-83ac-b4cde9b8ecd7")
 		(property "Reference" "TP18"
 			(at 213.36 189.738 0)
@@ -26223,7 +26233,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26244,7 +26254,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26303,15 +26313,16 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "63e6e03b-53fd-43f0-b1d9-2ca42023a148")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR76"
 			(at 330.2 14.224 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26321,7 +26332,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26331,7 +26342,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26341,7 +26352,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26362,7 +26373,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR076")
+					(reference "#PWR76")
 					(unit 1)
 				)
 			)
@@ -26378,6 +26389,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "676ddd67-e695-4e5a-bf83-e6cce49f4a1c")
 		(property "Reference" "TP55"
 			(at 269.24 86.36 0)
@@ -26396,7 +26408,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26417,7 +26429,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26476,15 +26488,16 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6b48b647-f165-47d4-9ec4-54f08bb77bf6")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR75"
 			(at 318.77 14.224 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26494,7 +26507,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26504,7 +26517,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26514,7 +26527,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26535,7 +26548,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR075")
+					(reference "#PWR75")
 					(unit 1)
 				)
 			)
@@ -26551,6 +26564,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6bf11b8d-0e06-43ad-8527-208d166f0cdc")
 		(property "Reference" "TP57"
 			(at 265.176 65.786 0)
@@ -26569,7 +26583,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26590,7 +26604,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26651,14 +26665,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e3aa145-156d-40f7-ac1d-c5900bc04114")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR145"
 			(at 388.62 51.816 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26668,7 +26682,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26678,7 +26692,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26688,7 +26702,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26709,7 +26723,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0145")
+					(reference "#PWR145")
 					(unit 1)
 				)
 			)
@@ -26745,7 +26759,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26766,7 +26780,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26962,6 +26976,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7173b839-cf53-4057-bed3-2ece3619ecba")
 		(property "Reference" "TP21"
 			(at 123.19 160.02 0)
@@ -26980,7 +26995,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27001,7 +27016,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27062,14 +27077,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "717b25ba-5705-453a-ab83-e1ab8b4458be")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR135"
 			(at 389.89 113.284 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27079,7 +27094,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -27090,7 +27105,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27100,7 +27115,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27121,7 +27136,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0135")
+					(reference "#PWR135")
 					(unit 1)
 				)
 			)
@@ -27287,14 +27302,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73a25cb5-0f12-475f-8f76-f2cbc50f44ca")
-		(property "Reference" "#PWR0173"
+		(property "Reference" "#PWR173"
 			(at 34.544 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27304,7 +27319,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -27315,7 +27330,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27325,7 +27340,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27346,7 +27361,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0173")
+					(reference "#PWR173")
 					(unit 1)
 				)
 			)
@@ -27512,14 +27527,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "749616f3-429a-471b-ad56-31885c19673a")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR166"
 			(at 87.63 81.534 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27529,7 +27544,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27539,7 +27554,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27549,7 +27564,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27570,7 +27585,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0166")
+					(reference "#PWR166")
 					(unit 1)
 				)
 			)
@@ -27730,6 +27745,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "76294026-a985-441d-9f60-e52db0d21e30")
 		(property "Reference" "TP38"
 			(at 298.45 29.21 0)
@@ -27748,7 +27764,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27769,7 +27785,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27830,14 +27846,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76de409d-14b6-4b0d-9eaa-85fd87dcc8ea")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR12"
 			(at 168.91 263.906 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27847,7 +27863,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27857,7 +27873,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27867,7 +27883,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27888,7 +27904,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR012")
+					(reference "#PWR12")
 					(unit 1)
 				)
 			)
@@ -28008,6 +28024,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7b8382f4-b6ed-4200-a74a-ed4820d6ecda")
 		(property "Reference" "TP61"
 			(at 297.18 53.34 0)
@@ -28026,7 +28043,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -28047,7 +28064,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -28126,7 +28143,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -28147,7 +28164,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -28226,7 +28243,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -28247,7 +28264,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -28306,6 +28323,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7eae2bf5-75bb-4ea0-862a-531ee86b23ac")
 		(property "Reference" "TP39"
 			(at 306.07 29.21 0)
@@ -28324,7 +28342,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -28345,7 +28363,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -28407,7 +28425,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f9bb126-3e9b-49d0-83e4-3b8dbbb65c20")
 		(property "Reference" "C6"
-			(at 157.48 205.7399 0)
+			(at 157.48 207.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28418,7 +28436,7 @@
 			)
 		)
 		(property "Value" "${Capacitance}"
-			(at 157.48 208.2799 0)
+			(at 157.48 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28473,7 +28491,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 157.48 210.8199 0)
+			(at 157.48 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28484,7 +28502,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 157.48 213.3599 0)
+			(at 157.48 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28543,14 +28561,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "805f4833-7fe2-4b4f-858c-d722a4f0d581")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR23"
 			(at 73.66 267.716 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -28560,7 +28578,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -28570,7 +28588,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -28580,7 +28598,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -28601,7 +28619,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR023")
+					(reference "#PWR23")
 					(unit 1)
 				)
 			)
@@ -28625,7 +28643,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.9906 0.9906)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -28637,7 +28655,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -28714,7 +28732,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.9906 0.9906)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -28883,14 +28901,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82a9405d-43f5-43b3-aaa9-b44eaa345171")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR66"
 			(at 332.74 56.134 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -28900,7 +28918,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -28911,7 +28929,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -28921,7 +28939,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -28942,7 +28960,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR066")
+					(reference "#PWR66")
 					(unit 1)
 				)
 			)
@@ -28958,6 +28976,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "839fdd96-e2fa-4d3b-95c6-f308c294db09")
 		(property "Reference" "TP22"
 			(at 283.21 127 0)
@@ -28976,7 +28995,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -28997,7 +29016,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29056,6 +29075,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "83f51407-b084-406c-8585-9c5fe4cca94d")
 		(property "Reference" "TP17"
 			(at 232.41 201.93 0)
@@ -29074,7 +29094,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29095,7 +29115,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29154,6 +29174,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "85db4bc3-092b-45e7-b0ef-291cd9e903ac")
 		(property "Reference" "TP24"
 			(at 270.51 115.57 0)
@@ -29172,7 +29193,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29193,7 +29214,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29254,14 +29275,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86363a70-af7c-4ba2-8796-77e8f8a05471")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR72"
 			(at 394.97 61.214 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29271,7 +29292,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29281,7 +29302,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29291,7 +29312,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29312,7 +29333,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR072")
+					(reference "#PWR72")
 					(unit 1)
 				)
 			)
@@ -29328,6 +29349,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "874ed5de-3183-4391-a052-734d46c805d5")
 		(property "Reference" "TP19"
 			(at 44.45 109.22 0)
@@ -29346,7 +29368,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29367,7 +29389,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29578,14 +29600,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c3efc61-cde9-4b1a-89ca-fd9aaf9b1f6d")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR130"
 			(at 347.98 131.826 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29595,7 +29617,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29605,7 +29627,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29615,7 +29637,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29636,7 +29658,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0130")
+					(reference "#PWR130")
 					(unit 1)
 				)
 			)
@@ -29655,14 +29677,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c665c4c-3c0c-43e4-8650-35d29012af66")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR62"
 			(at 37.846 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29672,7 +29694,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29682,7 +29704,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29692,7 +29714,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29713,7 +29735,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR062")
+					(reference "#PWR62")
 					(unit 1)
 				)
 			)
@@ -29731,14 +29753,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c9f33e6-6634-415e-bf36-aa4509ec74aa")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR132"
 			(at 374.65 145.796 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29748,7 +29770,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29758,7 +29780,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29768,7 +29790,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -29789,7 +29811,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0132")
+					(reference "#PWR132")
 					(unit 1)
 				)
 			)
@@ -30092,14 +30114,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c127247-3b21-4bd2-98f6-d4d080be0a6d")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR160"
 			(at 167.64 215.646 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -30109,7 +30131,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -30119,7 +30141,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -30129,7 +30151,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -30150,7 +30172,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0160")
+					(reference "#PWR160")
 					(unit 1)
 				)
 			)
@@ -30608,7 +30630,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -30629,7 +30651,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -30836,6 +30858,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a6552de8-e562-4777-becb-9272bb88f1cd")
 		(property "Reference" "TP15"
 			(at 49.53 109.22 0)
@@ -30854,7 +30877,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -30875,7 +30898,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -30934,6 +30957,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a8a681ca-4d3d-4468-9ed6-3c91aa6968d3")
 		(property "Reference" "#FLG2"
 			(at 257.81 121.92 0)
@@ -30942,7 +30966,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 2.4892 2.4892)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -31034,15 +31058,16 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a8dbfff6-dd7e-4989-b43e-0e84d3cd0958")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR73"
 			(at 347.98 26.924 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -31052,7 +31077,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -31062,7 +31087,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -31072,7 +31097,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -31093,7 +31118,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR073")
+					(reference "#PWR73")
 					(unit 1)
 				)
 			)
@@ -31117,7 +31142,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -31127,7 +31152,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -31148,7 +31173,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -31224,14 +31249,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a980657e-8257-42e9-8df6-ffffc343eaf5")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR61"
 			(at 49.53 116.586 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -31241,7 +31266,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -31251,7 +31276,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -31261,7 +31286,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -31282,7 +31307,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR061")
+					(reference "#PWR61")
 					(unit 1)
 				)
 			)
@@ -31722,14 +31747,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5a33846-6ad4-4597-a78d-61b87f6eafb9")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR24"
 			(at 34.29 267.716 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -31739,7 +31764,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -31749,7 +31774,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -31759,7 +31784,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -31780,7 +31805,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR024")
+					(reference "#PWR24")
 					(unit 1)
 				)
 			)
@@ -31933,6 +31958,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b7346699-218c-4f19-b501-96856b8ec708")
 		(property "Reference" "TP60"
 			(at 288.29 53.34 0)
@@ -31951,7 +31977,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -31972,7 +31998,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -32033,14 +32059,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b864aac7-7519-4936-af43-f7e6bd8aa3d4")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR25"
 			(at 34.29 246.634 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -32050,7 +32076,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -32061,7 +32087,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -32071,7 +32097,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -32092,7 +32118,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR025")
+					(reference "#PWR25")
 					(unit 1)
 				)
 			)
@@ -32108,6 +32134,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "bb7c4e5c-9562-4c63-8f8f-ce6332300b07")
 		(property "Reference" "J3"
 			(at 39.37 58.42 0)
@@ -32236,14 +32263,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bce52c71-a734-49b2-8623-e6d49289261d")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR146"
 			(at 313.69 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -32253,7 +32280,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -32263,7 +32290,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -32273,7 +32300,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -32294,7 +32321,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0146")
+					(reference "#PWR146")
 					(unit 1)
 				)
 			)
@@ -32310,6 +32337,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "bdfaefd0-060a-4591-993e-dcc07209d8a5")
 		(property "Reference" "TP59"
 			(at 275.59 65.532 0)
@@ -32328,7 +32356,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -32349,7 +32377,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -32408,6 +32436,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "bdfe8200-0d56-4d98-a9a5-66c88fe8dd61")
 		(property "Reference" "TP37"
 			(at 302.26 19.05 0)
@@ -32426,7 +32455,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -32447,7 +32476,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -32514,7 +32543,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -32525,7 +32554,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -32615,14 +32644,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bea0760f-3b5c-4268-9bed-6b7fa9691057")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR142"
 			(at 316.23 246.126 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -32632,7 +32661,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -32642,7 +32671,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -32652,7 +32681,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -32673,7 +32702,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0142")
+					(reference "#PWR142")
 					(unit 1)
 				)
 			)
@@ -32689,6 +32718,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "bf9ac459-cc13-48a3-91ca-9f363e5ffe50")
 		(property "Reference" "TP25"
 			(at 313.69 137.16 0)
@@ -32707,7 +32737,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -32728,7 +32758,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -32933,7 +32963,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 2.4892 2.4892)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -33169,7 +33199,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -33179,7 +33209,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -33414,14 +33444,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c50f7541-a2df-41b3-95a6-458d34ee702e")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR59"
 			(at 38.1 50.546 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -33431,7 +33461,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -33441,7 +33471,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -33451,7 +33481,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -33472,7 +33502,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR059")
+					(reference "#PWR59")
 					(unit 1)
 				)
 			)
@@ -33490,14 +33520,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c56e5844-99da-45b5-9359-eee8797a3c78")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR11"
 			(at 213.36 159.004 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -33507,7 +33537,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -33517,7 +33547,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -33527,7 +33557,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -33548,7 +33578,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR011")
+					(reference "#PWR11")
 					(unit 1)
 				)
 			)
@@ -33725,14 +33755,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c64a06b5-3fe1-402f-b48f-d4976bd6e667")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR74"
 			(at 223.52 40.894 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -33742,7 +33772,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -33753,7 +33783,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -33763,7 +33793,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -33784,7 +33814,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR074")
+					(reference "#PWR74")
 					(unit 1)
 				)
 			)
@@ -33800,6 +33830,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c730d6c3-fe62-4b0b-8cde-84bbe751d962")
 		(property "Reference" "R42"
 			(at 79.502 124.714 90)
@@ -34232,14 +34263,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c87503fc-d95e-4192-88b9-156f4a1dac5a")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR69"
 			(at 386.08 79.756 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34249,7 +34280,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34259,7 +34290,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34269,7 +34300,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34290,7 +34321,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR069")
+					(reference "#PWR69")
 					(unit 1)
 				)
 			)
@@ -34306,6 +34337,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "cdca0637-549b-4cb7-bff3-1e293b4adffd")
 		(property "Reference" "TP16"
 			(at 238.76 237.49 0)
@@ -34324,7 +34356,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34345,7 +34377,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34554,14 +34586,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2d69a7a-ebbb-4b7b-8bf0-4f4b73481301")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR139"
 			(at 363.22 246.126 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34571,7 +34603,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34581,7 +34613,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34591,7 +34623,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34612,7 +34644,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0139")
+					(reference "#PWR139")
 					(unit 1)
 				)
 			)
@@ -34630,14 +34662,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d575844f-dcbd-48e6-8095-7e7267f6bd32")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR140"
 			(at 381 195.834 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34647,7 +34679,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -34658,7 +34690,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34668,7 +34700,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34689,7 +34721,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0140")
+					(reference "#PWR140")
 					(unit 1)
 				)
 			)
@@ -34707,14 +34739,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5bd48da-1c09-4193-8318-58d14183a1e9")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR67"
 			(at 337.82 74.676 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34724,7 +34756,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34734,7 +34766,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34744,7 +34776,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34765,7 +34797,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR067")
+					(reference "#PWR67")
 					(unit 1)
 				)
 			)
@@ -34783,14 +34815,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d627c4e9-11fc-4529-9730-cbe30141c7c0")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR20"
 			(at 25.4 81.026 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34800,7 +34832,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34810,7 +34842,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34820,7 +34852,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -34841,7 +34873,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR020")
+					(reference "#PWR20")
 					(unit 1)
 				)
 			)
@@ -35009,14 +35041,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d67a6efb-7d01-4003-98fc-b2cc721d4f7e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR15"
 			(at 220.98 187.706 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35026,7 +35058,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35036,7 +35068,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35046,7 +35078,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35067,7 +35099,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR015")
+					(reference "#PWR15")
 					(unit 1)
 				)
 			)
@@ -35085,14 +35117,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6896a18-173c-4f7f-806b-ff07088d3a0a")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR13"
 			(at 220.98 234.696 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35102,7 +35134,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35112,7 +35144,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35122,7 +35154,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35143,7 +35175,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR013")
+					(reference "#PWR13")
 					(unit 1)
 				)
 			)
@@ -35161,14 +35193,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d81f4ce1-a523-4a81-a32c-4a0a4db49b38")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR152"
 			(at 95.25 49.784 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35178,7 +35210,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -35189,7 +35221,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35199,7 +35231,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35220,7 +35252,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0152")
+					(reference "#PWR152")
 					(unit 1)
 				)
 			)
@@ -35373,6 +35405,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "dc9dc803-bc01-4fd6-a4ac-f91062451a1f")
 		(property "Reference" "TP56"
 			(at 260.35 68.58 0)
@@ -35391,7 +35424,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35412,7 +35445,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35473,14 +35506,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "defc04f2-a66b-4a33-acad-f49a2547796d")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR10"
 			(at 148.59 263.906 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35490,7 +35523,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35500,7 +35533,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35510,7 +35543,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35531,7 +35564,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR010")
+					(reference "#PWR10")
 					(unit 1)
 				)
 			)
@@ -35686,14 +35719,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e25c4688-5551-4de9-9478-98ae894cb6a1")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR134"
 			(at 389.89 133.096 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35703,7 +35736,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35713,7 +35746,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35723,7 +35756,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -35744,7 +35777,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0134")
+					(reference "#PWR134")
 					(unit 1)
 				)
 			)
@@ -35900,7 +35933,7 @@
 		(fields_autoplaced yes)
 		(uuid "e44da42d-21c3-4502-a713-53a22414311c")
 		(property "Reference" "R1"
-			(at 97.79 53.3399 0)
+			(at 97.79 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35911,7 +35944,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 97.79 55.8799 0)
+			(at 97.79 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35966,7 +35999,7 @@
 			)
 		)
 		(property "Power" "63mW"
-			(at 97.79 58.4199 0)
+			(at 97.79 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35977,7 +36010,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 97.79 60.9599 0)
+			(at 97.79 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36047,14 +36080,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4bb200b-cdb6-452f-ab81-84534df70063")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR144"
 			(at 334.01 246.126 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -36064,7 +36097,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -36074,7 +36107,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -36084,7 +36117,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -36105,7 +36138,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0144")
+					(reference "#PWR144")
 					(unit 1)
 				)
 			)
@@ -36260,14 +36293,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7f745df-758a-4244-81f0-4aeb14e4194d")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR60"
 			(at 80.01 237.744 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -36277,7 +36310,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -36288,7 +36321,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -36298,7 +36331,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -36319,7 +36352,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR060")
+					(reference "#PWR60")
 					(unit 1)
 				)
 			)
@@ -36480,7 +36513,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.9906 0.9906)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -36492,7 +36525,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.016 1.016)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -36569,7 +36602,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.9906 0.9906)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
@@ -36599,6 +36632,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "edcdeafc-a0fc-4e84-9897-bfc6b275f159")
 		(property "Reference" "R43"
 			(at 79.502 127.254 90)
@@ -37316,14 +37350,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f650b9ce-8674-43ab-be6d-97212f0a0f7f")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR131"
 			(at 360.68 145.796 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -37333,7 +37367,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -37343,7 +37377,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -37353,7 +37387,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -37374,7 +37408,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR0131")
+					(reference "#PWR131")
 					(unit 1)
 				)
 			)
@@ -37390,15 +37424,16 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f92a6bec-de8c-4834-ab3b-328f3067f2fa")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR29"
 			(at 95.25 86.106 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -37408,7 +37443,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -37418,7 +37453,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -37428,7 +37463,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -37449,7 +37484,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR029")
+					(reference "#PWR29")
 					(unit 1)
 				)
 			)
@@ -37602,15 +37637,16 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "fcc08580-357e-4a80-bb03-c64f0e4fea84")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR28"
 			(at 58.42 97.536 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -37620,7 +37656,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -37630,7 +37666,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -37640,7 +37676,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -37661,7 +37697,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR028")
+					(reference "#PWR28")
 					(unit 1)
 				)
 			)
@@ -37868,14 +37904,14 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffbaa4f8-db14-4e35-9a40-1e3cdc82b921")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR71"
 			(at 394.97 75.946 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -37885,7 +37921,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -37895,7 +37931,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -37905,7 +37941,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -37926,7 +37962,7 @@
 		(instances
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR071")
+					(reference "#PWR71")
 					(unit 1)
 				)
 			)

@@ -12422,7 +12422,7 @@
 	)
 	(rectangle
 		(start 236.22 224.79)
-		(end 293.37 259.08)
+		(end 293.37 266.7)
 		(stroke
 			(width 0)
 			(type dash)
@@ -12442,13 +12442,14 @@
 		)
 		(uuid "12cfd42d-72e1-4178-bd3e-1f4dcd6fc231")
 	)
-	(text "RTC & SRAM Backup power (>= 8h)"
+	(text "RTC & SRAM backup\n(≥ 8 h)"
 		(exclude_from_sim no)
-		(at 255.524 227.076 0)
+		(at 238.76 226.06 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
 			)
+			(justify left top)
 		)
 		(uuid "1558a42b-6864-4a3e-a480-5457ede09636")
 	)
@@ -12573,7 +12574,7 @@
 		(uuid "12a438af-7cd0-441d-88fe-3c0af412fe9a")
 	)
 	(junction
-		(at 251.46 241.3)
+		(at 251.46 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12df5054-1728-429e-b78d-72089cf08e96")
@@ -12777,7 +12778,7 @@
 		(uuid "7e1a382a-704c-4242-bbb9-14fac61c071f")
 	)
 	(junction
-		(at 259.08 232.41)
+		(at 259.08 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "872b6877-bf48-43e3-9209-bac8c9475e02")
@@ -12843,7 +12844,7 @@
 		(uuid "a6dc4064-c0c4-410e-bc5b-cc7325522818")
 	)
 	(junction
-		(at 251.46 242.57)
+		(at 251.46 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae223dd6-6ba6-46f3-81a3-394797c4ec04")
@@ -12969,13 +12970,13 @@
 		(uuid "f710bb14-55fd-4521-ae71-c61786570a21")
 	)
 	(junction
-		(at 243.84 241.3)
+		(at 243.84 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7ee0fa1-b8df-4c31-b083-342da1e8a4b7")
 	)
 	(junction
-		(at 238.76 241.3)
+		(at 238.76 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f80346b9-a9e0-405f-93ac-6a9c4a1e09d0")
@@ -12993,7 +12994,7 @@
 		(uuid "f9a52e7c-cafa-41e4-9d2d-a48cd8de8889")
 	)
 	(junction
-		(at 279.4 242.57)
+		(at 279.4 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff301404-96a9-4536-a6ad-b10b1b093354")
@@ -13290,7 +13291,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 232.41) (xy 266.7 238.76)
+			(xy 266.7 240.03) (xy 266.7 246.38)
 		)
 		(stroke
 			(width 0)
@@ -13300,7 +13301,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 241.3) (xy 251.46 241.3)
+			(xy 243.84 248.92) (xy 251.46 248.92)
 		)
 		(stroke
 			(width 0)
@@ -13360,7 +13361,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 241.3) (xy 243.84 241.3)
+			(xy 238.76 248.92) (xy 243.84 248.92)
 		)
 		(stroke
 			(width 0)
@@ -13390,7 +13391,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 232.41) (xy 266.7 232.41)
+			(xy 259.08 240.03) (xy 266.7 240.03)
 		)
 		(stroke
 			(width 0)
@@ -13500,7 +13501,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 213.36) (xy 232.41 241.3)
+			(xy 232.41 213.36) (xy 232.41 248.92)
 		)
 		(stroke
 			(width 0)
@@ -13520,7 +13521,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 241.3) (xy 251.46 242.57)
+			(xy 251.46 248.92) (xy 251.46 250.19)
 		)
 		(stroke
 			(width 0)
@@ -13540,7 +13541,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 238.76) (xy 251.46 241.3)
+			(xy 251.46 246.38) (xy 251.46 248.92)
 		)
 		(stroke
 			(width 0)
@@ -13710,7 +13711,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 242.57) (xy 261.62 242.57)
+			(xy 251.46 250.19) (xy 261.62 250.19)
 		)
 		(stroke
 			(width 0)
@@ -14440,7 +14441,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 232.41) (xy 259.08 231.14)
+			(xy 259.08 240.03) (xy 259.08 238.76)
 		)
 		(stroke
 			(width 0)
@@ -14580,7 +14581,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 242.57) (xy 279.4 242.57)
+			(xy 269.24 250.19) (xy 279.4 250.19)
 		)
 		(stroke
 			(width 0)
@@ -14880,7 +14881,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 242.57) (xy 279.4 245.11)
+			(xy 279.4 250.19) (xy 279.4 252.73)
 		)
 		(stroke
 			(width 0)
@@ -15010,7 +15011,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 242.57) (xy 251.46 245.11)
+			(xy 251.46 250.19) (xy 251.46 252.73)
 		)
 		(stroke
 			(width 0)
@@ -15200,7 +15201,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 241.3) (xy 238.76 241.3)
+			(xy 232.41 248.92) (xy 238.76 248.92)
 		)
 		(stroke
 			(width 0)
@@ -15410,7 +15411,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 240.03) (xy 279.4 242.57)
+			(xy 279.4 247.65) (xy 279.4 250.19)
 		)
 		(stroke
 			(width 0)
@@ -15830,7 +15831,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 233.68) (xy 259.08 232.41)
+			(xy 259.08 241.3) (xy 259.08 240.03)
 		)
 		(stroke
 			(width 0)
@@ -16269,7 +16270,7 @@
 		(uuid "ee05d78e-736a-46f7-b7ac-4bb23ec5cce2")
 	)
 	(label "V_SUPERCAP"
-		(at 270.51 242.57 0)
+		(at 270.51 250.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16782,7 +16783,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 252.73 180)
+		(at 251.46 260.35 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16793,7 +16794,7 @@
 		(fields_autoplaced yes)
 		(uuid "02560bac-d968-4615-9768-f202ddd493e7")
 		(property "Reference" "#PWR78"
-			(at 251.46 256.286 0)
+			(at 251.46 263.906 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16804,7 +16805,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 255.27 0)
+			(at 251.46 262.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16814,7 +16815,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 252.73 0)
+			(at 251.46 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16824,7 +16825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 252.73 0)
+			(at 251.46 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16834,7 +16835,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 252.73 0)
+			(at 251.46 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16934,7 +16935,7 @@
 	)
 	(symbol
 		(lib_id "res_chip_vishay_crcw:CRCW/R0603_220R0_1_100mW")
-		(at 265.43 242.57 90)
+		(at 265.43 250.19 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16944,7 +16945,7 @@
 		(dnp no)
 		(uuid "039272ff-95f9-41be-9c17-b02d93d506c8")
 		(property "Reference" "R50"
-			(at 265.43 246.38 90)
+			(at 265.43 254 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16954,7 +16955,7 @@
 			)
 		)
 		(property "Value" "220Ω"
-			(at 265.43 248.92 90)
+			(at 265.43 256.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16964,7 +16965,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 265.43 244.348 90)
+			(at 265.43 251.968 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16975,7 +16976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 242.57 0)
+			(at 265.43 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16986,7 +16987,7 @@
 			)
 		)
 		(property "Description" "220Ω, 1%, 100mW, TCR ±100ppm/K, EIA 0603"
-			(at 265.43 242.57 0)
+			(at 265.43 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16997,7 +16998,7 @@
 			)
 		)
 		(property "Resistance" "220Ω"
-			(at 265.43 242.57 0)
+			(at 265.43 250.19 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -17008,7 +17009,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 265.43 251.46 90)
+			(at 265.43 259.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17018,7 +17019,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 265.43 254 90)
+			(at 265.43 261.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17028,7 +17029,7 @@
 			)
 		)
 		(property "T.C.R" "±100ppm/K"
-			(at 265.43 242.57 0)
+			(at 265.43 250.19 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -17039,7 +17040,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 265.43 242.57 0)
+			(at 265.43 250.19 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -17050,7 +17051,7 @@
 			)
 		)
 		(property "Part Number" "CRCW0603220RFKEA"
-			(at 265.43 242.57 0)
+			(at 265.43 250.19 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -17918,7 +17919,7 @@
 	)
 	(symbol
 		(lib_id "cap_mlcc_murata_GRM:GRM/C0402_1u_10V_X7R_10%")
-		(at 251.46 248.92 0)
+		(at 251.46 256.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17929,7 +17930,7 @@
 		(fields_autoplaced yes)
 		(uuid "12759a28-de37-40f3-86bf-4f40e4d15308")
 		(property "Reference" "C33"
-			(at 255.27 245.1099 0)
+			(at 255.27 252.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17940,7 +17941,7 @@
 			)
 		)
 		(property "Value" "${Capacitance}"
-			(at 255.27 247.6499 0)
+			(at 255.27 255.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17951,7 +17952,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 252.4252 252.73 0)
+			(at 252.425 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17962,7 +17963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 248.92 0)
+			(at 251.46 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17973,7 +17974,7 @@
 			)
 		)
 		(property "Description" "1.0uF, 10V, X7R, Tol: 10%"
-			(at 251.46 248.92 0)
+			(at 251.46 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17984,7 +17985,7 @@
 			)
 		)
 		(property "Capacitance" "1.0uF"
-			(at 251.46 248.92 0)
+			(at 251.46 256.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -17995,7 +17996,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 255.27 250.1899 0)
+			(at 255.27 257.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18006,7 +18007,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 255.27 252.7299 0)
+			(at 255.27 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18017,7 +18018,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 251.46 248.92 0)
+			(at 251.46 256.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -18028,7 +18029,7 @@
 			)
 		)
 		(property "Part Number" "GRM155Z71A105KE01"
-			(at 251.46 248.92 0)
+			(at 251.46 256.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -18055,7 +18056,7 @@
 	)
 	(symbol
 		(lib_id "power:TP")
-		(at 279.4 240.03 0)
+		(at 279.4 247.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18066,7 +18067,7 @@
 		(fields_autoplaced yes)
 		(uuid "186d919f-809f-4a24-8f94-28b9a6f47121")
 		(property "Reference" "TP36"
-			(at 279.4 236.22 0)
+			(at 279.4 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18076,7 +18077,7 @@
 			)
 		)
 		(property "Value" "TP"
-			(at 276.86 241.3 0)
+			(at 276.86 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18087,7 +18088,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 277.368 245.618 0)
+			(at 277.368 253.238 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18098,7 +18099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 238.76 0)
+			(at 281.94 246.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18108,7 +18109,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 279.4 240.03 0)
+			(at 279.4 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18119,7 +18120,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 279.4 240.03 0)
+			(at 279.4 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18130,7 +18131,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 279.4 240.03 0)
+			(at 279.4 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19588,7 +19589,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 279.4 252.73 180)
+		(at 279.4 260.35 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19599,7 +19600,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e961c32-3649-4860-95cf-2e7553d47713")
 		(property "Reference" "#PWR79"
-			(at 279.4 256.286 0)
+			(at 279.4 263.906 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19610,7 +19611,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 279.4 255.27 0)
+			(at 279.4 262.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19620,7 +19621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 252.73 0)
+			(at 279.4 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19630,7 +19631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 252.73 0)
+			(at 279.4 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19640,7 +19641,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 279.4 252.73 0)
+			(at 279.4 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20775,7 +20776,7 @@
 	)
 	(symbol
 		(lib_id "misc_capacitors:KW-5R5C334H-R")
-		(at 279.4 248.92 0)
+		(at 279.4 256.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20786,7 +20787,7 @@
 		(fields_autoplaced yes)
 		(uuid "48165d30-3bfb-436b-9350-68eee8543838")
 		(property "Reference" "C9"
-			(at 283.21 246.7609 0)
+			(at 283.21 254.381 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20797,7 +20798,7 @@
 			)
 		)
 		(property "Value" "330mF"
-			(at 283.21 249.3009 0)
+			(at 283.21 256.921 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20808,7 +20809,7 @@
 			)
 		)
 		(property "Footprint" "Jonas:Eaton_KW_13.5x8.8mm"
-			(at 280.3652 252.73 0)
+			(at 280.365 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20819,7 +20820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 248.92 0)
+			(at 279.4 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20830,7 +20831,7 @@
 			)
 		)
 		(property "Description" "Coin cell supercap"
-			(at 279.4 248.92 0)
+			(at 279.4 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20841,7 +20842,7 @@
 			)
 		)
 		(property "Voltage" "5.5V"
-			(at 279.4 248.92 0)
+			(at 279.4 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20852,7 +20853,7 @@
 			)
 		)
 		(property "Manufacturer" "Eaton"
-			(at 279.4 248.92 0)
+			(at 279.4 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20863,7 +20864,7 @@
 			)
 		)
 		(property "Part Number" "KW-5R5C334H-R"
-			(at 279.4 248.92 0)
+			(at 279.4 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21734,7 +21735,7 @@
 	)
 	(symbol
 		(lib_id "power:PxVx")
-		(at 259.08 231.14 0)
+		(at 259.08 238.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21745,7 +21746,7 @@
 		(fields_autoplaced yes)
 		(uuid "58fd01a7-2691-4506-b66b-fb45f0dec18a")
 		(property "Reference" "#PWR77"
-			(at 259.08 227.584 0)
+			(at 259.08 235.204 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21756,7 +21757,7 @@
 			)
 		)
 		(property "Value" "P3V3"
-			(at 260.35 229.87 0)
+			(at 260.35 237.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21767,7 +21768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 231.14 0)
+			(at 259.08 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21777,7 +21778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 231.14 0)
+			(at 259.08 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21787,7 +21788,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 231.14 0)
+			(at 259.08 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22889,7 +22890,7 @@
 	)
 	(symbol
 		(lib_id "diode_misc:BAS70-04-G3-08")
-		(at 259.08 238.76 180)
+		(at 259.08 246.38 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22899,7 +22900,7 @@
 		(dnp no)
 		(uuid "77525ea8-3bf1-4f5e-9302-e74fc018cf82")
 		(property "Reference" "D17"
-			(at 269.24 229.87 0)
+			(at 269.24 237.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22909,7 +22910,7 @@
 			)
 		)
 		(property "Value" "BAS70-04-G3-08"
-			(at 276.352 232.41 0)
+			(at 276.352 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22919,7 +22920,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 260.858 250.952 0)
+			(at 260.858 258.572 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22930,7 +22931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 238.76 0)
+			(at 259.08 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22941,7 +22942,7 @@
 			)
 		)
 		(property "Description" "Small Signal Schottky Diode, 200mA, Ir ~50nA"
-			(at 264.414 255.778 0)
+			(at 264.414 263.398 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22952,7 +22953,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 273.812 230.378 0)
+			(at 273.812 237.998 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22963,7 +22964,7 @@
 			)
 		)
 		(property "Part Number" "BAS70-04-G3-08"
-			(at 267.208 227.838 0)
+			(at 267.208 235.458 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25386,7 +25387,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 243.84 238.76 0)
+		(at 243.84 246.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25397,7 +25398,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3135c8c-c97f-4d3b-97b4-986ade5ca81e")
 		(property "Reference" "#FLG5"
-			(at 243.84 234.95 0)
+			(at 243.84 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25408,7 +25409,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 243.84 233.68 0)
+			(at 243.84 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25418,7 +25419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 238.76 0)
+			(at 243.84 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25429,7 +25430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 238.76 0)
+			(at 243.84 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25440,7 +25441,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 243.84 238.76 0)
+			(at 243.84 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25451,7 +25452,7 @@
 			)
 		)
 		(property "Manufacturer" "N/A"
-			(at 243.84 238.76 0)
+			(at 243.84 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25462,7 +25463,7 @@
 			)
 		)
 		(property "Part Number" "N/A"
-			(at 243.84 238.76 0)
+			(at 243.84 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26309,7 +26310,7 @@
 	)
 	(symbol
 		(lib_id "power:TP")
-		(at 238.76 241.3 0)
+		(at 238.76 248.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26320,7 +26321,7 @@
 		(fields_autoplaced yes)
 		(uuid "cdca0637-549b-4cb7-bff3-1e293b4adffd")
 		(property "Reference" "TP16"
-			(at 238.76 237.49 0)
+			(at 238.76 245.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26330,7 +26331,7 @@
 			)
 		)
 		(property "Value" "TP"
-			(at 236.22 242.57 0)
+			(at 236.22 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26341,7 +26342,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 236.728 246.888 0)
+			(at 236.728 254.508 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26352,7 +26353,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 240.03 0)
+			(at 241.3 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26362,7 +26363,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 241.3 0)
+			(at 238.76 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26373,7 +26374,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 238.76 241.3 0)
+			(at 238.76 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26384,7 +26385,7 @@
 			)
 		)
 		(property "Part Number" ""
-			(at 238.76 241.3 0)
+			(at 238.76 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

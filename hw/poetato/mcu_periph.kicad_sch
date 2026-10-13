@@ -2813,21 +2813,23 @@
 	)
 	(text "Secure Element"
 		(exclude_from_sim no)
-		(at 41.148 29.21 0)
+		(at 29.21 30.48 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
 			)
+			(justify left)
 		)
 		(uuid "8056ebdc-cfbd-413b-883c-facbb43d2dc3")
 	)
 	(text "System status LEDs"
 		(exclude_from_sim no)
-		(at 43.18 113.792 0)
+		(at 29.21 114.3 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
 			)
+			(justify left)
 		)
 		(uuid "adfcc3ae-6933-4ab3-a19c-2ffbe40c766e")
 	)
@@ -2844,11 +2846,12 @@
 	)
 	(text "8MiB Mass storage flash"
 		(exclude_from_sim no)
-		(at 211.582 28.956 0)
+		(at 200.66 30.48 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
 			)
+			(justify left)
 		)
 		(uuid "c2f3f017-46f0-45ba-a22f-c32c509dd77c")
 	)

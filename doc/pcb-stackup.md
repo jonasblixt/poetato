@@ -202,18 +202,27 @@ page (jlcpcb.com/capabilities/pcb-capabilities, multilayer, 1 oz), read
 (100 Ω, L1/L6), 0.13 / 0.15 and 0.12 / 0.20 mm (the same on L3). Diff pair via
 gap 0.25 mm.
 
-**Where the net classes are assigned.** In the schematic, so the board gets
-them through Update PCB from Schematic:
+**Where the net classes are assigned.** In the schematic, only with rule
+areas: a dashed box with a net-class flag gives its class to every net with a
+wire or pin inside it. The board gets them through Update PCB from Schematic.
+Use rule areas for new assignments too, not hidden fields on labels, so every
+assignment is visible on the sheet.
 
-- **Named nets:** a hidden `Netclass` field on one local label of each net
-  (`ethernet_poe` and `mcu` sheets).
-- **The unnamed PHY-side RMII segments** after R17–R20, R24 and R25: two
-  dashed rule areas on the Ethernet sheet, each with a `50Ohm_RMII` net-class
-  flag. A label there would cross the strap wires.
-- **The PHY side of R26** got a label, `ETH_REF_CLK_PHY`, with the field.
-- **Exception: the MCU side of R44** (`FLASH_SCK` series resistor) stays
-  Default. It is a 1.27 mm stub in the schematic and about 1 mm on the board
-  with R44 at the MCU pin, and the Default width is the 50 Ω width anyway.
+| Sheet | Rule area | Class |
+|---|---|---|
+| Ethernet & PoE | RXD0/RXD1, R17/R18 and their PHY-side wires | `50Ohm_RMII` |
+| Ethernet & PoE | RXDV, TXD0/1, TXEN, R24/R19/R20/R25 and their PHY-side wires | `50Ohm_RMII` |
+| Ethernet & PoE | ETH_REF_CLK, R26, ETH_REF_CLK_PHY | `50Ohm_RMII` |
+| Ethernet & PoE | ETH_TX_P/N, ETH_RX_P/N between the PHY pins and the ESD taps | `100Ohm-diff_MDI` |
+| MCU | the QSPI bundle, including R44 and its MCU-side stub | `50Ohm_QSPI` |
+| MCU | USB_D_P / USB_D_N | `90Ohm-diff_USB` |
+
+Each box covering a series resistor also covers both of its pins, so the net
+on each side gets the class. The boxes stop short of IC pin ends, which
+keeps no-connect pins and other nets out. The RMII nets are hierarchical, so
+the Ethernet-sheet boxes also cover their wires on the MCU sheet. The PHY
+side of R26 has a label, `ETH_REF_CLK_PHY`, for a readable net name on the
+board.
 
 **Vias in pads.** The design does not rely on filled and capped vias (IPC-4761
 Type VII). JLCPCB makes them the default on 6-layer boards, but another fab

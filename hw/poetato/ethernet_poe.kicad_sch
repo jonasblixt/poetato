@@ -17285,17 +17285,6 @@
 			(justify left bottom)
 		)
 		(uuid "202b0e3c-d7d1-4320-8a60-5211565d51a2")
-		(property "Netclass" "50Ohm_RMII"
-			(at 92.71 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "POE_SP1"
 		(at 283.21 199.39 0)
@@ -17336,17 +17325,6 @@
 			(justify left bottom)
 		)
 		(uuid "651d038a-323b-4d3b-b6e2-e4ac7c0ca58f")
-		(property "Netclass" "50Ohm_RMII"
-			(at 92.71 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "P12V0_FILTER"
 		(at 46.99 173.99 0)
@@ -17397,17 +17375,6 @@
 			(justify left bottom)
 		)
 		(uuid "8dd4f48f-b163-4d7b-97f0-6f54cd5a8f14")
-		(property "Netclass" "100Ohm-diff_MDI"
-			(at 226.06 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "ETH_TXD0"
 		(at 92.71 90.17 0)
@@ -17418,17 +17385,6 @@
 			(justify left bottom)
 		)
 		(uuid "8ffc9975-ffc5-49fe-ab40-e05bd830f81a")
-		(property "Netclass" "50Ohm_RMII"
-			(at 92.71 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "POE_SWO"
 		(at 205.74 209.55 0)
@@ -17449,17 +17405,6 @@
 			(justify left bottom)
 		)
 		(uuid "9a6677c6-8ef2-43b2-ae83-1b29384c6d86")
-		(property "Netclass" "100Ohm-diff_MDI"
-			(at 226.06 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "ETH_MDC"
 		(at 92.71 57.15 0)
@@ -17490,17 +17435,6 @@
 			(justify left bottom)
 		)
 		(uuid "bf66fd18-9aef-4728-8123-1e664270c5f0")
-		(property "Netclass" "50Ohm_RMII"
-			(at 92.71 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "ETH_RX_N"
 		(at 226.06 58.42 0)
@@ -17511,17 +17445,6 @@
 			(justify left bottom)
 		)
 		(uuid "bfc26bed-01a4-4728-bfa3-21bde9bcd9e7")
-		(property "Netclass" "100Ohm-diff_MDI"
-			(at 226.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "POE_CT1"
 		(at 283.21 194.31 0)
@@ -17582,17 +17505,6 @@
 			(justify left bottom)
 		)
 		(uuid "c9a33575-5d1a-4da0-b27a-199d2c25f1f3")
-		(property "Netclass" "50Ohm_RMII"
-			(at 92.71 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "ETH_LED1_ACT_N"
 		(at 358.14 34.29 180)
@@ -17643,17 +17555,6 @@
 			(justify left bottom)
 		)
 		(uuid "e0c9336f-e813-4981-97f5-c8c733700d2f")
-		(property "Netclass" "100Ohm-diff_MDI"
-			(at 226.06 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "ETH_RXD0"
 		(at 92.71 71.12 0)
@@ -17664,17 +17565,6 @@
 			(justify left bottom)
 		)
 		(uuid "e371e1a2-c5d7-478b-916d-1c3cfa0e8349")
-		(property "Netclass" "50Ohm_RMII"
-			(at 92.71 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "ETH_REF_CLK"
 		(at 92.71 142.24 0)
@@ -17685,17 +17575,6 @@
 			(justify left bottom)
 		)
 		(uuid "e92e54b5-73ee-4203-8a9c-45bb8e861b0d")
-		(property "Netclass" "50Ohm_RMII"
-			(at 92.71 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "ETH_LED0_LINK_N"
 		(at 358.14 31.75 180)
@@ -34691,10 +34570,20 @@
 			)
 		)
 	)
+	(label "ETH_REF_CLK_PHY"
+		(at 130.81 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d5da626-36d9-4153-90f7-903309e5ffa6")
+	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 133.35 69.85) (xy 129.54 69.85) (xy 129.54 74.93) (xy 133.35 74.93)
+				(xy 133.35 68.58) (xy 95.25 68.58) (xy 95.25 74.93) (xy 133.35 74.93)
 			)
 			(stroke
 				(width 0)
@@ -34703,22 +34592,22 @@
 			(fill
 				(type none)
 			)
-			(uuid 9d3307e6-f211-4d24-a592-c5c9f9cb1f44)
+			(uuid 25baf495-6424-4c1f-9350-3d009147d02b)
 		)
 	)
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 130.81 69.85 0)
+		(at 130.81 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c1b731e6-e66f-490e-aed5-eb08518d8a6d")
+		(uuid "33dca611-a981-4cdf-aa60-8fffaddf0a66")
 		(property "Netclass" "50Ohm_RMII"
-			(at 129.794 67.31 0)
+			(at 129.794 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34731,7 +34620,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 133.35 85.09) (xy 129.54 85.09) (xy 129.54 96.52) (xy 133.35 96.52)
+				(xy 133.35 83.82) (xy 95.25 83.82) (xy 95.25 96.52) (xy 133.35 96.52)
 			)
 			(stroke
 				(width 0)
@@ -34740,7 +34629,7 @@
 			(fill
 				(type none)
 			)
-			(uuid a094747b-7eea-481b-a462-7178f9b9de1d)
+			(uuid 1c53dd91-5338-44ad-aa83-ff3b4b3b971f)
 		)
 	)
 	(netclass_flag ""
@@ -34753,7 +34642,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "27b5f764-c8ba-43b7-bc8e-45c86b46e6aa")
+		(uuid "d49c4075-71ce-46b4-9193-a3c302f6a321")
 		(property "Netclass" "50Ohm_RMII"
 			(at 129.794 99.06 0)
 			(effects
@@ -34765,24 +34654,77 @@
 			)
 		)
 	)
-	(label "ETH_REF_CLK_PHY"
-		(at 130.81 142.24 0)
+	(rule_area
+		(polyline
+			(pts
+				(xy 133.35 139.7) (xy 95.25 139.7) (xy 95.25 143.51) (xy 133.35 143.51)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 57cd3200-8d2d-49ed-ba24-e551d6d4dc12)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 130.81 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3d5da626-36d9-4153-90f7-903309e5ffa6")
+		(uuid "a45c0d50-3b86-4168-aab3-266d7a4ec410")
 		(property "Netclass" "50Ohm_RMII"
-			(at 130.81 139.7 0)
+			(at 129.794 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 236.22 48.26) (xy 219.71 48.26) (xy 219.71 59.69) (xy 236.22 59.69)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 40d9fefd-f0aa-42a6-b746-814f0c43fe03)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 220.98 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e00b2c5-a244-448e-8bff-7a77fdaf0187")
+		(property "Netclass" "100Ohm-diff_MDI"
+			(at 221.996 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)

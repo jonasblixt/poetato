@@ -15898,17 +15898,6 @@
 			(justify right bottom)
 		)
 		(uuid "04f067a5-8099-4e9d-8399-0e2631154388")
-		(property "Netclass" "50Ohm_QSPI"
-			(at 251.46 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "ETH_RXDV"
 		(at 143.51 142.24 0)
@@ -15939,17 +15928,6 @@
 			(justify right bottom)
 		)
 		(uuid "2314b99f-18cc-44d8-9e0b-7632fac4eb03")
-		(property "Netclass" "50Ohm_QSPI"
-			(at 251.46 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "DO2_ON"
 		(at 143.51 172.72 0)
@@ -16010,17 +15988,6 @@
 			(justify right bottom)
 		)
 		(uuid "3b92f53d-7cec-4a2a-aba6-9b12e8eaf8c8")
-		(property "Netclass" "50Ohm_QSPI"
-			(at 251.46 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "DCDC_LX"
 		(at 213.36 199.39 90)
@@ -16221,17 +16188,6 @@
 			(justify right bottom)
 		)
 		(uuid "a5c79daf-e00f-4b26-bbb4-cbe26d27a377")
-		(property "Netclass" "50Ohm_QSPI"
-			(at 251.46 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "FLASH_CS_N"
 		(at 252.73 66.04 180)
@@ -16242,17 +16198,6 @@
 			(justify right bottom)
 		)
 		(uuid "b591e023-5913-4419-a088-0fc5ed4e77a2")
-		(property "Netclass" "50Ohm_QSPI"
-			(at 252.73 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "RS485_RXD"
 		(at 143.51 129.54 0)
@@ -16343,17 +16288,6 @@
 			(justify right bottom)
 		)
 		(uuid "f34b2938-12ac-438f-9ade-75c2216a70a8")
-		(property "Netclass" "50Ohm_QSPI"
-			(at 251.46 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "ETH_RXD1"
 		(at 143.51 147.32 0)
@@ -16394,17 +16328,6 @@
 			(justify left bottom)
 		)
 		(uuid "fbcefa24-4946-484d-a138-7070ec931ae8")
-		(property "Netclass" "90Ohm-diff_USB"
-			(at 46.99 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "USB_D_P"
 		(at 46.99 182.88 0)
@@ -16415,17 +16338,6 @@
 			(justify left bottom)
 		)
 		(uuid "fd24e3fc-f766-4319-b01f-590e0f14ef7d")
-		(property "Netclass" "90Ohm-diff_USB"
-			(at 46.99 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(label "SE_SCL"
 		(at 163.83 86.36 180)
@@ -28553,6 +28465,80 @@
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
 					(page "3")
 				)
+			)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 236.22 64.77) (xy 211.455 64.77) (xy 211.455 85.09) (xy 236.22 85.09)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid a7735aaa-8d01-4125-a511-4b96856e9e5e)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 232.41 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00b48832-1f5d-4fac-b3d9-c5522f8146c5")
+		(property "Netclass" "50Ohm_QSPI"
+			(at 231.394 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 45.72 181.61) (xy 30.48 181.61) (xy 30.48 186.69) (xy 45.72 186.69)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 63b373bf-2692-406a-9492-8473caa625fe)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 31.75 186.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed6c4502-c4e9-4fdd-947a-283cace6e290")
+		(property "Netclass" "90Ohm-diff_USB"
+			(at 32.766 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)

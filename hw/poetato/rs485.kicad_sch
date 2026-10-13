@@ -5,7 +5,7 @@
 	(uuid "84d41a61-0fb3-4984-b251-a6cb19f151e3")
 	(paper "A3")
 	(title_block
-		(title "PoEtato - Isolated RS-485 and 5 V supply")
+		(title "PoEtato - Isolated RS-485")
 		(date "2026-10-08")
 		(rev "A (draft)")
 		(company "Jonas Blixt <jonas@blxt.se>")
@@ -5194,16 +5194,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TP30/TP32 For switch node measurement"
-		(exclude_from_sim no)
-		(at 271.018 164.084 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "752a2237-e368-4404-96bd-7ae6bbdaae91")
-	)
 	(text "These share the same light pipe"
 		(exclude_from_sim no)
 		(at 123.19 151.892 0)
@@ -5224,16 +5214,6 @@
 		)
 		(uuid "d66c09b4-1eb0-4ac8-8f25-c2e571c5d27d")
 	)
-	(text "RS485 5V Supply"
-		(exclude_from_sim no)
-		(at 298.45 199.898 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "fed1cccd-5df5-4fa8-b3ec-827dac1d09ed")
-	)
 	(junction
 		(at 252.73 115.57)
 		(diameter 0)
@@ -5247,76 +5227,16 @@
 		(uuid "17a79624-a33d-4dd8-b17e-2456d4d345bf")
 	)
 	(junction
-		(at 209.55 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22359110-dcfa-40cc-a231-b00d5917e6b5")
-	)
-	(junction
-		(at 246.38 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27c12557-a67f-4dbc-8d2f-967e1c49a844")
-	)
-	(junction
-		(at 340.36 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33670eca-02c3-466f-a6ab-facde6d0d119")
-	)
-	(junction
-		(at 209.55 209.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34c0cda6-c085-4b33-ad56-0d05b72dad77")
-	)
-	(junction
 		(at 110.49 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "354df0bf-ffe9-4fb4-be39-04f8f086aed8")
 	)
 	(junction
-		(at 196.85 209.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3647b3a4-ebb4-48c1-bea6-f07518eb9af5")
-	)
-	(junction
-		(at 196.85 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a580fc5-d4b0-4555-988a-738d8e5d49d6")
-	)
-	(junction
-		(at 298.45 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e7709e3-23e1-4add-825b-d0a4381fad0e")
-	)
-	(junction
 		(at 118.11 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "441b2ef6-8228-4ce9-a5f5-6bb9da4b5c52")
-	)
-	(junction
-		(at 311.15 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4540f161-21eb-4939-a56b-6e12c4225d63")
-	)
-	(junction
-		(at 212.09 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5201270e-fbd4-4679-bc6f-01eb77034149")
-	)
-	(junction
-		(at 248.92 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "548895eb-5d75-48e7-bf67-2d3f6790dfa7")
 	)
 	(junction
 		(at 184.15 129.54)
@@ -5355,70 +5275,10 @@
 		(uuid "6994520c-60f9-4fb2-b457-5417dcac6e65")
 	)
 	(junction
-		(at 311.15 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d20524d-6254-4be2-a07b-5f7c25b70d0f")
-	)
-	(junction
-		(at 340.36 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e8a7697-437f-4692-8296-162a09f4f64e")
-	)
-	(junction
-		(at 298.45 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6fbc1d98-72a4-4099-8cf6-372fc775f6c4")
-	)
-	(junction
-		(at 327.66 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9906e6fa-21a9-4a06-bd9c-951e1ae18015")
-	)
-	(junction
-		(at 327.66 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7e5ebb2-2728-4ea0-abd7-bf56558111d7")
-	)
-	(junction
-		(at 196.85 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad2d9a91-d56e-41eb-8124-7585cf7b5bec")
-	)
-	(junction
-		(at 203.2 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b918d206-18f4-4863-9e29-f0532bd8cdf3")
-	)
-	(junction
-		(at 196.85 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd6ea816-e1f5-4002-8c0b-9b891f476fa6")
-	)
-	(junction
 		(at 104.14 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c749b6e0-8cbd-4916-a5e3-116802cd62b8")
-	)
-	(junction
-		(at 224.79 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7dc74d1-9daa-45e0-9e0c-e9e16f646fcb")
-	)
-	(junction
-		(at 298.45 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cdf8e098-a913-4f6b-9f43-b893b077c692")
 	)
 	(junction
 		(at 96.52 115.57)
@@ -5484,26 +5344,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 204.47) (xy 196.85 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cb7498c-2507-4e63-95e0-e74caf0fb4f0")
-	)
-	(wire
-		(pts
-			(xy 209.55 220.98) (xy 209.55 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10014f3e-7aac-4106-9c58-0fa7f0356577")
-	)
-	(wire
-		(pts
 			(xy 252.73 96.52) (xy 285.75 96.52)
 		)
 		(stroke
@@ -5534,56 +5374,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 180.34) (xy 264.16 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a825868-4004-4461-9949-7e142e3a5325")
-	)
-	(wire
-		(pts
-			(xy 340.36 184.15) (xy 340.36 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b6640ff-dc5b-44bc-b967-c31708f22b7d")
-	)
-	(wire
-		(pts
-			(xy 292.1 173.99) (xy 292.1 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e523916-670b-4617-8c2d-1236dbb3a60c")
-	)
-	(wire
-		(pts
-			(xy 209.55 213.36) (xy 209.55 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f9bd66c-a6f5-411b-be3f-dfbe773b5f7b")
-	)
-	(wire
-		(pts
-			(xy 261.62 187.96) (xy 264.16 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "219eb99f-86ea-4a10-8ab8-a68bbd1f039b")
-	)
-	(wire
-		(pts
 			(xy 205.74 115.57) (xy 234.95 115.57)
 		)
 		(stroke
@@ -5591,26 +5381,6 @@
 			(type default)
 		)
 		(uuid "259e8cb4-70d0-4be3-ba66-bab73aef996a")
-	)
-	(wire
-		(pts
-			(xy 212.09 182.88) (xy 212.09 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "271d8276-39cc-4229-8422-70d03c7039ee")
-	)
-	(wire
-		(pts
-			(xy 246.38 182.88) (xy 248.92 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27ff7ae1-829d-4f93-b94f-eb8db64afba3")
 	)
 	(wire
 		(pts
@@ -5644,26 +5414,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 209.55) (xy 209.55 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e195c33-609a-4a3e-a51e-c564912bd75c")
-	)
-	(wire
-		(pts
-			(xy 196.85 226.06) (xy 196.85 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ebe641c-f627-469c-8205-e6084069175c")
-	)
-	(wire
-		(pts
 			(xy 118.11 107.95) (xy 118.11 123.19)
 		)
 		(stroke
@@ -5671,26 +5421,6 @@
 			(type default)
 		)
 		(uuid "417cce50-9800-4ac8-881f-497c5c89ef31")
-	)
-	(wire
-		(pts
-			(xy 224.79 182.88) (xy 224.79 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41aef020-1caf-4ba6-a44d-99415cf85196")
-	)
-	(wire
-		(pts
-			(xy 196.85 234.95) (xy 196.85 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45ec4083-9546-41e5-8bae-c84b377d2247")
 	)
 	(wire
 		(pts
@@ -5704,26 +5434,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 207.01) (xy 209.55 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49478f3f-3db1-456d-bbc7-7a0560e40ef6")
-	)
-	(wire
-		(pts
-			(xy 340.36 173.99) (xy 340.36 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c787c89-beda-4c30-975c-85f40d502af7")
-	)
-	(wire
-		(pts
 			(xy 176.53 134.62) (xy 176.53 137.16)
 		)
 		(stroke
@@ -5731,36 +5441,6 @@
 			(type default)
 		)
 		(uuid "4cea7984-fb7f-4e7d-b28b-76e0da5180ba")
-	)
-	(wire
-		(pts
-			(xy 327.66 184.15) (xy 327.66 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eadfa2d-a80e-470f-91d0-0b83a5733d88")
-	)
-	(wire
-		(pts
-			(xy 298.45 185.42) (xy 298.45 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53e8fafa-b85d-4dc2-9a53-8df523d0140e")
-	)
-	(wire
-		(pts
-			(xy 298.45 175.26) (xy 298.45 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "544f8ea2-f86e-4acc-ad91-c5bf8af5ea34")
 	)
 	(wire
 		(pts
@@ -5784,16 +5464,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 226.06) (xy 209.55 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "571c47c2-c033-4db1-8b32-f946dad5914f")
-	)
-	(wire
-		(pts
 			(xy 240.03 118.11) (xy 292.1 118.11)
 		)
 		(stroke
@@ -5801,16 +5471,6 @@
 			(type default)
 		)
 		(uuid "5734aea4-0b95-4780-a1da-38d6119bf98c")
-	)
-	(wire
-		(pts
-			(xy 311.15 195.58) (xy 327.66 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58fa90bb-8c76-4974-9bdf-e2c6d34a6f00")
 	)
 	(wire
 		(pts
@@ -5854,16 +5514,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 195.58) (xy 298.45 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66335a2d-7362-4320-a208-cbafc7c4f54a")
-	)
-	(wire
-		(pts
 			(xy 109.22 190.5) (xy 109.22 193.04)
 		)
 		(stroke
@@ -5904,16 +5554,6 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 173.99) (xy 340.36 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77e2cbcd-9d8e-487b-9093-237bf0d37d70")
-	)
-	(wire
-		(pts
 			(xy 175.26 134.62) (xy 176.53 134.62)
 		)
 		(stroke
@@ -5931,16 +5571,6 @@
 			(type default)
 		)
 		(uuid "78ffefe2-eefa-4305-ae77-0e379785804b")
-	)
-	(wire
-		(pts
-			(xy 327.66 173.99) (xy 327.66 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d10666b-4255-4168-8d18-f73a23e5846c")
 	)
 	(wire
 		(pts
@@ -5971,26 +5601,6 @@
 			(type default)
 		)
 		(uuid "8092b2f7-a946-4a0a-b840-ede7d2eb50ce")
-	)
-	(wire
-		(pts
-			(xy 327.66 195.58) (xy 340.36 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81b089f7-cbcf-461e-9a74-916914f962c8")
-	)
-	(wire
-		(pts
-			(xy 196.85 209.55) (xy 196.85 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "871c5054-4748-4f40-a197-481e69e6c54c")
 	)
 	(wire
 		(pts
@@ -6034,26 +5644,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 182.88) (xy 248.92 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c4cfd47-7f7f-452d-9ba2-a310d5c98c58")
-	)
-	(wire
-		(pts
-			(xy 311.15 173.99) (xy 311.15 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d410c94-2491-4317-a724-0d092f295da8")
-	)
-	(wire
-		(pts
 			(xy 148.59 134.62) (xy 148.59 137.16)
 		)
 		(stroke
@@ -6061,36 +5651,6 @@
 			(type default)
 		)
 		(uuid "8db6a385-cccf-40c5-b673-2e6b7629d791")
-	)
-	(wire
-		(pts
-			(xy 237.49 182.88) (xy 246.38 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ff8bcad-13c1-45cf-a21a-0840b8916667")
-	)
-	(wire
-		(pts
-			(xy 196.85 220.98) (xy 196.85 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9081b5cd-dc7c-4dd7-bb7f-b8200c2e96d5")
-	)
-	(wire
-		(pts
-			(xy 261.62 226.06) (xy 261.62 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "908e0737-6873-4d96-8e47-c1400e772bd9")
 	)
 	(wire
 		(pts
@@ -6164,36 +5724,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 182.88) (xy 248.92 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e8ebf97-5136-40e3-af0c-e2e7ffb0f202")
-	)
-	(wire
-		(pts
-			(xy 209.55 226.06) (xy 261.62 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9efe7644-c27f-4708-bb88-d64cc9de8d66")
-	)
-	(wire
-		(pts
-			(xy 298.45 195.58) (xy 311.15 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7d02fad-955a-4c04-992e-2a4291615f15")
-	)
-	(wire
-		(pts
 			(xy 92.71 107.95) (xy 92.71 115.57)
 		)
 		(stroke
@@ -6201,16 +5731,6 @@
 			(type default)
 		)
 		(uuid "acf1362b-9d40-4144-9fee-2922a1267594")
-	)
-	(wire
-		(pts
-			(xy 298.45 193.04) (xy 298.45 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae35b7de-ab36-45f6-bd48-e220f8b45842")
 	)
 	(wire
 		(pts
@@ -6234,16 +5754,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 171.45) (xy 340.36 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3163543-431a-4681-ba14-1f662430bd4b")
-	)
-	(wire
-		(pts
 			(xy 87.63 123.19) (xy 118.11 123.19)
 		)
 		(stroke
@@ -6261,16 +5771,6 @@
 			(type default)
 		)
 		(uuid "bd20792e-b7c7-4d67-993d-0e59e76d6ee5")
-	)
-	(wire
-		(pts
-			(xy 292.1 173.99) (xy 327.66 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf759308-03c6-458d-9821-4a09c5655fa7")
 	)
 	(wire
 		(pts
@@ -6314,56 +5814,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 185.42) (xy 298.45 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9ff08ac-9957-4d5c-80f9-9143e12059bc")
-	)
-	(wire
-		(pts
-			(xy 196.85 182.88) (xy 203.2 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf1b24e4-89e5-4f80-979f-65be6cd39f0f")
-	)
-	(wire
-		(pts
-			(xy 203.2 182.88) (xy 229.87 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf67bc15-73cb-45a9-8000-b4df8d4a1b53")
-	)
-	(wire
-		(pts
-			(xy 292.1 180.34) (xy 289.56 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf6ab604-479e-4384-9bf4-aaeebf2597dc")
-	)
-	(wire
-		(pts
-			(xy 196.85 186.69) (xy 196.85 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db9b63d1-5cfc-40d3-a81a-475937b3e314")
-	)
-	(wire
-		(pts
 			(xy 285.75 109.22) (xy 285.75 118.11)
 		)
 		(stroke
@@ -6371,16 +5821,6 @@
 			(type default)
 		)
 		(uuid "def74814-ba7f-42db-9b49-c36dd342d889")
-	)
-	(wire
-		(pts
-			(xy 248.92 180.34) (xy 251.46 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df9a7d12-bd61-4952-a865-a5dbd58ad31f")
 	)
 	(wire
 		(pts
@@ -6424,16 +5864,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 184.15) (xy 311.15 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4b40c76-9aca-4256-90c4-1ee8ccb1ed4f")
-	)
-	(wire
-		(pts
 			(xy 96.52 115.57) (xy 96.52 162.56)
 		)
 		(stroke
@@ -6441,16 +5871,6 @@
 			(type default)
 		)
 		(uuid "e56c27d1-da25-4579-8b6d-15bd509a21d5")
-	)
-	(wire
-		(pts
-			(xy 196.85 129.54) (xy 196.85 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6ff6975-8375-4c82-9a6a-fdebdf69c14e")
 	)
 	(wire
 		(pts
@@ -6474,16 +5894,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 182.88) (xy 196.85 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edf39127-efa3-4952-810d-0a2f1b95e6dd")
-	)
-	(wire
-		(pts
 			(xy 123.19 123.19) (xy 123.19 162.56)
 		)
 		(stroke
@@ -6491,16 +5901,6 @@
 			(type default)
 		)
 		(uuid "efb24dc2-9d07-424e-a77f-f6d1e9b3685f")
-	)
-	(wire
-		(pts
-			(xy 289.56 187.96) (xy 289.56 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f518c9d8-2e29-465a-9655-a09b803367d2")
 	)
 	(wire
 		(pts
@@ -6551,46 +5951,6 @@
 			(justify left bottom)
 		)
 		(uuid "1dd439f2-79b4-4e5f-847a-91c597fdb1fb")
-	)
-	(label "P5V_RS485_FB"
-		(at 228.6 226.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e114e6a-c44c-42e5-9d7d-8a0053800a7c")
-	)
-	(label "P5V_RS485_LX"
-		(at 241.3 182.88 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2bfa54eb-0592-434f-a5e6-2f3adcc41a41")
-	)
-	(label "P5V_RS485"
-		(at 185.42 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "43d7fe5a-8df2-49a5-86cf-94d681858f3c")
-	)
-	(label "P5V_RS485_FB_1"
-		(at 198.12 209.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b9b020f-2360-42a2-b30d-1f71de7aa273")
 	)
 	(hierarchical_label "RS485_B"
 		(shape bidirectional)
@@ -6760,143 +6120,6 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
 					(reference "D27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cap_mlcc_murata_GRM:GRM/C0805_22u_16V_X5R_20%")
-		(at 224.79 193.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d5b4155-7e91-44bf-8910-9d2d9c8500ed")
-		(property "Reference" "C76"
-			(at 228.6 189.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "${Capacitance}"
-			(at 228.6 191.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 225.7552 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "22.0uF, 16V, X5R, Tol: 20%"
-			(at 224.79 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "22.0uF"
-			(at 224.79 193.04 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 228.6 194.3099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 228.6 196.8499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 224.79 193.04 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "GRM21BR61C226ME44"
-			(at 224.79 193.04 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "71cb9efe-156b-417f-8506-16e464973672")
-		)
-		(pin "1"
-			(uuid "c4f1032e-58d7-4bfa-b330-a0e45444caaa")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -7326,154 +6549,6 @@
 		)
 	)
 	(symbol
-		(lib_id "res_chip_vishay_crcw:CRCW/R0402_13k7_1_63mW")
-		(at 196.85 231.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d326707-87eb-43a7-b131-b3f24c195065")
-		(property "Reference" "R82"
-			(at 199.39 227.3299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "13.7kΩ"
-			(at 199.39 229.8699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 195.072 231.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "13.7kΩ, 1%, 63mW, TCR ±100ppm/K, EIA 0402"
-			(at 196.85 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resistance" "13.7kΩ"
-			(at 196.85 231.14 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "63mW"
-			(at 199.39 232.4099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 199.39 234.9499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "T.C.R" "±100ppm/K"
-			(at 196.85 231.14 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 196.85 231.14 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "CRCW040213K7FKED"
-			(at 196.85 231.14 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "78d61004-1a73-46ce-a33a-9219ac625756")
-		)
-		(pin "2"
-			(uuid "faa0b3e7-07b7-459b-8dd3-fd28e8d00747")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "R82")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "transistors:FDV304P")
 		(at 128.27 162.56 0)
 		(mirror x)
@@ -7582,219 +6657,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 236.22 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e5cf4e0-62cf-44ed-9b87-3d76887139f0")
-		(property "Reference" "#PWR127"
-			(at 196.85 239.776 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_FIELD"
-			(at 196.85 238.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 236.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 236.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dce3ba17-9dad-4772-b2c4-e9c1115f685a")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "#PWR127")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cap_mlcc_murata_GRM:GRM/C1206_4u7_50V_X7R_10%")
-		(at 327.66 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ede1fff-12e5-4f6b-8a8f-355122755cd3")
-		(property "Reference" "C80"
-			(at 331.47 176.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "${Capacitance}"
-			(at 331.47 179.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 328.6252 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 327.66 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4.7uF, 50V, X7R, Tol: 10%"
-			(at 327.66 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "4.7uF"
-			(at 327.66 180.34 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 331.47 181.6099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 331.47 184.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 327.66 180.34 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "GRM31CR71H475KA12"
-			(at 327.66 180.34 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "49da5ae8-6c31-4c98-9878-a572e53bf344")
-		)
-		(pin "1"
-			(uuid "581458e1-da44-4df5-895d-8bb9a36c3a8f")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "C80")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 148.59 138.43 180)
 		(unit 1)
 		(body_style 1)
@@ -7864,143 +6726,6 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
 					(reference "#PWR107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cap_mlcc_murata_GRM:GRM/C1206_4u7_50V_X7R_10%")
-		(at 340.36 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20863ff8-ad4e-46b2-9c77-d22f31e17af1")
-		(property "Reference" "C93"
-			(at 344.17 176.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "${Capacitance}"
-			(at 344.17 179.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 341.3252 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 340.36 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4.7uF, 50V, X7R, Tol: 10%"
-			(at 340.36 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "4.7uF"
-			(at 340.36 180.34 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 344.17 181.6099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 344.17 184.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 340.36 180.34 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "GRM31CR71H475KA12"
-			(at 340.36 180.34 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2eb4fc18-61b0-4fe1-ba9b-bce71ce73b39")
-		)
-		(pin "1"
-			(uuid "0646ac9b-3e36-47fb-b9c3-99ba7a2e3762")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -8138,154 +6863,6 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
 					(reference "C73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "res_chip_vishay_crcw:CRCW/R0402_49R9_1_63mW")
-		(at 196.85 200.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2390fa72-a503-461b-abfe-3e2b382a6f6b")
-		(property "Reference" "R80"
-			(at 199.39 196.8499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "49.9Ω"
-			(at 199.39 199.3899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 195.072 200.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "49.9Ω, 1%, 63mW, TCR ±100ppm/K, EIA 0402"
-			(at 196.85 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resistance" "49.9Ω"
-			(at 196.85 200.66 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "63mW"
-			(at 199.39 201.9299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 199.39 204.4699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "T.C.R" "±100ppm/K"
-			(at 196.85 200.66 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 196.85 200.66 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "CRCW040249R9FKED"
-			(at 196.85 200.66 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "88c002e5-5c2f-4a52-bd5f-80784db1b452")
-		)
-		(pin "2"
-			(uuid "6801a94c-d975-461f-9de6-817867dc51e8")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -8924,82 +7501,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PxVx")
-		(at 340.36 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5e39df12-a457-4ed2-bb77-be64c4d2fc3c")
-		(property "Reference" "#PWR156"
-			(at 340.36 167.894 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "P24V0_FIELD"
-			(at 340.36 167.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 340.36 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 340.36 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 340.36 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d31a26ef-c8f8-4d6a-a8f6-1460ad471420")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "#PWR156")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 184.15 142.24 180)
 		(unit 1)
@@ -9070,215 +7571,6 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
 					(reference "#PWR118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cap_mlcc_murata_GRM:GRM/C0603_100n_100V_X7R_10%")
-		(at 255.27 180.34 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62fad9b4-e4bc-448e-8be9-bee7607e7ff7")
-		(property "Reference" "C75"
-			(at 256.54 167.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "${Capacitance}"
-			(at 256.54 170.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 259.08 179.3748 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100.0nF, 100V, X7R, Tol: 10%"
-			(at 255.27 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "100.0nF"
-			(at 255.27 180.34 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "100V"
-			(at 256.54 172.72 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 256.54 175.26 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 255.27 180.34 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "GRM188R72A104KA35"
-			(at 255.27 180.34 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "697933b0-32ae-419c-a002-41505da8bef3")
-		)
-		(pin "2"
-			(uuid "ed468ee8-2a96-48d4-9d91-24651125afd5")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "C75")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 246.38 168.91 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66ceb903-e7c4-4af8-be0f-a55b3f24aff5")
-		(property "Reference" "#PWR149"
-			(at 246.38 172.466 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_FIELD"
-			(at 246.38 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 168.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 168.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a9724434-520b-40bd-9758-5c377582b375")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "#PWR149")
 					(unit 1)
 				)
 			)
@@ -9604,154 +7896,6 @@
 		)
 	)
 	(symbol
-		(lib_id "res_chip_vishay_crcw:CRCW/R0402_1M0_1_63mW")
-		(at 298.45 179.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "749fa8b4-0f34-4c04-81f3-dc1de459d2a9")
-		(property "Reference" "R83"
-			(at 300.99 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1MΩ"
-			(at 300.99 177.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 296.672 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 298.45 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1MΩ, 1%, 63mW, TCR ±100ppm/K, EIA 0402"
-			(at 298.45 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resistance" "1MΩ"
-			(at 298.45 179.07 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "63mW"
-			(at 300.99 180.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 300.99 182.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "T.C.R" "±100ppm/K"
-			(at 298.45 179.07 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 298.45 179.07 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "CRCW04021M00FKED"
-			(at 298.45 179.07 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a6b9f42-67ef-48c3-958a-9eba59625484")
-		)
-		(pin "2"
-			(uuid "fa780dc4-f90e-4968-a7ce-fe827312f3e4")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "R83")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "connectors:Wurth_61300211121")
 		(at 294.64 105.41 180)
 		(unit 1)
@@ -9955,660 +8099,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:TP")
-		(at 209.55 207.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d2c8b45-df7e-4216-b432-54ad72e560d3")
-		(property "Reference" "TP28"
-			(at 209.55 203.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 207.01 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 207.518 212.598 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 209.55 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 209.55 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 209.55 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "de78e962-f1d0-4763-95b8-8c4a542dcedf")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "TP28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ind_power_vishay_ihlp:IHLP/L2020_10u_20_2A5")
-		(at 233.68 182.88 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e0d09bc-b8c0-48b0-8570-4463ac0b9913")
-		(property "Reference" "L3"
-			(at 233.68 175.26 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10µH"
-			(at 233.68 177.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jonas:IHLP2020CZ"
-			(at 233.68 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10µH, ±20%, I=2.5A, Isat=4A, DCR=158mOhm Max, SRF=N/A, -55C to 125C, series CZ, EIA 2020"
-			(at 233.68 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Inductance" "10µH"
-			(at 233.68 182.88 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "20%"
-			(at 233.68 180.34 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rated Current" "2.5A"
-			(at 233.68 182.88 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Saturation Current" "4A"
-			(at 233.68 182.88 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DCR" "158mOhm Max"
-			(at 233.68 182.88 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "SRF" "N/A"
-			(at 233.68 182.88 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temp Range" "-55C to 125C"
-			(at 233.68 182.88 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Series" "CZ"
-			(at 233.68 182.88 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 233.68 182.88 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "IHLP2020CZER100M01"
-			(at 233.68 182.88 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b60ef65d-82fb-44da-bc6f-8a0eaec76c75")
-		)
-		(pin "1"
-			(uuid "647d408d-798c-4656-b559-cce96af92952")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:TP")
-		(at 246.38 168.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81bb15f8-d4c3-40e5-9dce-d590b486e685")
-		(property "Reference" "TP32"
-			(at 246.38 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 243.84 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 244.348 174.498 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 167.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 246.38 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 246.38 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a6e00ff0-9af5-4738-bdea-1f15d9f65975")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "TP32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 340.36 195.58 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83b97e43-d175-44b8-9c05-23ee6f3a8c51")
-		(property "Reference" "#PWR128"
-			(at 340.36 199.136 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_FIELD"
-			(at 340.614 198.374 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 340.36 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 340.36 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 340.36 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a8cd3789-169e-463c-ab29-a6df76200aa9")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "#PWR128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dcdc:LMR51420XDDCR")
-		(at 287.02 190.5 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "864ba832-a0f5-4f7b-aa88-85d72e8007cb")
-		(property "Reference" "U17"
-			(at 276.86 168.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMR51420XDDCR"
-			(at 276.86 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-			(at 333.248 182.118 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51420.pdf"
-			(at 343.408 186.944 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4.5-V to 36-V, 2-A synchronous buck converter, 500 kHz, PFM, internal compensation, SOT-23-6 (DDC)"
-			(at 284.48 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TI"
-			(at 343.154 190.754 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "LMR51420XDDCR"
-			(at 343.662 194.564 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "0729a59a-d6a6-4731-a78c-09e7587597f0")
-		)
-		(pin "2"
-			(uuid "cbc215e4-5ff9-42d3-818a-b4fa6dd4082a")
-		)
-		(pin "5"
-			(uuid "e1e2816d-4dd2-4eea-8295-f014402282a0")
-		)
-		(pin "4"
-			(uuid "1665f4c7-d32c-4500-9dca-50bdef5d9e6a")
-		)
-		(pin "1"
-			(uuid "483e2cb1-a986-480a-88ca-d1ce8ccd0b5e")
-		)
-		(pin "3"
-			(uuid "d541cc01-d69c-4bfe-8191-d898f6edaa5c")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "U17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 224.79 196.85 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87167512-6f24-4fa7-91ae-ce59bd64ba2c")
-		(property "Reference" "#PWR126"
-			(at 224.79 200.406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_FIELD"
-			(at 224.79 199.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 224.79 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75d56acd-a610-4d86-9393-3f05d8245816")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "#PWR126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 184.15 154.94 180)
 		(unit 1)
@@ -10679,429 +8169,6 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
 					(reference "#PWR148")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "res_chip_vishay_crcw:CRCW/R0402_100k0_1_63mW")
-		(at 196.85 217.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d2b4edd-93cb-433c-aa05-ce084e011265")
-		(property "Reference" "R81"
-			(at 199.39 213.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100kΩ"
-			(at 199.39 215.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 195.072 217.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100kΩ, 1%, 63mW, TCR ±100ppm/K, EIA 0402"
-			(at 196.85 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resistance" "100kΩ"
-			(at 196.85 217.17 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "63mW"
-			(at 199.39 218.4399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 199.39 224.7899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "T.C.R" "±100ppm/K"
-			(at 196.85 217.17 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 196.85 217.17 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "CRCW0402100KFKED"
-			(at 196.85 217.17 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a5f02bff-9d0e-480f-9696-c2888d41c1c1")
-		)
-		(pin "1"
-			(uuid "f7b3a11b-28ba-41cc-bf77-7bf5e2c6b94a")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "R81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cap_mlcc_murata_GRM:GRM/C0402_68p_100V_C0G_5%")
-		(at 209.55 217.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "913d0374-9755-474c-b520-fd585bddf93b")
-		(property "Reference" "C78"
-			(at 213.36 213.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "${Capacitance}"
-			(at 213.36 215.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 210.5152 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "68.0pF, 100V, C0G, Tol: 5%"
-			(at 209.55 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "68.0pF"
-			(at 209.55 217.17 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "100V"
-			(at 213.36 218.4399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "C0G"
-			(at 213.36 224.7899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 209.55 217.17 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "GRM1555C2A680JA01"
-			(at 209.55 217.17 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5759d2c1-bf78-4c80-b105-b3aea0284861")
-		)
-		(pin "1"
-			(uuid "e99afd92-954a-41ec-ac00-1c7b06b716ff")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "C78")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cap_mlcc_murata_GRM:GRM/C0603_100n_100V_X7R_10%")
-		(at 311.15 180.34 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94aa1678-c057-4183-83e8-155572aeeef9")
-		(property "Reference" "C79"
-			(at 314.96 176.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "${Capacitance}"
-			(at 314.96 179.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 312.1152 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 311.15 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100.0nF, 100V, X7R, Tol: 10%"
-			(at 311.15 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "100.0nF"
-			(at 311.15 180.34 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "100V"
-			(at 314.96 181.6099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 314.96 184.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 311.15 180.34 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "GRM188R72A104KA35"
-			(at 311.15 180.34 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3e3db8fe-5828-42e9-9fe7-3cb4cdf8af89")
-		)
-		(pin "2"
-			(uuid "5272e207-afbf-4dd6-9cd3-97c66aaa6897")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -11250,82 +8317,6 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 212.09 196.85 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99749a24-a86e-4788-bcbd-5aa73b75c162")
-		(property "Reference" "#PWR125"
-			(at 212.09 200.406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_FIELD"
-			(at 212.09 199.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 196.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "24e4e616-be9c-421a-acfb-22218ed39745")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "#PWR125")
 					(unit 1)
 				)
 			)
@@ -11712,105 +8703,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:TP")
-		(at 203.2 182.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a72fb7da-bc9f-4672-846d-7dde077856c3")
-		(property "Reference" "TP29"
-			(at 203.2 179.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 200.66 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.168 188.468 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 203.2 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 203.2 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "212e0979-0b88-4cd9-aced-c026f9d45799")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "TP29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 130.81 193.04 180)
 		(unit 1)
@@ -11964,255 +8856,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 194.31 186.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd97d8d5-27a6-4ce3-a52f-4fa8a8936359")
-		(property "Reference" "#FLG6"
-			(at 190.5 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 190.5 186.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.4892 2.4892)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.4892 2.4892)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 194.31 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "N/A"
-			(at 194.31 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "N/A"
-			(at 194.31 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2438b6ee-fa14-4cd3-a6cc-100d10770eda")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "#FLG6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "res_chip_vishay_crcw:CRCW/R0402_100k0_1_63mW")
-		(at 298.45 189.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c67f5d22-8da0-4392-988c-6167db704a0e")
-		(property "Reference" "R97"
-			(at 300.99 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100kΩ"
-			(at 300.99 189.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 303.022 185.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100kΩ, 1%, 63mW, TCR ±100ppm/K, EIA 0402"
-			(at 304.8 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Resistance" "100kΩ"
-			(at 304.8 185.42 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "63mW"
-			(at 300.99 191.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 300.99 194.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "T.C.R" "±100ppm/K"
-			(at 304.8 185.42 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 304.8 185.42 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "CRCW0402100KFKED"
-			(at 304.8 185.42 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4b542f6e-4526-4dcf-aba1-3b39dfe0c4c0")
-		)
-		(pin "1"
-			(uuid "79214298-617b-4c90-bc8e-9df0f84c70fa")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "R97")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PxVx")
 		(at 109.22 156.21 0)
 		(unit 1)
@@ -12284,143 +8927,6 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
 					(reference "#PWR123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cap_mlcc_murata_GRM:GRM/C0805_22u_16V_X5R_20%")
-		(at 212.09 193.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce69c0da-1350-4033-8d79-76832fd0f6f1")
-		(property "Reference" "C77"
-			(at 215.9 189.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "${Capacitance}"
-			(at 215.9 191.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 213.0552 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "22.0uF, 16V, X5R, Tol: 20%"
-			(at 212.09 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Capacitance" "22.0uF"
-			(at 212.09 193.04 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 215.9 194.3099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 215.9 196.8499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 212.09 193.04 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "GRM21BR61C226ME44"
-			(at 212.09 193.04 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5d10c516-9d69-4ed7-869b-7b258c219634")
-		)
-		(pin "1"
-			(uuid "c2aaa437-3688-43df-be82-b8c3a1ad47d8")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -12774,105 +9280,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:TP")
-		(at 246.38 182.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5a0025a-f954-4ffa-8cfc-32bdfdf15256")
-		(property "Reference" "TP30"
-			(at 246.38 177.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 243.84 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 244.348 188.468 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 246.38 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 246.38 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6901f806-76dd-4fc6-acee-3edcbd187228")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "TP30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LEDs:LED0402_150040VS73240")
 		(at 109.22 185.42 270)
 		(unit 1)
@@ -13093,6 +9500,83 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
 					(reference "TP27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PxVx")
+		(at 196.85 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f9000a4-424e-4a5a-b9bc-6abf296e8ac2")
+		(property "Reference" "#PWR903"
+			(at 196.85 125.984 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P5V_RS485"
+			(at 195.58 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00641a5f-289c-4ba5-8287-bb57e31f9466")
+		)
+		(instances
+			(project "poetato"
+				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
+					(reference "#PWR903")
 					(unit 1)
 				)
 			)

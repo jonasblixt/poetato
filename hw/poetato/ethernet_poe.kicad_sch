@@ -18933,7 +18933,7 @@
 		(fields_autoplaced yes)
 		(uuid "18a2f298-9b43-4bd0-bd75-247c4d9e7892")
 		(property "Reference" "TP6"
-			(at 224.79 217.1699 90)
+			(at 219.71 214.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34549,5 +34549,25 @@
 				)
 			)
 		)
+	)
+	(text_box "KSZ8081 straps (latched at reset)\nPHYAD = 001: PHY address 1\n   R32, R37 pull-down, R31 pull-up\nCONFIG = 001: RMII\n   R33, R36 pull-down, R35 pull-up\nNWAYEN, SPEED = 1 (R39, R38): auto-neg, 100M\nNAND_Tree# = 1 (R10): normal operation\nDUPLEX, ISO, B-CAST_OFF: internal defaults"
+		(exclude_from_sim no)
+		(at 20.32 27.94 0)
+		(size 55.88 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "2c69d405-357b-4f51-b2d2-d1ae52175a4c")
 	)
 )

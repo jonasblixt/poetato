@@ -12502,13 +12502,14 @@
 		)
 		(uuid "aec5d020-a82a-4406-bf1b-4fc11b2980a9")
 	)
-	(text "These share the same light pipe"
+	(text "D14 and D15 share\nthe same light pipe"
 		(exclude_from_sim no)
-		(at 306.324 163.576 0)
+		(at 339.09 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "b63ddc18-7f6e-4d0c-aaa3-31cb170ecb71")
 	)
@@ -21869,13 +21870,14 @@
 		(fields_autoplaced yes)
 		(uuid "4532d4cb-5491-4b6c-ae26-889e7344a566")
 		(property "Reference" "TP65"
-			(at 166.37 146.05 0)
+			(at 168.91 150.495 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "TP"
@@ -26041,7 +26043,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e50059b-45b9-4311-9e47-7cfe8f6bb4d6")
 		(property "Reference" "TP64"
-			(at 165.1 139.8015 0)
+			(at 163.83 139.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

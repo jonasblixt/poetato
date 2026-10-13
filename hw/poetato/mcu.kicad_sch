@@ -3399,14 +3399,14 @@
 				(pin passive line
 					(at -12.7 5.08 0)
 					(length 5.08)
-					(name "01"
+					(name "1"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "01"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3417,14 +3417,14 @@
 				(pin passive line
 					(at 12.7 5.08 180)
 					(length 5.08)
-					(name "02"
+					(name "2"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "02"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3435,14 +3435,14 @@
 				(pin passive line
 					(at -12.7 2.54 0)
 					(length 5.08)
-					(name "03"
+					(name "3"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "03"
+					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3453,14 +3453,14 @@
 				(pin passive line
 					(at 12.7 2.54 180)
 					(length 5.08)
-					(name "04"
+					(name "4"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "04"
+					(number "4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3471,14 +3471,14 @@
 				(pin passive line
 					(at -12.7 0 0)
 					(length 5.08)
-					(name "05"
+					(name "5"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "05"
+					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3489,14 +3489,14 @@
 				(pin passive line
 					(at 12.7 0 180)
 					(length 5.08)
-					(name "06"
+					(name "6"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "06"
+					(number "6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3507,14 +3507,14 @@
 				(pin passive line
 					(at 12.7 -2.54 180)
 					(length 5.08)
-					(name "08"
+					(name "8"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "08"
+					(number "8"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3525,14 +3525,14 @@
 				(pin passive line
 					(at -12.7 -5.08 0)
 					(length 5.08)
-					(name "09"
+					(name "9"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "09"
+					(number "9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -12549,13 +12549,13 @@
 		(uuid "01df6b79-b28b-4d32-a3ba-0e784f172cc3")
 	)
 	(junction
-		(at 365.76 107.95)
+		(at 351.79 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04be018b-1543-4ee6-8c65-443b94f19fb6")
 	)
 	(junction
-		(at 378.46 107.95)
+		(at 364.49 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f2e5bc4-918e-4f43-b56d-197d88b1c33f")
@@ -12585,7 +12585,7 @@
 		(uuid "154d833d-b4ff-4c53-98c8-23366932f713")
 	)
 	(junction
-		(at 378.46 118.11)
+		(at 364.49 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19c86a19-d713-4035-85c1-d659bf92834e")
@@ -12603,7 +12603,7 @@
 		(uuid "1e130067-1e1c-433d-886a-66a2337ee523")
 	)
 	(junction
-		(at 303.53 118.11)
+		(at 289.56 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22e11773-08f9-4f10-9364-ce8b743daa86")
@@ -12621,7 +12621,7 @@
 		(uuid "2d5cd1da-bf3a-4e15-9423-0acf601acaed")
 	)
 	(junction
-		(at 328.93 107.95)
+		(at 314.96 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "308df606-277e-42ca-be3c-588c8f464b31")
@@ -12705,7 +12705,7 @@
 		(uuid "5287a670-bcfd-49da-b5b2-829080e407c3")
 	)
 	(junction
-		(at 391.16 118.11)
+		(at 377.19 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53f06c56-0471-459b-a546-f04dad8032ed")
@@ -12717,7 +12717,7 @@
 		(uuid "5759aa0e-f5c1-4d75-ba54-a0c003b57943")
 	)
 	(junction
-		(at 316.23 107.95)
+		(at 302.26 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "604739f3-e015-48e7-8f02-fa7cc20053c1")
@@ -12735,13 +12735,13 @@
 		(uuid "66953127-a87a-4353-a27c-c1a435591e5e")
 	)
 	(junction
-		(at 365.76 118.11)
+		(at 351.79 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bb4aac4-523e-4154-b86f-50de10a278ec")
 	)
 	(junction
-		(at 328.93 118.11)
+		(at 314.96 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6de73dac-7dee-47a8-90b6-75aa90bcba05")
@@ -12759,13 +12759,13 @@
 		(uuid "77434608-55ed-4c66-8f25-2c80dbe823b7")
 	)
 	(junction
-		(at 290.83 107.95)
+		(at 276.86 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "785c8710-e1e5-4ae5-bcac-ec26627824c3")
 	)
 	(junction
-		(at 278.13 118.11)
+		(at 264.16 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cd0f8e7-a0e9-4b67-a0d7-1835c7629229")
@@ -12807,7 +12807,7 @@
 		(uuid "952fdae8-3401-4c5f-b11b-66d06f45af33")
 	)
 	(junction
-		(at 316.23 118.11)
+		(at 302.26 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a465114-487f-43d1-bd2d-0446f6a25914")
@@ -12819,7 +12819,7 @@
 		(uuid "9d0c1658-f7a2-4913-842f-b8cfda901f30")
 	)
 	(junction
-		(at 278.13 107.95)
+		(at 264.16 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9eac2c4c-bd8d-43c6-b0d5-f02dfb8138cc")
@@ -12855,13 +12855,13 @@
 		(uuid "ae9b0aa3-1f10-480f-890c-bb0b4d1b8bc2")
 	)
 	(junction
-		(at 391.16 107.95)
+		(at 377.19 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "afdf2bc1-350f-411d-82cc-8b858d6d5cf2")
 	)
 	(junction
-		(at 341.63 118.11)
+		(at 327.66 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b069fc7f-1a78-4335-90c7-9407817b0958")
@@ -12885,13 +12885,13 @@
 		(uuid "c0fcc113-95a0-4c8e-87b2-651e7020eabb")
 	)
 	(junction
-		(at 341.63 107.95)
+		(at 327.66 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c58a34b4-fd94-4db0-93c7-14dba34d28c1")
 	)
 	(junction
-		(at 353.06 107.95)
+		(at 339.09 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb837583-42b2-48b2-bb5b-e1724cd818dd")
@@ -12909,13 +12909,13 @@
 		(uuid "dc186cde-0c76-420d-9e34-7f78be8414e2")
 	)
 	(junction
-		(at 353.06 118.11)
+		(at 339.09 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df10b869-a05d-4ca7-98c7-06d6845ed005")
 	)
 	(junction
-		(at 290.83 118.11)
+		(at 276.86 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e01ba5a0-9e61-40b6-88b8-729ade9bde72")
@@ -12963,7 +12963,7 @@
 		(uuid "f0a77bb0-2871-4fb1-959d-1249323b357f")
 	)
 	(junction
-		(at 303.53 107.95)
+		(at 289.56 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f710bb14-55fd-4521-ae71-c61786570a21")
@@ -13180,7 +13180,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 107.95) (xy 365.76 107.95)
+			(xy 339.09 158.75) (xy 351.79 158.75)
 		)
 		(stroke
 			(width 0)
@@ -13250,7 +13250,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 109.22) (xy 265.43 107.95)
+			(xy 251.46 160.02) (xy 251.46 158.75)
 		)
 		(stroke
 			(width 0)
@@ -13320,7 +13320,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 116.84) (xy 353.06 118.11)
+			(xy 339.09 167.64) (xy 339.09 168.91)
 		)
 		(stroke
 			(width 0)
@@ -13350,7 +13350,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 76.2) (xy 223.52 76.2)
+			(xy 210.82 76.2) (xy 304.8 76.2)
 		)
 		(stroke
 			(width 0)
@@ -13380,7 +13380,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 107.95) (xy 365.76 109.22)
+			(xy 351.79 158.75) (xy 351.79 160.02)
 		)
 		(stroke
 			(width 0)
@@ -13490,7 +13490,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 107.95) (xy 328.93 109.22)
+			(xy 314.96 158.75) (xy 314.96 160.02)
 		)
 		(stroke
 			(width 0)
@@ -13570,7 +13570,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 116.84) (xy 265.43 118.11)
+			(xy 251.46 167.64) (xy 251.46 168.91)
 		)
 		(stroke
 			(width 0)
@@ -13630,7 +13630,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 107.95) (xy 290.83 107.95)
+			(xy 264.16 158.75) (xy 276.86 158.75)
 		)
 		(stroke
 			(width 0)
@@ -13660,7 +13660,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 116.84) (xy 290.83 118.11)
+			(xy 276.86 167.64) (xy 276.86 168.91)
 		)
 		(stroke
 			(width 0)
@@ -13670,7 +13670,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 66.04) (xy 223.52 66.04)
+			(xy 210.82 66.04) (xy 304.8 66.04)
 		)
 		(stroke
 			(width 0)
@@ -13760,7 +13760,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 107.95) (xy 328.93 107.95)
+			(xy 302.26 158.75) (xy 314.96 158.75)
 		)
 		(stroke
 			(width 0)
@@ -13800,6 +13800,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 45.72) (xy 304.8 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3288cd14-0543-4362-9ad3-9c1bd00a8148")
+	)
+	(wire
+		(pts
 			(xy 116.84 96.52) (xy 170.18 96.52)
 		)
 		(stroke
@@ -13810,7 +13820,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 116.84) (xy 341.63 118.11)
+			(xy 327.66 167.64) (xy 327.66 168.91)
 		)
 		(stroke
 			(width 0)
@@ -13840,7 +13850,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 118.11) (xy 391.16 119.38)
+			(xy 377.19 168.91) (xy 377.19 170.18)
 		)
 		(stroke
 			(width 0)
@@ -13860,7 +13870,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 116.84) (xy 328.93 118.11)
+			(xy 314.96 167.64) (xy 314.96 168.91)
 		)
 		(stroke
 			(width 0)
@@ -13970,7 +13980,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 118.11) (xy 353.06 118.11)
+			(xy 327.66 168.91) (xy 339.09 168.91)
 		)
 		(stroke
 			(width 0)
@@ -13980,7 +13990,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 78.74) (xy 223.52 78.74)
+			(xy 210.82 78.74) (xy 304.8 78.74)
 		)
 		(stroke
 			(width 0)
@@ -14000,7 +14010,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 107.95) (xy 353.06 109.22)
+			(xy 339.09 158.75) (xy 339.09 160.02)
 		)
 		(stroke
 			(width 0)
@@ -14030,7 +14040,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 109.22) (xy 278.13 107.95)
+			(xy 264.16 160.02) (xy 264.16 158.75)
 		)
 		(stroke
 			(width 0)
@@ -14070,7 +14080,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 116.84) (xy 378.46 118.11)
+			(xy 364.49 167.64) (xy 364.49 168.91)
 		)
 		(stroke
 			(width 0)
@@ -14090,7 +14100,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 107.95) (xy 353.06 107.95)
+			(xy 327.66 158.75) (xy 339.09 158.75)
 		)
 		(stroke
 			(width 0)
@@ -14140,7 +14150,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 118.11) (xy 328.93 118.11)
+			(xy 302.26 168.91) (xy 314.96 168.91)
 		)
 		(stroke
 			(width 0)
@@ -14210,7 +14220,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 118.11) (xy 303.53 118.11)
+			(xy 302.26 168.91) (xy 289.56 168.91)
 		)
 		(stroke
 			(width 0)
@@ -14250,7 +14260,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 107.95) (xy 316.23 109.22)
+			(xy 302.26 158.75) (xy 302.26 160.02)
 		)
 		(stroke
 			(width 0)
@@ -14340,7 +14350,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 107.95) (xy 341.63 107.95)
+			(xy 314.96 158.75) (xy 327.66 158.75)
 		)
 		(stroke
 			(width 0)
@@ -14410,7 +14420,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 107.95) (xy 316.23 107.95)
+			(xy 289.56 158.75) (xy 302.26 158.75)
 		)
 		(stroke
 			(width 0)
@@ -14420,7 +14430,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 118.11) (xy 365.76 118.11)
+			(xy 339.09 168.91) (xy 351.79 168.91)
 		)
 		(stroke
 			(width 0)
@@ -14450,7 +14460,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 143.51) (xy 220.98 143.51)
+			(xy 210.82 143.51) (xy 304.8 143.51)
 		)
 		(stroke
 			(width 0)
@@ -14600,7 +14610,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 107.95) (xy 378.46 109.22)
+			(xy 364.49 158.75) (xy 364.49 160.02)
 		)
 		(stroke
 			(width 0)
@@ -14710,7 +14720,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 118.11) (xy 290.83 118.11)
+			(xy 289.56 168.91) (xy 276.86 168.91)
 		)
 		(stroke
 			(width 0)
@@ -14740,7 +14750,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 116.84) (xy 365.76 118.11)
+			(xy 351.79 167.64) (xy 351.79 168.91)
 		)
 		(stroke
 			(width 0)
@@ -14780,7 +14790,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 116.84) (xy 316.23 118.11)
+			(xy 302.26 167.64) (xy 302.26 168.91)
 		)
 		(stroke
 			(width 0)
@@ -14790,7 +14800,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 118.11) (xy 391.16 118.11)
+			(xy 364.49 168.91) (xy 377.19 168.91)
 		)
 		(stroke
 			(width 0)
@@ -14800,7 +14810,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 107.95) (xy 303.53 107.95)
+			(xy 276.86 158.75) (xy 289.56 158.75)
 		)
 		(stroke
 			(width 0)
@@ -14820,7 +14830,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 118.11) (xy 391.16 116.84)
+			(xy 377.19 168.91) (xy 377.19 167.64)
 		)
 		(stroke
 			(width 0)
@@ -14940,7 +14950,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 140.97) (xy 220.98 140.97)
+			(xy 210.82 140.97) (xy 304.8 140.97)
 		)
 		(stroke
 			(width 0)
@@ -14960,7 +14970,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 107.95) (xy 341.63 109.22)
+			(xy 327.66 158.75) (xy 327.66 160.02)
 		)
 		(stroke
 			(width 0)
@@ -15010,13 +15020,23 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 118.11) (xy 378.46 118.11)
+			(xy 351.79 168.91) (xy 364.49 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ac252fe2-a463-4423-b7ef-2183d13f01e5")
+	)
+	(wire
+		(pts
+			(xy 154.94 48.26) (xy 304.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac724a71-e0a8-4319-a2f3-8697db6aac44")
 	)
 	(wire
 		(pts
@@ -15040,7 +15060,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 106.68) (xy 391.16 107.95)
+			(xy 377.19 157.48) (xy 377.19 158.75)
 		)
 		(stroke
 			(width 0)
@@ -15070,7 +15090,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 107.95) (xy 278.13 107.95)
+			(xy 251.46 158.75) (xy 264.16 158.75)
 		)
 		(stroke
 			(width 0)
@@ -15080,7 +15100,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 107.95) (xy 391.16 109.22)
+			(xy 377.19 158.75) (xy 377.19 160.02)
 		)
 		(stroke
 			(width 0)
@@ -15090,7 +15110,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 118.11) (xy 341.63 118.11)
+			(xy 314.96 168.91) (xy 327.66 168.91)
 		)
 		(stroke
 			(width 0)
@@ -15100,7 +15120,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 116.84) (xy 303.53 118.11)
+			(xy 289.56 167.64) (xy 289.56 168.91)
 		)
 		(stroke
 			(width 0)
@@ -15140,7 +15160,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 107.95) (xy 290.83 109.22)
+			(xy 276.86 158.75) (xy 276.86 160.02)
 		)
 		(stroke
 			(width 0)
@@ -15160,7 +15180,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 118.11) (xy 278.13 118.11)
+			(xy 251.46 168.91) (xy 264.16 168.91)
 		)
 		(stroke
 			(width 0)
@@ -15220,17 +15240,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 86.36) (xy 170.18 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be2056a5-8600-4630-b069-5007b2006d87")
-	)
-	(wire
-		(pts
-			(xy 378.46 107.95) (xy 391.16 107.95)
+			(xy 364.49 158.75) (xy 377.19 158.75)
 		)
 		(stroke
 			(width 0)
@@ -15300,7 +15310,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 81.28) (xy 223.52 81.28)
+			(xy 210.82 81.28) (xy 304.8 81.28)
 		)
 		(stroke
 			(width 0)
@@ -15370,7 +15380,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 118.11) (xy 278.13 118.11)
+			(xy 276.86 168.91) (xy 264.16 168.91)
 		)
 		(stroke
 			(width 0)
@@ -15390,6 +15400,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 83.82) (xy 170.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca4397a7-1d60-4d92-8d1a-8dd9c15216d6")
+	)
+	(wire
+		(pts
 			(xy 279.4 240.03) (xy 279.4 242.57)
 		)
 		(stroke
@@ -15397,6 +15417,16 @@
 			(type default)
 		)
 		(uuid "ca9d3596-e98b-4fcb-8cbc-d0bd5a9850c2")
+	)
+	(wire
+		(pts
+			(xy 152.4 86.36) (xy 170.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccc9bfcf-ff4e-4f06-9d5c-85ab0bcf5a32")
 	)
 	(wire
 		(pts
@@ -15470,13 +15500,13 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 83.82) (xy 170.18 83.82)
+			(xy 154.94 83.82) (xy 154.94 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2abbd7b-36c4-4a63-a171-137adcf089e8")
+		(uuid "d207b022-e74d-4915-b0c2-dbcee1b023a1")
 	)
 	(wire
 		(pts
@@ -15510,7 +15540,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 107.95) (xy 303.53 109.22)
+			(xy 289.56 158.75) (xy 289.56 160.02)
 		)
 		(stroke
 			(width 0)
@@ -15590,7 +15620,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 118.11) (xy 278.13 116.84)
+			(xy 264.16 168.91) (xy 264.16 167.64)
 		)
 		(stroke
 			(width 0)
@@ -15640,7 +15670,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 73.66) (xy 223.52 73.66)
+			(xy 219.71 73.66) (xy 304.8 73.66)
 		)
 		(stroke
 			(width 0)
@@ -15700,6 +15730,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 86.36) (xy 152.4 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4752998-9ce0-43fa-8751-0fc7b5e60303")
+	)
+	(wire
+		(pts
 			(xy 31.75 170.18) (xy 31.75 172.72)
 		)
 		(stroke
@@ -15750,7 +15790,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 107.95) (xy 378.46 107.95)
+			(xy 351.79 158.75) (xy 364.49 158.75)
 		)
 		(stroke
 			(width 0)
@@ -15830,7 +15870,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 83.82) (xy 223.52 83.82)
+			(xy 210.82 83.82) (xy 304.8 83.82)
 		)
 		(stroke
 			(width 0)
@@ -15847,6 +15887,16 @@
 			(type default)
 		)
 		(uuid "fc9155eb-b8ec-427a-92a2-038cf0e83b39")
+	)
+	(label "FLASH_D1"
+		(at 251.46 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04f067a5-8099-4e9d-8399-0e2631154388")
 	)
 	(label "ETH_RXDV"
 		(at 143.51 142.24 0)
@@ -15867,6 +15917,16 @@
 			(justify left bottom)
 		)
 		(uuid "1d8d15b5-a7aa-4145-8d12-1a6b09415885")
+	)
+	(label "FLASH_SCK"
+		(at 251.46 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2314b99f-18cc-44d8-9e0b-7632fac4eb03")
 	)
 	(label "DO2_ON"
 		(at 143.51 172.72 0)
@@ -15898,6 +15958,16 @@
 		)
 		(uuid "30085e4c-188f-45ea-bbdb-b66087bb2d6a")
 	)
+	(label "SYS_STS_RED"
+		(at 236.22 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "38aa7406-e338-4488-b5ed-b2b08ebe2457")
+	)
 	(label "RS485_RE_N"
 		(at 143.51 137.16 0)
 		(effects
@@ -15907,6 +15977,16 @@
 			(justify left bottom)
 		)
 		(uuid "3a2ccbfa-0875-404d-973f-524703c62fd2")
+	)
+	(label "FLASH_D3"
+		(at 251.46 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3b92f53d-7cec-4a2a-aba6-9b12e8eaf8c8")
 	)
 	(label "DCDC_LX"
 		(at 213.36 199.39 90)
@@ -15918,15 +15998,25 @@
 		)
 		(uuid "3fe17449-19d5-41b1-ad6c-9e7bb39fab27")
 	)
-	(label "SYS_STS_RED"
-		(at 220.98 143.51 0)
+	(label "SE_SCL"
+		(at 300.99 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "5624f025-12cd-49d6-8af2-ee376d8536a2")
+		(uuid "4edc2282-0dea-4c00-829a-da95997e979c")
+	)
+	(label "SE_SDA"
+		(at 300.99 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b32aaa9-8344-4943-ace0-431fda396101")
 	)
 	(label "LPUART1_RXD"
 		(at 143.51 93.98 0)
@@ -15977,6 +16067,16 @@
 			(justify left bottom)
 		)
 		(uuid "713ae5f3-c28e-4b7d-914f-6b0b719e3ce0")
+	)
+	(label "SE_SDA"
+		(at 163.83 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "74ee5f26-d442-47cd-9ef9-3bb0089d8ad3")
 	)
 	(label "ETH_MDIO"
 		(at 143.51 116.84 0)
@@ -16078,6 +16178,26 @@
 		)
 		(uuid "9a43e3df-04f4-49ce-89e3-509b750b5d45")
 	)
+	(label "FLASH_D0"
+		(at 251.46 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5c79daf-e00f-4b26-bbb4-cbe26d27a377")
+	)
+	(label "FLASH_CS_N"
+		(at 252.73 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b591e023-5913-4419-a088-0fc5ed4e77a2")
+	)
 	(label "RS485_RXD"
 		(at 143.51 129.54 0)
 		(effects
@@ -16158,6 +16278,16 @@
 		)
 		(uuid "ee39abea-7d6f-4526-a7ea-c01671b402ab")
 	)
+	(label "FLASH_D2"
+		(at 251.46 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f34b2938-12ac-438f-9ade-75c2216a70a8")
+	)
 	(label "ETH_RXD1"
 		(at 143.51 147.32 0)
 		(effects
@@ -16207,6 +16337,16 @@
 			(justify left bottom)
 		)
 		(uuid "fd24e3fc-f766-4319-b01f-590e0f14ef7d")
+	)
+	(label "SE_SCL"
+		(at 163.83 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ffff8d35-515b-4c99-8ecb-b9e4afa7bf5b")
 	)
 	(hierarchical_label "ETH_RST_N"
 		(shape output)
@@ -17298,7 +17438,7 @@
 	)
 	(symbol
 		(lib_id "cap_mlcc_murata_GRM:GRM/C0402_1u_10V_X7R_10%")
-		(at 278.13 113.03 0)
+		(at 264.16 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17309,7 +17449,7 @@
 		(fields_autoplaced yes)
 		(uuid "095a4315-989f-46ea-8565-cbda276a73ed")
 		(property "Reference" "C32"
-			(at 281.94 109.2199 0)
+			(at 267.97 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17320,7 +17460,7 @@
 			)
 		)
 		(property "Value" "${Capacitance}"
-			(at 281.94 111.7599 0)
+			(at 267.97 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17331,7 +17471,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 279.0952 116.84 0)
+			(at 265.1252 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17342,7 +17482,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.13 113.03 0)
+			(at 264.16 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17353,7 +17493,7 @@
 			)
 		)
 		(property "Description" "1.0uF, 10V, X7R, Tol: 10%"
-			(at 278.13 113.03 0)
+			(at 264.16 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17364,7 +17504,7 @@
 			)
 		)
 		(property "Capacitance" "1.0uF"
-			(at 278.13 113.03 0)
+			(at 264.16 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -17375,7 +17515,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 281.94 114.2999 0)
+			(at 267.97 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17386,7 +17526,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 281.94 116.8399 0)
+			(at 267.97 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17397,7 +17537,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 278.13 113.03 0)
+			(at 264.16 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -17408,7 +17548,7 @@
 			)
 		)
 		(property "Part Number" "GRM155Z71A105KE01"
-			(at 278.13 113.03 0)
+			(at 264.16 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -17701,7 +17841,7 @@
 	)
 	(symbol
 		(lib_id "power:PxVx")
-		(at 391.16 106.68 0)
+		(at 377.19 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17712,7 +17852,7 @@
 		(fields_autoplaced yes)
 		(uuid "120e838c-82f9-45b1-8100-132b9b50b9ea")
 		(property "Reference" "#PWR9"
-			(at 391.16 103.124 0)
+			(at 377.19 153.924 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17723,7 +17863,7 @@
 			)
 		)
 		(property "Value" "P3V3"
-			(at 392.43 105.41 0)
+			(at 378.46 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17734,7 +17874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 391.16 106.68 0)
+			(at 377.19 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17744,7 +17884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 391.16 106.68 0)
+			(at 377.19 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17754,7 +17894,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 391.16 106.68 0)
+			(at 377.19 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18532,7 +18672,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 391.16 119.38 180)
+		(at 377.19 170.18 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18543,7 +18683,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a56fa5d-e1af-4199-a8c8-204dacef0fad")
 		(property "Reference" "#PWR158"
-			(at 391.16 122.936 0)
+			(at 377.19 173.736 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18554,7 +18694,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 391.16 121.92 0)
+			(at 377.19 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18564,7 +18704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 391.16 119.38 0)
+			(at 377.19 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18574,7 +18714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 391.16 119.38 0)
+			(at 377.19 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18584,7 +18724,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 391.16 119.38 0)
+			(at 377.19 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19847,7 +19987,7 @@
 	)
 	(symbol
 		(lib_id "cap_mlcc_murata_GRM:GRM/C0402_1u_10V_X7R_10%")
-		(at 353.06 113.03 0)
+		(at 339.09 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19858,7 +19998,7 @@
 		(fields_autoplaced yes)
 		(uuid "442b6899-bf31-4ccc-bdae-163541f5bf84")
 		(property "Reference" "C13"
-			(at 356.87 109.2199 0)
+			(at 342.9 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19869,7 +20009,7 @@
 			)
 		)
 		(property "Value" "${Capacitance}"
-			(at 356.87 111.7599 0)
+			(at 342.9 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19880,7 +20020,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 354.0252 116.84 0)
+			(at 340.0552 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19891,7 +20031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.06 113.03 0)
+			(at 339.09 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19902,7 +20042,7 @@
 			)
 		)
 		(property "Description" "1.0uF, 10V, X7R, Tol: 10%"
-			(at 353.06 113.03 0)
+			(at 339.09 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19913,7 +20053,7 @@
 			)
 		)
 		(property "Capacitance" "1.0uF"
-			(at 353.06 113.03 0)
+			(at 339.09 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -19924,7 +20064,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 356.87 114.2999 0)
+			(at 342.9 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19935,7 +20075,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 356.87 116.8399 0)
+			(at 342.9 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19946,7 +20086,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 353.06 113.03 0)
+			(at 339.09 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -19957,7 +20097,7 @@
 			)
 		)
 		(property "Part Number" "GRM155Z71A105KE01"
-			(at 353.06 113.03 0)
+			(at 339.09 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -21139,7 +21279,7 @@
 	)
 	(symbol
 		(lib_id "cap_mlcc_murata_GRM:GRM/C0402_1u_10V_X7R_10%")
-		(at 303.53 113.03 0)
+		(at 289.56 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21150,7 +21290,7 @@
 		(fields_autoplaced yes)
 		(uuid "535dfb1d-5d09-4e06-b8d1-8e828b39948a")
 		(property "Reference" "C30"
-			(at 307.34 109.2199 0)
+			(at 293.37 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21161,7 +21301,7 @@
 			)
 		)
 		(property "Value" "${Capacitance}"
-			(at 307.34 111.7599 0)
+			(at 293.37 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21172,7 +21312,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 304.4952 116.84 0)
+			(at 290.5252 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21183,7 +21323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 113.03 0)
+			(at 289.56 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21194,7 +21334,7 @@
 			)
 		)
 		(property "Description" "1.0uF, 10V, X7R, Tol: 10%"
-			(at 303.53 113.03 0)
+			(at 289.56 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21205,7 +21345,7 @@
 			)
 		)
 		(property "Capacitance" "1.0uF"
-			(at 303.53 113.03 0)
+			(at 289.56 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -21216,7 +21356,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 307.34 114.2999 0)
+			(at 293.37 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21227,7 +21367,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 307.34 116.8399 0)
+			(at 293.37 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21238,7 +21378,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 303.53 113.03 0)
+			(at 289.56 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -21249,7 +21389,7 @@
 			)
 		)
 		(property "Part Number" "GRM155Z71A105KE01"
-			(at 303.53 113.03 0)
+			(at 289.56 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -24416,7 +24556,7 @@
 	)
 	(symbol
 		(lib_id "cap_mlcc_murata_GRM:GRM/C0402_1u_10V_X7R_10%")
-		(at 341.63 113.03 0)
+		(at 327.66 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24427,7 +24567,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac9dbf1e-ecca-4a73-a1c0-1fff8b915200")
 		(property "Reference" "C12"
-			(at 345.44 109.2199 0)
+			(at 331.47 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24438,7 +24578,7 @@
 			)
 		)
 		(property "Value" "${Capacitance}"
-			(at 345.44 111.7599 0)
+			(at 331.47 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24449,7 +24589,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 342.5952 116.84 0)
+			(at 328.6252 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24460,7 +24600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 113.03 0)
+			(at 327.66 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24471,7 +24611,7 @@
 			)
 		)
 		(property "Description" "1.0uF, 10V, X7R, Tol: 10%"
-			(at 341.63 113.03 0)
+			(at 327.66 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24482,7 +24622,7 @@
 			)
 		)
 		(property "Capacitance" "1.0uF"
-			(at 341.63 113.03 0)
+			(at 327.66 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -24493,7 +24633,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 345.44 114.2999 0)
+			(at 331.47 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24504,7 +24644,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 345.44 116.8399 0)
+			(at 331.47 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24515,7 +24655,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 341.63 113.03 0)
+			(at 327.66 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -24526,7 +24666,7 @@
 			)
 		)
 		(property "Part Number" "GRM155Z71A105KE01"
-			(at 341.63 113.03 0)
+			(at 327.66 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -24998,6 +25138,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "FTSH-105-01-L-DV-007-K"
@@ -25008,6 +25149,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Jonas:SAMTEC_FTSH-105-01-L-DV-007-K"
@@ -25069,31 +25211,31 @@
 				(justify bottom)
 			)
 		)
-		(pin "05"
+		(pin "6"
 			(uuid "a5cbefd8-67f6-46a9-94fc-f4e6622b2125")
 		)
 		(pin "10"
 			(uuid "769dbb22-724a-42ea-8360-c94d920b8469")
 		)
-		(pin "08"
+		(pin "8"
 			(uuid "ec1268a2-1cba-4cea-9922-25ded60b4401")
 		)
-		(pin "03"
+		(pin "3"
 			(uuid "7a16c2b8-40b9-4c4e-b8ca-cf092f7b0108")
 		)
-		(pin "02"
+		(pin "9"
 			(uuid "d066e62e-22a8-4a5c-b533-5320a8cb87f6")
 		)
-		(pin "06"
+		(pin "5"
 			(uuid "01ea2c82-3669-419e-be36-e260af43e9be")
 		)
-		(pin "04"
+		(pin "2"
 			(uuid "d0f31cfb-8de7-447c-b27d-dbd365a4747b")
 		)
-		(pin "09"
+		(pin "1"
 			(uuid "1821a747-4667-4b9c-b0ad-71d4e292579f")
 		)
-		(pin "01"
+		(pin "4"
 			(uuid "4aac81b1-5ac0-48b1-8ccd-2a1029ab45ff")
 		)
 		(instances
@@ -25107,7 +25249,7 @@
 	)
 	(symbol
 		(lib_id "cap_mlcc_murata_GRM:GRM/C0805_10u_10V_X7R_10%")
-		(at 391.16 113.03 0)
+		(at 377.19 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25118,7 +25260,7 @@
 		(fields_autoplaced yes)
 		(uuid "c29dcc03-36f2-4cca-b971-fbf19aceca06")
 		(property "Reference" "C16"
-			(at 394.97 109.2199 0)
+			(at 381 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25129,7 +25271,7 @@
 			)
 		)
 		(property "Value" "${Capacitance}"
-			(at 394.97 111.7599 0)
+			(at 381 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25140,7 +25282,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 392.1252 116.84 0)
+			(at 378.1552 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25151,7 +25293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 391.16 113.03 0)
+			(at 377.19 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25162,7 +25304,7 @@
 			)
 		)
 		(property "Description" "10.0uF, 10V, X7R, Tol: 10%"
-			(at 391.16 113.03 0)
+			(at 377.19 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25173,7 +25315,7 @@
 			)
 		)
 		(property "Capacitance" "10.0uF"
-			(at 391.16 113.03 0)
+			(at 377.19 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -25184,7 +25326,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 394.97 114.2999 0)
+			(at 381 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25195,7 +25337,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 394.97 116.8399 0)
+			(at 381 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25206,7 +25348,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 391.16 113.03 0)
+			(at 377.19 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -25217,7 +25359,7 @@
 			)
 		)
 		(property "Part Number" "GRM21BR71A106KA73"
-			(at 391.16 113.03 0)
+			(at 377.19 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -25344,7 +25486,7 @@
 	)
 	(symbol
 		(lib_id "cap_mlcc_murata_GRM:GRM/C0402_1u_10V_X7R_10%")
-		(at 365.76 113.03 0)
+		(at 351.79 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25355,7 +25497,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3501aaf-5b7e-4413-aeb4-ebc87ad41187")
 		(property "Reference" "C14"
-			(at 369.57 109.2199 0)
+			(at 355.6 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25366,7 +25508,7 @@
 			)
 		)
 		(property "Value" "${Capacitance}"
-			(at 369.57 111.7599 0)
+			(at 355.6 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25377,7 +25519,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 366.7252 116.84 0)
+			(at 352.7552 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25388,7 +25530,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 365.76 113.03 0)
+			(at 351.79 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25399,7 +25541,7 @@
 			)
 		)
 		(property "Description" "1.0uF, 10V, X7R, Tol: 10%"
-			(at 365.76 113.03 0)
+			(at 351.79 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25410,7 +25552,7 @@
 			)
 		)
 		(property "Capacitance" "1.0uF"
-			(at 365.76 113.03 0)
+			(at 351.79 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -25421,7 +25563,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 369.57 114.2999 0)
+			(at 355.6 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25432,7 +25574,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 369.57 116.8399 0)
+			(at 355.6 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25443,7 +25585,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 365.76 113.03 0)
+			(at 351.79 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -25454,7 +25596,7 @@
 			)
 		)
 		(property "Part Number" "GRM155Z71A105KE01"
-			(at 365.76 113.03 0)
+			(at 351.79 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -25595,7 +25737,7 @@
 	)
 	(symbol
 		(lib_id "cap_mlcc_murata_GRM:GRM/C0402_1u_10V_X7R_10%")
-		(at 328.93 113.03 0)
+		(at 314.96 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25606,7 +25748,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3bda475-59cc-4733-8dd2-cc5dcee4ece8")
 		(property "Reference" "C11"
-			(at 332.74 109.2199 0)
+			(at 318.77 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25617,7 +25759,7 @@
 			)
 		)
 		(property "Value" "${Capacitance}"
-			(at 332.74 111.7599 0)
+			(at 318.77 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25628,7 +25770,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 329.8952 116.84 0)
+			(at 315.9252 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25639,7 +25781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 328.93 113.03 0)
+			(at 314.96 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25650,7 +25792,7 @@
 			)
 		)
 		(property "Description" "1.0uF, 10V, X7R, Tol: 10%"
-			(at 328.93 113.03 0)
+			(at 314.96 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25661,7 +25803,7 @@
 			)
 		)
 		(property "Capacitance" "1.0uF"
-			(at 328.93 113.03 0)
+			(at 314.96 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -25672,7 +25814,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 332.74 114.2999 0)
+			(at 318.77 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25683,7 +25825,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 332.74 116.8399 0)
+			(at 318.77 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25694,7 +25836,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 328.93 113.03 0)
+			(at 314.96 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -25705,7 +25847,7 @@
 			)
 		)
 		(property "Part Number" "GRM155Z71A105KE01"
-			(at 328.93 113.03 0)
+			(at 314.96 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -26571,7 +26713,7 @@
 	)
 	(symbol
 		(lib_id "cap_mlcc_murata_GRM:GRM/C0402_1u_10V_X7R_10%")
-		(at 265.43 113.03 0)
+		(at 251.46 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26582,7 +26724,7 @@
 		(fields_autoplaced yes)
 		(uuid "dbe7e60c-aa35-42c5-ae70-23601d0c267a")
 		(property "Reference" "C5"
-			(at 269.24 109.2199 0)
+			(at 255.27 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26593,7 +26735,7 @@
 			)
 		)
 		(property "Value" "${Capacitance}"
-			(at 269.24 111.7599 0)
+			(at 255.27 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26604,7 +26746,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 266.3952 116.84 0)
+			(at 252.4252 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26615,7 +26757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 113.03 0)
+			(at 251.46 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26626,7 +26768,7 @@
 			)
 		)
 		(property "Description" "1.0uF, 10V, X7R, Tol: 10%"
-			(at 265.43 113.03 0)
+			(at 251.46 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26637,7 +26779,7 @@
 			)
 		)
 		(property "Capacitance" "1.0uF"
-			(at 265.43 113.03 0)
+			(at 251.46 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -26648,7 +26790,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 269.24 114.2999 0)
+			(at 255.27 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26659,7 +26801,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 269.24 116.8399 0)
+			(at 255.27 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26670,7 +26812,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 265.43 113.03 0)
+			(at 251.46 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -26681,7 +26823,7 @@
 			)
 		)
 		(property "Part Number" "GRM155Z71A105KE01"
-			(at 265.43 113.03 0)
+			(at 251.46 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -26784,7 +26926,7 @@
 	)
 	(symbol
 		(lib_id "cap_mlcc_murata_GRM:GRM/C0402_1u_10V_X7R_10%")
-		(at 378.46 113.03 0)
+		(at 364.49 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26795,7 +26937,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3137e61-5819-4031-a28c-cbbd393687c3")
 		(property "Reference" "C15"
-			(at 382.27 109.2199 0)
+			(at 368.3 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26806,7 +26948,7 @@
 			)
 		)
 		(property "Value" "${Capacitance}"
-			(at 382.27 111.7599 0)
+			(at 368.3 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26817,7 +26959,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 379.4252 116.84 0)
+			(at 365.4552 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26828,7 +26970,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 378.46 113.03 0)
+			(at 364.49 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26839,7 +26981,7 @@
 			)
 		)
 		(property "Description" "1.0uF, 10V, X7R, Tol: 10%"
-			(at 378.46 113.03 0)
+			(at 364.49 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26850,7 +26992,7 @@
 			)
 		)
 		(property "Capacitance" "1.0uF"
-			(at 378.46 113.03 0)
+			(at 364.49 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -26861,7 +27003,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 382.27 114.2999 0)
+			(at 368.3 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26872,7 +27014,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 382.27 116.8399 0)
+			(at 368.3 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26883,7 +27025,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 378.46 113.03 0)
+			(at 364.49 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -26894,7 +27036,7 @@
 			)
 		)
 		(property "Part Number" "GRM155Z71A105KE01"
-			(at 378.46 113.03 0)
+			(at 364.49 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -27146,7 +27288,7 @@
 	)
 	(symbol
 		(lib_id "cap_mlcc_murata_GRM:GRM/C0402_1u_10V_X7R_10%")
-		(at 290.83 113.03 0)
+		(at 276.86 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27157,7 +27299,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8484613-b7d1-4089-a6eb-2adb319d0a4c")
 		(property "Reference" "C31"
-			(at 294.64 109.2199 0)
+			(at 280.67 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27168,7 +27310,7 @@
 			)
 		)
 		(property "Value" "${Capacitance}"
-			(at 294.64 111.7599 0)
+			(at 280.67 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27179,7 +27321,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 291.7952 116.84 0)
+			(at 277.8252 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27190,7 +27332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 290.83 113.03 0)
+			(at 276.86 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27201,7 +27343,7 @@
 			)
 		)
 		(property "Description" "1.0uF, 10V, X7R, Tol: 10%"
-			(at 290.83 113.03 0)
+			(at 276.86 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27212,7 +27354,7 @@
 			)
 		)
 		(property "Capacitance" "1.0uF"
-			(at 290.83 113.03 0)
+			(at 276.86 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -27223,7 +27365,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 294.64 114.2999 0)
+			(at 280.67 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27234,7 +27376,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 294.64 116.8399 0)
+			(at 280.67 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27245,7 +27387,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 290.83 113.03 0)
+			(at 276.86 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -27256,7 +27398,7 @@
 			)
 		)
 		(property "Part Number" "GRM155Z71A105KE01"
-			(at 290.83 113.03 0)
+			(at 276.86 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -27566,7 +27708,7 @@
 	)
 	(symbol
 		(lib_id "cap_mlcc_murata_GRM:GRM/C0402_1u_10V_X7R_10%")
-		(at 316.23 113.03 0)
+		(at 302.26 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27577,7 +27719,7 @@
 		(fields_autoplaced yes)
 		(uuid "f607f64a-cbc7-4354-88d1-e15fcb01fb58")
 		(property "Reference" "C10"
-			(at 320.04 109.2199 0)
+			(at 306.07 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27588,7 +27730,7 @@
 			)
 		)
 		(property "Value" "${Capacitance}"
-			(at 320.04 111.7599 0)
+			(at 306.07 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27599,7 +27741,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 317.1952 116.84 0)
+			(at 303.2252 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27610,7 +27752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 316.23 113.03 0)
+			(at 302.26 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27621,7 +27763,7 @@
 			)
 		)
 		(property "Description" "1.0uF, 10V, X7R, Tol: 10%"
-			(at 316.23 113.03 0)
+			(at 302.26 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27632,7 +27774,7 @@
 			)
 		)
 		(property "Capacitance" "1.0uF"
-			(at 316.23 113.03 0)
+			(at 302.26 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -27643,7 +27785,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 320.04 114.2999 0)
+			(at 306.07 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27654,7 +27796,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 320.04 116.8399 0)
+			(at 306.07 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27665,7 +27807,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 316.23 113.03 0)
+			(at 302.26 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -27676,7 +27818,7 @@
 			)
 		)
 		(property "Part Number" "GRM155Z71A105KE01"
-			(at 316.23 113.03 0)
+			(at 302.26 163.83 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -28179,289 +28321,9 @@
 			)
 		)
 	)
-	(label "FLASH_CS_N"
-		(at 223.52 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "26129201-14aa-4e49-ad5f-0372fa89a171")
-	)
-	(label "FLASH_SCK"
-		(at 223.52 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca485b99-9ee6-4a4c-bd0f-45c498f6d1a3")
-	)
-	(label "FLASH_D0"
-		(at 223.52 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cde6d5d9-a5ed-40b3-89fe-ae91ba5dd99f")
-	)
-	(label "FLASH_D1"
-		(at 223.52 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "24f9b4eb-f24a-4385-bddc-f913f3121c6c")
-	)
-	(label "FLASH_D2"
-		(at 223.52 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f40c2174-d2b1-4f8d-98ef-79561259eea0")
-	)
-	(label "FLASH_D3"
-		(at 223.52 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3a2242b8-81a1-4309-897a-c9c7c84a5918")
-	)
-	(label "SE_SCL"
-		(at 163.83 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ffff8d35-515b-4c99-8ecb-b9e4afa7bf5b")
-	)
-	(label "SE_SDA"
-		(at 163.83 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "74ee5f26-d442-47cd-9ef9-3bb0089d8ad3")
-	)
-	(wire
-		(pts
-			(xy 271.78 35.56) (xy 279.4 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "603521a5-9180-4898-ae15-308d3892d302")
-	)
-	(label "SE_SCL"
-		(at 271.78 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4edc2282-0dea-4c00-829a-da95997e979c")
-	)
-	(wire
-		(pts
-			(xy 271.78 38.1) (xy 279.4 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29946c37-5d8d-4bf9-a368-503aa7c91f86")
-	)
-	(label "SE_SDA"
-		(at 271.78 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5b32aaa9-8344-4943-ace0-431fda396101")
-	)
-	(wire
-		(pts
-			(xy 271.78 40.64) (xy 279.4 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47832474-e7a4-4115-aecc-0c1d3c1be9ce")
-	)
-	(label "FLASH_CS_N"
-		(at 271.78 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b591e023-5913-4419-a088-0fc5ed4e77a2")
-	)
-	(wire
-		(pts
-			(xy 271.78 43.18) (xy 279.4 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c39c4ba-4e34-4cdb-b988-ce1f4cde9b08")
-	)
-	(label "FLASH_SCK"
-		(at 271.78 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2314b99f-18cc-44d8-9e0b-7632fac4eb03")
-	)
-	(wire
-		(pts
-			(xy 271.78 45.72) (xy 279.4 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8dced76-e823-437e-ac15-56df95737bbb")
-	)
-	(label "FLASH_D0"
-		(at 271.78 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a5c79daf-e00f-4b26-bbb4-cbe26d27a377")
-	)
-	(wire
-		(pts
-			(xy 271.78 48.26) (xy 279.4 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92c5d1bd-d575-42dc-aed1-71c6d677ae33")
-	)
-	(label "FLASH_D1"
-		(at 271.78 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "04f067a5-8099-4e9d-8399-0e2631154388")
-	)
-	(wire
-		(pts
-			(xy 271.78 50.8) (xy 279.4 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d967ca9-dc22-4436-bbd1-5a92872b8ab1")
-	)
-	(label "FLASH_D2"
-		(at 271.78 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f34b2938-12ac-438f-9ade-75c2216a70a8")
-	)
-	(wire
-		(pts
-			(xy 271.78 53.34) (xy 279.4 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51a3e473-ba22-45d5-844e-9679071e2cd9")
-	)
-	(label "FLASH_D3"
-		(at 271.78 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3b92f53d-7cec-4a2a-aba6-9b12e8eaf8c8")
-	)
-	(wire
-		(pts
-			(xy 271.78 55.88) (xy 279.4 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0374b262-be5c-4a0d-b7e2-55ad49656a03")
-	)
-	(label "SYS_STS_GREEN"
-		(at 271.78 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "718c835d-6d57-46ef-97ce-d766977685fe")
-	)
-	(wire
-		(pts
-			(xy 271.78 58.42) (xy 279.4 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b7ff7da-1b57-498a-99c3-17dc5d21ebac")
-	)
-	(label "SYS_STS_RED"
-		(at 271.78 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "38aa7406-e338-4488-b5ed-b2b08ebe2457")
-	)
 	(sheet
-		(at 279.4 33.02)
-		(size 33.02 30.48)
+		(at 304.8 41.91)
+		(size 21.59 105.41)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -28476,7 +28338,7 @@
 		)
 		(uuid "91836155-712b-482b-8f2a-9522c52a164a")
 		(property "Sheetname" "Peripherals"
-			(at 279.4 32.3084 0)
+			(at 304.8 41.1984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28487,7 +28349,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu_periph.kicad_sch"
-			(at 279.4 64.0846 0)
+			(at 304.8 147.9046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28498,7 +28360,7 @@
 			)
 		)
 		(pin "SE_SCL" input
-			(at 279.4 35.56 180)
+			(at 304.8 45.72 180)
 			(uuid "8708d6a9-e5fc-41bb-9d8f-d6ec0c7962f9")
 			(effects
 				(font
@@ -28508,7 +28370,7 @@
 			)
 		)
 		(pin "SE_SDA" bidirectional
-			(at 279.4 38.1 180)
+			(at 304.8 48.26 180)
 			(uuid "ef030968-15e1-465b-9873-5727fef94de6")
 			(effects
 				(font
@@ -28518,7 +28380,7 @@
 			)
 		)
 		(pin "FLASH_CS_N" input
-			(at 279.4 40.64 180)
+			(at 304.8 66.04 180)
 			(uuid "095d9ff6-6941-4d73-a0d6-a3632eced5cb")
 			(effects
 				(font
@@ -28528,7 +28390,7 @@
 			)
 		)
 		(pin "FLASH_SCK" input
-			(at 279.4 43.18 180)
+			(at 304.8 73.66 180)
 			(uuid "d2bdf245-2633-4fa5-a5ff-b968a25cc86c")
 			(effects
 				(font
@@ -28538,7 +28400,7 @@
 			)
 		)
 		(pin "FLASH_D0" bidirectional
-			(at 279.4 45.72 180)
+			(at 304.8 76.2 180)
 			(uuid "65e3cf7f-3a0f-4de3-b189-11eec3e0ef3b")
 			(effects
 				(font
@@ -28548,7 +28410,7 @@
 			)
 		)
 		(pin "FLASH_D1" bidirectional
-			(at 279.4 48.26 180)
+			(at 304.8 78.74 180)
 			(uuid "59166c88-5b4e-4c7c-b86c-1d09bcc29df5")
 			(effects
 				(font
@@ -28558,7 +28420,7 @@
 			)
 		)
 		(pin "FLASH_D2" bidirectional
-			(at 279.4 50.8 180)
+			(at 304.8 81.28 180)
 			(uuid "263405bc-8906-4957-bfb3-e6d4cbf3438e")
 			(effects
 				(font
@@ -28568,7 +28430,7 @@
 			)
 		)
 		(pin "FLASH_D3" bidirectional
-			(at 279.4 53.34 180)
+			(at 304.8 83.82 180)
 			(uuid "156effb4-04b1-459b-b691-9eef80347b74")
 			(effects
 				(font
@@ -28578,7 +28440,7 @@
 			)
 		)
 		(pin "SYS_STS_GREEN" input
-			(at 279.4 55.88 180)
+			(at 304.8 140.97 180)
 			(uuid "3dae0b49-cf27-4648-82b7-fc818afae864")
 			(effects
 				(font
@@ -28588,7 +28450,7 @@
 			)
 		)
 		(pin "SYS_STS_RED" input
-			(at 279.4 58.42 180)
+			(at 304.8 143.51 180)
 			(uuid "c5c13015-bb65-4b6c-8946-08e492b68cca")
 			(effects
 				(font

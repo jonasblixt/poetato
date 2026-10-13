@@ -188,6 +188,18 @@
 		)
 		(uuid "3a6f3eec-bef5-430a-af31-fafffa6b0a9d")
 	)
+	(rectangle
+		(start 15.24 213.36)
+		(end 81.28 284.48)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "40744b75-eac7-4ac0-85ce-4c4dd98d8800")
+	)
 	(polyline
 		(pts
 			(xy 179.07 179.07) (xy 180.34 179.705) (xy 179.07 180.34)
@@ -393,6 +405,17 @@
 			(justify left)
 		)
 		(uuid "6075f2df-89d2-4544-ac8c-8531c90a58c0")
+	)
+	(text "Mechanical / BOM-only items"
+		(exclude_from_sim no)
+		(at 17.78 218.44 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "76af3bd9-a7bc-42a7-9407-8551e1df97fe")
 	)
 	(text "Logic: GND"
 		(exclude_from_sim no)
@@ -6413,29 +6436,6 @@
 				)
 			)
 		)
-	)
-	(rectangle
-		(start 15.24 213.36)
-		(end 81.28 284.48)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "40744b75-eac7-4ac0-85ce-4c4dd98d8800")
-	)
-	(text "Mechanical / BOM-only items"
-		(exclude_from_sim no)
-		(at 17.78 218.44 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "76af3bd9-a7bc-42a7-9407-8551e1df97fe")
 	)
 	(sheet_instances
 		(path "/"

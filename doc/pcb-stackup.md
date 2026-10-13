@@ -4,15 +4,19 @@ The board is 6 layers on JLCPCB's **JLC06161H-2116A** stackup (decided
 2026-10-13), with controlled impedance for the RMII, USB and Ethernet MDI nets.
 
 The same stackup and the impedance table are drawn on the `User.Stackup`
-layer (User.3) of `hw/poetato/poetato.kicad_pcb`, to the right of the board.
-The widths come from `doc/scripts/impedance.py` (§4).
+layer (User.3) of `hw/poetato/poetato.kicad_pcb`, to the right of the board,
+with the fabrication notes of §7 below it. Board Setup → Physical Stackup
+holds the same values, so the Gerber job file, IPC-2581 and ODB++ exports
+carry them. The widths come from `doc/scripts/impedance.py` (§4).
 
 ---
 
 ## 1. Stackup
 
-1.6 mm finished, 1 oz outer copper, 0.5 oz inner copper, FR-4. Thicknesses and
-Dk are from JLCPCB's impedance page (jlcpcb.com/impedance), read 2026-10-13.
+1.6 mm finished, 1 oz outer copper, 0.5 oz inner copper (both finished
+weights), FR-4. Thicknesses and Dk are from JLCPCB's impedance page
+(jlcpcb.com/impedance), read 2026-10-13. JLCPCB does not state the frequency
+the Dk applies at.
 
 | Layer | Use | Material | Thickness | Dk |
 |---|---|---|---|---|
@@ -110,9 +114,51 @@ JLC06161H-2116A, and update §3 and the drawing on the board if they differ.
 ## 6. Open items
 
 - **Confirm the widths** in JLCPCB's impedance calculator (§4).
-- **Physical stackup in Board Setup** still has KiCad's default 6-layer
-  stack. Enter the §1 values so KiCad's own stackup outputs match.
+- **Surface finish.** §7 says ENIG. At JLCPCB, 6-layer boards come in ENIG or
+  OSP only, no HASL. ENIG is flat for the 0.5 mm QFP and keeps on the shelf.
+  Change it here, in Board Setup and in the drawing if OSP is preferred.
+- **Loss tangent.** Board Setup uses KiCad's placeholder 0.02, because JLCPCB
+  publishes no Df. Nothing on this board is fast enough for it to matter.
 - **Net classes** for the three impedance classes (and QSPI, if it is routed
   at 50 Ω) are not created yet. The project has only `Default`.
-- **Order with impedance control** and stackup JLC06161H-2116A. The impedance
-  test report is checked in `doc/verification-plan.md` §8.
+- **Order with impedance control,** stackup JLC06161H-2116A and the Tg 155
+  option. The impedance test report is checked in `doc/verification-plan.md`
+  §8.
+
+## 7. Fabrication requirements
+
+This is what goes to the fab. It is written to work for any vendor: §1 is the
+reference build at JLCPCB, but another fab can build to its own materials as
+long as it meets these requirements. The same notes are on the board drawing.
+
+1. **Build to IPC-6012 Class 2.** 6-layer rigid FR-4, Tg ≥ 150 °C, rated for
+   lead-free assembly. Reference build: JLCPCB stackup JLC06161H-2116A, Tg 155
+   option.
+2. **Finished board thickness** 1.60 mm ±10 %.
+3. **Finished copper:** outer layers 1 oz (35 µm), inner layers 0.5 oz.
+4. **Layer order and use** as in §1. The dielectric thicknesses are nominal.
+   Other materials and constructions are acceptable if the impedance targets
+   and the finished thickness are met, and L1–L2, L2–L3, L4–L5 and L5–L6 each
+   stay ≤ 0.15 mm. That last condition keeps what §2 depends on: L3 next to
+   GND and the power planes tightly coupled.
+5. **Controlled impedance** per §3, ±10 %. The fab may change the width of
+   controlled traces by up to ±0.025 mm, keeping the pair pitch, to meet the
+   targets. TDR test coupons and an impedance test report are required
+   (IPC-TM-650 2.5.5.7).
+6. **Surface finish** ENIG. LPI solder mask on both sides, Dk about 3.8.
+
+**Materials at JLCPCB.** Multilayer boards come as Tg 135–140 or Tg 155; order
+Tg 155. The laminates on their certifications page are Nan Ya NP-155F,
+Kingboard KB-6165F and Shengyi S1000H. JLCPCB doesn't say which one a given
+order uses. Their impedance tolerance is ±10 % as standard, and ±5 % on
+request.
+
+**Keeping things in step.** The drawing comes from
+`doc/scripts/stackup_drawing.py`. When the stackup, the widths or these notes
+change, update this document, Board Setup → Physical Stackup and the script's
+`STACK`, `IMP` and `FAB_NOTES`. Then close the board in KiCad and re-run the
+script; it replaces the previous drawing:
+
+```sh
+python doc/scripts/stackup_drawing.py hw/poetato/poetato.kicad_pcb
+```

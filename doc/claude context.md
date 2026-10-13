@@ -4,7 +4,7 @@ PoE-powered PLC-like controller for garage: controls Crawford/Normstahl Magic 60
 
 ## Documentation
 - All design docs (decisions, requirements, research write-ups) live in the git repo under `doc/` as Markdown, not in the Claude project. New or updated docs go there.
-- Docs: `doc/hardware-architecture.md`, `doc/verification-plan.md` (board verification plan, includes the PoE flyback tests), `doc/security-requirements.md`, `doc/mqtt-broker.md`, this file.
+- Docs: `doc/hardware-architecture.md`, `doc/verification-plan.md` (board verification plan, includes the PoE flyback tests), `doc/security-requirements.md`, `doc/mqtt-broker.md`, `doc/pcb-stackup.md` (stackup JLC06161H-2116A, impedance classes and widths), this file.
 
 ## Summary
 - MCU (decided 2026-09-29): **MCXN247VKLT** (MCX N24, 1× Cortex-M33 150 MHz, HLQFP100 exposed pad, 2 MB dual-bank flash, 512 KB SRAM, EdgeLock Secure Enclave Core Profile, TrustZone, RMII Ethernet, HS USB w/ PHY, −40…+125 °C). In mass production (orderable from Mouser, 2026-09). Not yet PSA certified (accepted risk, hobby project). Pin-compatible certified fallback: **MCXN547VKLT**. Replaces i.MX RT1021. Details: `doc/security-requirements.md` §6.

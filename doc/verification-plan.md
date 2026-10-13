@@ -246,6 +246,7 @@ If either cold or hot fails, the fallback is the 1:1 FA2732 with a lower-voltage
 | Link | 100BASE-TX full duplex to the PSE switch, and to a non-PoE switch through a midspan | Link in < 3 s; auto-MDIX works with a crossover cable |
 | Throughput | iperf both directions for 10 min, with PoE and the field supply at full load | ≥ 90 Mbit/s; KSZ8081 receive-error counter does not increase |
 | Cable diagnostics | LinkMD on an open and a shorted cable | Reports the fault and an approximate distance |
+| Controlled impedance (pcb-stackup §3) | Read JLCPCB's impedance test report for the order: 50 Ω SE, 90 Ω and 100 Ω differential | Every class within the ordered tolerance. Stackup on the report is JLC06161H-2116A |
 
 ---
 
@@ -476,6 +477,7 @@ These are open items in arch §15. The output stage and its rating depend on the
 | Arch §11 isolation requirements | §4.3, §15.4 |
 | Arch §13 LP3470 / PHY brown-out window | §5.2 |
 | Arch §15 open items (opener terminals, earths, eFuse, output protection, WWDT under halt) | §9.2, §11.2, §11.3, §16 |
+| pcb-stackup §3 impedance classes | §8 controlled impedance |
 | security-requirements §4 hardware tests (fuses, debug lock, QSPI dump) | Board B, after provisioning; see that document |
 
 ---

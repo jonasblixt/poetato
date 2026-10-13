@@ -1498,6 +1498,7 @@ part that gets forgotten.
 | Re-arm after a watchdog reset | Automatic, with a consecutive-reset lockout (3) | Never re-arm automatically | A reboot is the only way to put the door right. The real hazard is a reset loop pulsing a toggle input, which the counter stops |
 | RTC backup | Supercap `KW-5R5C334H-R` (0.33 F) | Coin cell; no backup; 1 F `KVW-5R0C105-R`; Schurter SCCC | A sane clock for certificate validation at boot without battery replacement. The UPS absorbs typical outages, so ≥ 8 h worst case is enough, and the 1 F part was only needed for a 24 h worst case |
 | Backup circuit | One Schottky, cap via 220 Ω | Three-diode OR; 1N4448 | Single drop on the charge path only. Silicon would cost ~0.2 V of swing to save nA of leakage |
+| PCB stackup | 6 layers, JLCPCB `JLC06161H-2116A`, Sig / GND / Sig / PWR / GND / Sig (2026-10-13) | Thick-core stackups (3313, 1080A, 2116B); thin-core 1080B/C, 3313E | L3 sits 0.13 mm from GND and 0.93 mm from PWR, and L4–L5 are 0.13 mm apart. The thin-core alternatives push the 100 Ω pairs to JLCPCB's 0.09 mm minimum width. Widths and rules: `doc/pcb-stackup.md` |
 | ROM ISP interface | USB1 HS only; SWD for programming/debug (2026-10-04) | Additional UART ISP header | **Reversed an earlier decision.** The ROM's default UART ISP pins (P1_8/P1_9) are used by RS-485, and USB HS plus SWD already cover recovery and programming. `ISP_BOOT_IF` set to USB1 in CMPA |
 
 ---

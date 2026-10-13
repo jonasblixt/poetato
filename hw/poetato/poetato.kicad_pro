@@ -1062,7 +1062,7 @@
         "uuid": "f0f504bb-124c-46e5-ad39-032d3dfa78b3"
       }
     ],
-    "used_designators": "L1-7,#PWR1-176,T1-3,C1-92,Y1-3,U1-20,#FLG1-10,R1-96,R98,FB1-5,D1-28,TP1-70,J1-8,K1-2,F1-4,Q1-13,#X1-9,M2-16,NT1",
+    "used_designators": "#PWR1-176,T1-3,L1-7,C1-92,Y1-3,U1-20,#FLG1-10,R1-96,R98,FB1-5,D1-28,TP1-70,J1-8,K1-2,F1-4,Q1-13,#X1-9,M2-16,NT1",
     "variants": []
   },
   "sheets": [
@@ -1079,6 +1079,10 @@
       "Ethernet & PoE"
     ],
     [
+      "5d931cba-2553-40f7-aa34-53a8fe964901",
+      "Power"
+    ],
+    [
       "7f50897c-81bd-4425-95ed-f5153c9db421",
       "IO"
     ],
@@ -1088,23 +1092,23 @@
     ],
     [
       "4d3cdf74-7a95-4e8d-9873-225f4679ebf7",
-      "Digital Output"
-    ],
-    [
-      "3e09c94c-e2ca-4383-a1d9-a605e5d78e01",
-      "Digital Input"
+      "DO1"
     ],
     [
       "383af190-fccf-4fb0-8c6e-c0da9dc9d45c",
-      "Digital Output1"
+      "DO2"
+    ],
+    [
+      "3e09c94c-e2ca-4383-a1d9-a605e5d78e01",
+      "DI1"
     ],
     [
       "4efb7764-a312-4e2a-a696-e9a56a5b9d5e",
-      "Digital Input1"
+      "DI2"
     ],
     [
       "32a242c7-d9b1-4608-861e-d6aa3d0d20fd",
-      "Digital Input2"
+      "DI3"
     ]
   ],
   "text_variables": {},

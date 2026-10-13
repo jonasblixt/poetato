@@ -8175,6 +8175,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PxVx")
+		(at 196.85 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f9000a4-424e-4a5a-b9bc-6abf296e8ac2")
+		(property "Reference" "#PWR903"
+			(at 196.85 125.984 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P5V_RS485"
+			(at 195.58 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00641a5f-289c-4ba5-8287-bb57e31f9466")
+		)
+		(instances
+			(project "poetato"
+				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
+					(reference "#PWR903")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "res_pulse_panasonic_erj14t:ERJ-T14/R1210_120R0_5_500mW")
 		(at 252.73 106.68 0)
 		(unit 1)
@@ -9500,83 +9577,6 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
 					(reference "TP27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PxVx")
-		(at 196.85 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f9000a4-424e-4a5a-b9bc-6abf296e8ac2")
-		(property "Reference" "#PWR903"
-			(at 196.85 125.984 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "P5V_RS485"
-			(at 195.58 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "00641a5f-289c-4ba5-8287-bb57e31f9466")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "#PWR903")
 					(unit 1)
 				)
 			)

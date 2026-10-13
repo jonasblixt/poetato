@@ -8401,6 +8401,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 45.72) (xy 247.65 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3beaac3-68c8-4cc5-bd11-2eedb8a94090")
+	)
+	(wire
+		(pts
 			(xy 257.81 91.44) (xy 261.62 91.44)
 		)
 		(stroke
@@ -8890,6 +8900,82 @@
 		(uuid "b6b531b5-6bcb-4ba7-8050-0eb2f14de743")
 	)
 	(symbol
+		(lib_id "power:PxVx")
+		(at 247.65 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cd4eaf0-6d9e-4d5c-ac29-280755ae94f7")
+		(property "Reference" "#PWR901"
+			(at 247.65 42.164 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "P24V0_FIELD"
+			(at 247.65 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c8e52dc-d7a9-41d1-975b-c3e6b1dc3416")
+		)
+		(instances
+			(project "poetato"
+				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421"
+					(reference "#PWR901")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:TPS26625DRCR")
 		(at 279.4 74.93 0)
 		(unit 1)
@@ -9150,6 +9236,82 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421"
 					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 312.42 97.79 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "316215e3-d693-4a88-b458-d237e8a999ec")
+		(property "Reference" "#PWR902"
+			(at 312.42 101.346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_FIELD"
+			(at 312.42 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 312.42 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 312.42 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fc5f2a0-8dd9-4fd8-8ebc-eb3f56089496")
+		)
+		(instances
+			(project "poetato"
+				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421"
+					(reference "#PWR902")
 					(unit 1)
 				)
 			)
@@ -11970,168 +12132,6 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421"
 					(page "10")
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PxVx")
-		(at 247.65 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0cd4eaf0-6d9e-4d5c-ac29-280755ae94f7")
-		(property "Reference" "#PWR901"
-			(at 247.65 42.164 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "P24V0_FIELD"
-			(at 247.65 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c8e52dc-d7a9-41d1-975b-c3e6b1dc3416")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421"
-					(reference "#PWR901")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 247.65 45.72) (xy 247.65 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3beaac3-68c8-4cc5-bd11-2eedb8a94090")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 312.42 97.79 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "316215e3-d693-4a88-b458-d237e8a999ec")
-		(property "Reference" "#PWR902"
-			(at 312.42 101.346 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND_FIELD"
-			(at 312.42 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 312.42 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 312.42 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0fc5f2a0-8dd9-4fd8-8ebc-eb3f56089496")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421"
-					(reference "#PWR902")
-					(unit 1)
 				)
 			)
 		)

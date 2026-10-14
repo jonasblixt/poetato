@@ -312,7 +312,7 @@
   "erc": {
     "erc_exclusions": [
       [
-        "isolated_pin_label|2044700|1333500|fe78f94f-04f6-402c-ae73-f930c022d3fc|00000000-0000-0000-0000-000000000000|/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/3e09c94c-e2ca-4383-a1d9-a605e5d78e01||",
+        "isolated_pin_label|1257300|1079500|fe78f94f-04f6-402c-ae73-f930c022d3fc|00000000-0000-0000-0000-000000000000|/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/3e09c94c-e2ca-4383-a1d9-a605e5d78e01||",
         ""
       ]
     ],
@@ -570,65 +570,7 @@
       {
         "bus_width": 12,
         "clearance": 0.15,
-        "diff_pair_gap": 0.15,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.18,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "50Ohm_RMII",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.18,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.15,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.18,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "50Ohm_QSPI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.18,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.15,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.16,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "90Ohm-diff_USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.16,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.15,
         "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.14,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -651,11 +593,65 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "50Ohm_QSPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.18,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.18,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "50Ohm_RMII",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.18,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.18,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "50Ohm_SWD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.18,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.16,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "90Ohm-diff_USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.16,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -666,7 +662,98 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/Ethernet & PoE/ETH_REF_CLK": [
+        "50Ohm_RMII"
+      ],
+      "/Ethernet & PoE/ETH_REF_CLK_PHY": [
+        "50Ohm_RMII"
+      ],
+      "/Ethernet & PoE/ETH_RXD0": [
+        "50Ohm_RMII"
+      ],
+      "/Ethernet & PoE/ETH_RXD1": [
+        "50Ohm_RMII"
+      ],
+      "/Ethernet & PoE/ETH_RXDV": [
+        "50Ohm_RMII"
+      ],
+      "/Ethernet & PoE/ETH_RX_N": [
+        "100Ohm-diff_MDI"
+      ],
+      "/Ethernet & PoE/ETH_RX_P": [
+        "100Ohm-diff_MDI"
+      ],
+      "/Ethernet & PoE/ETH_TXD0": [
+        "50Ohm_RMII"
+      ],
+      "/Ethernet & PoE/ETH_TXD1": [
+        "50Ohm_RMII"
+      ],
+      "/Ethernet & PoE/ETH_TXEN": [
+        "50Ohm_RMII"
+      ],
+      "/Ethernet & PoE/ETH_TX_N": [
+        "100Ohm-diff_MDI"
+      ],
+      "/Ethernet & PoE/ETH_TX_P": [
+        "100Ohm-diff_MDI"
+      ],
+      "/MCU/FLASH_CS_N": [
+        "50Ohm_QSPI"
+      ],
+      "/MCU/FLASH_D0": [
+        "50Ohm_QSPI"
+      ],
+      "/MCU/FLASH_D1": [
+        "50Ohm_QSPI"
+      ],
+      "/MCU/FLASH_D2": [
+        "50Ohm_QSPI"
+      ],
+      "/MCU/FLASH_D3": [
+        "50Ohm_QSPI"
+      ],
+      "/MCU/FLASH_SCK": [
+        "50Ohm_QSPI"
+      ],
+      "/MCU/SWDCLK": [
+        "50Ohm_SWD"
+      ],
+      "/MCU/SWDIO": [
+        "50Ohm_SWD"
+      ],
+      "/MCU/SWO": [
+        "50Ohm_SWD"
+      ],
+      "/MCU/USB_D_N": [
+        "90Ohm-diff_USB"
+      ],
+      "/MCU/USB_D_P": [
+        "90Ohm-diff_USB"
+      ],
+      "Net-(U1-P3_7)": [
+        "50Ohm_QSPI"
+      ],
+      "Net-(U3-RXD0{slash}DUPLEX)": [
+        "50Ohm_RMII"
+      ],
+      "Net-(U3-RXD1{slash}PHYAD2)": [
+        "50Ohm_RMII"
+      ],
+      "Net-(U3-RXDV{slash}CONFIG2)": [
+        "50Ohm_RMII"
+      ],
+      "Net-(U3-TXD0)": [
+        "50Ohm_RMII"
+      ],
+      "Net-(U3-TXD1)": [
+        "50Ohm_RMII"
+      ],
+      "Net-(U3-TXEN)": [
+        "50Ohm_RMII"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {

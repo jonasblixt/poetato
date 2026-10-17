@@ -5305,12 +5305,6 @@
 		(uuid "e9d44198-643b-4371-938c-21a0a6970611")
 	)
 	(junction
-		(at 181.61 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb9c0a5f-0a66-411c-aff2-35f4072d5131")
-	)
-	(junction
 		(at 240.03 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5504,7 +5498,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 129.54) (xy 181.61 129.54)
+			(xy 175.26 129.54) (xy 184.15 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5884,16 +5878,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 129.54) (xy 175.26 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8249751-9d60-4647-8be1-edae80cc3b98")
-	)
-	(wire
-		(pts
 			(xy 123.19 123.19) (xy 123.19 162.56)
 		)
 		(stroke
@@ -6120,105 +6104,6 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
 					(reference "D27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:TP")
-		(at 181.61 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e95a784-beae-4acd-9ec0-7d2a1a48b44b")
-		(property "Reference" "TP31"
-			(at 181.61 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 179.07 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 179.578 135.128 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 181.61 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 181.61 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "54ad3c72-adf2-4512-8bc2-361bb134460b")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/7f50897c-81bd-4425-95ed-f5153c9db421/21ef132d-889f-4c7f-901f-f28f90def5b6"
-					(reference "TP31")
 					(unit 1)
 				)
 			)

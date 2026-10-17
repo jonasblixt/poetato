@@ -16591,6 +16591,135 @@
 		)
 		(uuid "f9a4c9a4-a718-4358-8e13-19406dcd47ee")
 	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 45.72 181.61) (xy 30.48 181.61) (xy 30.48 186.69) (xy 45.72 186.69)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "63b373bf-2692-406a-9492-8473caa625fe")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 236.22 64.77) (xy 211.455 64.77) (xy 211.455 85.09) (xy 236.22 85.09)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "a7735aaa-8d01-4125-a511-4b96856e9e5e")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 140.97 64.77) (xy 110.49 64.77) (xy 110.49 72.39) (xy 140.97 72.39)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "f2ba7faa-6d46-4b6d-b942-fe1618e081d4")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 232.41 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00b48832-1f5d-4fac-b3d9-c5522f8146c5")
+		(property "Netclass" "50Ohm_QSPI"
+			(at 231.394 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 139.7 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8336e4f8-9739-423d-9652-ec7cf1ffdb6e")
+		(property "Netclass" "50Ohm_SWD"
+			(at 138.684 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 31.75 186.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed6c4502-c4e9-4fdd-947a-283cace6e290")
+		(property "Netclass" "90Ohm-diff_USB"
+			(at 32.766 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "connectors:Wurth_614105150721")
 		(at 38.1 165.1 90)
@@ -18818,82 +18947,6 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
 					(reference "#PWR19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 213.36 241.3 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3680eab3-1de4-4115-b15c-52cbf2615022")
-		(property "Reference" "#PWR14"
-			(at 213.36 244.856 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 213.36 243.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 241.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 241.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7884f9ce-fc9b-4974-ac78-defb0ae55459")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "#PWR14")
 					(unit 1)
 				)
 			)
@@ -22163,106 +22216,6 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
 					(reference "TP18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:TP")
-		(at 213.36 241.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70129adb-5117-4c30-a87f-3ce49e227fbd")
-		(property "Reference" "TP14"
-			(at 214.63 240.1315 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP"
-			(at 210.82 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 211.328 246.888 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 240.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 213.36 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 213.36 241.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef876c4e-0f9f-4e9c-ab45-31fda92e98ce")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
-					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -28465,117 +28418,6 @@
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/ab61034f-828a-4579-ae08-3e8483f367cf"
 					(page "3")
 				)
-			)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 236.22 64.77) (xy 211.455 64.77) (xy 211.455 85.09) (xy 236.22 85.09)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid a7735aaa-8d01-4125-a511-4b96856e9e5e)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 232.41 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "00b48832-1f5d-4fac-b3d9-c5522f8146c5")
-		(property "Netclass" "50Ohm_QSPI"
-			(at 231.394 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 45.72 181.61) (xy 30.48 181.61) (xy 30.48 186.69) (xy 45.72 186.69)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 63b373bf-2692-406a-9492-8473caa625fe)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 31.75 186.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ed6c4502-c4e9-4fdd-947a-283cace6e290")
-		(property "Netclass" "90Ohm-diff_USB"
-			(at 32.766 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 140.97 64.77) (xy 110.49 64.77) (xy 110.49 72.39) (xy 140.97 72.39)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid f2ba7faa-6d46-4b6d-b942-fe1618e081d4)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 139.7 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8336e4f8-9739-423d-9652-ec7cf1ffdb6e")
-		(property "Netclass" "50Ohm_SWD"
-			(at 138.684 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
 			)
 		)
 	)

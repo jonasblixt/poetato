@@ -9608,12 +9608,6 @@
 		(uuid "a7e5ebb2-2728-4ea0-abd7-bf56558111d7")
 	)
 	(junction
-		(at 170.18 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8310cdf-829c-4135-9f7c-8dc76fc4f1cf")
-	)
-	(junction
 		(at 204.47 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11107,7 +11101,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 39.37) (xy 170.18 39.37)
+			(xy 157.48 39.37) (xy 176.53 39.37)
 		)
 		(stroke
 			(width 0)
@@ -11244,16 +11238,6 @@
 			(type default)
 		)
 		(uuid "f1d83e25-6f38-4b2d-8cb2-759b9f9bf394")
-	)
-	(wire
-		(pts
-			(xy 170.18 39.37) (xy 176.53 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f23be60a-ed0f-40d9-a6a1-39ee98ef6a6a")
 	)
 	(wire
 		(pts
@@ -17397,105 +17381,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:TP")
-		(at 170.18 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85db4bc3-092b-45e7-b0ef-291cd9e903ac")
-		(property "Reference" "TP24"
-			(at 170.18 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 167.64 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 168.148 44.958 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 170.18 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 170.18 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c562ba5b-12b2-4097-9d08-d40dcd65a14e")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/5d931cba-2553-40f7-aa34-53a8fe964901"
-					(reference "TP24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "dcdc:LMR51420XDDCR")
 		(at 290.83 196.85 0)
 		(unit 1)
@@ -20093,82 +19978,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 127 60.96 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bce52c71-a734-49b2-8623-e6d49289261d")
-		(property "Reference" "#PWR146"
-			(at 127 64.516 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 127 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5b61d7b2-1616-4d5a-983e-b9f07638d0ca")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/5d931cba-2553-40f7-aa34-53a8fe964901"
-					(reference "#PWR146")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 383.54 193.04 270)
 		(mirror x)
@@ -20265,105 +20074,6 @@
 			(project "poetato"
 				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/5d931cba-2553-40f7-aa34-53a8fe964901"
 					(reference "#FLG6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:TP")
-		(at 127 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf9ac459-cc13-48a3-91ca-9f363e5ffe50")
-		(property "Reference" "TP25"
-			(at 127 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP"
-			(at 124.46 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 124.968 66.548 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 127 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 127 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" ""
-			(at 127 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ffffa0a4-8a14-40ce-895a-928577935ace")
-		)
-		(instances
-			(project "poetato"
-				(path "/f0f504bb-124c-46e5-ad39-032d3dfa78b3/5d931cba-2553-40f7-aa34-53a8fe964901"
-					(reference "TP25")
 					(unit 1)
 				)
 			)
